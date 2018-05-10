@@ -1,0 +1,46 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PaperOnboardingDelegate"
+provides-nominal:
+- "16paper_onboarding23PaperOnboardingDelegateP"
+provides-member:
+- ["16paper_onboarding23PaperOnboardingDelegateP", ""]
+- ["16paper_onboarding23PaperOnboardingDelegateP", "onboardingWillTransitonToIndex"]
+- ["16paper_onboarding23PaperOnboardingDelegateP", "onboardingDidTransitonToIndex"]
+- ["16paper_onboarding23PaperOnboardingDelegateP", "onboardingConfigurationItem"]
+- ["16paper_onboarding23PaperOnboardingDelegateP", "enableTapsOnPageControl"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- !private "BooleanLiteralType"
+- "Int"
+- "OnboardingContentViewItem"
+- "PaperOnboardingDelegate"
+depends-member:
+- ["16paper_onboarding23PaperOnboardingDelegateP", "Bool"]
+- ["16paper_onboarding23PaperOnboardingDelegateP", "Int"]
+- ["16paper_onboarding23PaperOnboardingDelegateP", "OnboardingContentViewItem"]
+- ["16paper_onboarding23PaperOnboardingDelegateP", "enableTapsOnPageControl"]
+- ["16paper_onboarding23PaperOnboardingDelegateP", "onboardingConfigurationItem"]
+- ["16paper_onboarding23PaperOnboardingDelegateP", "onboardingDidTransitonToIndex"]
+- ["16paper_onboarding23PaperOnboardingDelegateP", "onboardingWillTransitonToIndex"]
+depends-nominal:
+- "16paper_onboarding23PaperOnboardingDelegateP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/paper-onboarding/paper-onboarding-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/paper-onboarding.build/unextended-module.modulemap"
+interface-hash: "f0092c77442db4f2f0f4dc849d81b5b4"

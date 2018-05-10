@@ -1,0 +1,435 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Intro2"
+provides-nominal:
+- "5Test26Intro2C"
+provides-member:
+- ["5Test26Intro2C", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "swipeAction"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Intro2"
+- !private "StringLiteralType"
+- "UISwipeGestureRecognizer"
+- !private "UISwipeGestureRecognizerDirection"
+- "UIViewController"
+- !private "~="
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "UISwipeGestureRecognizer"]
+- !private ["s7CVarArgP", "UISwipeGestureRecognizerDirection"]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "direction"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "swipeAction"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "UISwipeGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "UISwipeGestureRecognizerDirection"]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "direction"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "swipeAction"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "UISwipeGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "UISwipeGestureRecognizerDirection"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "direction"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "swipeAction"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "UISwipeGestureRecognizer"]
+- !private ["s9EquatableP", "UISwipeGestureRecognizerDirection"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addGestureRecognizer"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "direction"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "left"]
+- !private ["s9EquatableP", "performSegue"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "right"]
+- !private ["s9EquatableP", "swipeAction"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "left"]
+- !private ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "right"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "UISwipeGestureRecognizer"]
+- !private ["s8HashableP", "UISwipeGestureRecognizerDirection"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addGestureRecognizer"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "direction"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "performSegue"]
+- !private ["s8HashableP", "swipeAction"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- ["5Test26Intro2C", "UISwipeGestureRecognizer"]
+- !private ["5Test26Intro2C", "UISwipeGestureRecognizerDirection"]
+- ["5Test26Intro2C", "deinit"]
+- ["5Test26Intro2C", "didReceiveMemoryWarning"]
+- ["5Test26Intro2C", "init"]
+- !private ["5Test26Intro2C", "performSegue"]
+- ["5Test26Intro2C", "swipeAction"]
+- !private ["5Test26Intro2C", "view"]
+- ["5Test26Intro2C", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "UISwipeGestureRecognizer"]
+- !private ["So8NSCodingP", "UISwipeGestureRecognizerDirection"]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "swipeAction"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "UISwipeGestureRecognizer"]
+- !private ["So26NSExtensionRequestHandlingP", "UISwipeGestureRecognizerDirection"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "swipeAction"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "UISwipeGestureRecognizer"]
+- !private ["So8NSObjectC", "UISwipeGestureRecognizerDirection"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "direction"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "performSegue"]
+- ["So8NSObjectC", "swipeAction"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "UISwipeGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "UISwipeGestureRecognizerDirection"]
+- !private ["So16NSObjectProtocolP", "addGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "direction"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "performSegue"]
+- !private ["So16NSObjectProtocolP", "swipeAction"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s9OptionSetP", "left"]
+- !private ["s9OptionSetP", "rawValue"]
+- !private ["s9OptionSetP", "right"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "left"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "right"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "left"]
+- !private ["s10SetAlgebraP", "rawValue"]
+- !private ["s10SetAlgebraP", "right"]
+- !private ["8SocketIO0A4DataP", "_getBuiltinLogicValue"]
+- !private ["8SocketIO0A4DataP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "UISwipeGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "UISwipeGestureRecognizerDirection"]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "swipeAction"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "UISwipeGestureRecognizer"]
+- !private ["So18UIContentContainerP", "UISwipeGestureRecognizerDirection"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "swipeAction"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "UISwipeGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "UISwipeGestureRecognizerDirection"]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "swipeAction"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So19UIGestureRecognizerC", "direction"]
+- !private ["So19UIGestureRecognizerC", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "UISwipeGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "UISwipeGestureRecognizerDirection"]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "swipeAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "UISwipeGestureRecognizer"]
+- !private ["So11UIResponderC", "UISwipeGestureRecognizerDirection"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "performSegue"]
+- ["So11UIResponderC", "swipeAction"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "UISwipeGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "UISwipeGestureRecognizerDirection"]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "swipeAction"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "UISwipeGestureRecognizer"]
+- !private ["So16UIStateRestoringP", "UISwipeGestureRecognizerDirection"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "swipeAction"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So24UISwipeGestureRecognizerC", "direction"]
+- !private ["So24UISwipeGestureRecognizerC", "init"]
+- !private ["SC33UISwipeGestureRecognizerDirectionV", "left"]
+- !private ["SC33UISwipeGestureRecognizerDirectionV", "rawValue"]
+- !private ["SC33UISwipeGestureRecognizerDirectionV", "right"]
+- !private ["So18UITraitEnvironmentP", "UISwipeGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "UISwipeGestureRecognizerDirection"]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "swipeAction"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- ["So16UIViewControllerC", "UISwipeGestureRecognizer"]
+- !private ["So16UIViewControllerC", "UISwipeGestureRecognizerDirection"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- ["So16UIViewControllerC", "swipeAction"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UISwipeGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UISwipeGestureRecognizerDirection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "direction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "swipeAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "5Test26Intro2C"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "8SocketIO0A4DataP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So19UIGestureRecognizerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So24UISwipeGestureRecognizerC"
+- !private "SC33UISwipeGestureRecognizerDirectionV"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/arm64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/avcodec.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libswscale/swscale.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/frame.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/avconfig.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/log.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/rational.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/avutil.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/mem.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libswscale/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/common.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/avio.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Test2-Bridging-Header.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/buffer.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/RTSPPlayer.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/error.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/mathematics.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/old_codec_ids.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Utilities.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/attributes.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/macros.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/old_pix_fmts.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/avformat.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/intfloat.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/dict.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/samplefmt.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/pixfmt.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/channel_layout.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/cpu.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/zlib/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "132309fadaa5bfad26fb7c669bbc1fc7"

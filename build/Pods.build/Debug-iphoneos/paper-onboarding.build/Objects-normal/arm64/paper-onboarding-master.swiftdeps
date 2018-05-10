@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "3c4b0d8311487d5f84c70251c45b74ec"
+build_time: [1517225640, 426719000]
+inputs:
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/paper-onboarding/Source/Helpers/Configuring.swift": [1517225311, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/paper-onboarding/Source/Helpers/ConstraintsHalper.swift": [1517225311, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/paper-onboarding/Source/FillAnimatinView/FillAnimationView.swift": [1517225311, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/paper-onboarding/Source/GestureControl/GestureControl.swift": !dirty [1517225311, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/paper-onboarding/Source/OnboardingContantView/Item/OnboardingContantViewItem.swift": [1517225311, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/paper-onboarding/Source/OnboardingContantView/OnboardingContentView.swift": [1517225311, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/paper-onboarding/Source/PageView/PageContainerView/PageContainer.swift": [1517225311, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/paper-onboarding/Source/PageView/PageView.swift": [1517225311, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/paper-onboarding/Source/PageView/Item/PageViewItem.swift": [1517225311, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/paper-onboarding/Source/PaperOnboarding.swift": !dirty [1517225311, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/paper-onboarding/Source/PaperOnboardingDataSource.swift": [1517225311, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/paper-onboarding/Source/PaperOnboardingDelegate.swift": [1517225311, 0]

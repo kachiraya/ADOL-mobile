@@ -1,0 +1,259 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlertOnboarding-Swift.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Headers/AlertOnboarding-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlertOnboarding-umbrella.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/AlertOnboarding/AlertOnboarding-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/AlertOnboarding.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FoldingCell-Swift.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Headers/FoldingCell-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FoldingCell-umbrella.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/FoldingCell/FoldingCell-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/FoldingCell.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "KYWheelTabController-Swift.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Headers/KYWheelTabController-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYWheelTabController-umbrella.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/KYWheelTabController/KYWheelTabController-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/KYWheelTabController.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Pods_Test2.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Test2-umbrella.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/Pods-Test2/Pods-Test2-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Test2-Swift.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Pods_Test2.framework/Headers/Pods_Test2-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Pods_Test2.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/Pods-Test2.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RAMReel-Swift.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Headers/RAMReel-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RAMReel-umbrella.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/RAMReel/RAMReel-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "RAMReel.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/RAMReel.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/RAMReel.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SearchTextField-Swift.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Headers/SearchTextField-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SearchTextField-umbrella.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/SearchTextField/SearchTextField-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/SearchTextField.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Socket.IO-Client-Swift-umbrella.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SocketIO-Swift.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/Socket.IO-Client-Swift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Starscream-Swift.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Starscream-umbrella.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/Starscream.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyOnboard-Swift.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyOnboard-umbrella.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/SwiftyOnboard/SwiftyOnboard-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyOnboard.h",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/SwiftyOnboard/SwiftyOnboard/SwiftyOnboard.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/SwiftyOnboard.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

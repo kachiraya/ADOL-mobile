@@ -1,0 +1,11 @@
+framework module KYWheelTabController {
+  umbrella header "KYWheelTabController-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module KYWheelTabController.Swift {
+    header "KYWheelTabController-Swift.h"
+    requires objc
+}

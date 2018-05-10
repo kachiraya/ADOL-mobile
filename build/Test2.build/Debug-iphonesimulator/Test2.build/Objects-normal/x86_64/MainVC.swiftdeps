@@ -1,0 +1,1064 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MainVC"
+provides-nominal:
+- "5Test26MainVCC"
+provides-member:
+- ["5Test26MainVCC", ""]
+provides-dynamic-lookup:
+- "bg"
+- "didReceiveMemoryWarning"
+- "image_test"
+- "onButtonClicked"
+- "showMoomin"
+- "textfield"
+- "viewDidLoad"
+- "watch_live_click"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Data"
+- !private "Dictionary"
+- "MainVC"
+- !private "NSData"
+- !private "RTSPVC"
+- "SocketIOClient"
+- "String"
+- !private "StringLiteralType"
+- "UIImage"
+- !private "UIImagePNGRepresentation"
+- "UIImagePickerController"
+- "UIImageView"
+- "UITextField"
+- "UIViewController"
+- !private "URL"
+- !private "Void"
+- !private "print"
+- !private "type"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["So6NSDataC21Base64DecodingOptionsV", "ignoreUnknownCharacters"]
+- !private ["So6NSDataC21Base64EncodingOptionsV", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "Base64DecodingOptions"]
+- !private ["s7CVarArgP", "Base64EncodingOptions"]
+- !private ["s7CVarArgP", "NSData"]
+- !private ["s7CVarArgP", "RTSPVC"]
+- !private ["s7CVarArgP", "SocketIOClient"]
+- ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UIImagePNGRepresentation"]
+- ["s7CVarArgP", "UIImagePickerController"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "allowsEditing"]
+- !private ["s7CVarArgP", "base64EncodedString"]
+- !private ["s7CVarArgP", "bg"]
+- !private ["s7CVarArgP", "connect"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "emit"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "imagepicker"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "ipStr"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "on"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "pushViewController"]
+- !private ["s7CVarArgP", "socket"]
+- !private ["s7CVarArgP", "sourceType"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textfield"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "type"]
+- !private ["s7CVarArgP", "vase_image"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["8SocketIO12ClientOptionP", "compress"]
+- !private ["8SocketIO12ClientOptionP", "log"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Base64DecodingOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "Base64EncodingOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "NSData"]
+- !private ["s28CustomDebugStringConvertibleP", "RTSPVC"]
+- !private ["s28CustomDebugStringConvertibleP", "SocketIOClient"]
+- ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImagePNGRepresentation"]
+- ["s28CustomDebugStringConvertibleP", "UIImagePickerController"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "allowsEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "base64EncodedString"]
+- !private ["s28CustomDebugStringConvertibleP", "bg"]
+- !private ["s28CustomDebugStringConvertibleP", "connect"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "emit"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "imagepicker"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "ipStr"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "on"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "socket"]
+- !private ["s28CustomDebugStringConvertibleP", "sourceType"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textfield"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "vase_image"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Base64DecodingOptions"]
+- !private ["s23CustomStringConvertibleP", "Base64EncodingOptions"]
+- !private ["s23CustomStringConvertibleP", "NSData"]
+- !private ["s23CustomStringConvertibleP", "RTSPVC"]
+- !private ["s23CustomStringConvertibleP", "SocketIOClient"]
+- ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UIImagePNGRepresentation"]
+- ["s23CustomStringConvertibleP", "UIImagePickerController"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "allowsEditing"]
+- !private ["s23CustomStringConvertibleP", "base64EncodedString"]
+- !private ["s23CustomStringConvertibleP", "bg"]
+- !private ["s23CustomStringConvertibleP", "compress"]
+- !private ["s23CustomStringConvertibleP", "connect"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "emit"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "imagepicker"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "ipStr"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "log"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "on"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "pushViewController"]
+- !private ["s23CustomStringConvertibleP", "socket"]
+- !private ["s23CustomStringConvertibleP", "sourceType"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textfield"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "vase_image"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "Base64DecodingOptions"]
+- !private ["s9EquatableP", "Base64EncodingOptions"]
+- !private ["s9EquatableP", "NSData"]
+- !private ["s9EquatableP", "RTSPVC"]
+- !private ["s9EquatableP", "SocketIOClient"]
+- ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "UIImagePNGRepresentation"]
+- ["s9EquatableP", "UIImagePickerController"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "allowsEditing"]
+- !private ["s9EquatableP", "base64EncodedString"]
+- !private ["s9EquatableP", "bg"]
+- !private ["s9EquatableP", "compress"]
+- !private ["s9EquatableP", "connect"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "emit"]
+- !private ["s9EquatableP", "ignoreUnknownCharacters"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "imagepicker"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "ipStr"]
+- !private ["s9EquatableP", "isHidden"]
+- !private ["s9EquatableP", "log"]
+- !private ["s9EquatableP", "navigationController"]
+- !private ["s9EquatableP", "on"]
+- !private ["s9EquatableP", "photoLibrary"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "pushViewController"]
+- !private ["s9EquatableP", "socket"]
+- !private ["s9EquatableP", "sourceType"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "textfield"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "type"]
+- !private ["s9EquatableP", "vase_image"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "ignoreUnknownCharacters"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "Base64DecodingOptions"]
+- !private ["s8HashableP", "Base64EncodingOptions"]
+- !private ["s8HashableP", "NSData"]
+- !private ["s8HashableP", "RTSPVC"]
+- !private ["s8HashableP", "SocketIOClient"]
+- ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "UIImagePNGRepresentation"]
+- ["s8HashableP", "UIImagePickerController"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "allowsEditing"]
+- !private ["s8HashableP", "base64EncodedString"]
+- !private ["s8HashableP", "bg"]
+- !private ["s8HashableP", "connect"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "emit"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "imagepicker"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "ipStr"]
+- !private ["s8HashableP", "isHidden"]
+- !private ["s8HashableP", "navigationController"]
+- !private ["s8HashableP", "on"]
+- !private ["s8HashableP", "photoLibrary"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "pushViewController"]
+- !private ["s8HashableP", "socket"]
+- !private ["s8HashableP", "sourceType"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "textfield"]
+- !private ["s8HashableP", "title"]
+- !private ["s8HashableP", "type"]
+- !private ["s8HashableP", "vase_image"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["5Test26MainVCC", "Data"]
+- !private ["5Test26MainVCC", "NSData"]
+- !private ["5Test26MainVCC", "RTSPVC"]
+- ["5Test26MainVCC", "SocketIOClient"]
+- ["5Test26MainVCC", "String"]
+- ["5Test26MainVCC", "UIImage"]
+- !private ["5Test26MainVCC", "UIImagePNGRepresentation"]
+- ["5Test26MainVCC", "UIImagePickerController"]
+- ["5Test26MainVCC", "UIImageView"]
+- ["5Test26MainVCC", "UITextField"]
+- !private ["5Test26MainVCC", "URL"]
+- !private ["5Test26MainVCC", "Void"]
+- ["5Test26MainVCC", "bg"]
+- ["5Test26MainVCC", "customInit"]
+- ["5Test26MainVCC", "deinit"]
+- ["5Test26MainVCC", "didReceiveMemoryWarning"]
+- ["5Test26MainVCC", "image_test"]
+- ["5Test26MainVCC", "imagepicker"]
+- ["5Test26MainVCC", "init"]
+- ["5Test26MainVCC", "ipStr"]
+- !private ["5Test26MainVCC", "navigationController"]
+- ["5Test26MainVCC", "onButtonClicked"]
+- !private ["5Test26MainVCC", "present"]
+- !private ["5Test26MainVCC", "print"]
+- ["5Test26MainVCC", "sendImage"]
+- ["5Test26MainVCC", "showMoomin"]
+- ["5Test26MainVCC", "socket"]
+- ["5Test26MainVCC", "textfield"]
+- !private ["5Test26MainVCC", "title"]
+- !private ["5Test26MainVCC", "type"]
+- ["5Test26MainVCC", "vase_image"]
+- ["5Test26MainVCC", "viewDidLoad"]
+- ["5Test26MainVCC", "watch_live_click"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "Base64DecodingOptions"]
+- !private ["So8NSCodingP", "Base64EncodingOptions"]
+- !private ["So8NSCodingP", "NSData"]
+- !private ["So8NSCodingP", "RTSPVC"]
+- !private ["So8NSCodingP", "SocketIOClient"]
+- ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UIImagePNGRepresentation"]
+- ["So8NSCodingP", "UIImagePickerController"]
+- !private ["So8NSCodingP", "URL"]
+- !private ["So8NSCodingP", "allowsEditing"]
+- !private ["So8NSCodingP", "base64EncodedString"]
+- !private ["So8NSCodingP", "bg"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "imagepicker"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "ipStr"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "pushViewController"]
+- !private ["So8NSCodingP", "socket"]
+- !private ["So8NSCodingP", "sourceType"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textfield"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "type"]
+- !private ["So8NSCodingP", "vase_image"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "Base64DecodingOptions"]
+- !private ["So9NSCopyingP", "Base64EncodingOptions"]
+- !private ["So9NSCopyingP", "base64EncodedString"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So6NSDataC", "Base64DecodingOptions"]
+- !private ["So6NSDataC", "Base64EncodingOptions"]
+- !private ["So6NSDataC", "base64EncodedString"]
+- !private ["So6NSDataC", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "NSData"]
+- !private ["So26NSExtensionRequestHandlingP", "RTSPVC"]
+- !private ["So26NSExtensionRequestHandlingP", "SocketIOClient"]
+- ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImagePNGRepresentation"]
+- ["So26NSExtensionRequestHandlingP", "UIImagePickerController"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- !private ["So26NSExtensionRequestHandlingP", "allowsEditing"]
+- !private ["So26NSExtensionRequestHandlingP", "bg"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "imagepicker"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "ipStr"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "pushViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "socket"]
+- !private ["So26NSExtensionRequestHandlingP", "sourceType"]
+- !private ["So26NSExtensionRequestHandlingP", "textfield"]
+- !private ["So26NSExtensionRequestHandlingP", "title"]
+- !private ["So26NSExtensionRequestHandlingP", "type"]
+- !private ["So26NSExtensionRequestHandlingP", "vase_image"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "Base64DecodingOptions"]
+- !private ["So16NSMutableCopyingP", "Base64EncodingOptions"]
+- !private ["So16NSMutableCopyingP", "base64EncodedString"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "Base64DecodingOptions"]
+- !private ["So8NSObjectC", "Base64EncodingOptions"]
+- !private ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "NSData"]
+- !private ["So8NSObjectC", "RTSPVC"]
+- ["So8NSObjectC", "SocketIOClient"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "UIImagePNGRepresentation"]
+- ["So8NSObjectC", "UIImagePickerController"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UITextField"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "allowsEditing"]
+- !private ["So8NSObjectC", "base64EncodedString"]
+- ["So8NSObjectC", "bg"]
+- !private ["So8NSObjectC", "connect"]
+- ["So8NSObjectC", "customInit"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "emit"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "image_test"]
+- ["So8NSObjectC", "imagepicker"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "ipStr"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "on"]
+- ["So8NSObjectC", "onButtonClicked"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "pushViewController"]
+- ["So8NSObjectC", "sendImage"]
+- ["So8NSObjectC", "showMoomin"]
+- ["So8NSObjectC", "socket"]
+- !private ["So8NSObjectC", "sourceType"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "textfield"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "type"]
+- ["So8NSObjectC", "vase_image"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "watch_live_click"]
+- !private ["So16NSObjectProtocolP", "Base64DecodingOptions"]
+- !private ["So16NSObjectProtocolP", "Base64EncodingOptions"]
+- !private ["So16NSObjectProtocolP", "NSData"]
+- !private ["So16NSObjectProtocolP", "RTSPVC"]
+- !private ["So16NSObjectProtocolP", "SocketIOClient"]
+- ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "UIImagePNGRepresentation"]
+- ["So16NSObjectProtocolP", "UIImagePickerController"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "allowsEditing"]
+- !private ["So16NSObjectProtocolP", "base64EncodedString"]
+- !private ["So16NSObjectProtocolP", "bg"]
+- !private ["So16NSObjectProtocolP", "connect"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "emit"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "imagepicker"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "ipStr"]
+- !private ["So16NSObjectProtocolP", "isHidden"]
+- !private ["So16NSObjectProtocolP", "navigationController"]
+- !private ["So16NSObjectProtocolP", "on"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "pushViewController"]
+- !private ["So16NSObjectProtocolP", "socket"]
+- !private ["So16NSObjectProtocolP", "sourceType"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "textfield"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So16NSObjectProtocolP", "type"]
+- !private ["So16NSObjectProtocolP", "vase_image"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "Base64DecodingOptions"]
+- !private ["So14NSSecureCodingP", "Base64EncodingOptions"]
+- !private ["So14NSSecureCodingP", "base64EncodedString"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s9OptionSetP", "ignoreUnknownCharacters"]
+- !private ["s9OptionSetP", "init"]
+- !private ["7RAMReel8ParsableP", "init"]
+- !private ["5Test26RTSPVCC", "init"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "connect"]
+- !private ["s16RawRepresentableP", "ignoreUnknownCharacters"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "photoLibrary"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["7RAMReel10RenderableP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "ignoreUnknownCharacters"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["8SocketIO0A11ClientEventO", "connect"]
+- !private ["8SocketIO0A4DataP", "Base64DecodingOptions"]
+- !private ["8SocketIO0A4DataP", "Base64EncodingOptions"]
+- !private ["8SocketIO0A4DataP", "base64EncodedString"]
+- !private ["8SocketIO0A4DataP", "init"]
+- !private ["8SocketIO0A4DataP", "subscript"]
+- !private ["8SocketIO0A12EngineClientP", "connect"]
+- !private ["8SocketIO0A12EngineClientP", "emit"]
+- !private ["8SocketIO0A12EngineClientP", "init"]
+- !private ["8SocketIO0A12EngineClientP", "on"]
+- !private ["8SocketIO0A8IOClientC", "connect"]
+- !private ["8SocketIO0A8IOClientC", "emit"]
+- !private ["8SocketIO0A8IOClientC", "init"]
+- !private ["8SocketIO0A8IOClientC", "on"]
+- !private ["8SocketIO0A14IOClientOptionO", "compress"]
+- !private ["8SocketIO0A14IOClientOptionO", "log"]
+- !private ["8SocketIO0A12IOClientSpecP", "connect"]
+- !private ["8SocketIO0A12IOClientSpecP", "emit"]
+- !private ["8SocketIO0A12IOClientSpecP", "init"]
+- !private ["8SocketIO0A12IOClientSpecP", "on"]
+- !private ["8SocketIO0A8ParsableP", "connect"]
+- !private ["8SocketIO0A8ParsableP", "emit"]
+- !private ["8SocketIO0A8ParsableP", "init"]
+- !private ["8SocketIO0A8ParsableP", "on"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "NSData"]
+- !private ["So21UIAppearanceContainerP", "RTSPVC"]
+- !private ["So21UIAppearanceContainerP", "SocketIOClient"]
+- ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "UIImagePNGRepresentation"]
+- ["So21UIAppearanceContainerP", "UIImagePickerController"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- !private ["So21UIAppearanceContainerP", "allowsEditing"]
+- !private ["So21UIAppearanceContainerP", "bg"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "imagepicker"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "ipStr"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "pushViewController"]
+- !private ["So21UIAppearanceContainerP", "socket"]
+- !private ["So21UIAppearanceContainerP", "sourceType"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textfield"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- !private ["So21UIAppearanceContainerP", "type"]
+- !private ["So21UIAppearanceContainerP", "vase_image"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "NSData"]
+- !private ["So18UIContentContainerP", "RTSPVC"]
+- !private ["So18UIContentContainerP", "SocketIOClient"]
+- ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "UIImagePNGRepresentation"]
+- ["So18UIContentContainerP", "UIImagePickerController"]
+- !private ["So18UIContentContainerP", "URL"]
+- !private ["So18UIContentContainerP", "allowsEditing"]
+- !private ["So18UIContentContainerP", "bg"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "imagepicker"]
+- ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "ipStr"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "pushViewController"]
+- !private ["So18UIContentContainerP", "socket"]
+- !private ["So18UIContentContainerP", "sourceType"]
+- !private ["So18UIContentContainerP", "textfield"]
+- !private ["So18UIContentContainerP", "title"]
+- !private ["So18UIContentContainerP", "type"]
+- !private ["So18UIContentContainerP", "vase_image"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "NSData"]
+- !private ["So18UIFocusEnvironmentP", "RTSPVC"]
+- !private ["So18UIFocusEnvironmentP", "SocketIOClient"]
+- ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "UIImagePNGRepresentation"]
+- ["So18UIFocusEnvironmentP", "UIImagePickerController"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- !private ["So18UIFocusEnvironmentP", "allowsEditing"]
+- !private ["So18UIFocusEnvironmentP", "bg"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "imagepicker"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "ipStr"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "pushViewController"]
+- !private ["So18UIFocusEnvironmentP", "socket"]
+- !private ["So18UIFocusEnvironmentP", "sourceType"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textfield"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- !private ["So18UIFocusEnvironmentP", "type"]
+- !private ["So18UIFocusEnvironmentP", "vase_image"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "text"]
+- ["So7UIImageC", "init"]
+- !private ["So23UIImagePickerControllerC", "allowsEditing"]
+- ["So23UIImagePickerControllerC", "init"]
+- !private ["So23UIImagePickerControllerC", "sourceType"]
+- !private ["SC33UIImagePickerControllerSourceTypeO", "photoLibrary"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So11UIImageViewC", "isHidden"]
+- ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So22UINavigationControllerC", "allowsEditing"]
+- ["So22UINavigationControllerC", "init"]
+- !private ["So22UINavigationControllerC", "pushViewController"]
+- !private ["So22UINavigationControllerC", "sourceType"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSData"]
+- !private ["So30UIPasteConfigurationSupportingP", "RTSPVC"]
+- !private ["So30UIPasteConfigurationSupportingP", "SocketIOClient"]
+- ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImagePNGRepresentation"]
+- ["So30UIPasteConfigurationSupportingP", "UIImagePickerController"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "allowsEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "bg"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "imagepicker"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "ipStr"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "pushViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "socket"]
+- !private ["So30UIPasteConfigurationSupportingP", "sourceType"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textfield"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "type"]
+- !private ["So30UIPasteConfigurationSupportingP", "vase_image"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "Data"]
+- !private ["So11UIResponderC", "NSData"]
+- !private ["So11UIResponderC", "RTSPVC"]
+- ["So11UIResponderC", "SocketIOClient"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIImage"]
+- !private ["So11UIResponderC", "UIImagePNGRepresentation"]
+- ["So11UIResponderC", "UIImagePickerController"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UITextField"]
+- !private ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "allowsEditing"]
+- ["So11UIResponderC", "bg"]
+- ["So11UIResponderC", "customInit"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "image_test"]
+- ["So11UIResponderC", "imagepicker"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "ipStr"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "navigationController"]
+- ["So11UIResponderC", "onButtonClicked"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "pushViewController"]
+- ["So11UIResponderC", "sendImage"]
+- ["So11UIResponderC", "showMoomin"]
+- ["So11UIResponderC", "socket"]
+- !private ["So11UIResponderC", "sourceType"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "textfield"]
+- !private ["So11UIResponderC", "title"]
+- !private ["So11UIResponderC", "type"]
+- ["So11UIResponderC", "vase_image"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "watch_live_click"]
+- !private ["So30UIResponderStandardEditActionsP", "NSData"]
+- !private ["So30UIResponderStandardEditActionsP", "RTSPVC"]
+- !private ["So30UIResponderStandardEditActionsP", "SocketIOClient"]
+- ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImagePNGRepresentation"]
+- ["So30UIResponderStandardEditActionsP", "UIImagePickerController"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- !private ["So30UIResponderStandardEditActionsP", "allowsEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "bg"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "imagepicker"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "ipStr"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "pushViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "socket"]
+- !private ["So30UIResponderStandardEditActionsP", "sourceType"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textfield"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- !private ["So30UIResponderStandardEditActionsP", "type"]
+- !private ["So30UIResponderStandardEditActionsP", "vase_image"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "NSData"]
+- !private ["So16UIStateRestoringP", "RTSPVC"]
+- !private ["So16UIStateRestoringP", "SocketIOClient"]
+- ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "UIImagePNGRepresentation"]
+- ["So16UIStateRestoringP", "UIImagePickerController"]
+- !private ["So16UIStateRestoringP", "URL"]
+- !private ["So16UIStateRestoringP", "allowsEditing"]
+- !private ["So16UIStateRestoringP", "bg"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "imagepicker"]
+- ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "ipStr"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "pushViewController"]
+- !private ["So16UIStateRestoringP", "socket"]
+- !private ["So16UIStateRestoringP", "sourceType"]
+- !private ["So16UIStateRestoringP", "textfield"]
+- !private ["So16UIStateRestoringP", "title"]
+- !private ["So16UIStateRestoringP", "type"]
+- !private ["So16UIStateRestoringP", "vase_image"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "NSData"]
+- !private ["So18UITraitEnvironmentP", "RTSPVC"]
+- !private ["So18UITraitEnvironmentP", "SocketIOClient"]
+- ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "UIImagePNGRepresentation"]
+- ["So18UITraitEnvironmentP", "UIImagePickerController"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- !private ["So18UITraitEnvironmentP", "allowsEditing"]
+- !private ["So18UITraitEnvironmentP", "bg"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "imagepicker"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "ipStr"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "pushViewController"]
+- !private ["So18UITraitEnvironmentP", "socket"]
+- !private ["So18UITraitEnvironmentP", "sourceType"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textfield"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- !private ["So18UITraitEnvironmentP", "type"]
+- !private ["So18UITraitEnvironmentP", "vase_image"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "image"]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "Data"]
+- !private ["So16UIViewControllerC", "NSData"]
+- !private ["So16UIViewControllerC", "RTSPVC"]
+- ["So16UIViewControllerC", "SocketIOClient"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIImage"]
+- !private ["So16UIViewControllerC", "UIImagePNGRepresentation"]
+- ["So16UIViewControllerC", "UIImagePickerController"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UITextField"]
+- !private ["So16UIViewControllerC", "URL"]
+- !private ["So16UIViewControllerC", "Void"]
+- !private ["So16UIViewControllerC", "allowsEditing"]
+- ["So16UIViewControllerC", "bg"]
+- ["So16UIViewControllerC", "customInit"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "image_test"]
+- ["So16UIViewControllerC", "imagepicker"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "ipStr"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- ["So16UIViewControllerC", "onButtonClicked"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
+- !private ["So16UIViewControllerC", "pushViewController"]
+- ["So16UIViewControllerC", "sendImage"]
+- ["So16UIViewControllerC", "showMoomin"]
+- ["So16UIViewControllerC", "socket"]
+- !private ["So16UIViewControllerC", "sourceType"]
+- ["So16UIViewControllerC", "textfield"]
+- !private ["So16UIViewControllerC", "title"]
+- !private ["So16UIViewControllerC", "type"]
+- ["So16UIViewControllerC", "vase_image"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "watch_live_click"]
+- ["So16UIViewControllerC", ""]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Base64DecodingOptions"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Base64EncodingOptions"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "base64EncodedString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Base64DecodingOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Base64EncodingOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RTSPVC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SocketIOClient"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImagePNGRepresentation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIImagePickerController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allowsEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "base64EncodedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bg"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imagepicker"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ipStr"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "on"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "socket"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sourceType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textfield"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vase_image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "So6NSDataC21Base64DecodingOptionsV"
+- !private "So6NSDataC21Base64EncodingOptionsV"
+- !private "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "8SocketIO12ClientOptionP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "5Test26MainVCC"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDataC"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "7RAMReel8ParsableP"
+- !private "5Test26RTSPVCC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "7RAMReel10RenderableP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "8SocketIO0A11ClientEventO"
+- !private "8SocketIO0A4DataP"
+- !private "8SocketIO0A12EngineClientP"
+- !private "8SocketIO0A8IOClientC"
+- !private "8SocketIO0A14IOClientOptionO"
+- !private "8SocketIO0A12IOClientSpecP"
+- !private "8SocketIO0A8ParsableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So7UIImageC"
+- "So23UIImagePickerControllerC"
+- !private "SC33UIImagePickerControllerSourceTypeO"
+- !private "So11UIImageViewC"
+- "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So10UIKeyInputP"
+- "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Modules/SearchTextField.swiftmodule/x86_64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Modules/SwiftyOnboard.swiftmodule/x86_64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Modules/AlertOnboarding.swiftmodule/x86_64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Modules/RAMReel.swiftmodule/x86_64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Modules/FoldingCell.swiftmodule/x86_64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Modules/KYWheelTabController.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Headers/SearchTextField-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Headers/AlertOnboarding-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Headers/RAMReel-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Headers/FoldingCell-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Headers/KYWheelTabController-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/avcodec.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libswscale/swscale.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/frame.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/avconfig.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/log.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/rational.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Headers/RAMReel.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/avutil.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/mem.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libswscale/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/common.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/avio.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Test2-Bridging-Header.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/buffer.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/RTSPPlayer.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/error.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/mathematics.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/old_codec_ids.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Utilities.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/attributes.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/macros.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/old_pix_fmts.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/avformat.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/intfloat.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/dict.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Headers/SearchTextField-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Headers/AlertOnboarding-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Headers/RAMReel-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Headers/FoldingCell-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Headers/KYWheelTabController-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/samplefmt.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/pixfmt.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/channel_layout.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/cpu.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/zlib/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "fb4e87ba145aabb4c1a85e12f0b421c4"

@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "3cd99370502a0a308edb16bc904f7ce7"
+build_time: [1520852519, 45814000]
+inputs:
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/AlertOnboarding/Pod/Classes/AlertChildPageViewController.swift": [1517641808, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/AlertOnboarding/Pod/Classes/AlertOnboarding.swift": [1517641808, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/AlertOnboarding/Pod/Classes/AlertPageViewController.swift": [1517641808, 0]

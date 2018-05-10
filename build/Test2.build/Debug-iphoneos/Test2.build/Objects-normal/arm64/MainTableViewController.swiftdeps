@@ -1,0 +1,1082 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MainTableViewController"
+provides-nominal:
+- "5Test223MainTableViewControllerC"
+provides-member:
+- ["5Test223MainTableViewControllerC", ""]
+- ["5Test223MainTableViewControllerC", "tableView"]
+- ["5Test223MainTableViewControllerC", "tableView"]
+- ["5Test223MainTableViewControllerC", "tableView"]
+- ["5Test223MainTableViewControllerC", "tableView"]
+- ["5Test223MainTableViewControllerC", "tableView"]
+provides-dynamic-lookup:
+- "tableView"
+- "viewDidLoad"
+depends-top-level:
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "CastingPrecedence"
+- !private "DemoCell"
+- !private "FoldingCell"
+- "IndexPath"
+- "Int"
+- "MainTableViewController"
+- !private "StringLiteralType"
+- !private "TimeInterval"
+- !private "UIColor"
+- "UITableView"
+- !private "UITableViewAutomaticDimension"
+- "UITableViewCell"
+- "UITableViewController"
+- !private "UIView"
+- !private "Void"
+depends-member:
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "row"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "beginUpdates"]
+- !private ["So15CALayerDelegateP", "cellForRow"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "durationsForCollapsedState"]
+- !private ["So15CALayerDelegateP", "durationsForExpandedState"]
+- !private ["So15CALayerDelegateP", "endUpdates"]
+- !private ["So15CALayerDelegateP", "estimatedRowHeight"]
+- !private ["So15CALayerDelegateP", "isAnimating"]
+- !private ["So15CALayerDelegateP", "number"]
+- !private ["So15CALayerDelegateP", "rowHeight"]
+- !private ["So15CALayerDelegateP", "unfold"]
+- !private ["s7CVarArgP", "Array"]
+- !private ["s7CVarArgP", "HexToColor"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UITableViewAutomaticDimension"]
+- !private ["s7CVarArgP", "UIView"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "beginUpdates"]
+- !private ["s7CVarArgP", "cellForRow"]
+- !private ["s7CVarArgP", "cellHeights"]
+- !private ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "durationsForCollapsedState"]
+- !private ["s7CVarArgP", "durationsForExpandedState"]
+- !private ["s7CVarArgP", "endUpdates"]
+- !private ["s7CVarArgP", "estimatedRowHeight"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isAnimating"]
+- !private ["s7CVarArgP", "kCloseCellHeight"]
+- !private ["s7CVarArgP", "kOpenCellHeight"]
+- !private ["s7CVarArgP", "kRowsCount"]
+- !private ["s7CVarArgP", "number"]
+- !private ["s7CVarArgP", "rowHeight"]
+- !private ["s7CVarArgP", "setup"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "unfold"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "row"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- !private ["s28CustomDebugStringConvertibleP", "HexToColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UITableViewAutomaticDimension"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "beginUpdates"]
+- !private ["s28CustomDebugStringConvertibleP", "cellForRow"]
+- !private ["s28CustomDebugStringConvertibleP", "cellHeights"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "durationsForCollapsedState"]
+- !private ["s28CustomDebugStringConvertibleP", "durationsForExpandedState"]
+- !private ["s28CustomDebugStringConvertibleP", "endUpdates"]
+- !private ["s28CustomDebugStringConvertibleP", "estimatedRowHeight"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "kCloseCellHeight"]
+- !private ["s28CustomDebugStringConvertibleP", "kOpenCellHeight"]
+- !private ["s28CustomDebugStringConvertibleP", "kRowsCount"]
+- !private ["s28CustomDebugStringConvertibleP", "number"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "rowHeight"]
+- !private ["s28CustomDebugStringConvertibleP", "setup"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "unfold"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "clear"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Array"]
+- !private ["s23CustomStringConvertibleP", "HexToColor"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UITableViewAutomaticDimension"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "beginUpdates"]
+- !private ["s23CustomStringConvertibleP", "cellForRow"]
+- !private ["s23CustomStringConvertibleP", "cellHeights"]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "durationsForCollapsedState"]
+- !private ["s23CustomStringConvertibleP", "durationsForExpandedState"]
+- !private ["s23CustomStringConvertibleP", "endUpdates"]
+- !private ["s23CustomStringConvertibleP", "estimatedRowHeight"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isAnimating"]
+- !private ["s23CustomStringConvertibleP", "kCloseCellHeight"]
+- !private ["s23CustomStringConvertibleP", "kOpenCellHeight"]
+- !private ["s23CustomStringConvertibleP", "kRowsCount"]
+- !private ["s23CustomStringConvertibleP", "number"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "rowHeight"]
+- !private ["s23CustomStringConvertibleP", "setup"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "unfold"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "clear"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "row"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["5Test28DemoCellC", "backgroundColor"]
+- !private ["5Test28DemoCellC", "number"]
+- !private ["5Test28DemoCellC", "unfold"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "clear"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "row"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "Array"]
+- !private ["s9EquatableP", "HexToColor"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UITableViewAutomaticDimension"]
+- !private ["s9EquatableP", "UIView"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "animate"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "beginUpdates"]
+- !private ["s9EquatableP", "cellForRow"]
+- !private ["s9EquatableP", "cellHeights"]
+- !private ["s9EquatableP", "clear"]
+- !private ["s9EquatableP", "curveEaseOut"]
+- !private ["s9EquatableP", "dequeueReusableCell"]
+- !private ["s9EquatableP", "durationsForCollapsedState"]
+- !private ["s9EquatableP", "durationsForExpandedState"]
+- !private ["s9EquatableP", "endUpdates"]
+- !private ["s9EquatableP", "estimatedRowHeight"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isAnimating"]
+- !private ["s9EquatableP", "kCloseCellHeight"]
+- !private ["s9EquatableP", "kOpenCellHeight"]
+- !private ["s9EquatableP", "kRowsCount"]
+- !private ["s9EquatableP", "number"]
+- !private ["s9EquatableP", "row"]
+- !private ["s9EquatableP", "rowHeight"]
+- !private ["s9EquatableP", "setup"]
+- !private ["s9EquatableP", "tableView"]
+- !private ["s9EquatableP", "unfold"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "curveEaseOut"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "clear"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["11FoldingCellAAC", "backgroundColor"]
+- !private ["11FoldingCellAAC", "durationsForCollapsedState"]
+- !private ["11FoldingCellAAC", "durationsForExpandedState"]
+- !private ["11FoldingCellAAC", "isAnimating"]
+- !private ["11FoldingCellAAC", "number"]
+- !private ["11FoldingCellAAC", "unfold"]
+- !private ["s8HashableP", "Array"]
+- !private ["s8HashableP", "HexToColor"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UITableViewAutomaticDimension"]
+- !private ["s8HashableP", "UIView"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "animate"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "beginUpdates"]
+- !private ["s8HashableP", "cellForRow"]
+- !private ["s8HashableP", "cellHeights"]
+- !private ["s8HashableP", "clear"]
+- !private ["s8HashableP", "dequeueReusableCell"]
+- !private ["s8HashableP", "durationsForCollapsedState"]
+- !private ["s8HashableP", "durationsForExpandedState"]
+- !private ["s8HashableP", "endUpdates"]
+- !private ["s8HashableP", "estimatedRowHeight"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isAnimating"]
+- !private ["s8HashableP", "kCloseCellHeight"]
+- !private ["s8HashableP", "kOpenCellHeight"]
+- !private ["s8HashableP", "kRowsCount"]
+- !private ["s8HashableP", "number"]
+- !private ["s8HashableP", "row"]
+- !private ["s8HashableP", "rowHeight"]
+- !private ["s8HashableP", "setup"]
+- !private ["s8HashableP", "tableView"]
+- !private ["s8HashableP", "unfold"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["5Test223MainTableViewControllerC", "Array"]
+- ["5Test223MainTableViewControllerC", "CGFloat"]
+- !private ["5Test223MainTableViewControllerC", "DemoCell"]
+- !private ["5Test223MainTableViewControllerC", "FoldingCell"]
+- ["5Test223MainTableViewControllerC", "IndexPath"]
+- ["5Test223MainTableViewControllerC", "Int"]
+- !private ["5Test223MainTableViewControllerC", "TimeInterval"]
+- !private ["5Test223MainTableViewControllerC", "UIColor"]
+- ["5Test223MainTableViewControllerC", "UITableView"]
+- !private ["5Test223MainTableViewControllerC", "UITableViewAutomaticDimension"]
+- ["5Test223MainTableViewControllerC", "UITableViewCell"]
+- !private ["5Test223MainTableViewControllerC", "UIView"]
+- !private ["5Test223MainTableViewControllerC", "Void"]
+- ["5Test223MainTableViewControllerC", "cellHeights"]
+- ["5Test223MainTableViewControllerC", "deinit"]
+- ["5Test223MainTableViewControllerC", "init"]
+- ["5Test223MainTableViewControllerC", "kCloseCellHeight"]
+- ["5Test223MainTableViewControllerC", "kOpenCellHeight"]
+- ["5Test223MainTableViewControllerC", "kRowsCount"]
+- !private ["5Test223MainTableViewControllerC", "setup"]
+- ["5Test223MainTableViewControllerC", "tableView"]
+- ["5Test223MainTableViewControllerC", "viewDidLoad"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "row"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "Array"]
+- !private ["So8NSCodingP", "HexToColor"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UITableViewAutomaticDimension"]
+- !private ["So8NSCodingP", "UIView"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "beginUpdates"]
+- !private ["So8NSCodingP", "cellForRow"]
+- !private ["So8NSCodingP", "cellHeights"]
+- !private ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "durationsForCollapsedState"]
+- !private ["So8NSCodingP", "durationsForExpandedState"]
+- !private ["So8NSCodingP", "endUpdates"]
+- !private ["So8NSCodingP", "estimatedRowHeight"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isAnimating"]
+- !private ["So8NSCodingP", "kCloseCellHeight"]
+- !private ["So8NSCodingP", "kOpenCellHeight"]
+- !private ["So8NSCodingP", "kRowsCount"]
+- !private ["So8NSCodingP", "number"]
+- !private ["So8NSCodingP", "rowHeight"]
+- !private ["So8NSCodingP", "setup"]
+- !private ["So8NSCodingP", "tableView"]
+- !private ["So8NSCodingP", "unfold"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "HexToColor"]
+- !private ["So9NSCopyingP", "clear"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "Array"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- !private ["So26NSExtensionRequestHandlingP", "UITableViewAutomaticDimension"]
+- !private ["So26NSExtensionRequestHandlingP", "UIView"]
+- !private ["So26NSExtensionRequestHandlingP", "cellHeights"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "kCloseCellHeight"]
+- !private ["So26NSExtensionRequestHandlingP", "kOpenCellHeight"]
+- !private ["So26NSExtensionRequestHandlingP", "kRowsCount"]
+- !private ["So26NSExtensionRequestHandlingP", "setup"]
+- !private ["So26NSExtensionRequestHandlingP", "tableView"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "HexToColor"]
+- !private ["So21NSItemProviderReadingP", "clear"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "HexToColor"]
+- !private ["So21NSItemProviderWritingP", "clear"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "Array"]
+- ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "DemoCell"]
+- !private ["So8NSObjectC", "FoldingCell"]
+- !private ["So8NSObjectC", "HexToColor"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "TimeInterval"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UITableView"]
+- !private ["So8NSObjectC", "UITableViewAutomaticDimension"]
+- ["So8NSObjectC", "UITableViewCell"]
+- !private ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "animate"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "beginUpdates"]
+- !private ["So8NSObjectC", "cellForRow"]
+- ["So8NSObjectC", "cellHeights"]
+- !private ["So8NSObjectC", "clear"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- !private ["So8NSObjectC", "durationsForCollapsedState"]
+- !private ["So8NSObjectC", "durationsForExpandedState"]
+- !private ["So8NSObjectC", "endUpdates"]
+- !private ["So8NSObjectC", "estimatedRowHeight"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isAnimating"]
+- ["So8NSObjectC", "kCloseCellHeight"]
+- ["So8NSObjectC", "kOpenCellHeight"]
+- ["So8NSObjectC", "kRowsCount"]
+- !private ["So8NSObjectC", "number"]
+- !private ["So8NSObjectC", "rowHeight"]
+- ["So8NSObjectC", "setup"]
+- ["So8NSObjectC", "tableView"]
+- !private ["So8NSObjectC", "unfold"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "Array"]
+- !private ["So16NSObjectProtocolP", "HexToColor"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UITableViewAutomaticDimension"]
+- !private ["So16NSObjectProtocolP", "UIView"]
+- !private ["So16NSObjectProtocolP", "animate"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "beginUpdates"]
+- !private ["So16NSObjectProtocolP", "cellForRow"]
+- !private ["So16NSObjectProtocolP", "cellHeights"]
+- !private ["So16NSObjectProtocolP", "clear"]
+- !private ["So16NSObjectProtocolP", "dequeueReusableCell"]
+- !private ["So16NSObjectProtocolP", "durationsForCollapsedState"]
+- !private ["So16NSObjectProtocolP", "durationsForExpandedState"]
+- !private ["So16NSObjectProtocolP", "endUpdates"]
+- !private ["So16NSObjectProtocolP", "estimatedRowHeight"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isAnimating"]
+- !private ["So16NSObjectProtocolP", "kCloseCellHeight"]
+- !private ["So16NSObjectProtocolP", "kOpenCellHeight"]
+- !private ["So16NSObjectProtocolP", "kRowsCount"]
+- !private ["So16NSObjectProtocolP", "number"]
+- !private ["So16NSObjectProtocolP", "rowHeight"]
+- !private ["So16NSObjectProtocolP", "setup"]
+- !private ["So16NSObjectProtocolP", "tableView"]
+- !private ["So16NSObjectProtocolP", "unfold"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "HexToColor"]
+- !private ["So14NSSecureCodingP", "clear"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s9OptionSetP", "curveEaseOut"]
+- !private ["Sq", "clear"]
+- !private ["7RAMReel8ParsableP", "init"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "row"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "curveEaseOut"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["7RAMReel10RenderableP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "row"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "curveEaseOut"]
+- !private ["8SocketIO0A4DataP", "_getBuiltinLogicValue"]
+- !private ["8SocketIO0A4DataP", "init"]
+- !private ["8SocketIO0A4DataP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "beginUpdates"]
+- !private ["So29UIAccessibilityIdentificationP", "cellForRow"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "durationsForCollapsedState"]
+- !private ["So29UIAccessibilityIdentificationP", "durationsForExpandedState"]
+- !private ["So29UIAccessibilityIdentificationP", "endUpdates"]
+- !private ["So29UIAccessibilityIdentificationP", "estimatedRowHeight"]
+- !private ["So29UIAccessibilityIdentificationP", "isAnimating"]
+- !private ["So29UIAccessibilityIdentificationP", "number"]
+- !private ["So29UIAccessibilityIdentificationP", "rowHeight"]
+- !private ["So29UIAccessibilityIdentificationP", "unfold"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "beginUpdates"]
+- !private ["So12UIAppearanceP", "cellForRow"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "durationsForCollapsedState"]
+- !private ["So12UIAppearanceP", "durationsForExpandedState"]
+- !private ["So12UIAppearanceP", "endUpdates"]
+- !private ["So12UIAppearanceP", "estimatedRowHeight"]
+- !private ["So12UIAppearanceP", "isAnimating"]
+- !private ["So12UIAppearanceP", "number"]
+- !private ["So12UIAppearanceP", "rowHeight"]
+- !private ["So12UIAppearanceP", "unfold"]
+- !private ["So21UIAppearanceContainerP", "Array"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UITableViewAutomaticDimension"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "beginUpdates"]
+- !private ["So21UIAppearanceContainerP", "cellForRow"]
+- !private ["So21UIAppearanceContainerP", "cellHeights"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "durationsForCollapsedState"]
+- !private ["So21UIAppearanceContainerP", "durationsForExpandedState"]
+- !private ["So21UIAppearanceContainerP", "endUpdates"]
+- !private ["So21UIAppearanceContainerP", "estimatedRowHeight"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isAnimating"]
+- !private ["So21UIAppearanceContainerP", "kCloseCellHeight"]
+- !private ["So21UIAppearanceContainerP", "kOpenCellHeight"]
+- !private ["So21UIAppearanceContainerP", "kRowsCount"]
+- !private ["So21UIAppearanceContainerP", "number"]
+- !private ["So21UIAppearanceContainerP", "rowHeight"]
+- !private ["So21UIAppearanceContainerP", "setup"]
+- !private ["So21UIAppearanceContainerP", "tableView"]
+- !private ["So21UIAppearanceContainerP", "unfold"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So7UIColorC", "HexToColor"]
+- !private ["So7UIColorC", "clear"]
+- !private ["So7UIColorC", "init"]
+- !private ["So18UIContentContainerP", "Array"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- !private ["So18UIContentContainerP", "UITableViewAutomaticDimension"]
+- !private ["So18UIContentContainerP", "UIView"]
+- !private ["So18UIContentContainerP", "cellHeights"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "kCloseCellHeight"]
+- !private ["So18UIContentContainerP", "kOpenCellHeight"]
+- !private ["So18UIContentContainerP", "kRowsCount"]
+- !private ["So18UIContentContainerP", "setup"]
+- !private ["So18UIContentContainerP", "tableView"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "beginUpdates"]
+- !private ["So17UICoordinateSpaceP", "cellForRow"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "durationsForCollapsedState"]
+- !private ["So17UICoordinateSpaceP", "durationsForExpandedState"]
+- !private ["So17UICoordinateSpaceP", "endUpdates"]
+- !private ["So17UICoordinateSpaceP", "estimatedRowHeight"]
+- !private ["So17UICoordinateSpaceP", "isAnimating"]
+- !private ["So17UICoordinateSpaceP", "number"]
+- !private ["So17UICoordinateSpaceP", "rowHeight"]
+- !private ["So17UICoordinateSpaceP", "unfold"]
+- !private ["So23UIDataSourceTranslatingP", "backgroundColor"]
+- !private ["So23UIDataSourceTranslatingP", "beginUpdates"]
+- !private ["So23UIDataSourceTranslatingP", "cellForRow"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "endUpdates"]
+- !private ["So23UIDataSourceTranslatingP", "estimatedRowHeight"]
+- !private ["So23UIDataSourceTranslatingP", "rowHeight"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "beginUpdates"]
+- !private ["So13UIDynamicItemP", "cellForRow"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "durationsForCollapsedState"]
+- !private ["So13UIDynamicItemP", "durationsForExpandedState"]
+- !private ["So13UIDynamicItemP", "endUpdates"]
+- !private ["So13UIDynamicItemP", "estimatedRowHeight"]
+- !private ["So13UIDynamicItemP", "isAnimating"]
+- !private ["So13UIDynamicItemP", "number"]
+- !private ["So13UIDynamicItemP", "rowHeight"]
+- !private ["So13UIDynamicItemP", "unfold"]
+- !private ["So18UIFocusEnvironmentP", "Array"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UITableViewAutomaticDimension"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "beginUpdates"]
+- !private ["So18UIFocusEnvironmentP", "cellForRow"]
+- !private ["So18UIFocusEnvironmentP", "cellHeights"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "durationsForCollapsedState"]
+- !private ["So18UIFocusEnvironmentP", "durationsForExpandedState"]
+- !private ["So18UIFocusEnvironmentP", "endUpdates"]
+- !private ["So18UIFocusEnvironmentP", "estimatedRowHeight"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isAnimating"]
+- !private ["So18UIFocusEnvironmentP", "kCloseCellHeight"]
+- !private ["So18UIFocusEnvironmentP", "kOpenCellHeight"]
+- !private ["So18UIFocusEnvironmentP", "kRowsCount"]
+- !private ["So18UIFocusEnvironmentP", "number"]
+- !private ["So18UIFocusEnvironmentP", "rowHeight"]
+- !private ["So18UIFocusEnvironmentP", "setup"]
+- !private ["So18UIFocusEnvironmentP", "tableView"]
+- !private ["So18UIFocusEnvironmentP", "unfold"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "beginUpdates"]
+- !private ["So11UIFocusItemP", "cellForRow"]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "durationsForCollapsedState"]
+- !private ["So11UIFocusItemP", "durationsForExpandedState"]
+- !private ["So11UIFocusItemP", "endUpdates"]
+- !private ["So11UIFocusItemP", "estimatedRowHeight"]
+- !private ["So11UIFocusItemP", "isAnimating"]
+- !private ["So11UIFocusItemP", "number"]
+- !private ["So11UIFocusItemP", "rowHeight"]
+- !private ["So11UIFocusItemP", "unfold"]
+- !private ["So27UIGestureRecognizerDelegateP", "backgroundColor"]
+- !private ["So27UIGestureRecognizerDelegateP", "durationsForCollapsedState"]
+- !private ["So27UIGestureRecognizerDelegateP", "durationsForExpandedState"]
+- !private ["So27UIGestureRecognizerDelegateP", "isAnimating"]
+- !private ["So27UIGestureRecognizerDelegateP", "number"]
+- !private ["So27UIGestureRecognizerDelegateP", "unfold"]
+- !private ["So30UIPasteConfigurationSupportingP", "Array"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UITableViewAutomaticDimension"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "beginUpdates"]
+- !private ["So30UIPasteConfigurationSupportingP", "cellForRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "cellHeights"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "durationsForCollapsedState"]
+- !private ["So30UIPasteConfigurationSupportingP", "durationsForExpandedState"]
+- !private ["So30UIPasteConfigurationSupportingP", "endUpdates"]
+- !private ["So30UIPasteConfigurationSupportingP", "estimatedRowHeight"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isAnimating"]
+- !private ["So30UIPasteConfigurationSupportingP", "kCloseCellHeight"]
+- !private ["So30UIPasteConfigurationSupportingP", "kOpenCellHeight"]
+- !private ["So30UIPasteConfigurationSupportingP", "kRowsCount"]
+- !private ["So30UIPasteConfigurationSupportingP", "number"]
+- !private ["So30UIPasteConfigurationSupportingP", "rowHeight"]
+- !private ["So30UIPasteConfigurationSupportingP", "setup"]
+- !private ["So30UIPasteConfigurationSupportingP", "tableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "unfold"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "Array"]
+- ["So11UIResponderC", "CGFloat"]
+- !private ["So11UIResponderC", "DemoCell"]
+- !private ["So11UIResponderC", "FoldingCell"]
+- ["So11UIResponderC", "IndexPath"]
+- ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "TimeInterval"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UITableView"]
+- !private ["So11UIResponderC", "UITableViewAutomaticDimension"]
+- ["So11UIResponderC", "UITableViewCell"]
+- !private ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "animate"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "beginUpdates"]
+- !private ["So11UIResponderC", "cellForRow"]
+- ["So11UIResponderC", "cellHeights"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- !private ["So11UIResponderC", "durationsForCollapsedState"]
+- !private ["So11UIResponderC", "durationsForExpandedState"]
+- !private ["So11UIResponderC", "endUpdates"]
+- !private ["So11UIResponderC", "estimatedRowHeight"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isAnimating"]
+- ["So11UIResponderC", "kCloseCellHeight"]
+- ["So11UIResponderC", "kOpenCellHeight"]
+- ["So11UIResponderC", "kRowsCount"]
+- !private ["So11UIResponderC", "number"]
+- !private ["So11UIResponderC", "rowHeight"]
+- ["So11UIResponderC", "setup"]
+- ["So11UIResponderC", "tableView"]
+- !private ["So11UIResponderC", "unfold"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Array"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UITableViewAutomaticDimension"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "beginUpdates"]
+- !private ["So30UIResponderStandardEditActionsP", "cellForRow"]
+- !private ["So30UIResponderStandardEditActionsP", "cellHeights"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "durationsForCollapsedState"]
+- !private ["So30UIResponderStandardEditActionsP", "durationsForExpandedState"]
+- !private ["So30UIResponderStandardEditActionsP", "endUpdates"]
+- !private ["So30UIResponderStandardEditActionsP", "estimatedRowHeight"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isAnimating"]
+- !private ["So30UIResponderStandardEditActionsP", "kCloseCellHeight"]
+- !private ["So30UIResponderStandardEditActionsP", "kOpenCellHeight"]
+- !private ["So30UIResponderStandardEditActionsP", "kRowsCount"]
+- !private ["So30UIResponderStandardEditActionsP", "number"]
+- !private ["So30UIResponderStandardEditActionsP", "rowHeight"]
+- !private ["So30UIResponderStandardEditActionsP", "setup"]
+- !private ["So30UIResponderStandardEditActionsP", "tableView"]
+- !private ["So30UIResponderStandardEditActionsP", "unfold"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So12UIScrollViewC", "backgroundColor"]
+- !private ["So12UIScrollViewC", "beginUpdates"]
+- !private ["So12UIScrollViewC", "cellForRow"]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So12UIScrollViewC", "endUpdates"]
+- !private ["So12UIScrollViewC", "estimatedRowHeight"]
+- !private ["So12UIScrollViewC", "rowHeight"]
+- !private ["So20UIScrollViewDelegateP", "Array"]
+- !private ["So20UIScrollViewDelegateP", "UIColor"]
+- !private ["So20UIScrollViewDelegateP", "UITableViewAutomaticDimension"]
+- !private ["So20UIScrollViewDelegateP", "UIView"]
+- !private ["So20UIScrollViewDelegateP", "cellHeights"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "kCloseCellHeight"]
+- !private ["So20UIScrollViewDelegateP", "kOpenCellHeight"]
+- !private ["So20UIScrollViewDelegateP", "kRowsCount"]
+- !private ["So20UIScrollViewDelegateP", "setup"]
+- !private ["So20UIScrollViewDelegateP", "tableView"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "backgroundColor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "beginUpdates"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "cellForRow"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "endUpdates"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "estimatedRowHeight"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "rowHeight"]
+- !private ["So16UIStateRestoringP", "Array"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- !private ["So16UIStateRestoringP", "UITableViewAutomaticDimension"]
+- !private ["So16UIStateRestoringP", "UIView"]
+- !private ["So16UIStateRestoringP", "cellHeights"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "kCloseCellHeight"]
+- !private ["So16UIStateRestoringP", "kOpenCellHeight"]
+- !private ["So16UIStateRestoringP", "kRowsCount"]
+- !private ["So16UIStateRestoringP", "setup"]
+- !private ["So16UIStateRestoringP", "tableView"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So11UITableViewC", "backgroundColor"]
+- !private ["So11UITableViewC", "beginUpdates"]
+- !private ["So11UITableViewC", "cellForRow"]
+- !private ["So11UITableViewC", "dequeueReusableCell"]
+- !private ["So11UITableViewC", "endUpdates"]
+- !private ["So11UITableViewC", "estimatedRowHeight"]
+- !private ["So11UITableViewC", "rowHeight"]
+- !private ["So15UITableViewCellC", "backgroundColor"]
+- !private ["So15UITableViewCellC", "durationsForCollapsedState"]
+- !private ["So15UITableViewCellC", "durationsForExpandedState"]
+- !private ["So15UITableViewCellC", "isAnimating"]
+- !private ["So15UITableViewCellC", "number"]
+- !private ["So15UITableViewCellC", "unfold"]
+- !private ["So21UITableViewControllerC", "Array"]
+- ["So21UITableViewControllerC", "CGFloat"]
+- !private ["So21UITableViewControllerC", "DemoCell"]
+- !private ["So21UITableViewControllerC", "FoldingCell"]
+- ["So21UITableViewControllerC", "IndexPath"]
+- ["So21UITableViewControllerC", "Int"]
+- !private ["So21UITableViewControllerC", "TimeInterval"]
+- !private ["So21UITableViewControllerC", "UIColor"]
+- ["So21UITableViewControllerC", "UITableView"]
+- !private ["So21UITableViewControllerC", "UITableViewAutomaticDimension"]
+- ["So21UITableViewControllerC", "UITableViewCell"]
+- !private ["So21UITableViewControllerC", "UIView"]
+- !private ["So21UITableViewControllerC", "Void"]
+- ["So21UITableViewControllerC", "cellHeights"]
+- ["So21UITableViewControllerC", "init"]
+- ["So21UITableViewControllerC", "kCloseCellHeight"]
+- ["So21UITableViewControllerC", "kOpenCellHeight"]
+- ["So21UITableViewControllerC", "kRowsCount"]
+- ["So21UITableViewControllerC", "setup"]
+- ["So21UITableViewControllerC", "tableView"]
+- ["So21UITableViewControllerC", "viewDidLoad"]
+- ["So21UITableViewControllerC", ""]
+- !private ["So21UITableViewDataSourceP", "Array"]
+- !private ["So21UITableViewDataSourceP", "UIColor"]
+- !private ["So21UITableViewDataSourceP", "UITableViewAutomaticDimension"]
+- !private ["So21UITableViewDataSourceP", "UIView"]
+- !private ["So21UITableViewDataSourceP", "cellHeights"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "kCloseCellHeight"]
+- !private ["So21UITableViewDataSourceP", "kOpenCellHeight"]
+- !private ["So21UITableViewDataSourceP", "kRowsCount"]
+- !private ["So21UITableViewDataSourceP", "setup"]
+- !private ["So21UITableViewDataSourceP", "tableView"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So19UITableViewDelegateP", "Array"]
+- !private ["So19UITableViewDelegateP", "UIColor"]
+- !private ["So19UITableViewDelegateP", "UITableViewAutomaticDimension"]
+- !private ["So19UITableViewDelegateP", "UIView"]
+- !private ["So19UITableViewDelegateP", "cellHeights"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "kCloseCellHeight"]
+- !private ["So19UITableViewDelegateP", "kOpenCellHeight"]
+- !private ["So19UITableViewDelegateP", "kRowsCount"]
+- !private ["So19UITableViewDelegateP", "setup"]
+- !private ["So19UITableViewDelegateP", "tableView"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So18UITraitEnvironmentP", "Array"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UITableViewAutomaticDimension"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "beginUpdates"]
+- !private ["So18UITraitEnvironmentP", "cellForRow"]
+- !private ["So18UITraitEnvironmentP", "cellHeights"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "durationsForCollapsedState"]
+- !private ["So18UITraitEnvironmentP", "durationsForExpandedState"]
+- !private ["So18UITraitEnvironmentP", "endUpdates"]
+- !private ["So18UITraitEnvironmentP", "estimatedRowHeight"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isAnimating"]
+- !private ["So18UITraitEnvironmentP", "kCloseCellHeight"]
+- !private ["So18UITraitEnvironmentP", "kOpenCellHeight"]
+- !private ["So18UITraitEnvironmentP", "kRowsCount"]
+- !private ["So18UITraitEnvironmentP", "number"]
+- !private ["So18UITraitEnvironmentP", "rowHeight"]
+- !private ["So18UITraitEnvironmentP", "setup"]
+- !private ["So18UITraitEnvironmentP", "tableView"]
+- !private ["So18UITraitEnvironmentP", "unfold"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "animate"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "beginUpdates"]
+- !private ["So6UIViewC", "cellForRow"]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "durationsForCollapsedState"]
+- !private ["So6UIViewC", "durationsForExpandedState"]
+- !private ["So6UIViewC", "endUpdates"]
+- !private ["So6UIViewC", "estimatedRowHeight"]
+- !private ["So6UIViewC", "isAnimating"]
+- !private ["So6UIViewC", "number"]
+- !private ["So6UIViewC", "rowHeight"]
+- !private ["So6UIViewC", "unfold"]
+- !private ["SC22UIViewAnimationOptionsV", "curveEaseOut"]
+- !private ["So16UIViewControllerC", "Array"]
+- ["So16UIViewControllerC", "CGFloat"]
+- !private ["So16UIViewControllerC", "DemoCell"]
+- !private ["So16UIViewControllerC", "FoldingCell"]
+- ["So16UIViewControllerC", "IndexPath"]
+- ["So16UIViewControllerC", "Int"]
+- !private ["So16UIViewControllerC", "TimeInterval"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "UITableView"]
+- !private ["So16UIViewControllerC", "UITableViewAutomaticDimension"]
+- ["So16UIViewControllerC", "UITableViewCell"]
+- !private ["So16UIViewControllerC", "UIView"]
+- !private ["So16UIViewControllerC", "Void"]
+- ["So16UIViewControllerC", "cellHeights"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "kCloseCellHeight"]
+- ["So16UIViewControllerC", "kOpenCellHeight"]
+- ["So16UIViewControllerC", "kRowsCount"]
+- ["So16UIViewControllerC", "setup"]
+- ["So16UIViewControllerC", "tableView"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "row"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "beginUpdates"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "cellForRow"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "durationsForCollapsedState"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "durationsForExpandedState"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "endUpdates"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "estimatedRowHeight"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isAnimating"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "number"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rowHeight"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "unfold"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "HexToColor"]
+- !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "row"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "row"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Array"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HexToColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITableViewAutomaticDimension"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beginUpdates"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cellForRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cellHeights"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "durationsForCollapsedState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "durationsForExpandedState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endUpdates"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "estimatedRowHeight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCloseCellHeight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kOpenCellHeight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kRowsCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "number"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rowHeight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unfold"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "row"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "clear"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "row"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "5Test28DemoCellC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "11FoldingCellAAC"
+- "s8HashableP"
+- !private "10Foundation9IndexPathV"
+- !private "s25LosslessStringConvertibleP"
+- "5Test223MainTableViewControllerC"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "7RAMReel8ParsableP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "7RAMReel10RenderableP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "8SocketIO0A4DataP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So27UIGestureRecognizerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So11UITableViewC"
+- !private "So15UITableViewCellC"
+- "So21UITableViewControllerC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "SC22UIViewAnimationOptionsV"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/arm64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/SearchTextField/SearchTextField.framework/Modules/SearchTextField.swiftmodule/arm64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/SwiftyOnboard/SwiftyOnboard.framework/Modules/SwiftyOnboard.swiftmodule/arm64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/AlertOnboarding/AlertOnboarding.framework/Modules/AlertOnboarding.swiftmodule/arm64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/RAMReel/RAMReel.framework/Modules/RAMReel.swiftmodule/arm64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/FoldingCell/FoldingCell.framework/Modules/FoldingCell.swiftmodule/arm64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/arm64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/KYWheelTabController/KYWheelTabController.framework/Modules/KYWheelTabController.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/SearchTextField/SearchTextField.framework/Headers/SearchTextField-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/AlertOnboarding/AlertOnboarding.framework/Headers/AlertOnboarding-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/RAMReel/RAMReel.framework/Headers/RAMReel-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/FoldingCell/FoldingCell.framework/Headers/FoldingCell-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/KYWheelTabController/KYWheelTabController.framework/Headers/KYWheelTabController-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/avcodec.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libswscale/swscale.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/frame.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/avconfig.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/log.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/rational.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/RAMReel/RAMReel.framework/Headers/RAMReel.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/avutil.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/mem.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libswscale/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/common.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/avio.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Test2-Bridging-Header.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/buffer.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/RTSPPlayer.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/error.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/mathematics.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/old_codec_ids.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Utilities.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/attributes.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/macros.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/old_pix_fmts.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/avformat.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/intfloat.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/dict.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/SearchTextField/SearchTextField.framework/Headers/SearchTextField-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/AlertOnboarding/AlertOnboarding.framework/Headers/AlertOnboarding-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/RAMReel/RAMReel.framework/Headers/RAMReel-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/FoldingCell/FoldingCell.framework/Headers/FoldingCell-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/KYWheelTabController/KYWheelTabController.framework/Headers/KYWheelTabController-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/samplefmt.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/pixfmt.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/channel_layout.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/cpu.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/zlib/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/SearchTextField/SearchTextField.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/SwiftyOnboard/SwiftyOnboard.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/AlertOnboarding/AlertOnboarding.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/RAMReel/RAMReel.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/FoldingCell/FoldingCell.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/Starscream/Starscream.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphoneos/KYWheelTabController/KYWheelTabController.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "cd931e4c6587802f860e939a7a31dd40"

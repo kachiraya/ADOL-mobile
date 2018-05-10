@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "1b43d80288c26b8e1e8c8ef4e0825d83"
+build_time: [1520852552, 724394000]
+inputs:
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/SearchTextField/SearchTextField/Classes/SearchTextField.swift": [1517928460, 0]

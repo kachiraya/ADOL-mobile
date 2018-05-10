@@ -1,0 +1,11 @@
+framework module SwiftyOnboard {
+  umbrella header "SwiftyOnboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftyOnboard.Swift {
+    header "SwiftyOnboard-Swift.h"
+    requires objc
+}

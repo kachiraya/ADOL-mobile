@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "6c5f060070e2b0a17e08cd1c64206adf"
+build_time: [1520852533, 103740000]
+inputs:
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/KYWheelTabController/KYWheelTabController/Classes/ViewControllers/KYWheelTabController.swift": [1518260534, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/KYWheelTabController/KYWheelTabController/Classes/Views/MenuLayer.swift": [1518260504, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/KYWheelTabController/KYWheelTabController/Classes/Views/WheelMenuView.swift": [1518260212, 0]

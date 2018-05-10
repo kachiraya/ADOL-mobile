@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "ae23a4ef920dbd25caf2adf5df894829"
+build_time: [1520852554, 420913000]
+inputs:
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/Source/Compression.swift": [1507142388, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/Source/SSLSecurity.swift": [1507142388, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/Source/WebSocket.swift": [1507142388, 0]

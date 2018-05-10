@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "50085a7e40369f816aad89363b691dbf"
+build_time: [1520852535, 107873000]
+inputs:
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/CollectionViewCell.swift": [1520485880, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/CollectionViewLayout.swift": [1520485880, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/CollectionViewWrapper.swift": [1520485880, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/DataFlow.swift": [1520485880, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/GradientView.swift": [1520485880, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/RAMReel.swift": [1520852408, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/RAMTextField.swift": [1520485880, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/TextFieldReactor.swift": [1520485880, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/Theme.swift": [1520485880, 0]

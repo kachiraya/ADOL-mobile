@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainVC" customModule="Test2" customModuleProvider="target">
+            <connections>
+                <outlet property="bg" destination="IAY-Gr-lJe" id="sWf-Gf-m4U"/>
+                <outlet property="textfield" destination="T8n-Aj-5gQ" id="b38-pe-7yL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphoneBG" translatesAutoresizingMaskIntoConstraints="NO" id="IAY-Gr-lJe">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.76397087159999999" green="0.92482611069999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpP-oO-mIk">
+                    <rect key="frame" x="153" y="322" width="68" height="30"/>
+                    <state key="normal" title="Send Text"/>
+                    <connections>
+                        <action selector="onButtonClicked:" destination="-1" eventType="touchUpInside" id="FxH-0T-xD7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9T-Mr-tHX">
+                    <rect key="frame" x="147" y="360" width="80" height="30"/>
+                    <state key="normal" title="Send Photo"/>
+                    <connections>
+                        <action selector="showMoomin:" destination="-1" eventType="touchUpInside" id="VbA-qg-2XW"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T8n-Aj-5gQ">
+                    <rect key="frame" x="81" y="254" width="213" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdw-Ye-jgo">
+                    <rect key="frame" x="133" y="398" width="108" height="30"/>
+                    <state key="normal" title="View Live Video"/>
+                    <connections>
+                        <action selector="watch_live_click:" destination="-1" eventType="touchUpInside" id="PqW-yf-pE0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="T8n-Aj-5gQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="81" id="5jA-dW-wrB"/>
+                <constraint firstItem="tpP-oO-mIk" firstAttribute="centerX" secondItem="IAY-Gr-lJe" secondAttribute="centerX" id="6wL-zF-g4m"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="IAY-Gr-lJe" secondAttribute="trailing" id="BDv-lz-77O"/>
+                <constraint firstItem="T8n-Aj-5gQ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="234" id="IbX-zJ-MQR"/>
+                <constraint firstItem="tpP-oO-mIk" firstAttribute="top" secondItem="T8n-Aj-5gQ" secondAttribute="bottom" constant="38" id="KjD-Ac-qHl"/>
+                <constraint firstItem="W9T-Mr-tHX" firstAttribute="top" secondItem="tpP-oO-mIk" secondAttribute="bottom" constant="8" symbolic="YES" id="NEs-cn-eEc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="IAY-Gr-lJe" secondAttribute="bottom" id="R5u-Dv-IIC"/>
+                <constraint firstItem="mdw-Ye-jgo" firstAttribute="centerX" secondItem="W9T-Mr-tHX" secondAttribute="centerX" id="YfH-F5-6YI"/>
+                <constraint firstItem="tpP-oO-mIk" firstAttribute="centerX" secondItem="W9T-Mr-tHX" secondAttribute="centerX" id="dkD-R1-ByB"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="IAY-Gr-lJe" secondAttribute="top" constant="20" id="fdd-Ws-sZ3"/>
+                <constraint firstItem="IAY-Gr-lJe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="gtf-cA-mh6"/>
+                <constraint firstItem="T8n-Aj-5gQ" firstAttribute="centerX" secondItem="tpP-oO-mIk" secondAttribute="centerX" id="tXJ-NH-lPi"/>
+                <constraint firstItem="mdw-Ye-jgo" firstAttribute="top" secondItem="W9T-Mr-tHX" secondAttribute="bottom" constant="8" symbolic="YES" id="uNb-ZU-hjc"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iphoneBG" width="610" height="1084"/>
+    </resources>
+</document>

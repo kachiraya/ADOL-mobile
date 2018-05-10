@@ -1,0 +1,414 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WordReader"
+provides-nominal:
+- "5Test210WordReaderC"
+- "5Test210WordReaderC7AnErrorO"
+provides-member:
+- ["5Test210WordReaderC", ""]
+- ["5Test210WordReaderC7AnErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "AssignmentPrecedence"
+- "Error"
+- !private "ExtendedGraphemeClusterType"
+- !private "FileManager"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "WordReader"
+depends-member:
+- ["5Test210WordReaderC7AnErrorO", "String"]
+- ["5Test210WordReaderC7AnErrorO", "_code"]
+- ["5Test210WordReaderC7AnErrorO", "_domain"]
+- ["5Test210WordReaderC7AnErrorO", "_getEmbeddedNSError"]
+- ["5Test210WordReaderC7AnErrorO", "_userInfo"]
+- ["5Test210WordReaderC7AnErrorO", "deinit"]
+- ["5Test210WordReaderC7AnErrorO", "fileDoesntExist"]
+- ["5Test210WordReaderC7AnErrorO", "fileIsEmpty"]
+- ["5Test210WordReaderC7AnErrorO", "fileIsNotReadable"]
+- !private ["Sa", "map"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "split"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "fileExists"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "isReadableFile"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "split"]
+- !private ["s9CharacterV", "init"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "split"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isEmpty"]
+- !private ["s10ComparableP", "split"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "isReadableFile"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "split"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s29CustomPlaygroundQuickLookableP", "split"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "split"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "isReadableFile"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "split"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "split"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "split"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "fileExists"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "isReadableFile"]
+- !private ["s9EquatableP", "split"]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "fileDoesntExist"]
+- !private ["s5ErrorP", "fileIsEmpty"]
+- !private ["s5ErrorP", "fileIsNotReadable"]
+- ["s5ErrorP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "split"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "split"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "split"]
+- !private ["So11FileManagerC", "default"]
+- !private ["So11FileManagerC", "fileExists"]
+- !private ["So11FileManagerC", "isReadableFile"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "fileExists"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isEmpty"]
+- !private ["s8HashableP", "isReadableFile"]
+- !private ["s8HashableP", "split"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s25LosslessStringConvertibleP", "split"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["s10MirrorPathP", "split"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "split"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "split"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "split"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "split"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "split"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "fileExists"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "isReadableFile"]
+- !private ["So8NSObjectC", "split"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "fileExists"]
+- !private ["So16NSObjectProtocolP", "isEmpty"]
+- !private ["So16NSObjectProtocolP", "isReadableFile"]
+- !private ["So16NSObjectProtocolP", "split"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "split"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["So8NSStringC", "split"]
+- !private ["7RAMReel8ParsableP", "init"]
+- !private ["7RAMReel8ParsableP", "isEmpty"]
+- !private ["7RAMReel8ParsableP", "split"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "split"]
+- !private ["7RAMReel10RenderableP", "init"]
+- !private ["7RAMReel10RenderableP", "isEmpty"]
+- !private ["7RAMReel10RenderableP", "split"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "split"]
+- !private ["8SocketIO0A4DataP", "_getBuiltinLogicValue"]
+- !private ["8SocketIO0A4DataP", "init"]
+- !private ["8SocketIO0A4DataP", "isEmpty"]
+- !private ["8SocketIO0A4DataP", "map"]
+- !private ["8SocketIO0A4DataP", "split"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["SS", "split"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "isEmpty"]
+- !private ["s14StringProtocolP", "split"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "split"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "split"]
+- ["5Test210WordReaderC", "AnError"]
+- ["5Test210WordReaderC", "Error"]
+- !private ["5Test210WordReaderC", "FileManager"]
+- ["5Test210WordReaderC", "String"]
+- ["5Test210WordReaderC", "deinit"]
+- ["5Test210WordReaderC", "init"]
+- ["5Test210WordReaderC", "words"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "isEmpty"]
+- !private ["s23_BidirectionalIndexableP", "map"]
+- !private ["s23_BidirectionalIndexableP", "split"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "split"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "split"]
+- !private ["s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "split"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "split"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s33_ExpressibleByStringInterpolationP", "split"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "split"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "isEmpty"]
+- !private ["s10_IndexableP", "map"]
+- !private ["s10_IndexableP", "split"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "isEmpty"]
+- !private ["s14_IndexableBaseP", "map"]
+- !private ["s14_IndexableBaseP", "split"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isReadableFile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "split"]
+- !private ["s17_MutableIndexableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "split"]
+- !private ["s22_RandomAccessIndexableP", "map"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "isEmpty"]
+- !private ["s26_RangeReplaceableIndexableP", "map"]
+- !private ["s26_RangeReplaceableIndexableP", "split"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isEmpty"]
+- !private ["s16_SwiftStringViewP", "split"]
+depends-nominal:
+- "5Test210WordReaderC7AnErrorO"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s9CharacterV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So11FileManagerC"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "7RAMReel8ParsableP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "7RAMReel10RenderableP"
+- !private "s8SequenceP"
+- !private "8SocketIO0A4DataP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "5Test210WordReaderC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Modules/SearchTextField.swiftmodule/x86_64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Modules/SwiftyOnboard.swiftmodule/x86_64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Modules/AlertOnboarding.swiftmodule/x86_64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Modules/RAMReel.swiftmodule/x86_64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Modules/FoldingCell.swiftmodule/x86_64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Modules/KYWheelTabController.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Headers/SearchTextField-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Headers/AlertOnboarding-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Headers/RAMReel-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Headers/FoldingCell-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Headers/KYWheelTabController-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/avcodec.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libswscale/swscale.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/frame.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/avconfig.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/log.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/rational.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Headers/RAMReel.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/avutil.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/mem.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libswscale/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/version.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/common.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/avio.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Test2-Bridging-Header.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/buffer.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/RTSPPlayer.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/error.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/mathematics.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/old_codec_ids.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Utilities.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/attributes.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/macros.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/old_pix_fmts.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/avformat.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/intfloat.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/dict.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Headers/SearchTextField-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Headers/AlertOnboarding-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Headers/RAMReel-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Headers/FoldingCell-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Headers/KYWheelTabController-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/samplefmt.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/pixfmt.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/channel_layout.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/cpu.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/zlib/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "5f3f6d201730403c6eea690c690c0700"

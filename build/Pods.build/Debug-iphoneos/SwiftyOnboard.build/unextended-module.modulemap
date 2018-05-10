@@ -1,0 +1,10 @@
+framework module SwiftyOnboard {
+  umbrella header "SwiftyOnboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftyOnboard.__Swift {
+    exclude header "SwiftyOnboard-Swift.h"
+}

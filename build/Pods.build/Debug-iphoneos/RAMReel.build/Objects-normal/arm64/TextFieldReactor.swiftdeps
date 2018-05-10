@@ -1,0 +1,307 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RPrecedence"
+- "<&>"
+- "<&>"
+- "TextFieldReactor"
+- "TextFieldTarget"
+provides-nominal:
+- "7RAMReel16TextFieldReactorV"
+- "7RAMReel15TextFieldTargetC"
+provides-member:
+- ["7RAMReel16TextFieldReactorV", ""]
+- ["7RAMReel15TextFieldTargetC", ""]
+provides-dynamic-lookup:
+- "action"
+depends-top-level:
+- "<&>"
+- "AssignmentPrecedence"
+- "BitwiseShiftPrecedence"
+- "DataFlow"
+- "FlowDataDestination"
+- "FlowDataSource"
+- "NSObject"
+- "String"
+- "TextFieldReactor"
+- "TextFieldTarget"
+- "UIControlEvents"
+- "UITextField"
+depends-member:
+- !private ["So15CALayerDelegateP", "addTarget"]
+- !private ["So15CALayerDelegateP", "removeTarget"]
+- !private ["So15CALayerDelegateP", "text"]
+- ["s7CVarArgP", "TextFieldTarget"]
+- !private ["s7CVarArgP", "UIControlEvents"]
+- ["s7CVarArgP", "action"]
+- !private ["s7CVarArgP", "actionSelector"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "beTargetFor"]
+- !private ["s7CVarArgP", "hooks"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeTarget"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "text"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "TextFieldTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "UIControlEvents"]
+- ["s28CustomDebugStringConvertibleP", "action"]
+- !private ["s28CustomDebugStringConvertibleP", "actionSelector"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "beTargetFor"]
+- !private ["s28CustomDebugStringConvertibleP", "hooks"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "removeTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "TextFieldTarget"]
+- !private ["s23CustomStringConvertibleP", "UIControlEvents"]
+- ["s23CustomStringConvertibleP", "action"]
+- !private ["s23CustomStringConvertibleP", "actionSelector"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "beTargetFor"]
+- !private ["s23CustomStringConvertibleP", "hooks"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "removeTarget"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["7RAMReel8DataFlowV", "transport"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "TextFieldTarget"]
+- !private ["s9EquatableP", "UIControlEvents"]
+- ["s9EquatableP", "action"]
+- !private ["s9EquatableP", "actionSelector"]
+- !private ["s9EquatableP", "addTarget"]
+- !private ["s9EquatableP", "allEvents"]
+- !private ["s9EquatableP", "beTargetFor"]
+- !private ["s9EquatableP", "editingChanged"]
+- !private ["s9EquatableP", "hooks"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "removeTarget"]
+- !private ["s9EquatableP", "text"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "allEvents"]
+- !private ["s25ExpressibleByArrayLiteralP", "editingChanged"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s8HashableP", "TextFieldTarget"]
+- !private ["s8HashableP", "UIControlEvents"]
+- ["s8HashableP", "action"]
+- !private ["s8HashableP", "actionSelector"]
+- !private ["s8HashableP", "addTarget"]
+- !private ["s8HashableP", "beTargetFor"]
+- !private ["s8HashableP", "hooks"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "removeTarget"]
+- !private ["s8HashableP", "text"]
+- ["s8HashableP", ""]
+- !private ["So8NSCodingP", "addTarget"]
+- !private ["So8NSCodingP", "removeTarget"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSObjectC", "HookType"]
+- ["So8NSObjectC", "TextFieldTarget"]
+- ["So8NSObjectC", "UIControlEvents"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "action"]
+- ["So8NSObjectC", "actionSelector"]
+- !private ["So8NSObjectC", "addTarget"]
+- ["So8NSObjectC", "beTargetFor"]
+- ["So8NSObjectC", "hooks"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "removeTarget"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", ""]
+- ["So16NSObjectProtocolP", "TextFieldTarget"]
+- !private ["So16NSObjectProtocolP", "UIControlEvents"]
+- ["So16NSObjectProtocolP", "action"]
+- !private ["So16NSObjectProtocolP", "actionSelector"]
+- !private ["So16NSObjectProtocolP", "addTarget"]
+- !private ["So16NSObjectProtocolP", "beTargetFor"]
+- !private ["So16NSObjectProtocolP", "hooks"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "removeTarget"]
+- !private ["So16NSObjectProtocolP", "text"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["s9OptionSetP", "allEvents"]
+- !private ["s9OptionSetP", "editingChanged"]
+- !private ["s16RawRepresentableP", "allEvents"]
+- !private ["s16RawRepresentableP", "editingChanged"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "allEvents"]
+- !private ["s10SetAlgebraP", "editingChanged"]
+- ["7RAMReel16TextFieldReactorV", "DD"]
+- ["7RAMReel16TextFieldReactorV", "DS"]
+- ["7RAMReel16TextFieldReactorV", "DataFlow"]
+- ["7RAMReel16TextFieldReactorV", "TextFieldTarget"]
+- !private ["7RAMReel16TextFieldReactorV", "UIControlEvents"]
+- ["7RAMReel16TextFieldReactorV", "UITextField"]
+- ["7RAMReel16TextFieldReactorV", "dataFlow"]
+- !private ["7RAMReel16TextFieldReactorV", "editingTarget"]
+- !private ["7RAMReel16TextFieldReactorV", "init"]
+- ["7RAMReel16TextFieldReactorV", "textField"]
+- ["7RAMReel15TextFieldTargetC", "HookType"]
+- ["7RAMReel15TextFieldTargetC", "TextFieldTarget"]
+- ["7RAMReel15TextFieldTargetC", "UIControlEvents"]
+- ["7RAMReel15TextFieldTargetC", "UITextField"]
+- ["7RAMReel15TextFieldTargetC", "action"]
+- ["7RAMReel15TextFieldTargetC", "actionSelector"]
+- ["7RAMReel15TextFieldTargetC", "beTargetFor"]
+- ["7RAMReel15TextFieldTargetC", "deinit"]
+- ["7RAMReel15TextFieldTargetC", "hooks"]
+- ["7RAMReel15TextFieldTargetC", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "removeTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "addTarget"]
+- !private ["So12UIAppearanceP", "removeTarget"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "addTarget"]
+- !private ["So21UIAppearanceContainerP", "removeTarget"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "addTarget"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "removeTarget"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "addTarget"]
+- !private ["So9UIControlC", "removeTarget"]
+- !private ["So9UIControlC", "text"]
+- !private ["SC15UIControlEventsV", "allEvents"]
+- !private ["SC15UIControlEventsV", "editingChanged"]
+- !private ["So17UICoordinateSpaceP", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "removeTarget"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "addTarget"]
+- !private ["So13UIDynamicItemP", "removeTarget"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "addTarget"]
+- !private ["So18UIFocusEnvironmentP", "removeTarget"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So11UIFocusItemP", "addTarget"]
+- !private ["So11UIFocusItemP", "removeTarget"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So10UIKeyInputP", "addTarget"]
+- !private ["So10UIKeyInputP", "removeTarget"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeTarget"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So11UIResponderC", "addTarget"]
+- !private ["So11UIResponderC", "removeTarget"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "addTarget"]
+- !private ["So30UIResponderStandardEditActionsP", "removeTarget"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So15UITextDraggableP", "addTarget"]
+- !private ["So15UITextDraggableP", "removeTarget"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "addTarget"]
+- !private ["So15UITextDroppableP", "removeTarget"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "addTarget"]
+- !private ["So11UITextFieldC", "removeTarget"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "addTarget"]
+- !private ["So11UITextInputP", "removeTarget"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "addTarget"]
+- !private ["So17UITextInputTraitsP", "removeTarget"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "addTarget"]
+- !private ["So34UITextPasteConfigurationSupportingP", "removeTarget"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "addTarget"]
+- !private ["So18UITraitEnvironmentP", "removeTarget"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So6UIViewC", "addTarget"]
+- !private ["So6UIViewC", "removeTarget"]
+- !private ["So6UIViewC", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "removeTarget"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "TextFieldTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIControlEvents"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "action"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "actionSelector"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beTargetFor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hooks"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "7RAMReel8DataFlowV"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s8HashableP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s9OptionSetP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- "7RAMReel16TextFieldReactorV"
+- "7RAMReel15TextFieldTargetC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "SC15UIControlEventsV"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So10UIKeyInputP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/RAMReel/RAMReel-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/RAMReel.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphoneos/RAMReel.build/unextended-module.modulemap"
+interface-hash: "a9fbf125beca2f155f25e697be332f33"

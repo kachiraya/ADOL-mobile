@@ -1,0 +1,272 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketIOClientSpec"
+- "SocketClientEvent"
+provides-nominal:
+- "8SocketIO0A12IOClientSpecP"
+- "8SocketIO0A11ClientEventO"
+provides-member:
+- ["8SocketIO0A12IOClientSpecP", ""]
+- ["8SocketIO0A11ClientEventO", ""]
+- ["8SocketIO0A12IOClientSpecP", "didError"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- "Bool"
+- !private "DefaultSocketLogger"
+- "DispatchQueue"
+- "Double"
+- "Int"
+- "NormalCallback"
+- "OnAckCallback"
+- "SocketAnyEvent"
+- "SocketClientEvent"
+- "SocketData"
+- "SocketEventHandler"
+- "SocketIOClientConfiguration"
+- "SocketIOClientSpec"
+- "SocketIOClientStatus"
+- "String"
+- "StringLiteralType"
+- "UUID"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["8SocketIO07DefaultA6LoggerC", "Logger"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "error"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "error"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "rawValue"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", "error"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- ["8SocketIO0A11ClientEventO", "RawValue"]
+- ["8SocketIO0A11ClientEventO", "connect"]
+- ["8SocketIO0A11ClientEventO", "deinit"]
+- ["8SocketIO0A11ClientEventO", "disconnect"]
+- ["8SocketIO0A11ClientEventO", "error"]
+- ["8SocketIO0A11ClientEventO", "hashValue"]
+- ["8SocketIO0A11ClientEventO", "init"]
+- ["8SocketIO0A11ClientEventO", "rawValue"]
+- ["8SocketIO0A11ClientEventO", "reconnect"]
+- ["8SocketIO0A11ClientEventO", "reconnectAttempt"]
+- ["8SocketIO0A11ClientEventO", "statusChange"]
+- !private ["8SocketIO0A4DataP", "_getBuiltinLogicValue"]
+- !private ["8SocketIO0A4DataP", "hashValue"]
+- ["8SocketIO0A4DataP", "init"]
+- ["8SocketIO0A12IOClientSpecP", "Bool"]
+- !private ["8SocketIO0A12IOClientSpecP", "DefaultSocketLogger"]
+- ["8SocketIO0A12IOClientSpecP", "DispatchQueue"]
+- ["8SocketIO0A12IOClientSpecP", "Double"]
+- ["8SocketIO0A12IOClientSpecP", "Int"]
+- ["8SocketIO0A12IOClientSpecP", "NormalCallback"]
+- ["8SocketIO0A12IOClientSpecP", "OnAckCallback"]
+- ["8SocketIO0A12IOClientSpecP", "SocketAnyEvent"]
+- ["8SocketIO0A12IOClientSpecP", "SocketClientEvent"]
+- ["8SocketIO0A12IOClientSpecP", "SocketData"]
+- ["8SocketIO0A12IOClientSpecP", "SocketEventHandler"]
+- ["8SocketIO0A12IOClientSpecP", "SocketIOClientConfiguration"]
+- ["8SocketIO0A12IOClientSpecP", "SocketIOClientStatus"]
+- ["8SocketIO0A12IOClientSpecP", "String"]
+- ["8SocketIO0A12IOClientSpecP", "UUID"]
+- ["8SocketIO0A12IOClientSpecP", "anyHandler"]
+- ["8SocketIO0A12IOClientSpecP", "config"]
+- ["8SocketIO0A12IOClientSpecP", "connect"]
+- ["8SocketIO0A12IOClientSpecP", "didConnect"]
+- ["8SocketIO0A12IOClientSpecP", "didDisconnect"]
+- ["8SocketIO0A12IOClientSpecP", "didError"]
+- ["8SocketIO0A12IOClientSpecP", "disconnect"]
+- ["8SocketIO0A12IOClientSpecP", "emit"]
+- ["8SocketIO0A12IOClientSpecP", "emitAck"]
+- ["8SocketIO0A12IOClientSpecP", "emitWithAck"]
+- ["8SocketIO0A12IOClientSpecP", "handleAck"]
+- ["8SocketIO0A12IOClientSpecP", "handleClientEvent"]
+- ["8SocketIO0A12IOClientSpecP", "handleEvent"]
+- ["8SocketIO0A12IOClientSpecP", "handleQueue"]
+- ["8SocketIO0A12IOClientSpecP", "handlers"]
+- ["8SocketIO0A12IOClientSpecP", "joinNamespace"]
+- ["8SocketIO0A12IOClientSpecP", "leaveNamespace"]
+- ["8SocketIO0A12IOClientSpecP", "nsp"]
+- ["8SocketIO0A12IOClientSpecP", "off"]
+- ["8SocketIO0A12IOClientSpecP", "on"]
+- ["8SocketIO0A12IOClientSpecP", "onAny"]
+- ["8SocketIO0A12IOClientSpecP", "once"]
+- ["8SocketIO0A12IOClientSpecP", "reconnect"]
+- ["8SocketIO0A12IOClientSpecP", "removeAllHandlers"]
+- ["8SocketIO0A12IOClientSpecP", "status"]
+- !private ["8SocketIO0A6LoggerP", "Logger"]
+- !private ["8SocketIO0A6LoggerP", "error"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "8SocketIO07DefaultA6LoggerC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- "8SocketIO0A11ClientEventO"
+- "8SocketIO0A4DataP"
+- "8SocketIO0A12IOClientSpecP"
+- !private "8SocketIO0A6LoggerP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/Socket.IO-Client-Swift.build/unextended-module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/zlib/module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/Starscream.build/module.modulemap"
+interface-hash: "dd22a1d61b58cf4bb3ed8b52bf475c4a"

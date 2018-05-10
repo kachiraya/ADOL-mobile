@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "14d54c23ad7cf9ab9cdf5a381a4e3eaa"
+build_time: [1520852639, 138718000]
+inputs:
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/DroneCon/DroneConVC.swift": [1507459109, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Flight Page/Flight_TBC.swift": [1519135332, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/RTSP/RTSPVC.swift": [1513609708, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Summary Page/MainTVC.swift": [1519931597, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/TestSumVC.swift": [1519932258, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Central Class/BaseViewController.swift": [1518851082, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/MainApp/MainVC.swift": [1518708402, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Input Page/Input1_VC.swift": [1520848241, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/AppDelegate.swift": [1507142331, 0]
+  "/Users/monradajuycharoen/Documents/Jane/Year4/Sem2/project/library/reel-search-master-2/RAMReelExample/RAMReelExample/DropDownVC2.swift": [1520852044, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Flight Page/ShowSummaryDuringFlight_VC.swift": [1520257824, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Input Page/Input2_VC.swift": [1518870711, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/FoldingTV/MainTableViewController.swift": [1520077794, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/FoldingTV/DemoCell.swift": [1517939584, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Summary Page/SummaryCell.swift": [1519931349, 0]
+  "/Users/monradajuycharoen/Documents/Jane/Year4/Sem2/project/library/reel-search-master-2/RAMReelExample/RAMReelExample/WordReader.swift": [1519160008, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Flight Page/ImagePreview_VC.swift": [1520257090, 0]

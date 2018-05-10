@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "f9f9a7b66605419b20c1104a523822d8"
+build_time: [1520852559, 6964000]
+inputs:
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/SwiftyOnboard/SwiftyOnboard/SwiftyOnboard.swift": [1517229146, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/SwiftyOnboard/SwiftyOnboard/SwiftyOnboardOverlay.swift": [1517229146, 0]
+  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/SwiftyOnboard/SwiftyOnboard/SwiftyOnboardPage.swift": [1517229146, 0]

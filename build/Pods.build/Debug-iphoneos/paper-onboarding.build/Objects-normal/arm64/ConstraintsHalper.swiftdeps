@@ -1,0 +1,169 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConstraintInfo"
+- "constOp"
+- ">>>-"
+- ">>>-"
+- ">>>-"
+- ">>>-"
+provides-nominal:
+- "16paper_onboarding14ConstraintInfoV"
+provides-member:
+- ["16paper_onboarding14ConstraintInfoV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- ">>>-"
+- "AssignmentPrecedence"
+- "CGFloat"
+- "ConstraintInfo"
+- "NSLayoutAttribute"
+- "NSLayoutConstraint"
+- "NSLayoutRelation"
+- "String"
+- "TernaryPrecedence"
+- "UIView"
+- "Void"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addConstraint"]
+- !private ["s7CVarArgP", "addConstraint"]
+- !private ["s7CVarArgP", "identifier"]
+- !private ["s7CVarArgP", "init"]
+- ["16paper_onboarding14ConstraintInfoV", "CGFloat"]
+- ["16paper_onboarding14ConstraintInfoV", "NSLayoutAttribute"]
+- ["16paper_onboarding14ConstraintInfoV", "NSLayoutRelation"]
+- ["16paper_onboarding14ConstraintInfoV", "String"]
+- ["16paper_onboarding14ConstraintInfoV", "attribute"]
+- ["16paper_onboarding14ConstraintInfoV", "constant"]
+- ["16paper_onboarding14ConstraintInfoV", "identifier"]
+- ["16paper_onboarding14ConstraintInfoV", "init"]
+- ["16paper_onboarding14ConstraintInfoV", "relation"]
+- ["16paper_onboarding14ConstraintInfoV", "secondAttribute"]
+- !private ["s28CustomDebugStringConvertibleP", "addConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addConstraint"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addConstraint"]
+- ["s9EquatableP", "equal"]
+- !private ["s9EquatableP", "identifier"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "left"]
+- ["s9EquatableP", "notAnAttribute"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addConstraint"]
+- ["s8HashableP", "equal"]
+- !private ["s8HashableP", "identifier"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "left"]
+- ["s8HashableP", "notAnAttribute"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "addConstraint"]
+- ["SC17NSLayoutAttributeO", "left"]
+- ["SC17NSLayoutAttributeO", "notAnAttribute"]
+- !private ["So18NSLayoutConstraintC", "identifier"]
+- !private ["So18NSLayoutConstraintC", "init"]
+- ["SC16NSLayoutRelationO", "equal"]
+- !private ["So8NSObjectC", "addConstraint"]
+- !private ["So8NSObjectC", "identifier"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So16NSObjectProtocolP", "addConstraint"]
+- !private ["So16NSObjectProtocolP", "identifier"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["s16RawRepresentableP", "equal"]
+- ["s16RawRepresentableP", "left"]
+- ["s16RawRepresentableP", "notAnAttribute"]
+- !private ["So29UIAccessibilityIdentificationP", "addConstraint"]
+- !private ["So12UIAppearanceP", "addConstraint"]
+- !private ["So21UIAppearanceContainerP", "addConstraint"]
+- !private ["So17UICoordinateSpaceP", "addConstraint"]
+- !private ["So13UIDynamicItemP", "addConstraint"]
+- !private ["So18UIFocusEnvironmentP", "addConstraint"]
+- !private ["So11UIFocusItemP", "addConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "addConstraint"]
+- !private ["So11UIResponderC", "addConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "addConstraint"]
+- !private ["So18UITraitEnvironmentP", "addConstraint"]
+- !private ["So6UIViewC", "addConstraint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addConstraint"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- "16paper_onboarding14ConstraintInfoV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- "SC17NSLayoutAttributeO"
+- !private "So18NSLayoutConstraintC"
+- "SC16NSLayoutRelationO"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "s16RawRepresentableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/paper-onboarding/paper-onboarding-umbrella.h"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphoneos/paper-onboarding.build/unextended-module.modulemap"
+- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/zlib/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "58f575efd8b6b958f46234f3c24cd582"
