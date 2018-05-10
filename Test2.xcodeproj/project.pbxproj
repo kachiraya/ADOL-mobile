@@ -51,6 +51,7 @@
 		2FFB01EC204D518A0009FA83 /* ShowSummaryDuringFlight_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB01EB204D518A0009FA83 /* ShowSummaryDuringFlight_VC.swift */; };
 		2FFB01EE204D7D8E0009FA83 /* ImagePreview_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB01ED204D7D8E0009FA83 /* ImagePreview_VC.swift */; };
 		3CD675A93845D48DB5430203 /* Pods_Test2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB770EEF6D918140FF5902C3 /* Pods_Test2Tests.framework */; };
+		8D827CF820A46C6E00670CF1 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D827CF720A46C6E00670CF1 /* FirebaseService.swift */; };
 		8DDA2BDB20A45DFA009C41EC /* DropDownVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDA2BDA20A45DF9009C41EC /* DropDownVC2.swift */; };
 		8DDA2BDD20A45E0B009C41EC /* WordReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDA2BDC20A45E0B009C41EC /* WordReader.swift */; };
 		8DDA2BDF20A45E3E009C41EC /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8DDA2BDE20A45E3D009C41EC /* data.txt */; };
@@ -135,6 +136,7 @@
 		3749037FBFB152BE4494072C /* Pods-Test2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test2/Pods-Test2.debug.xcconfig"; sourceTree = "<group>"; };
 		6CDCA6E185B766E25F1C6E19 /* Pods_Test2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		801633C355C10DD264F48792 /* Pods-Test2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test2UITests/Pods-Test2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D827CF720A46C6E00670CF1 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
 		8DDA2BDA20A45DF9009C41EC /* DropDownVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownVC2.swift; sourceTree = "<group>"; };
 		8DDA2BDC20A45E0B009C41EC /* WordReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordReader.swift; sourceTree = "<group>"; };
 		8DDA2BDE20A45E3D009C41EC /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 		2F6E64BC1F85623B0041C047 /* Test2 */ = {
 			isa = PBXGroup;
 			children = (
+				8D827CF620A46C5D00670CF1 /* FirebaseService */,
 				2FFB02042050FDE30009FA83 /* Dropdown Input Page */,
 				2FD6CAC720488992009707DD /* FoldingTV */,
 				2FF2A1CE2038029500FE67F8 /* Central Class */,
@@ -371,6 +374,14 @@
 				0CED52E1D1E60546DD89E3F0 /* Pods-Test2UITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D827CF620A46C5D00670CF1 /* FirebaseService */ = {
+			isa = PBXGroup;
+			children = (
+				8D827CF720A46C6E00670CF1 /* FirebaseService.swift */,
+			);
+			path = FirebaseService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -617,6 +628,7 @@
 				2F71ABB21FE7FE22006A4E60 /* RTSPPlayer.m in Sources */,
 				2FA1E25D2093701600A23324 /* DataManagement.swift in Sources */,
 				2FF2A1D0203802AE00FE67F8 /* BaseViewController.swift in Sources */,
+				8D827CF820A46C6E00670CF1 /* FirebaseService.swift in Sources */,
 				2F71ABB11FE7FE22006A4E60 /* AudioStreamer.m in Sources */,
 				2FA19E621F8A31E4002E9F09 /* MainVC.swift in Sources */,
 				2FA19E5E1F8A2C1A002E9F09 /* Input1_VC.swift in Sources */,
