@@ -65,6 +65,10 @@ class DataManagement {
             self.foundedObjectPhotos.append(dataArray[0] as! String)
             print("foundedObjectPhotos:", self.foundedObjectPhotos)
             print("foundedObjectPhotos_size:", self.foundedObjectPhotos.count)
+            
+            
+            
+            print("trial")
         }
         
         
