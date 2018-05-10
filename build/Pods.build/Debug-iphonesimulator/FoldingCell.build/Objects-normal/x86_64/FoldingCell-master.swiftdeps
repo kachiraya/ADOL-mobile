@@ -1,5 +1,5 @@
-version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
-options: "2f9ff72da1f1755c9b3fe81dd56768d8"
-build_time: [1524844670, 795965000]
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "0cee35d3093111890b356b841021631d"
+build_time: [1525950164, 451897000]
 inputs:
-  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/FoldingCell/FoldingCell/FoldingCell/FoldingCell.swift": [1519931793, 0]
+  "/Users/TUEY/Documents/ADOL-mobile/Pods/FoldingCell/FoldingCell/FoldingCell/FoldingCell.swift": [1525947806, 0]

@@ -47,7 +47,7 @@ depends-top-level:
 - !private "UIScreen"
 - "UIView"
 - !private "UIViewAnimationOptions"
-- !private "UIViewController"
+- "UIViewController"
 - !private "Void"
 - !private "fatalError"
 depends-member:
@@ -74,7 +74,7 @@ depends-member:
 - !private ["15AlertOnboardingAAC", "UIScreen"]
 - ["15AlertOnboardingAAC", "UIView"]
 - !private ["15AlertOnboardingAAC", "UIViewAnimationOptions"]
-- !private ["15AlertOnboardingAAC", "UIViewController"]
+- ["15AlertOnboardingAAC", "UIViewController"]
 - !private ["15AlertOnboardingAAC", "Void"]
 - !private ["15AlertOnboardingAAC", "alpha"]
 - !private ["15AlertOnboardingAAC", "animateForEnding"]
@@ -155,6 +155,7 @@ depends-member:
 - !private ["15AlertOnboarding0A16PageViewDelegateP", "UIScreen"]
 - !private ["15AlertOnboarding0A16PageViewDelegateP", "UIView"]
 - !private ["15AlertOnboarding0A16PageViewDelegateP", "UIViewAnimationOptions"]
+- ["15AlertOnboarding0A16PageViewDelegateP", ""]
 - !private ["15AlertOnboarding0A16PageViewDelegateP", "alpha"]
 - !private ["15AlertOnboarding0A16PageViewDelegateP", "animateForEnding"]
 - !private ["15AlertOnboarding0A16PageViewDelegateP", "animateForOpening"]
@@ -193,7 +194,6 @@ depends-member:
 - !private ["15AlertOnboarding0A16PageViewDelegateP", "transform"]
 - !private ["15AlertOnboarding0A16PageViewDelegateP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["15AlertOnboarding0A16PageViewDelegateP", "widthForAlertView"]
-- ["15AlertOnboarding0A16PageViewDelegateP", ""]
 - !private ["Sa", "count"]
 - ["Sa", "init"]
 - !private ["s23BidirectionalCollectionP", "count"]
@@ -218,6 +218,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "UIScreen"]
 - !private ["So15CALayerDelegateP", "UIView"]
 - !private ["So15CALayerDelegateP", "UIViewAnimationOptions"]
+- ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "addSubview"]
 - !private ["So15CALayerDelegateP", "addTarget"]
 - !private ["So15CALayerDelegateP", "alpha"]
@@ -266,7 +267,6 @@ depends-member:
 - !private ["So15CALayerDelegateP", "transform"]
 - !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So15CALayerDelegateP", "widthForAlertView"]
-- ["So15CALayerDelegateP", ""]
 - !private ["So13CAMediaTimingP", "cornerRadius"]
 - !private ["SC17CGAffineTransformV", "init"]
 - !private ["SC6CGRectV", "height"]
@@ -291,6 +291,8 @@ depends-member:
 - !private ["s7CVarArgP", "UIScreen"]
 - !private ["s7CVarArgP", "UIView"]
 - !private ["s7CVarArgP", "UIViewAnimationOptions"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "activate"]
 - !private ["s7CVarArgP", "addObserver"]
 - !private ["s7CVarArgP", "addSubview"]
@@ -360,7 +362,6 @@ depends-member:
 - !private ["s7CVarArgP", "view"]
 - ["s7CVarArgP", "white"]
 - !private ["s7CVarArgP", "widthForAlertView"]
-- ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "count"]
 - ["s10CollectionP", "init"]
 - ["s10ComparableP", "init"]
@@ -383,6 +384,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "UIScreen"]
 - !private ["s28CustomDebugStringConvertibleP", "UIView"]
 - !private ["s28CustomDebugStringConvertibleP", "UIViewAnimationOptions"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "activate"]
 - !private ["s28CustomDebugStringConvertibleP", "addObserver"]
 - !private ["s28CustomDebugStringConvertibleP", "addSubview"]
@@ -454,7 +456,6 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "white"]
 - !private ["s28CustomDebugStringConvertibleP", "width"]
 - !private ["s28CustomDebugStringConvertibleP", "widthForAlertView"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "height"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
@@ -483,6 +484,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "UIScreen"]
 - !private ["s23CustomStringConvertibleP", "UIView"]
 - !private ["s23CustomStringConvertibleP", "UIViewAnimationOptions"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "activate"]
 - !private ["s23CustomStringConvertibleP", "addObserver"]
@@ -553,7 +555,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "view"]
 - ["s23CustomStringConvertibleP", "white"]
 - !private ["s23CustomStringConvertibleP", "widthForAlertView"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "count"]
 - !private ["s9DecodableP", "height"]
@@ -588,6 +589,7 @@ depends-member:
 - !private ["s9EquatableP", "UIScreen"]
 - !private ["s9EquatableP", "UIView"]
 - !private ["s9EquatableP", "UIViewAnimationOptions"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "activate"]
 - !private ["s9EquatableP", "addObserver"]
@@ -621,6 +623,7 @@ depends-member:
 - !private ["s9EquatableP", "constraints"]
 - !private ["s9EquatableP", "container"]
 - !private ["s9EquatableP", "cornerRadius"]
+- !private ["s9EquatableP", "count"]
 - !private ["s9EquatableP", "current"]
 - !private ["s9EquatableP", "currentStep"]
 - !private ["s9EquatableP", "curveEaseOut"]
@@ -667,7 +670,6 @@ depends-member:
 - ["s9EquatableP", "white"]
 - !private ["s9EquatableP", "width"]
 - !private ["s9EquatableP", "widthForAlertView"]
-- ["s9EquatableP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "curveEaseOut"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
@@ -696,6 +698,7 @@ depends-member:
 - !private ["s8HashableP", "UIScreen"]
 - !private ["s8HashableP", "UIView"]
 - !private ["s8HashableP", "UIViewAnimationOptions"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "activate"]
 - !private ["s8HashableP", "addObserver"]
@@ -773,7 +776,6 @@ depends-member:
 - ["s8HashableP", "white"]
 - !private ["s8HashableP", "width"]
 - !private ["s8HashableP", "widthForAlertView"]
-- ["s8HashableP", ""]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s25LosslessStringConvertibleP", "init"]
 - ["s10MirrorPathP", "init"]
@@ -798,6 +800,7 @@ depends-member:
 - !private ["So8NSCodingP", "UIScreen"]
 - !private ["So8NSCodingP", "UIView"]
 - !private ["So8NSCodingP", "UIViewAnimationOptions"]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "addSubview"]
 - !private ["So8NSCodingP", "addTarget"]
 - !private ["So8NSCodingP", "alpha"]
@@ -856,7 +859,6 @@ depends-member:
 - !private ["So8NSCodingP", "view"]
 - ["So8NSCodingP", "white"]
 - !private ["So8NSCodingP", "widthForAlertView"]
-- ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "Name"]
 - !private ["So9NSCopyingP", "black"]
 - ["So9NSCopyingP", "init"]
@@ -887,7 +889,6 @@ depends-member:
 - !private ["So18NSLayoutConstraintC", "activate"]
 - !private ["So18NSLayoutConstraintC", "init"]
 - !private ["SC16NSLayoutRelationO", "equal"]
-- ["So16NSMutableCopyingP", "init"]
 - !private ["So14NSNotificationC", "Name"]
 - !private ["So8NSObjectC", "AlertOnboarding"]
 - ["So8NSObjectC", "AlertOnboardingDelegate"]
@@ -913,7 +914,7 @@ depends-member:
 - !private ["So8NSObjectC", "UIScreen"]
 - ["So8NSObjectC", "UIView"]
 - !private ["So8NSObjectC", "UIViewAnimationOptions"]
-- !private ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", "UIViewController"]
 - !private ["So8NSObjectC", "Void"]
 - !private ["So8NSObjectC", "activate"]
 - !private ["So8NSObjectC", "addObserver"]
@@ -1008,6 +1009,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "UIScreen"]
 - !private ["So16NSObjectProtocolP", "UIView"]
 - !private ["So16NSObjectProtocolP", "UIViewAnimationOptions"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "activate"]
 - !private ["So16NSObjectProtocolP", "addObserver"]
 - !private ["So16NSObjectProtocolP", "addSubview"]
@@ -1076,12 +1078,10 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "view"]
 - ["So16NSObjectProtocolP", "white"]
 - !private ["So16NSObjectProtocolP", "widthForAlertView"]
-- ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "black"]
 - !private ["So14NSSecureCodingP", "cornerRadius"]
 - ["So14NSSecureCodingP", "init"]
 - ["So14NSSecureCodingP", "white"]
-- ["So8NSStringC", "init"]
 - !private ["So14NSNotificationC4NameV", "UIDeviceOrientationDidChange"]
 - !private ["So18NotificationCenterC", "addObserver"]
 - !private ["So18NotificationCenterC", "default"]
@@ -1143,6 +1143,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "UIScreen"]
 - !private ["So29UIAccessibilityIdentificationP", "UIView"]
 - !private ["So29UIAccessibilityIdentificationP", "UIViewAnimationOptions"]
+- ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "addSubview"]
 - !private ["So29UIAccessibilityIdentificationP", "addTarget"]
 - !private ["So29UIAccessibilityIdentificationP", "alpha"]
@@ -1191,7 +1192,6 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "transform"]
 - !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So29UIAccessibilityIdentificationP", "widthForAlertView"]
-- ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So12UIAppearanceP", "AlertOnboarding"]
 - !private ["So12UIAppearanceP", "AlertPageViewController"]
 - !private ["So12UIAppearanceP", "CGAffineTransform"]
@@ -1210,6 +1210,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "UIScreen"]
 - !private ["So12UIAppearanceP", "UIView"]
 - !private ["So12UIAppearanceP", "UIViewAnimationOptions"]
+- ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "addSubview"]
 - !private ["So12UIAppearanceP", "addTarget"]
 - !private ["So12UIAppearanceP", "alpha"]
@@ -1258,7 +1259,6 @@ depends-member:
 - !private ["So12UIAppearanceP", "transform"]
 - !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So12UIAppearanceP", "widthForAlertView"]
-- ["So12UIAppearanceP", ""]
 - !private ["So21UIAppearanceContainerP", "AlertOnboarding"]
 - !private ["So21UIAppearanceContainerP", "AlertPageViewController"]
 - !private ["So21UIAppearanceContainerP", "CGAffineTransform"]
@@ -1277,6 +1277,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "UIScreen"]
 - !private ["So21UIAppearanceContainerP", "UIView"]
 - !private ["So21UIAppearanceContainerP", "UIViewAnimationOptions"]
+- ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "addSubview"]
 - !private ["So21UIAppearanceContainerP", "addTarget"]
 - !private ["So21UIAppearanceContainerP", "alpha"]
@@ -1332,7 +1333,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So21UIAppearanceContainerP", "view"]
 - !private ["So21UIAppearanceContainerP", "widthForAlertView"]
-- ["So21UIAppearanceContainerP", ""]
 - !private ["So13UIApplicationC", "keyWindow"]
 - !private ["So13UIApplicationC", "shared"]
 - !private ["So8UIButtonC", "addTarget"]
@@ -1387,6 +1387,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "UIScreen"]
 - !private ["So17UICoordinateSpaceP", "UIView"]
 - !private ["So17UICoordinateSpaceP", "UIViewAnimationOptions"]
+- ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
 - !private ["So17UICoordinateSpaceP", "addTarget"]
 - !private ["So17UICoordinateSpaceP", "alpha"]
@@ -1435,7 +1436,6 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "transform"]
 - !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So17UICoordinateSpaceP", "widthForAlertView"]
-- ["So17UICoordinateSpaceP", ""]
 - !private ["So8UIDeviceC", "beginGeneratingDeviceOrientationNotifications"]
 - !private ["So8UIDeviceC", "current"]
 - !private ["So13UIDynamicItemP", "AlertOnboarding"]
@@ -1456,6 +1456,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "UIScreen"]
 - !private ["So13UIDynamicItemP", "UIView"]
 - !private ["So13UIDynamicItemP", "UIViewAnimationOptions"]
+- ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "addSubview"]
 - !private ["So13UIDynamicItemP", "addTarget"]
 - !private ["So13UIDynamicItemP", "alpha"]
@@ -1504,7 +1505,6 @@ depends-member:
 - !private ["So13UIDynamicItemP", "transform"]
 - !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So13UIDynamicItemP", "widthForAlertView"]
-- ["So13UIDynamicItemP", ""]
 - !private ["So18UIFocusEnvironmentP", "AlertOnboarding"]
 - !private ["So18UIFocusEnvironmentP", "AlertPageViewController"]
 - !private ["So18UIFocusEnvironmentP", "CGAffineTransform"]
@@ -1523,6 +1523,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "UIScreen"]
 - !private ["So18UIFocusEnvironmentP", "UIView"]
 - !private ["So18UIFocusEnvironmentP", "UIViewAnimationOptions"]
+- ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "addSubview"]
 - !private ["So18UIFocusEnvironmentP", "addTarget"]
 - !private ["So18UIFocusEnvironmentP", "alpha"]
@@ -1578,7 +1579,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So18UIFocusEnvironmentP", "view"]
 - !private ["So18UIFocusEnvironmentP", "widthForAlertView"]
-- ["So18UIFocusEnvironmentP", ""]
 - !private ["So11UIFocusItemP", "AlertOnboarding"]
 - !private ["So11UIFocusItemP", "AlertPageViewController"]
 - !private ["So11UIFocusItemP", "CGAffineTransform"]
@@ -1597,6 +1597,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "UIScreen"]
 - !private ["So11UIFocusItemP", "UIView"]
 - !private ["So11UIFocusItemP", "UIViewAnimationOptions"]
+- ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "addSubview"]
 - !private ["So11UIFocusItemP", "addTarget"]
 - !private ["So11UIFocusItemP", "alpha"]
@@ -1645,7 +1646,6 @@ depends-member:
 - !private ["So11UIFocusItemP", "transform"]
 - !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So11UIFocusItemP", "widthForAlertView"]
-- ["So11UIFocusItemP", ""]
 - !private ["So6UIFontC", "init"]
 - !private ["So7UILabelC", "font"]
 - !private ["So30UIPageViewControllerDataSourceP", "arrayOfImage"]
@@ -1684,6 +1684,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "UIScreen"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIView"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIViewAnimationOptions"]
+- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
 - !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
 - !private ["So30UIPasteConfigurationSupportingP", "alpha"]
@@ -1741,7 +1742,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So30UIPasteConfigurationSupportingP", "view"]
 - !private ["So30UIPasteConfigurationSupportingP", "widthForAlertView"]
-- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So11UIResponderC", "AlertOnboarding"]
 - ["So11UIResponderC", "AlertOnboardingDelegate"]
 - ["So11UIResponderC", "AlertPageViewController"]
@@ -1765,7 +1765,7 @@ depends-member:
 - !private ["So11UIResponderC", "UIScreen"]
 - ["So11UIResponderC", "UIView"]
 - !private ["So11UIResponderC", "UIViewAnimationOptions"]
-- !private ["So11UIResponderC", "UIViewController"]
+- ["So11UIResponderC", "UIViewController"]
 - !private ["So11UIResponderC", "Void"]
 - !private ["So11UIResponderC", "addSubview"]
 - !private ["So11UIResponderC", "addTarget"]
@@ -1848,6 +1848,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "UIScreen"]
 - !private ["So30UIResponderStandardEditActionsP", "UIView"]
 - !private ["So30UIResponderStandardEditActionsP", "UIViewAnimationOptions"]
+- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "addSubview"]
 - !private ["So30UIResponderStandardEditActionsP", "addTarget"]
 - !private ["So30UIResponderStandardEditActionsP", "alpha"]
@@ -1905,7 +1906,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So30UIResponderStandardEditActionsP", "view"]
 - !private ["So30UIResponderStandardEditActionsP", "widthForAlertView"]
-- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So8UIScreenC", "bounds"]
 - !private ["So8UIScreenC", "main"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
@@ -1945,6 +1945,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "UIScreen"]
 - !private ["So18UITraitEnvironmentP", "UIView"]
 - !private ["So18UITraitEnvironmentP", "UIViewAnimationOptions"]
+- ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "addSubview"]
 - !private ["So18UITraitEnvironmentP", "addTarget"]
 - !private ["So18UITraitEnvironmentP", "alpha"]
@@ -2002,7 +2003,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So18UITraitEnvironmentP", "view"]
 - !private ["So18UITraitEnvironmentP", "widthForAlertView"]
-- ["So18UITraitEnvironmentP", ""]
 - !private ["So6UIViewC", "AlertOnboarding"]
 - ["So6UIViewC", "AlertOnboardingDelegate"]
 - ["So6UIViewC", "AlertPageViewController"]
@@ -2026,8 +2026,9 @@ depends-member:
 - !private ["So6UIViewC", "UIScreen"]
 - ["So6UIViewC", "UIView"]
 - !private ["So6UIViewC", "UIViewAnimationOptions"]
-- !private ["So6UIViewC", "UIViewController"]
+- ["So6UIViewC", "UIViewController"]
 - !private ["So6UIViewC", "Void"]
+- ["So6UIViewC", ""]
 - !private ["So6UIViewC", "addSubview"]
 - !private ["So6UIViewC", "addTarget"]
 - !private ["So6UIViewC", "alpha"]
@@ -2082,7 +2083,6 @@ depends-member:
 - !private ["So6UIViewC", "transform"]
 - !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
 - ["So6UIViewC", "widthForAlertView"]
-- ["So6UIViewC", ""]
 - !private ["SC22UIViewAnimationOptionsV", "curveEaseOut"]
 - !private ["So16UIViewControllerC", "arrayOfImage"]
 - !private ["So16UIViewControllerC", "configureConstraintsForPageControl"]
@@ -2096,8 +2096,6 @@ depends-member:
 - !private ["So8UIWindowC", "rootViewController"]
 - !private ["s14_ArrayProtocolP", "count"]
 - ["s14_ArrayProtocolP", "init"]
-- !private ["s23_BidirectionalIndexableP", "count"]
-- ["s23_BidirectionalIndexableP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "AlertOnboarding"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "AlertPageViewController"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGAffineTransform"]
@@ -2116,6 +2114,7 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIScreen"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIView"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIViewAnimationOptions"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addTarget"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "alpha"]
@@ -2164,7 +2163,6 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "transform"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "widthForAlertView"]
-- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - ["s24_DestructorSafeContainerP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
@@ -2177,11 +2175,6 @@ depends-member:
 - ["s26_ExpressibleByColorLiteralP", "white"]
 - ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "Name"]
-- ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- !private ["s10_IndexableP", "count"]
-- ["s10_IndexableP", "init"]
-- !private ["s14_IndexableBaseP", "count"]
-- ["s14_IndexableBaseP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "AlertOnboarding"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "AlertPageViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGAffineTransform"]
@@ -2201,6 +2194,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIViewAnimationOptions"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "activate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
@@ -2269,19 +2263,12 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "white"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "widthForAlertView"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["s17_MutableIndexableP", "count"]
-- ["s17_MutableIndexableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "UIDeviceOrientationDidChange"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - !private ["s21_ObjectiveCBridgeableP", "height"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "width"]
-- !private ["s22_RandomAccessIndexableP", "count"]
-- ["s22_RandomAccessIndexableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "count"]
-- ["s26_RangeReplaceableIndexableP", "init"]
 - !private ["s20_SwiftNewtypeWrapperP", "UIDeviceOrientationDidChange"]
 - ["s16_SwiftStringViewP", "init"]
 depends-nominal:
@@ -2326,12 +2313,10 @@ depends-nominal:
 - !private "SC17NSLayoutAttributeO"
 - !private "So18NSLayoutConstraintC"
 - !private "SC16NSLayoutRelationO"
-- "So16NSMutableCopyingP"
 - !private "So14NSNotificationC"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
 - "So14NSSecureCodingP"
-- "So8NSStringC"
 - !private "So14NSNotificationC4NameV"
 - !private "So18NotificationCenterC"
 - !private "So9OS_objectC"
@@ -2379,7 +2364,6 @@ depends-nominal:
 - !private "So16UIViewControllerC"
 - !private "So8UIWindowC"
 - "s14_ArrayProtocolP"
-- "s23_BidirectionalIndexableP"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
 - "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
@@ -2389,14 +2373,9 @@ depends-nominal:
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s26_ExpressibleByColorLiteralP"
 - "s33_ExpressibleByStringInterpolationP"
-- "s35_HasCustomAnyHashableRepresentationP"
-- "s10_IndexableP"
-- "s14_IndexableBaseP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- "s17_MutableIndexableP"
 - "s21_ObjectiveCBridgeableP"
-- "s22_RandomAccessIndexableP"
-- "s26_RangeReplaceableIndexableP"
 - !private "s20_SwiftNewtypeWrapperP"
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
@@ -2414,6 +2393,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/AlertOnboarding/AlertOnboarding-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/AlertOnboarding.build/unextended-module.modulemap"
-interface-hash: "783709aff45635293012ee8365657ea9"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/AlertOnboarding/AlertOnboarding-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/AlertOnboarding.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "fa3c3de88ed94c0c62c6e6c8ed1c6295"

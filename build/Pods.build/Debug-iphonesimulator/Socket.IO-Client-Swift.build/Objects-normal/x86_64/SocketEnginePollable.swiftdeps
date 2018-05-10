@@ -51,6 +51,7 @@ depends-member:
 - !private ["s23BidirectionalCollectionP", "utf16"]
 - !private ["s13BinaryIntegerP", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "data"]
@@ -130,6 +131,7 @@ depends-member:
 - !private ["s9EncodableP", "utf16"]
 - !private ["SS10FoundationE8EncodingV", "utf8"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
 - !private ["s9EquatableP", "count"]
 - !private ["s9EquatableP", "data"]
 - !private ["s9EquatableP", "dataTask"]
@@ -138,6 +140,7 @@ depends-member:
 - !private ["s9EquatableP", "httpMethod"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "removeAll"]
 - !private ["s9EquatableP", "resume"]
 - !private ["s9EquatableP", "setValue"]
 - !private ["s9EquatableP", "utf16"]
@@ -189,24 +192,19 @@ depends-member:
 - !private ["s17MutableCollectionP", "removeAll"]
 - !private ["So8NSCodingP", "count"]
 - !private ["So8NSCodingP", "data"]
-- !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "utf16"]
 - !private ["So9NSCopyingP", "count"]
 - !private ["So9NSCopyingP", "data"]
-- !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "resume"]
 - !private ["So9NSCopyingP", "utf16"]
 - !private ["So21NSItemProviderReadingP", "count"]
 - !private ["So21NSItemProviderReadingP", "data"]
-- !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderReadingP", "utf16"]
 - !private ["So21NSItemProviderWritingP", "count"]
 - !private ["So21NSItemProviderWritingP", "data"]
-- !private ["So21NSItemProviderWritingP", "init"]
 - !private ["So21NSItemProviderWritingP", "utf16"]
 - !private ["So16NSMutableCopyingP", "count"]
 - !private ["So16NSMutableCopyingP", "data"]
-- !private ["So16NSMutableCopyingP", "init"]
 - !private ["So16NSMutableCopyingP", "utf16"]
 - !private ["So8NSObjectC", "count"]
 - !private ["So8NSObjectC", "data"]
@@ -218,16 +216,13 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "data"]
 - !private ["So16NSObjectProtocolP", "dataTask"]
 - !private ["So16NSObjectProtocolP", "finishTasksAndInvalidate"]
-- !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "resume"]
 - !private ["So16NSObjectProtocolP", "utf16"]
 - !private ["So14NSSecureCodingP", "count"]
 - !private ["So14NSSecureCodingP", "data"]
-- !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "utf16"]
 - !private ["So8NSStringC", "count"]
 - !private ["So8NSStringC", "data"]
-- !private ["So8NSStringC", "init"]
 - !private ["So8NSStringC", "utf16"]
 - !private ["s7NumericP", "init"]
 - !private ["So17ProgressReportingP", "resume"]
@@ -311,6 +306,7 @@ depends-member:
 - ["8SocketIO0A10EngineSpecP", "URLRequest"]
 - ["8SocketIO0A10EngineSpecP", "URLResponse"]
 - ["8SocketIO0A10EngineSpecP", "URLSession"]
+- ["8SocketIO0A10EngineSpecP", ""]
 - !private ["8SocketIO0A10EngineSpecP", "addHeaders"]
 - !private ["8SocketIO0A10EngineSpecP", "closed"]
 - !private ["8SocketIO0A10EngineSpecP", "connected"]
@@ -319,24 +315,21 @@ depends-member:
 - !private ["8SocketIO0A10EngineSpecP", "didError"]
 - !private ["8SocketIO0A10EngineSpecP", "doFastUpgrade"]
 - !private ["8SocketIO0A10EngineSpecP", "doLongPoll"]
-- ["8SocketIO0A10EngineSpecP", "doPoll"]
+- !private ["8SocketIO0A10EngineSpecP", "doPoll"]
 - !private ["8SocketIO0A10EngineSpecP", "doRequest"]
 - !private ["8SocketIO0A10EngineSpecP", "fastUpgrade"]
 - !private ["8SocketIO0A10EngineSpecP", "flushWaitingForPost"]
 - !private ["8SocketIO0A10EngineSpecP", "flushWaitingForPostToWebSocket"]
-- ["8SocketIO0A10EngineSpecP", "invalidated"]
+- !private ["8SocketIO0A10EngineSpecP", "invalidated"]
 - !private ["8SocketIO0A10EngineSpecP", "parseEngineMessage"]
 - !private ["8SocketIO0A10EngineSpecP", "parsePollingMessage"]
 - !private ["8SocketIO0A10EngineSpecP", "polling"]
-- ["8SocketIO0A10EngineSpecP", "postWait"]
-- ["8SocketIO0A10EngineSpecP", "sendPollMessage"]
-- ["8SocketIO0A10EngineSpecP", "session"]
-- ["8SocketIO0A10EngineSpecP", "stopPolling"]
+- !private ["8SocketIO0A10EngineSpecP", "postWait"]
+- !private ["8SocketIO0A10EngineSpecP", "session"]
 - !private ["8SocketIO0A10EngineSpecP", "urlPollingWithSid"]
-- ["8SocketIO0A10EngineSpecP", "waitingForPoll"]
-- ["8SocketIO0A10EngineSpecP", "waitingForPost"]
+- !private ["8SocketIO0A10EngineSpecP", "waitingForPoll"]
+- !private ["8SocketIO0A10EngineSpecP", "waitingForPost"]
 - !private ["8SocketIO0A10EngineSpecP", "websocket"]
-- ["8SocketIO0A10EngineSpecP", ""]
 - !private ["8SocketIO0A6LoggerP", "Logger"]
 - !private ["8SocketIO0A6LoggerP", "error"]
 - !private ["8SocketIO0A6LoggerP", "log"]
@@ -373,12 +366,6 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "append"]
 - !private ["s14_ArrayProtocolP", "count"]
 - !private ["s14_ArrayProtocolP", "removeAll"]
-- !private ["s23_BidirectionalIndexableP", "append"]
-- !private ["s23_BidirectionalIndexableP", "count"]
-- !private ["s23_BidirectionalIndexableP", "data"]
-- !private ["s23_BidirectionalIndexableP", "init"]
-- !private ["s23_BidirectionalIndexableP", "removeAll"]
-- !private ["s23_BidirectionalIndexableP", "utf16"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "count"]
@@ -407,30 +394,13 @@ depends-member:
 - !private ["s33_ExpressibleByStringInterpolationP", "utf16"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "utf16"]
-- !private ["s10_IndexableP", "append"]
-- !private ["s10_IndexableP", "count"]
-- !private ["s10_IndexableP", "data"]
-- !private ["s10_IndexableP", "init"]
-- !private ["s10_IndexableP", "removeAll"]
-- !private ["s10_IndexableP", "utf16"]
-- !private ["s14_IndexableBaseP", "append"]
-- !private ["s14_IndexableBaseP", "count"]
-- !private ["s14_IndexableBaseP", "data"]
-- !private ["s14_IndexableBaseP", "init"]
-- !private ["s14_IndexableBaseP", "removeAll"]
-- !private ["s14_IndexableBaseP", "utf16"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "finishTasksAndInvalidate"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "utf16"]
-- !private ["s17_MutableIndexableP", "append"]
-- !private ["s17_MutableIndexableP", "count"]
-- !private ["s17_MutableIndexableP", "removeAll"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
@@ -441,16 +411,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "removeAll"]
 - !private ["s21_ObjectiveCBridgeableP", "setValue"]
 - !private ["s21_ObjectiveCBridgeableP", "utf16"]
-- !private ["s22_RandomAccessIndexableP", "append"]
-- !private ["s22_RandomAccessIndexableP", "count"]
-- !private ["s22_RandomAccessIndexableP", "removeAll"]
-- !private ["s26_RangeReplaceableIndexableP", "append"]
-- !private ["s26_RangeReplaceableIndexableP", "count"]
-- !private ["s26_RangeReplaceableIndexableP", "data"]
-- !private ["s26_RangeReplaceableIndexableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "removeAll"]
-- !private ["s26_RangeReplaceableIndexableP", "utf16"]
-- !private ["s11_StrideableP", "init"]
 - !private ["s16_SwiftStringViewP", "count"]
 - !private ["s16_SwiftStringViewP", "data"]
 - !private ["s16_SwiftStringViewP", "init"]
@@ -522,7 +482,6 @@ depends-nominal:
 - !private "So14URLSessionTaskC"
 - !private "SS9UTF16ViewV"
 - !private "s14_ArrayProtocolP"
-- !private "s23_BidirectionalIndexableP"
 - !private "s18_BitwiseOperationsP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
@@ -533,19 +492,13 @@ depends-nominal:
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
-- !private "s10_IndexableP"
-- !private "s14_IndexableBaseP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s17_MutableIndexableP"
 - !private "s21_ObjectiveCBridgeableP"
-- !private "s22_RandomAccessIndexableP"
-- !private "s26_RangeReplaceableIndexableP"
-- !private "s11_StrideableP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -558,10 +511,20 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/Socket.IO-Client-Swift.build/unextended-module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/zlib/module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/Starscream.build/module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/Socket.IO-Client-Swift.build/unextended-module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Starscream/zlib/module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/Starscream.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 interface-hash: "924e0038f7ff8e02fe9adca7922b128f"

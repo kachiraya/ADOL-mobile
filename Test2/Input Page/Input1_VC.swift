@@ -129,11 +129,14 @@ class Input1_VC: BaseViewController, AlertOnboardingDelegate, UICollectionViewDe
 //            return data.words
             var data_fetch = UserDefaults.standard.array(forKey: "dataArray")
             var temp3 = [String]()
-            for var i in data_fetch! {
-                i = i as! String
-                print("i = ", i)
-                temp3.append(i as! String)
+            if data_fetch != nil {
+                for var i in data_fetch! {
+                    i = i as! String
+                    print("i = ", i)
+                    temp3.append(i as! String)
+                }
             }
+            
             print("temp3 = ", temp3)
             return temp3
         }
@@ -165,12 +168,14 @@ class Input1_VC: BaseViewController, AlertOnboardingDelegate, UICollectionViewDe
         var data_save = UserDefaults.standard.array(forKey: "dataArray")
         var has = false
         var temp2 = [String]()
-        for var i in data_save! {
-            i = i as! String
-            print("i = ", i)
-            temp2.append(i as! String)
-            if (self.drone_string == (i as! String)){
-                has = true
+        if data_save != nil {
+            for var i in data_save! {
+                i = i as! String
+                print("i = ", i)
+                temp2.append(i as! String)
+                if (self.drone_string == (i as! String)){
+                    has = true
+                }
             }
         }
         

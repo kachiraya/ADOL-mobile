@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target\ Support\ Files/SwiftyOnboard/SwiftyOnboard-dummy.m \
-  /Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/SwiftyOnboard.build/module.modulemap \
-  /Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target\ Support\ Files/SwiftyOnboard/SwiftyOnboard-prefix.pch
+  /Users/TUEY/Documents/ADOL-mobile/Pods/Target\ Support\ Files/SwiftyOnboard/SwiftyOnboard-dummy.m \
+  /Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/SwiftyOnboard.build/module.modulemap \
+  /Users/TUEY/Documents/ADOL-mobile/Pods/Target\ Support\ Files/SwiftyOnboard/SwiftyOnboard-prefix.pch

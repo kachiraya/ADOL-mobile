@@ -45,7 +45,7 @@ depends-member:
 - !private ["12CoreGraphics7CGFloatV", "init"]
 - !private ["SC7CGPointV", "x"]
 - !private ["SC7CGPointV", "y"]
-- !private ["SC6CGRectV", "CGFloat"]
+- ["SC6CGRectV", "CGFloat"]
 - !private ["SC6CGRectV", "area"]
 - !private ["SC6CGRectV", "height"]
 - !private ["SC6CGRectV", "intersection"]
@@ -62,6 +62,8 @@ depends-member:
 - !private ["s7CVarArgP", "IndexPath"]
 - !private ["s7CVarArgP", "UICollectionViewLayoutAttributes"]
 - !private ["s7CVarArgP", "UIEdgeInsets"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "bounds"]
 - !private ["s7CVarArgP", "collectionView"]
@@ -78,7 +80,6 @@ depends-member:
 - !private ["s7CVarArgP", "prepare"]
 - !private ["s7CVarArgP", "sort"]
 - !private ["s7CVarArgP", "updateInsets"]
-- ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "append"]
 - !private ["s10CollectionP", "init"]
 - !private ["s10CollectionP", "map"]
@@ -89,6 +90,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "IndexPath"]
 - !private ["s28CustomDebugStringConvertibleP", "UICollectionViewLayoutAttributes"]
 - !private ["s28CustomDebugStringConvertibleP", "UIEdgeInsets"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "area"]
 - !private ["s28CustomDebugStringConvertibleP", "bounds"]
@@ -115,7 +117,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "x"]
 - !private ["s28CustomDebugStringConvertibleP", "y"]
 - !private ["s28CustomDebugStringConvertibleP", "zero"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "area"]
 - !private ["s29CustomPlaygroundQuickLookableP", "height"]
@@ -148,6 +149,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "IndexPath"]
 - !private ["s23CustomStringConvertibleP", "UICollectionViewLayoutAttributes"]
 - !private ["s23CustomStringConvertibleP", "UIEdgeInsets"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "append"]
 - !private ["s23CustomStringConvertibleP", "bounds"]
@@ -165,7 +167,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "prepare"]
 - !private ["s23CustomStringConvertibleP", "sort"]
 - !private ["s23CustomStringConvertibleP", "updateInsets"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "append"]
 - !private ["s9DecodableP", "area"]
@@ -201,7 +202,9 @@ depends-member:
 - !private ["s9EquatableP", "IndexPath"]
 - !private ["s9EquatableP", "UICollectionViewLayoutAttributes"]
 - !private ["s9EquatableP", "UIEdgeInsets"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
 - !private ["s9EquatableP", "area"]
 - !private ["s9EquatableP", "bounds"]
 - !private ["s9EquatableP", "collectionView"]
@@ -215,17 +218,18 @@ depends-member:
 - !private ["s9EquatableP", "item"]
 - !private ["s9EquatableP", "itemHeight"]
 - !private ["s9EquatableP", "layoutAttributesForItem"]
+- !private ["s9EquatableP", "map"]
 - !private ["s9EquatableP", "modifyLayoutAttributes"]
 - !private ["s9EquatableP", "numberOfItems"]
 - !private ["s9EquatableP", "origin"]
 - !private ["s9EquatableP", "prepare"]
 - !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "sort"]
 - !private ["s9EquatableP", "updateInsets"]
 - !private ["s9EquatableP", "width"]
 - !private ["s9EquatableP", "x"]
 - !private ["s9EquatableP", "y"]
 - !private ["s9EquatableP", "zero"]
-- ["s9EquatableP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "map"]
@@ -239,6 +243,7 @@ depends-member:
 - !private ["s8HashableP", "IndexPath"]
 - !private ["s8HashableP", "UICollectionViewLayoutAttributes"]
 - !private ["s8HashableP", "UIEdgeInsets"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "bounds"]
 - !private ["s8HashableP", "collectionView"]
@@ -253,7 +258,6 @@ depends-member:
 - !private ["s8HashableP", "numberOfItems"]
 - !private ["s8HashableP", "prepare"]
 - !private ["s8HashableP", "updateInsets"]
-- ["s8HashableP", ""]
 - !private ["10Foundation9IndexPathV", "init"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s17MutableCollectionP", "append"]
@@ -265,6 +269,7 @@ depends-member:
 - !private ["So8NSCodingP", "IndexPath"]
 - !private ["So8NSCodingP", "UICollectionViewLayoutAttributes"]
 - !private ["So8NSCodingP", "UIEdgeInsets"]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "bounds"]
 - !private ["So8NSCodingP", "collectionView"]
 - !private ["So8NSCodingP", "contentInset"]
@@ -276,7 +281,6 @@ depends-member:
 - !private ["So8NSCodingP", "numberOfItems"]
 - !private ["So8NSCodingP", "prepare"]
 - !private ["So8NSCodingP", "updateInsets"]
-- ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "frame"]
 - !private ["So9NSCopyingP", "indexPath"]
 - !private ["So9NSCopyingP", "init"]
@@ -310,6 +314,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "IndexPath"]
 - !private ["So16NSObjectProtocolP", "UICollectionViewLayoutAttributes"]
 - !private ["So16NSObjectProtocolP", "UIEdgeInsets"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "bounds"]
 - !private ["So16NSObjectProtocolP", "collectionView"]
 - !private ["So16NSObjectProtocolP", "contentInset"]
@@ -323,7 +328,6 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "numberOfItems"]
 - !private ["So16NSObjectProtocolP", "prepare"]
 - !private ["So16NSObjectProtocolP", "updateInsets"]
-- ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "item"]
 - !private ["s7NumericP", "init"]
 - ["7RAMReel23RAMCollectionViewLayoutC", "CGFloat"]
@@ -378,6 +382,7 @@ depends-member:
 - !private ["So26UICollectionViewFlowLayoutC", "NSIndexPath"]
 - ["So26UICollectionViewFlowLayoutC", "UICollectionViewLayoutAttributes"]
 - !private ["So26UICollectionViewFlowLayoutC", "UIEdgeInsets"]
+- ["So26UICollectionViewFlowLayoutC", ""]
 - !private ["So26UICollectionViewFlowLayoutC", "collectionView"]
 - ["So26UICollectionViewFlowLayoutC", "collectionViewContentSize"]
 - ["So26UICollectionViewFlowLayoutC", "init"]
@@ -388,7 +393,6 @@ depends-member:
 - ["So26UICollectionViewFlowLayoutC", "modifyLayoutAttributes"]
 - ["So26UICollectionViewFlowLayoutC", "prepare"]
 - ["So26UICollectionViewFlowLayoutC", "updateInsets"]
-- ["So26UICollectionViewFlowLayoutC", ""]
 - ["So22UICollectionViewLayoutC", "CGFloat"]
 - ["So22UICollectionViewLayoutC", "CGRect"]
 - ["So22UICollectionViewLayoutC", "CGSize"]
@@ -453,10 +457,6 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "init"]
 - !private ["s14_ArrayProtocolP", "map"]
 - !private ["s14_ArrayProtocolP", "sort"]
-- !private ["s23_BidirectionalIndexableP", "append"]
-- !private ["s23_BidirectionalIndexableP", "init"]
-- !private ["s23_BidirectionalIndexableP", "map"]
-- !private ["s23_BidirectionalIndexableP", "sort"]
 - !private ["s15_CVarArgAlignedP", "init"]
 - !private ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
@@ -468,19 +468,12 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "sort"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "item"]
-- !private ["s10_IndexableP", "append"]
-- !private ["s10_IndexableP", "init"]
-- !private ["s10_IndexableP", "map"]
-- !private ["s10_IndexableP", "sort"]
-- !private ["s14_IndexableBaseP", "append"]
-- !private ["s14_IndexableBaseP", "init"]
-- !private ["s14_IndexableBaseP", "map"]
-- !private ["s14_IndexableBaseP", "sort"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "IndexPath"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UICollectionViewLayoutAttributes"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIEdgeInsets"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "collectionView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "contentInset"]
@@ -494,11 +487,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfItems"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "prepare"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "updateInsets"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["s17_MutableIndexableP", "append"]
-- !private ["s17_MutableIndexableP", "init"]
-- !private ["s17_MutableIndexableP", "map"]
-- !private ["s17_MutableIndexableP", "sort"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "area"]
@@ -514,15 +502,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "x"]
 - !private ["s21_ObjectiveCBridgeableP", "y"]
 - !private ["s21_ObjectiveCBridgeableP", "zero"]
-- !private ["s22_RandomAccessIndexableP", "append"]
-- !private ["s22_RandomAccessIndexableP", "init"]
-- !private ["s22_RandomAccessIndexableP", "map"]
-- !private ["s22_RandomAccessIndexableP", "sort"]
-- !private ["s26_RangeReplaceableIndexableP", "append"]
-- !private ["s26_RangeReplaceableIndexableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "map"]
-- !private ["s26_RangeReplaceableIndexableP", "sort"]
-- !private ["s11_StrideableP", "init"]
 depends-nominal:
 - !private "Sa"
 - !private "s23BidirectionalCollectionP"
@@ -531,7 +510,7 @@ depends-nominal:
 - !private "So15CALayerDelegateP"
 - !private "12CoreGraphics7CGFloatV"
 - !private "SC7CGPointV"
-- !private "SC6CGRectV"
+- "SC6CGRectV"
 - !private "SC6CGSizeV"
 - "s7CVarArgP"
 - !private "s10CollectionP"
@@ -587,21 +566,14 @@ depends-nominal:
 - !private "So18UITraitEnvironmentP"
 - !private "So6UIViewC"
 - !private "s14_ArrayProtocolP"
-- !private "s23_BidirectionalIndexableP"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
-- !private "s10_IndexableP"
-- !private "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s17_MutableIndexableP"
 - !private "s21_ObjectiveCBridgeableP"
-- !private "s22_RandomAccessIndexableP"
-- !private "s26_RangeReplaceableIndexableP"
-- !private "s11_StrideableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -617,7 +589,17 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/RAMReel/RAMReel-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/RAMReel.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/RAMReel.build/unextended-module.modulemap"
-interface-hash: "8c72dec49bb2879b910f28d8fd3cae26"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/RAMReel/RAMReel-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/RAMReel/RAMReel/Framework/RAMReel.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/RAMReel.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "18d13257824cce661f48c2fc5de9c6c0"

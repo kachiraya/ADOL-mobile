@@ -84,6 +84,8 @@ depends-member:
 - !private ["s7CVarArgP", "UIBarButtonItem"]
 - ["s7CVarArgP", "UIColor"]
 - !private ["s7CVarArgP", "WheelMenuView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "abort"]
 - !private ["s7CVarArgP", "addAction"]
 - !private ["s7CVarArgP", "addConstraints"]
@@ -113,7 +115,6 @@ depends-member:
 - !private ["s7CVarArgP", "viewControllers"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", "wheelMenuView"]
-- ["s7CVarArgP", ""]
 - ["s10CollectionP", "init"]
 - !private ["s10CollectionP", "map"]
 - ["s10ComparableP", "init"]
@@ -131,6 +132,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "UIBarButtonItem"]
 - ["s28CustomDebugStringConvertibleP", "UIColor"]
 - !private ["s28CustomDebugStringConvertibleP", "WheelMenuView"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "abort"]
 - !private ["s28CustomDebugStringConvertibleP", "addAction"]
 - !private ["s28CustomDebugStringConvertibleP", "addConstraints"]
@@ -161,7 +163,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", "wheelMenuView"]
 - !private ["s28CustomDebugStringConvertibleP", "zero"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "zero"]
@@ -183,6 +184,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "UIBarButtonItem"]
 - ["s23CustomStringConvertibleP", "UIColor"]
 - !private ["s23CustomStringConvertibleP", "WheelMenuView"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "abort"]
 - !private ["s23CustomStringConvertibleP", "addAction"]
@@ -213,7 +215,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "viewControllers"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", "wheelMenuView"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "map"]
@@ -236,6 +237,7 @@ depends-member:
 - !private ["s9EquatableP", "UIBarButtonItem"]
 - ["s9EquatableP", "UIColor"]
 - !private ["s9EquatableP", "WheelMenuView"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "abort"]
 - !private ["s9EquatableP", "actionSheet"]
@@ -255,6 +257,7 @@ depends-member:
 - ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "intFromHexString"]
 - !private ["s9EquatableP", "isHidden"]
+- !private ["s9EquatableP", "map"]
 - !private ["s9EquatableP", "menuBackGroundColor"]
 - !private ["s9EquatableP", "navigationItem"]
 - !private ["s9EquatableP", "plain"]
@@ -274,7 +277,6 @@ depends-member:
 - ["s9EquatableP", "wheelMenuView"]
 - !private ["s9EquatableP", "width"]
 - !private ["s9EquatableP", "zero"]
-- ["s9EquatableP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "map"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
@@ -298,6 +300,7 @@ depends-member:
 - !private ["s8HashableP", "UIBarButtonItem"]
 - ["s8HashableP", "UIColor"]
 - !private ["s8HashableP", "WheelMenuView"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "abort"]
 - !private ["s8HashableP", "actionSheet"]
@@ -335,7 +338,6 @@ depends-member:
 - !private ["s8HashableP", "viewDidLoad"]
 - ["s8HashableP", "wheelMenuView"]
 - !private ["s8HashableP", "width"]
-- ["s8HashableP", ""]
 - !private ["Si", "init"]
 - !private ["20KYWheelTabControllerAAC", "CGPoint"]
 - !private ["20KYWheelTabControllerAAC", "CGRect"]
@@ -382,6 +384,7 @@ depends-member:
 - !private ["So8NSCodingP", "UIBarButtonItem"]
 - ["So8NSCodingP", "UIColor"]
 - !private ["So8NSCodingP", "WheelMenuView"]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "abort"]
 - !private ["So8NSCodingP", "addAction"]
 - !private ["So8NSCodingP", "addConstraints"]
@@ -408,7 +411,6 @@ depends-member:
 - !private ["So8NSCodingP", "viewControllers"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", "wheelMenuView"]
-- ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "CGFloat"]
 - ["So9NSCopyingP", "HexToColor"]
 - !private ["So9NSCopyingP", "Int"]
@@ -428,6 +430,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "UIBarButtonItem"]
 - ["So26NSExtensionRequestHandlingP", "UIColor"]
 - !private ["So26NSExtensionRequestHandlingP", "WheelMenuView"]
+- ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "abort"]
 - !private ["So26NSExtensionRequestHandlingP", "addAction"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
@@ -443,7 +446,6 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "viewControllers"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", "wheelMenuView"]
-- ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So21NSItemProviderReadingP", "CGFloat"]
 - ["So21NSItemProviderReadingP", "HexToColor"]
 - !private ["So21NSItemProviderReadingP", "Int"]
@@ -466,7 +468,7 @@ depends-member:
 - !private ["SC17NSLayoutAttributeO", "width"]
 - !private ["So18NSLayoutConstraintC", "init"]
 - !private ["SC16NSLayoutRelationO", "equal"]
-- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
 - ["So8NSObjectC", "CGFloat"]
 - !private ["So8NSObjectC", "CGPoint"]
 - !private ["So8NSObjectC", "CGRect"]
@@ -529,6 +531,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "UIBarButtonItem"]
 - ["So16NSObjectProtocolP", "UIColor"]
 - !private ["So16NSObjectProtocolP", "WheelMenuView"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "abort"]
 - !private ["So16NSObjectProtocolP", "addAction"]
 - !private ["So16NSObjectProtocolP", "addConstraints"]
@@ -557,7 +560,6 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "viewControllers"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - ["So16NSObjectProtocolP", "wheelMenuView"]
-- ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "CGFloat"]
 - ["So14NSSecureCodingP", "HexToColor"]
 - !private ["So14NSSecureCodingP", "Int"]
@@ -566,7 +568,6 @@ depends-member:
 - !private ["So14NSSecureCodingP", "UIColor"]
 - ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "intFromHexString"]
-- ["So8NSStringC", "init"]
 - !private ["s7NumericP", "init"]
 - !private ["s22RandomAccessCollectionP", "map"]
 - ["s26RangeReplaceableCollectionP", "init"]
@@ -632,6 +633,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "UIBarButtonItem"]
 - ["So21UIAppearanceContainerP", "UIColor"]
 - !private ["So21UIAppearanceContainerP", "WheelMenuView"]
+- ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "abort"]
 - !private ["So21UIAppearanceContainerP", "addAction"]
 - !private ["So21UIAppearanceContainerP", "addConstraints"]
@@ -656,7 +658,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "viewControllers"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", "wheelMenuView"]
-- ["So21UIAppearanceContainerP", ""]
 - !private ["So15UIBarButtonItemC", "init"]
 - !private ["SC20UIBarButtonItemStyleO", "plain"]
 - !private ["So9UIBarItemC", "init"]
@@ -681,6 +682,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "UIBarButtonItem"]
 - ["So18UIContentContainerP", "UIColor"]
 - !private ["So18UIContentContainerP", "WheelMenuView"]
+- ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "abort"]
 - !private ["So18UIContentContainerP", "addAction"]
 - !private ["So18UIContentContainerP", "init"]
@@ -696,7 +698,6 @@ depends-member:
 - !private ["So18UIContentContainerP", "viewControllers"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", "wheelMenuView"]
-- ["So18UIContentContainerP", ""]
 - !private ["So9UIControlC", "backgroundColor"]
 - !private ["So17UICoordinateSpaceP", "addConstraints"]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
@@ -733,6 +734,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "UIBarButtonItem"]
 - ["So18UIFocusEnvironmentP", "UIColor"]
 - !private ["So18UIFocusEnvironmentP", "WheelMenuView"]
+- ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "abort"]
 - !private ["So18UIFocusEnvironmentP", "addAction"]
 - !private ["So18UIFocusEnvironmentP", "addConstraints"]
@@ -757,7 +759,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "viewControllers"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", "wheelMenuView"]
-- ["So18UIFocusEnvironmentP", ""]
 - !private ["So11UIFocusItemP", "addConstraints"]
 - !private ["So11UIFocusItemP", "addSubview"]
 - !private ["So11UIFocusItemP", "backgroundColor"]
@@ -781,6 +782,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "UIBarButtonItem"]
 - ["So30UIPasteConfigurationSupportingP", "UIColor"]
 - !private ["So30UIPasteConfigurationSupportingP", "WheelMenuView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "abort"]
 - !private ["So30UIPasteConfigurationSupportingP", "addAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "addConstraints"]
@@ -805,7 +807,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "viewControllers"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", "wheelMenuView"]
-- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So11UIResponderC", "CGPoint"]
 - !private ["So11UIResponderC", "CGRect"]
 - !private ["So11UIResponderC", "CGSize"]
@@ -851,6 +852,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "UIBarButtonItem"]
 - ["So30UIResponderStandardEditActionsP", "UIColor"]
 - !private ["So30UIResponderStandardEditActionsP", "WheelMenuView"]
+- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "abort"]
 - !private ["So30UIResponderStandardEditActionsP", "addAction"]
 - !private ["So30UIResponderStandardEditActionsP", "addConstraints"]
@@ -875,7 +877,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "viewControllers"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "wheelMenuView"]
-- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "backgroundColor"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "init"]
@@ -889,6 +890,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "UIBarButtonItem"]
 - ["So16UIStateRestoringP", "UIColor"]
 - !private ["So16UIStateRestoringP", "WheelMenuView"]
+- ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "abort"]
 - !private ["So16UIStateRestoringP", "addAction"]
 - !private ["So16UIStateRestoringP", "init"]
@@ -904,7 +906,6 @@ depends-member:
 - !private ["So16UIStateRestoringP", "viewControllers"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "wheelMenuView"]
-- ["So16UIStateRestoringP", ""]
 - !private ["So8UITabBarC", "isHidden"]
 - !private ["So18UITabBarControllerC", "CGPoint"]
 - !private ["So18UITabBarControllerC", "CGRect"]
@@ -917,6 +918,7 @@ depends-member:
 - ["So18UITabBarControllerC", "UITabBarItem"]
 - ["So18UITabBarControllerC", "UIViewController"]
 - ["So18UITabBarControllerC", "WheelMenuView"]
+- ["So18UITabBarControllerC", ""]
 - ["So18UITabBarControllerC", "abort"]
 - ["So18UITabBarControllerC", "init"]
 - !private ["So18UITabBarControllerC", "navigationItem"]
@@ -931,7 +933,6 @@ depends-member:
 - ["So18UITabBarControllerC", "viewDidLoad"]
 - ["So18UITabBarControllerC", "wheelMenuView"]
 - ["So18UITabBarControllerC", "wheelMenuView.storage"]
-- ["So18UITabBarControllerC", ""]
 - !private ["So16UITabBarDelegateP", "CGPoint"]
 - !private ["So16UITabBarDelegateP", "CGRect"]
 - !private ["So16UITabBarDelegateP", "CGSize"]
@@ -941,6 +942,7 @@ depends-member:
 - !private ["So16UITabBarDelegateP", "UIBarButtonItem"]
 - ["So16UITabBarDelegateP", "UIColor"]
 - !private ["So16UITabBarDelegateP", "WheelMenuView"]
+- ["So16UITabBarDelegateP", ""]
 - !private ["So16UITabBarDelegateP", "abort"]
 - !private ["So16UITabBarDelegateP", "init"]
 - !private ["So16UITabBarDelegateP", "navigationItem"]
@@ -954,7 +956,6 @@ depends-member:
 - !private ["So16UITabBarDelegateP", "viewControllers"]
 - !private ["So16UITabBarDelegateP", "viewDidLoad"]
 - ["So16UITabBarDelegateP", "wheelMenuView"]
-- ["So16UITabBarDelegateP", ""]
 - !private ["So18UITraitEnvironmentP", "CGPoint"]
 - !private ["So18UITraitEnvironmentP", "CGRect"]
 - !private ["So18UITraitEnvironmentP", "CGSize"]
@@ -964,6 +965,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "UIBarButtonItem"]
 - ["So18UITraitEnvironmentP", "UIColor"]
 - !private ["So18UITraitEnvironmentP", "WheelMenuView"]
+- ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "abort"]
 - !private ["So18UITraitEnvironmentP", "addAction"]
 - !private ["So18UITraitEnvironmentP", "addConstraints"]
@@ -988,7 +990,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "viewControllers"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "wheelMenuView"]
-- ["So18UITraitEnvironmentP", ""]
 - !private ["So6UIViewC", "addConstraints"]
 - !private ["So6UIViewC", "addSubview"]
 - !private ["So6UIViewC", "backgroundColor"]
@@ -1047,6 +1048,7 @@ depends-member:
 - !private ["20KYWheelTabController21WheelMenuViewDelegateP", "UIBarButtonItem"]
 - ["20KYWheelTabController21WheelMenuViewDelegateP", "UIColor"]
 - !private ["20KYWheelTabController21WheelMenuViewDelegateP", "WheelMenuView"]
+- ["20KYWheelTabController21WheelMenuViewDelegateP", ""]
 - !private ["20KYWheelTabController21WheelMenuViewDelegateP", "abort"]
 - !private ["20KYWheelTabController21WheelMenuViewDelegateP", "navigationItem"]
 - !private ["20KYWheelTabController21WheelMenuViewDelegateP", "present"]
@@ -1058,10 +1060,7 @@ depends-member:
 - !private ["20KYWheelTabController21WheelMenuViewDelegateP", "view"]
 - !private ["20KYWheelTabController21WheelMenuViewDelegateP", "viewControllers"]
 - ["20KYWheelTabController21WheelMenuViewDelegateP", "wheelMenuView"]
-- ["20KYWheelTabController21WheelMenuViewDelegateP", ""]
 - !private ["s14_ArrayProtocolP", "map"]
-- ["s23_BidirectionalIndexableP", "init"]
-- !private ["s23_BidirectionalIndexableP", "map"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - !private ["s15_CVarArgAlignedP", "init"]
 - !private ["s22_CVarArgPassedAsDoubleP", "init"]
@@ -1094,11 +1093,7 @@ depends-member:
 - ["s26_ExpressibleByColorLiteralP", "init"]
 - !private ["s26_ExpressibleByColorLiteralP", "intFromHexString"]
 - ["s33_ExpressibleByStringInterpolationP", "init"]
-- ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- ["s10_IndexableP", "init"]
-- !private ["s10_IndexableP", "map"]
-- ["s14_IndexableBaseP", "init"]
-- !private ["s14_IndexableBaseP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
@@ -1113,6 +1108,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBarButtonItem"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "WheelMenuView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "abort"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addConstraints"]
@@ -1141,16 +1137,10 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewControllers"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "wheelMenuView"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["s17_MutableIndexableP", "map"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "map"]
 - !private ["s21_ObjectiveCBridgeableP", "zero"]
-- !private ["s22_RandomAccessIndexableP", "map"]
-- ["s26_RangeReplaceableIndexableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "map"]
-- !private ["s11_StrideableP", "init"]
 - ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "Sa"
@@ -1197,11 +1187,10 @@ depends-nominal:
 - !private "SC17NSLayoutAttributeO"
 - !private "So18NSLayoutConstraintC"
 - !private "SC16NSLayoutRelationO"
-- "So16NSMutableCopyingP"
+- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
 - "So14NSSecureCodingP"
-- "So8NSStringC"
 - !private "s7NumericP"
 - !private "s22RandomAccessCollectionP"
 - "s26RangeReplaceableCollectionP"
@@ -1249,7 +1238,6 @@ depends-nominal:
 - !private "20KYWheelTabController13WheelMenuViewC"
 - "20KYWheelTabController21WheelMenuViewDelegateP"
 - !private "s14_ArrayProtocolP"
-- "s23_BidirectionalIndexableP"
 - !private "s18_BitwiseOperationsP"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
@@ -1263,15 +1251,9 @@ depends-nominal:
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s26_ExpressibleByColorLiteralP"
 - "s33_ExpressibleByStringInterpolationP"
-- "s35_HasCustomAnyHashableRepresentationP"
-- "s10_IndexableP"
-- "s14_IndexableBaseP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s17_MutableIndexableP"
 - "s21_ObjectiveCBridgeableP"
-- !private "s22_RandomAccessIndexableP"
-- "s26_RangeReplaceableIndexableP"
-- !private "s11_StrideableP"
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
@@ -1288,6 +1270,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/KYWheelTabController/KYWheelTabController-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/KYWheelTabController.build/unextended-module.modulemap"
-interface-hash: "b263d9ec0ac802c0d4f4128db0e10b43"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/KYWheelTabController/KYWheelTabController-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/KYWheelTabController.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d4fd9de2bfb51cd292ea98a06f4fc8d4"

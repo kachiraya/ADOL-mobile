@@ -77,6 +77,7 @@ depends-member:
 - !private ["s13BinaryIntegerP", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["So15CALayerDelegateP", "UIImageView"]
+- ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "addSubview"]
 - !private ["So15CALayerDelegateP", "autoresizingMask"]
 - !private ["So15CALayerDelegateP", "backgroundColor"]
@@ -94,7 +95,6 @@ depends-member:
 - ["So15CALayerDelegateP", "init"]
 - !private ["So15CALayerDelegateP", "layoutSubviews"]
 - !private ["So15CALayerDelegateP", "register"]
-- ["So15CALayerDelegateP", ""]
 - !private ["SC6CGRectV", "width"]
 - !private ["SC6CGSizeV", "init"]
 - !private ["s7CVarArgP", "CGSize"]
@@ -110,6 +110,8 @@ depends-member:
 - ["s7CVarArgP", "UIImageView"]
 - !private ["s7CVarArgP", "UIViewAutoresizing"]
 - !private ["s7CVarArgP", "UInt8"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "addSubview"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "autoresizingMask"]
@@ -174,7 +176,6 @@ depends-member:
 - ["s7CVarArgP", "viewForZooming"]
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
 - !private ["s7CVarArgP", "viewWillLayoutSubviews"]
-- ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "append"]
 - !private ["s10CollectionP", "count"]
 - ["s10CollectionP", "init"]
@@ -195,6 +196,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "UIImageView"]
 - !private ["s28CustomDebugStringConvertibleP", "UIViewAutoresizing"]
 - !private ["s28CustomDebugStringConvertibleP", "UInt8"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "addSubview"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "autoresizingMask"]
@@ -261,7 +263,6 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "viewForZoomingInScrollView"]
 - !private ["s28CustomDebugStringConvertibleP", "viewWillLayoutSubviews"]
 - !private ["s28CustomDebugStringConvertibleP", "width"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "width"]
@@ -285,6 +286,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "UIImageView"]
 - !private ["s23CustomStringConvertibleP", "UIViewAutoresizing"]
 - !private ["s23CustomStringConvertibleP", "UInt8"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "addSubview"]
 - !private ["s23CustomStringConvertibleP", "append"]
@@ -351,7 +353,6 @@ depends-member:
 - ["s23CustomStringConvertibleP", "viewForZooming"]
 - ["s23CustomStringConvertibleP", "viewForZoomingInScrollView"]
 - !private ["s23CustomStringConvertibleP", "viewWillLayoutSubviews"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["5Test214DataManagementC", "delegate1"]
 - !private ["5Test214DataManagementC", "sharedInstance"]
 - !private ["5Test222DataManagementDelegateP", "CGSize"]
@@ -366,6 +367,7 @@ depends-member:
 - ["5Test222DataManagementDelegateP", "UIImage"]
 - !private ["5Test222DataManagementDelegateP", "UIViewAutoresizing"]
 - !private ["5Test222DataManagementDelegateP", "UInt8"]
+- ["5Test222DataManagementDelegateP", ""]
 - ["5Test222DataManagementDelegateP", "collectionView"]
 - !private ["5Test222DataManagementDelegateP", "grabPhotos"]
 - !private ["5Test222DataManagementDelegateP", "imageArray"]
@@ -398,7 +400,6 @@ depends-member:
 - !private ["5Test222DataManagementDelegateP", "view"]
 - ["5Test222DataManagementDelegateP", "viewForZooming"]
 - ["5Test222DataManagementDelegateP", "viewForZoomingInScrollView"]
-- ["5Test222DataManagementDelegateP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "append"]
 - !private ["s9DecodableP", "count"]
@@ -432,8 +433,10 @@ depends-member:
 - ["s9EquatableP", "UIImageView"]
 - !private ["s9EquatableP", "UIViewAutoresizing"]
 - !private ["s9EquatableP", "UInt8"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "append"]
 - !private ["s9EquatableP", "autoresizingMask"]
 - !private ["s9EquatableP", "backgroundColor"]
 - !private ["s9EquatableP", "black"]
@@ -442,6 +445,7 @@ depends-member:
 - ["s9EquatableP", "collectionView"]
 - !private ["s9EquatableP", "collectionViewLayout"]
 - !private ["s9EquatableP", "contentMode"]
+- !private ["s9EquatableP", "count"]
 - !private ["s9EquatableP", "current"]
 - !private ["s9EquatableP", "dataSource"]
 - !private ["s9EquatableP", "delegate"]
@@ -496,6 +500,7 @@ depends-member:
 - ["s9EquatableP", "scrollViewWillEndDragging"]
 - !private ["s9EquatableP", "shared"]
 - !private ["s9EquatableP", "statusBarOrientation"]
+- !private ["s9EquatableP", "subscript"]
 - !private ["s9EquatableP", "title"]
 - !private ["s9EquatableP", "view"]
 - !private ["s9EquatableP", "viewDidLoad"]
@@ -503,7 +508,6 @@ depends-member:
 - ["s9EquatableP", "viewForZoomingInScrollView"]
 - !private ["s9EquatableP", "viewWillLayoutSubviews"]
 - !private ["s9EquatableP", "width"]
-- ["s9EquatableP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "RawValue"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
@@ -532,6 +536,7 @@ depends-member:
 - ["s8HashableP", "UIImageView"]
 - !private ["s8HashableP", "UIViewAutoresizing"]
 - !private ["s8HashableP", "UInt8"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "addSubview"]
 - !private ["s8HashableP", "autoresizingMask"]
@@ -599,7 +604,6 @@ depends-member:
 - ["s8HashableP", "viewForZooming"]
 - ["s8HashableP", "viewForZoomingInScrollView"]
 - !private ["s8HashableP", "viewWillLayoutSubviews"]
-- ["s8HashableP", ""]
 - !private ["5Test215ImagePreview_VCC", "imgArray"]
 - !private ["5Test215ImagePreview_VCC", "init"]
 - !private ["5Test215ImagePreview_VCC", "passedContentOffset"]
@@ -625,6 +629,7 @@ depends-member:
 - ["So8NSCodingP", "UIImageView"]
 - !private ["So8NSCodingP", "UIViewAutoresizing"]
 - !private ["So8NSCodingP", "UInt8"]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "addSubview"]
 - !private ["So8NSCodingP", "autoresizingMask"]
 - !private ["So8NSCodingP", "backgroundColor"]
@@ -682,7 +687,6 @@ depends-member:
 - ["So8NSCodingP", "viewForZooming"]
 - ["So8NSCodingP", "viewForZoomingInScrollView"]
 - !private ["So8NSCodingP", "viewWillLayoutSubviews"]
-- ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "HexToColor"]
 - !private ["So9NSCopyingP", "black"]
 - !private ["So9NSCopyingP", "init"]
@@ -697,6 +701,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "UIImage"]
 - !private ["So26NSExtensionRequestHandlingP", "UIViewAutoresizing"]
 - !private ["So26NSExtensionRequestHandlingP", "UInt8"]
+- ["So26NSExtensionRequestHandlingP", ""]
 - ["So26NSExtensionRequestHandlingP", "collectionView"]
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
 - !private ["So26NSExtensionRequestHandlingP", "grabPhotos"]
@@ -736,14 +741,12 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "viewForZooming"]
 - ["So26NSExtensionRequestHandlingP", "viewForZoomingInScrollView"]
 - !private ["So26NSExtensionRequestHandlingP", "viewWillLayoutSubviews"]
-- ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So21NSItemProviderReadingP", "HexToColor"]
 - !private ["So21NSItemProviderReadingP", "black"]
 - !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderWritingP", "HexToColor"]
 - !private ["So21NSItemProviderWritingP", "black"]
 - !private ["So21NSItemProviderWritingP", "init"]
-- !private ["So16NSMutableCopyingP", "init"]
 - ["So8NSObjectC", "CGFloat"]
 - ["So8NSObjectC", "CGRect"]
 - ["So8NSObjectC", "CGSize"]
@@ -840,6 +843,7 @@ depends-member:
 - ["So16NSObjectProtocolP", "UIImageView"]
 - !private ["So16NSObjectProtocolP", "UIViewAutoresizing"]
 - !private ["So16NSObjectProtocolP", "UInt8"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "addSubview"]
 - !private ["So16NSObjectProtocolP", "autoresizingMask"]
 - !private ["So16NSObjectProtocolP", "backgroundColor"]
@@ -901,11 +905,9 @@ depends-member:
 - ["So16NSObjectProtocolP", "viewForZooming"]
 - ["So16NSObjectProtocolP", "viewForZoomingInScrollView"]
 - !private ["So16NSObjectProtocolP", "viewWillLayoutSubviews"]
-- ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "HexToColor"]
 - !private ["So14NSSecureCodingP", "black"]
 - !private ["So14NSSecureCodingP", "init"]
-- !private ["So8NSStringC", "init"]
 - !private ["s7NumericP", "init"]
 - !private ["s9OptionSetP", "RawValue"]
 - !private ["s9OptionSetP", "flexibleHeight"]
@@ -1031,6 +1033,7 @@ depends-member:
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
 - ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
 - ["So29UIAccessibilityIdentificationP", "UIImageView"]
+- ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "addSubview"]
 - !private ["So29UIAccessibilityIdentificationP", "autoresizingMask"]
 - !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
@@ -1048,8 +1051,8 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "layoutSubviews"]
 - !private ["So29UIAccessibilityIdentificationP", "register"]
-- ["So29UIAccessibilityIdentificationP", ""]
 - ["So12UIAppearanceP", "UIImageView"]
+- ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "addSubview"]
 - !private ["So12UIAppearanceP", "autoresizingMask"]
 - !private ["So12UIAppearanceP", "backgroundColor"]
@@ -1067,7 +1070,6 @@ depends-member:
 - ["So12UIAppearanceP", "init"]
 - !private ["So12UIAppearanceP", "layoutSubviews"]
 - !private ["So12UIAppearanceP", "register"]
-- ["So12UIAppearanceP", ""]
 - !private ["So21UIAppearanceContainerP", "CGSize"]
 - !private ["So21UIAppearanceContainerP", "DataManagement"]
 - !private ["So21UIAppearanceContainerP", "DeviceInfo"]
@@ -1080,6 +1082,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "UIImageView"]
 - !private ["So21UIAppearanceContainerP", "UIViewAutoresizing"]
 - !private ["So21UIAppearanceContainerP", "UInt8"]
+- ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "addSubview"]
 - !private ["So21UIAppearanceContainerP", "autoresizingMask"]
 - !private ["So21UIAppearanceContainerP", "backgroundColor"]
@@ -1135,7 +1138,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "viewForZooming"]
 - ["So21UIAppearanceContainerP", "viewForZoomingInScrollView"]
 - !private ["So21UIAppearanceContainerP", "viewWillLayoutSubviews"]
-- ["So21UIAppearanceContainerP", ""]
 - !private ["So13UIApplicationC", "shared"]
 - !private ["So13UIApplicationC", "statusBarOrientation"]
 - ["So24UICollectionReusableViewC", "CGRect"]
@@ -1159,13 +1161,13 @@ depends-member:
 - ["So20UICollectionViewCellC", "CGRect"]
 - ["So20UICollectionViewCellC", "NSCoder"]
 - ["So20UICollectionViewCellC", "UIImageView"]
+- ["So20UICollectionViewCellC", ""]
 - !private ["So20UICollectionViewCellC", "addSubview"]
 - !private ["So20UICollectionViewCellC", "bounds"]
 - !private ["So20UICollectionViewCellC", "fatalError"]
 - ["So20UICollectionViewCellC", "img"]
 - ["So20UICollectionViewCellC", "init"]
 - ["So20UICollectionViewCellC", "layoutSubviews"]
-- ["So20UICollectionViewCellC", ""]
 - !private ["So26UICollectionViewDataSourceP", "CGSize"]
 - !private ["So26UICollectionViewDataSourceP", "DataManagement"]
 - !private ["So26UICollectionViewDataSourceP", "DeviceInfo"]
@@ -1177,6 +1179,7 @@ depends-member:
 - ["So26UICollectionViewDataSourceP", "UIImage"]
 - !private ["So26UICollectionViewDataSourceP", "UIViewAutoresizing"]
 - !private ["So26UICollectionViewDataSourceP", "UInt8"]
+- ["So26UICollectionViewDataSourceP", ""]
 - ["So26UICollectionViewDataSourceP", "collectionView"]
 - !private ["So26UICollectionViewDataSourceP", "grabPhotos"]
 - !private ["So26UICollectionViewDataSourceP", "imageArray"]
@@ -1212,7 +1215,6 @@ depends-member:
 - !private ["So26UICollectionViewDataSourceP", "view"]
 - ["So26UICollectionViewDataSourceP", "viewForZooming"]
 - ["So26UICollectionViewDataSourceP", "viewForZoomingInScrollView"]
-- ["So26UICollectionViewDataSourceP", ""]
 - !private ["So24UICollectionViewDelegateP", "CGSize"]
 - !private ["So24UICollectionViewDelegateP", "DataManagement"]
 - !private ["So24UICollectionViewDelegateP", "DeviceInfo"]
@@ -1224,6 +1226,7 @@ depends-member:
 - ["So24UICollectionViewDelegateP", "UIImage"]
 - !private ["So24UICollectionViewDelegateP", "UIViewAutoresizing"]
 - !private ["So24UICollectionViewDelegateP", "UInt8"]
+- ["So24UICollectionViewDelegateP", ""]
 - ["So24UICollectionViewDelegateP", "collectionView"]
 - !private ["So24UICollectionViewDelegateP", "grabPhotos"]
 - !private ["So24UICollectionViewDelegateP", "imageArray"]
@@ -1259,7 +1262,6 @@ depends-member:
 - !private ["So24UICollectionViewDelegateP", "view"]
 - ["So24UICollectionViewDelegateP", "viewForZooming"]
 - ["So24UICollectionViewDelegateP", "viewForZoomingInScrollView"]
-- ["So24UICollectionViewDelegateP", ""]
 - !private ["So34UICollectionViewDelegateFlowLayoutP", "CGSize"]
 - !private ["So34UICollectionViewDelegateFlowLayoutP", "DataManagement"]
 - !private ["So34UICollectionViewDelegateFlowLayoutP", "DeviceInfo"]
@@ -1271,6 +1273,7 @@ depends-member:
 - ["So34UICollectionViewDelegateFlowLayoutP", "UIImage"]
 - !private ["So34UICollectionViewDelegateFlowLayoutP", "UIViewAutoresizing"]
 - !private ["So34UICollectionViewDelegateFlowLayoutP", "UInt8"]
+- ["So34UICollectionViewDelegateFlowLayoutP", ""]
 - ["So34UICollectionViewDelegateFlowLayoutP", "collectionView"]
 - !private ["So34UICollectionViewDelegateFlowLayoutP", "grabPhotos"]
 - !private ["So34UICollectionViewDelegateFlowLayoutP", "imageArray"]
@@ -1306,7 +1309,6 @@ depends-member:
 - !private ["So34UICollectionViewDelegateFlowLayoutP", "view"]
 - ["So34UICollectionViewDelegateFlowLayoutP", "viewForZooming"]
 - ["So34UICollectionViewDelegateFlowLayoutP", "viewForZoomingInScrollView"]
-- ["So34UICollectionViewDelegateFlowLayoutP", ""]
 - !private ["So26UICollectionViewFlowLayoutC", "init"]
 - !private ["So22UICollectionViewLayoutC", "init"]
 - !private ["So22UICollectionViewLayoutC", "invalidateLayout"]
@@ -1324,6 +1326,7 @@ depends-member:
 - ["So18UIContentContainerP", "UIImage"]
 - !private ["So18UIContentContainerP", "UIViewAutoresizing"]
 - !private ["So18UIContentContainerP", "UInt8"]
+- ["So18UIContentContainerP", ""]
 - ["So18UIContentContainerP", "collectionView"]
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
 - !private ["So18UIContentContainerP", "grabPhotos"]
@@ -1363,8 +1366,8 @@ depends-member:
 - ["So18UIContentContainerP", "viewForZooming"]
 - ["So18UIContentContainerP", "viewForZoomingInScrollView"]
 - !private ["So18UIContentContainerP", "viewWillLayoutSubviews"]
-- ["So18UIContentContainerP", ""]
 - ["So17UICoordinateSpaceP", "UIImageView"]
+- ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
 - !private ["So17UICoordinateSpaceP", "autoresizingMask"]
 - !private ["So17UICoordinateSpaceP", "backgroundColor"]
@@ -1382,7 +1385,6 @@ depends-member:
 - ["So17UICoordinateSpaceP", "init"]
 - !private ["So17UICoordinateSpaceP", "layoutSubviews"]
 - !private ["So17UICoordinateSpaceP", "register"]
-- ["So17UICoordinateSpaceP", ""]
 - !private ["So23UIDataSourceTranslatingP", "autoresizingMask"]
 - !private ["So23UIDataSourceTranslatingP", "backgroundColor"]
 - !private ["So23UIDataSourceTranslatingP", "collectionViewLayout"]
@@ -1398,6 +1400,7 @@ depends-member:
 - !private ["SC19UIDeviceOrientationO", "isPortrait"]
 - !private ["SC19UIDeviceOrientationO", "isValidInterfaceOrientation"]
 - ["So13UIDynamicItemP", "UIImageView"]
+- ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "addSubview"]
 - !private ["So13UIDynamicItemP", "autoresizingMask"]
 - !private ["So13UIDynamicItemP", "backgroundColor"]
@@ -1415,7 +1418,6 @@ depends-member:
 - ["So13UIDynamicItemP", "init"]
 - !private ["So13UIDynamicItemP", "layoutSubviews"]
 - !private ["So13UIDynamicItemP", "register"]
-- ["So13UIDynamicItemP", ""]
 - !private ["So18UIFocusEnvironmentP", "CGSize"]
 - !private ["So18UIFocusEnvironmentP", "DataManagement"]
 - !private ["So18UIFocusEnvironmentP", "DeviceInfo"]
@@ -1428,6 +1430,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "UIImageView"]
 - !private ["So18UIFocusEnvironmentP", "UIViewAutoresizing"]
 - !private ["So18UIFocusEnvironmentP", "UInt8"]
+- ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "addSubview"]
 - !private ["So18UIFocusEnvironmentP", "autoresizingMask"]
 - !private ["So18UIFocusEnvironmentP", "backgroundColor"]
@@ -1483,8 +1486,8 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "viewForZooming"]
 - ["So18UIFocusEnvironmentP", "viewForZoomingInScrollView"]
 - !private ["So18UIFocusEnvironmentP", "viewWillLayoutSubviews"]
-- ["So18UIFocusEnvironmentP", ""]
 - ["So11UIFocusItemP", "UIImageView"]
+- ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "addSubview"]
 - !private ["So11UIFocusItemP", "autoresizingMask"]
 - !private ["So11UIFocusItemP", "backgroundColor"]
@@ -1502,7 +1505,6 @@ depends-member:
 - ["So11UIFocusItemP", "init"]
 - !private ["So11UIFocusItemP", "layoutSubviews"]
 - !private ["So11UIFocusItemP", "register"]
-- ["So11UIFocusItemP", ""]
 - !private ["So7UIImageC", "init"]
 - !private ["So11UIImageViewC", "clipsToBounds"]
 - !private ["So11UIImageViewC", "contentMode"]
@@ -1524,6 +1526,7 @@ depends-member:
 - ["So30UINavigationControllerDelegateP", "UIImage"]
 - !private ["So30UINavigationControllerDelegateP", "UIViewAutoresizing"]
 - !private ["So30UINavigationControllerDelegateP", "UInt8"]
+- ["So30UINavigationControllerDelegateP", ""]
 - ["So30UINavigationControllerDelegateP", "collectionView"]
 - !private ["So30UINavigationControllerDelegateP", "grabPhotos"]
 - !private ["So30UINavigationControllerDelegateP", "imageArray"]
@@ -1556,7 +1559,6 @@ depends-member:
 - !private ["So30UINavigationControllerDelegateP", "view"]
 - ["So30UINavigationControllerDelegateP", "viewForZooming"]
 - ["So30UINavigationControllerDelegateP", "viewForZoomingInScrollView"]
-- ["So30UINavigationControllerDelegateP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "CGSize"]
 - !private ["So30UIPasteConfigurationSupportingP", "DataManagement"]
 - !private ["So30UIPasteConfigurationSupportingP", "DeviceInfo"]
@@ -1569,6 +1571,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "UIImageView"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIViewAutoresizing"]
 - !private ["So30UIPasteConfigurationSupportingP", "UInt8"]
+- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
 - !private ["So30UIPasteConfigurationSupportingP", "autoresizingMask"]
 - !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
@@ -1626,7 +1629,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "viewForZooming"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZoomingInScrollView"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewWillLayoutSubviews"]
-- ["So30UIPasteConfigurationSupportingP", ""]
 - ["So11UIResponderC", "CGFloat"]
 - ["So11UIResponderC", "CGRect"]
 - ["So11UIResponderC", "CGSize"]
@@ -1717,6 +1719,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "UIImageView"]
 - !private ["So30UIResponderStandardEditActionsP", "UIViewAutoresizing"]
 - !private ["So30UIResponderStandardEditActionsP", "UInt8"]
+- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "addSubview"]
 - !private ["So30UIResponderStandardEditActionsP", "autoresizingMask"]
 - !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
@@ -1774,7 +1777,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "viewForZooming"]
 - ["So30UIResponderStandardEditActionsP", "viewForZoomingInScrollView"]
 - !private ["So30UIResponderStandardEditActionsP", "viewWillLayoutSubviews"]
-- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So12UIScrollViewC", "autoresizingMask"]
 - !private ["So12UIScrollViewC", "backgroundColor"]
 - !private ["So12UIScrollViewC", "collectionViewLayout"]
@@ -1795,6 +1797,7 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "UIImage"]
 - !private ["So20UIScrollViewDelegateP", "UIViewAutoresizing"]
 - !private ["So20UIScrollViewDelegateP", "UInt8"]
+- ["So20UIScrollViewDelegateP", ""]
 - ["So20UIScrollViewDelegateP", "collectionView"]
 - !private ["So20UIScrollViewDelegateP", "grabPhotos"]
 - !private ["So20UIScrollViewDelegateP", "imageArray"]
@@ -1830,7 +1833,6 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", "view"]
 - ["So20UIScrollViewDelegateP", "viewForZooming"]
 - ["So20UIScrollViewDelegateP", "viewForZoomingInScrollView"]
-- ["So20UIScrollViewDelegateP", ""]
 - !private ["So35UISpringLoadedInteractionSupportingP", "autoresizingMask"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "backgroundColor"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "collectionViewLayout"]
@@ -1851,6 +1853,7 @@ depends-member:
 - ["So16UIStateRestoringP", "UIImage"]
 - !private ["So16UIStateRestoringP", "UIViewAutoresizing"]
 - !private ["So16UIStateRestoringP", "UInt8"]
+- ["So16UIStateRestoringP", ""]
 - ["So16UIStateRestoringP", "collectionView"]
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
 - !private ["So16UIStateRestoringP", "grabPhotos"]
@@ -1890,7 +1893,6 @@ depends-member:
 - ["So16UIStateRestoringP", "viewForZooming"]
 - ["So16UIStateRestoringP", "viewForZoomingInScrollView"]
 - !private ["So16UIStateRestoringP", "viewWillLayoutSubviews"]
-- ["So16UIStateRestoringP", ""]
 - !private ["So18UITraitEnvironmentP", "CGSize"]
 - !private ["So18UITraitEnvironmentP", "DataManagement"]
 - !private ["So18UITraitEnvironmentP", "DeviceInfo"]
@@ -1903,6 +1905,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "UIImageView"]
 - !private ["So18UITraitEnvironmentP", "UIViewAutoresizing"]
 - !private ["So18UITraitEnvironmentP", "UInt8"]
+- ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "addSubview"]
 - !private ["So18UITraitEnvironmentP", "autoresizingMask"]
 - !private ["So18UITraitEnvironmentP", "backgroundColor"]
@@ -1958,7 +1961,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "viewForZooming"]
 - ["So18UITraitEnvironmentP", "viewForZoomingInScrollView"]
 - !private ["So18UITraitEnvironmentP", "viewWillLayoutSubviews"]
-- ["So18UITraitEnvironmentP", ""]
 - ["So6UIViewC", "CGRect"]
 - ["So6UIViewC", "NSCoder"]
 - ["So6UIViewC", "UIImageView"]
@@ -2002,6 +2004,7 @@ depends-member:
 - ["So16UIViewControllerC", "UIImage"]
 - !private ["So16UIViewControllerC", "UIViewAutoresizing"]
 - !private ["So16UIViewControllerC", "UInt8"]
+- ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "collectionView"]
 - ["So16UIViewControllerC", "dataManagement"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
@@ -2042,7 +2045,6 @@ depends-member:
 - ["So16UIViewControllerC", "viewForZooming"]
 - ["So16UIViewControllerC", "viewForZoomingInScrollView"]
 - ["So16UIViewControllerC", "viewWillLayoutSubviews"]
-- ["So16UIViewControllerC", ""]
 - !private ["Su", "init"]
 - !private ["s5UInt8V", "init"]
 - !private ["s15UnsignedIntegerP", "init"]
@@ -2050,13 +2052,9 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "count"]
 - ["s14_ArrayProtocolP", "init"]
 - !private ["s14_ArrayProtocolP", "subscript"]
-- !private ["s23_BidirectionalIndexableP", "append"]
-- !private ["s23_BidirectionalIndexableP", "count"]
-- ["s23_BidirectionalIndexableP", "init"]
-- !private ["s23_BidirectionalIndexableP", "item"]
-- !private ["s23_BidirectionalIndexableP", "subscript"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", "UIImageView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "autoresizingMask"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
@@ -2074,7 +2072,6 @@ depends-member:
 - ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layoutSubviews"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "register"]
-- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - ["s24_DestructorSafeContainerP", "init"]
@@ -2090,17 +2087,6 @@ depends-member:
 - !private ["s26_ExpressibleByColorLiteralP", "init"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- !private ["s10_IndexableP", "append"]
-- !private ["s10_IndexableP", "count"]
-- ["s10_IndexableP", "init"]
-- !private ["s10_IndexableP", "item"]
-- !private ["s10_IndexableP", "subscript"]
-- !private ["s14_IndexableBaseP", "append"]
-- !private ["s14_IndexableBaseP", "count"]
-- ["s14_IndexableBaseP", "init"]
-- !private ["s14_IndexableBaseP", "item"]
-- !private ["s14_IndexableBaseP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DataManagement"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DeviceInfo"]
@@ -2114,6 +2100,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIImageView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIViewAutoresizing"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UInt8"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "autoresizingMask"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
@@ -2175,12 +2162,6 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZooming"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZoomingInScrollView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillLayoutSubviews"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["s17_MutableIndexableP", "append"]
-- !private ["s17_MutableIndexableP", "count"]
-- ["s17_MutableIndexableP", "init"]
-- !private ["s17_MutableIndexableP", "item"]
-- !private ["s17_MutableIndexableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
@@ -2188,16 +2169,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "item"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "width"]
-- !private ["s22_RandomAccessIndexableP", "append"]
-- !private ["s22_RandomAccessIndexableP", "count"]
-- ["s22_RandomAccessIndexableP", "init"]
-- !private ["s22_RandomAccessIndexableP", "item"]
-- !private ["s22_RandomAccessIndexableP", "subscript"]
-- !private ["s26_RangeReplaceableIndexableP", "append"]
-- !private ["s26_RangeReplaceableIndexableP", "count"]
-- ["s26_RangeReplaceableIndexableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "subscript"]
-- !private ["s11_StrideableP", "init"]
 - !private ["s14_StringElementP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
@@ -2239,11 +2210,9 @@ depends-nominal:
 - "So26NSExtensionRequestHandlingP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
-- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
 - !private "So14NSSecureCodingP"
-- !private "So8NSStringC"
 - !private "s7NumericP"
 - !private "s9OptionSetP"
 - "5Test210DeviceInfoV11OrientationV"
@@ -2308,7 +2277,6 @@ depends-nominal:
 - !private "s5UInt8V"
 - !private "s15UnsignedIntegerP"
 - "s14_ArrayProtocolP"
-- "s23_BidirectionalIndexableP"
 - !private "s18_BitwiseOperationsP"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
 - "s24_DestructorSafeContainerP"
@@ -2321,28 +2289,21 @@ depends-nominal:
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
-- "s10_IndexableP"
-- "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- "s17_MutableIndexableP"
 - "s21_ObjectiveCBridgeableP"
-- "s22_RandomAccessIndexableP"
-- "s26_RangeReplaceableIndexableP"
-- !private "s11_StrideableP"
 - !private "s14_StringElementP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/x86_64.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Modules/SearchTextField.swiftmodule/x86_64.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Modules/SwiftyOnboard.swiftmodule/x86_64.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Modules/AlertOnboarding.swiftmodule/x86_64.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Modules/RAMReel.swiftmodule/x86_64.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Modules/FoldingCell.swiftmodule/x86_64.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Modules/KYWheelTabController.swiftmodule/x86_64.swiftmodule"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Modules/SearchTextField.swiftmodule/x86_64.swiftmodule"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Modules/SwiftyOnboard.swiftmodule/x86_64.swiftmodule"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Modules/AlertOnboarding.swiftmodule/x86_64.swiftmodule"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Modules/RAMReel.swiftmodule/x86_64.swiftmodule"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Modules/FoldingCell.swiftmodule/x86_64.swiftmodule"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Modules/KYWheelTabController.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
@@ -2362,77 +2323,81 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Headers/SearchTextField-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Headers/AlertOnboarding-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Headers/RAMReel-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Headers/FoldingCell-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Headers/KYWheelTabController-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/avcodec.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libswscale/swscale.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/frame.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/avconfig.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/log.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/rational.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Headers/RAMReel.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/avutil.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/mem.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/version.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libswscale/version.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/version.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/version.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/common.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/avio.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Test2-Bridging-Header.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/buffer.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/RTSPPlayer.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/error.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/mathematics.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavcodec/old_codec_ids.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Utilities.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/attributes.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/macros.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/old_pix_fmts.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavformat/avformat.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/intfloat.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/dict.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Headers/SearchTextField-Swift.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard-Swift.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Headers/AlertOnboarding-Swift.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Headers/RAMReel-Swift.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Headers/FoldingCell-Swift.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Headers/KYWheelTabController-Swift.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/samplefmt.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/pixfmt.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/channel_layout.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/FFMpegiOS/include/libavutil/cpu.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/zlib/module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Modules/module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Modules/module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Modules/module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Modules/module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Modules/module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-interface-hash: "eb8247f34fa1f11d87c75e5c9c9e5679"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Headers/SearchTextField-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Headers/AlertOnboarding-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Headers/RAMReel-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Headers/FoldingCell-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Headers/KYWheelTabController-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavcodec/avcodec.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavfilter/avcodec.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libswscale/swscale.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/frame.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/time.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/avconfig.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/log.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/rational.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Headers/RAMReel.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/avutil.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/mem.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavcodec/version.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libswscale/version.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/version.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavfilter/version.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavformat/version.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/common.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavformat/avio.h"
+- "/Users/TUEY/Documents/ADOL-mobile/Test2/Test2-Bridging-Header.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/buffer.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavfilter/avfilter.h"
+- "/Users/TUEY/Documents/ADOL-mobile/Test2/RTSPPlayer.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/error.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/mathematics.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavcodec/old_codec_ids.h"
+- "/Users/TUEY/Documents/ADOL-mobile/Test2/Utilities.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/attributes.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/macros.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/old_pix_fmts.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavformat/avformat.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/intfloat.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/dict.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Headers/SearchTextField-Swift.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Headers/SwiftyOnboard-Swift.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Headers/AlertOnboarding-Swift.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Headers/RAMReel-Swift.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Headers/FoldingCell-Swift.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Headers/KYWheelTabController-Swift.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/samplefmt.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/pixfmt.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/channel_layout.h"
+- "/Users/TUEY/Documents/ADOL-mobile/FFMpegiOS/include/libavutil/cpu.h"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Starscream/zlib/module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Modules/module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/SwiftyOnboard/SwiftyOnboard.framework/Modules/module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/AlertOnboarding/AlertOnboarding.framework/Modules/module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/RAMReel/RAMReel.framework/Modules/module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/FoldingCell/FoldingCell.framework/Modules/module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/KYWheelTabController/KYWheelTabController.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "4d1bf7f9ed13f7cec9a891c652607b92"

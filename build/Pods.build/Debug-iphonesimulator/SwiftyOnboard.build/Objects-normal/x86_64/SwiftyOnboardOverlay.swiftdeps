@@ -32,6 +32,7 @@ depends-member:
 - ["So15CALayerDelegateP", "UIButton"]
 - ["So15CALayerDelegateP", "UIColor"]
 - ["So15CALayerDelegateP", "UIPageControl"]
+- ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "addSubview"]
 - !private ["So15CALayerDelegateP", "alpha"]
 - !private ["So15CALayerDelegateP", "bottomAnchor"]
@@ -58,10 +59,11 @@ depends-member:
 - !private ["So15CALayerDelegateP", "subviews"]
 - !private ["So15CALayerDelegateP", "topAnchor"]
 - !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
-- ["So15CALayerDelegateP", ""]
 - ["s7CVarArgP", "UIButton"]
 - ["s7CVarArgP", "UIColor"]
 - ["s7CVarArgP", "UIPageControl"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "addSubview"]
 - !private ["s7CVarArgP", "alpha"]
 - !private ["s7CVarArgP", "black"]
@@ -93,12 +95,12 @@ depends-member:
 - !private ["s7CVarArgP", "topAnchor"]
 - !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["s7CVarArgP", "white"]
-- ["s7CVarArgP", ""]
 - ["s10CollectionP", "init"]
 - ["s10ComparableP", "init"]
 - ["s28CustomDebugStringConvertibleP", "UIButton"]
 - ["s28CustomDebugStringConvertibleP", "UIColor"]
 - ["s28CustomDebugStringConvertibleP", "UIPageControl"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "addSubview"]
 - !private ["s28CustomDebugStringConvertibleP", "alpha"]
 - !private ["s28CustomDebugStringConvertibleP", "black"]
@@ -130,7 +132,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "topAnchor"]
 - !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["s28CustomDebugStringConvertibleP", "white"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
@@ -140,6 +141,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "UIButton"]
 - ["s23CustomStringConvertibleP", "UIColor"]
 - ["s23CustomStringConvertibleP", "UIPageControl"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "addSubview"]
 - !private ["s23CustomStringConvertibleP", "alpha"]
@@ -172,7 +174,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "topAnchor"]
 - !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["s23CustomStringConvertibleP", "white"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "black"]
 - ["s9DecodableP", "init"]
@@ -184,6 +185,7 @@ depends-member:
 - ["s9EquatableP", "UIButton"]
 - ["s9EquatableP", "UIColor"]
 - ["s9EquatableP", "UIPageControl"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "addSubview"]
 - !private ["s9EquatableP", "alpha"]
@@ -222,7 +224,6 @@ depends-member:
 - !private ["s9EquatableP", "topAnchor"]
 - !private ["s9EquatableP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["s9EquatableP", "white"]
-- ["s9EquatableP", ""]
 - ["s25ExpressibleByArrayLiteralP", "normal"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
@@ -233,6 +234,7 @@ depends-member:
 - ["s8HashableP", "UIButton"]
 - ["s8HashableP", "UIColor"]
 - ["s8HashableP", "UIPageControl"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "addSubview"]
 - !private ["s8HashableP", "alpha"]
@@ -270,13 +272,13 @@ depends-member:
 - !private ["s8HashableP", "topAnchor"]
 - !private ["s8HashableP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["s8HashableP", "white"]
-- ["s8HashableP", ""]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s25LosslessStringConvertibleP", "init"]
 - ["s10MirrorPathP", "init"]
 - ["So8NSCodingP", "UIButton"]
 - ["So8NSCodingP", "UIColor"]
 - ["So8NSCodingP", "UIPageControl"]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "addSubview"]
 - !private ["So8NSCodingP", "alpha"]
 - !private ["So8NSCodingP", "black"]
@@ -306,17 +308,13 @@ depends-member:
 - !private ["So8NSCodingP", "topAnchor"]
 - !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So8NSCodingP", "white"]
-- ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "black"]
-- ["So9NSCopyingP", "init"]
 - ["So9NSCopyingP", "lightGray"]
 - !private ["So9NSCopyingP", "white"]
 - !private ["So21NSItemProviderReadingP", "black"]
-- ["So21NSItemProviderReadingP", "init"]
 - ["So21NSItemProviderReadingP", "lightGray"]
 - !private ["So21NSItemProviderReadingP", "white"]
 - !private ["So21NSItemProviderWritingP", "black"]
-- ["So21NSItemProviderWritingP", "init"]
 - ["So21NSItemProviderWritingP", "lightGray"]
 - !private ["So21NSItemProviderWritingP", "white"]
 - !private ["So14NSLayoutAnchorC", "constraint"]
@@ -324,7 +322,6 @@ depends-member:
 - !private ["So17NSLayoutDimensionC", "constraint"]
 - !private ["So19NSLayoutXAxisAnchorC", "constraint"]
 - !private ["So19NSLayoutYAxisAnchorC", "constraint"]
-- ["So16NSMutableCopyingP", "init"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "CGPoint"]
 - ["So8NSObjectC", "CGRect"]
@@ -371,6 +368,7 @@ depends-member:
 - ["So16NSObjectProtocolP", "UIButton"]
 - ["So16NSObjectProtocolP", "UIColor"]
 - ["So16NSObjectProtocolP", "UIPageControl"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "addSubview"]
 - !private ["So16NSObjectProtocolP", "alpha"]
 - !private ["So16NSObjectProtocolP", "black"]
@@ -402,12 +400,9 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "topAnchor"]
 - !private ["So16NSObjectProtocolP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So16NSObjectProtocolP", "white"]
-- ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "black"]
-- ["So14NSSecureCodingP", "init"]
 - ["So14NSSecureCodingP", "lightGray"]
 - !private ["So14NSSecureCodingP", "white"]
-- ["So8NSStringC", "init"]
 - ["s9OptionSetP", "normal"]
 - !private ["Sq", "black"]
 - !private ["Sq", "white"]
@@ -461,6 +456,7 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", "UIButton"]
 - ["So29UIAccessibilityIdentificationP", "UIColor"]
 - ["So29UIAccessibilityIdentificationP", "UIPageControl"]
+- ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "addSubview"]
 - !private ["So29UIAccessibilityIdentificationP", "alpha"]
 - !private ["So29UIAccessibilityIdentificationP", "bottomAnchor"]
@@ -487,10 +483,10 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "subviews"]
 - !private ["So29UIAccessibilityIdentificationP", "topAnchor"]
 - !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
-- ["So29UIAccessibilityIdentificationP", ""]
 - ["So12UIAppearanceP", "UIButton"]
 - ["So12UIAppearanceP", "UIColor"]
 - ["So12UIAppearanceP", "UIPageControl"]
+- ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "addSubview"]
 - !private ["So12UIAppearanceP", "alpha"]
 - !private ["So12UIAppearanceP", "bottomAnchor"]
@@ -517,10 +513,10 @@ depends-member:
 - !private ["So12UIAppearanceP", "subviews"]
 - !private ["So12UIAppearanceP", "topAnchor"]
 - !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
-- ["So12UIAppearanceP", ""]
 - ["So21UIAppearanceContainerP", "UIButton"]
 - ["So21UIAppearanceContainerP", "UIColor"]
 - ["So21UIAppearanceContainerP", "UIPageControl"]
+- ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "addSubview"]
 - !private ["So21UIAppearanceContainerP", "alpha"]
 - !private ["So21UIAppearanceContainerP", "bottomAnchor"]
@@ -547,7 +543,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "subviews"]
 - !private ["So21UIAppearanceContainerP", "topAnchor"]
 - !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
-- ["So21UIAppearanceContainerP", ""]
 - !private ["So8UIButtonC", "bottomAnchor"]
 - ["So8UIButtonC", "contentHorizontalAlignment"]
 - !private ["So8UIButtonC", "heightAnchor"]
@@ -582,6 +577,7 @@ depends-member:
 - ["So17UICoordinateSpaceP", "UIButton"]
 - ["So17UICoordinateSpaceP", "UIColor"]
 - ["So17UICoordinateSpaceP", "UIPageControl"]
+- ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
 - !private ["So17UICoordinateSpaceP", "alpha"]
 - !private ["So17UICoordinateSpaceP", "bottomAnchor"]
@@ -608,10 +604,10 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "subviews"]
 - !private ["So17UICoordinateSpaceP", "topAnchor"]
 - !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
-- ["So17UICoordinateSpaceP", ""]
 - ["So13UIDynamicItemP", "UIButton"]
 - ["So13UIDynamicItemP", "UIColor"]
 - ["So13UIDynamicItemP", "UIPageControl"]
+- ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "addSubview"]
 - !private ["So13UIDynamicItemP", "alpha"]
 - !private ["So13UIDynamicItemP", "bottomAnchor"]
@@ -638,10 +634,10 @@ depends-member:
 - !private ["So13UIDynamicItemP", "subviews"]
 - !private ["So13UIDynamicItemP", "topAnchor"]
 - !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
-- ["So13UIDynamicItemP", ""]
 - ["So18UIFocusEnvironmentP", "UIButton"]
 - ["So18UIFocusEnvironmentP", "UIColor"]
 - ["So18UIFocusEnvironmentP", "UIPageControl"]
+- ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "addSubview"]
 - !private ["So18UIFocusEnvironmentP", "alpha"]
 - !private ["So18UIFocusEnvironmentP", "bottomAnchor"]
@@ -668,10 +664,10 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "subviews"]
 - !private ["So18UIFocusEnvironmentP", "topAnchor"]
 - !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
-- ["So18UIFocusEnvironmentP", ""]
 - ["So11UIFocusItemP", "UIButton"]
 - ["So11UIFocusItemP", "UIColor"]
 - ["So11UIFocusItemP", "UIPageControl"]
+- ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "addSubview"]
 - !private ["So11UIFocusItemP", "alpha"]
 - !private ["So11UIFocusItemP", "bottomAnchor"]
@@ -698,7 +694,6 @@ depends-member:
 - !private ["So11UIFocusItemP", "subviews"]
 - !private ["So11UIFocusItemP", "topAnchor"]
 - !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
-- ["So11UIFocusItemP", ""]
 - !private ["So13UILayoutGuideC", "bottomAnchor"]
 - !private ["So13UILayoutGuideC", "leftAnchor"]
 - !private ["So13UILayoutGuideC", "rightAnchor"]
@@ -717,6 +712,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "UIButton"]
 - ["So30UIPasteConfigurationSupportingP", "UIColor"]
 - ["So30UIPasteConfigurationSupportingP", "UIPageControl"]
+- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
 - !private ["So30UIPasteConfigurationSupportingP", "alpha"]
 - !private ["So30UIPasteConfigurationSupportingP", "bottomAnchor"]
@@ -743,7 +739,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "subviews"]
 - !private ["So30UIPasteConfigurationSupportingP", "topAnchor"]
 - !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
-- ["So30UIPasteConfigurationSupportingP", ""]
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "CGPoint"]
 - ["So11UIResponderC", "CGRect"]
@@ -785,6 +780,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "UIButton"]
 - ["So30UIResponderStandardEditActionsP", "UIColor"]
 - ["So30UIResponderStandardEditActionsP", "UIPageControl"]
+- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "addSubview"]
 - !private ["So30UIResponderStandardEditActionsP", "alpha"]
 - !private ["So30UIResponderStandardEditActionsP", "bottomAnchor"]
@@ -811,7 +807,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "subviews"]
 - !private ["So30UIResponderStandardEditActionsP", "topAnchor"]
 - !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
-- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So35UISpringLoadedInteractionSupportingP", "bottomAnchor"]
 - ["So35UISpringLoadedInteractionSupportingP", "contentHorizontalAlignment"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "heightAnchor"]
@@ -825,6 +820,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "UIButton"]
 - ["So18UITraitEnvironmentP", "UIColor"]
 - ["So18UITraitEnvironmentP", "UIPageControl"]
+- ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "addSubview"]
 - !private ["So18UITraitEnvironmentP", "alpha"]
 - !private ["So18UITraitEnvironmentP", "bottomAnchor"]
@@ -851,7 +847,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "subviews"]
 - !private ["So18UITraitEnvironmentP", "topAnchor"]
 - !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
-- ["So18UITraitEnvironmentP", ""]
 - ["So6UIViewC", "Bool"]
 - ["So6UIViewC", "CGPoint"]
 - ["So6UIViewC", "CGRect"]
@@ -862,6 +857,7 @@ depends-member:
 - ["So6UIViewC", "UIColor"]
 - ["So6UIViewC", "UIEvent"]
 - ["So6UIViewC", "UIPageControl"]
+- ["So6UIViewC", ""]
 - !private ["So6UIViewC", "addSubview"]
 - !private ["So6UIViewC", "alpha"]
 - !private ["So6UIViewC", "bottomAnchor"]
@@ -890,11 +886,10 @@ depends-member:
 - !private ["So6UIViewC", "subviews"]
 - !private ["So6UIViewC", "topAnchor"]
 - !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
-- ["So6UIViewC", ""]
-- ["s23_BidirectionalIndexableP", "init"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", "UIButton"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", "UIColor"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", "UIPageControl"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "alpha"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bottomAnchor"]
@@ -921,7 +916,6 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "subviews"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "topAnchor"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
-- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
@@ -931,12 +925,10 @@ depends-member:
 - ["s26_ExpressibleByColorLiteralP", "lightGray"]
 - !private ["s26_ExpressibleByColorLiteralP", "white"]
 - ["s33_ExpressibleByStringInterpolationP", "init"]
-- ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- ["s10_IndexableP", "init"]
-- ["s14_IndexableBaseP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIButton"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIPageControl"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "alpha"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
@@ -968,12 +960,10 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "topAnchor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "black"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "white"]
-- ["s26_RangeReplaceableIndexableP", "init"]
 - ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "s23BidirectionalCollectionP"
@@ -1007,11 +997,9 @@ depends-nominal:
 - !private "So17NSLayoutDimensionC"
 - !private "So19NSLayoutXAxisAnchorC"
 - !private "So19NSLayoutYAxisAnchorC"
-- "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
 - "So14NSSecureCodingP"
-- "So8NSStringC"
 - "s9OptionSetP"
 - !private "Sq"
 - "s26RangeReplaceableCollectionP"
@@ -1046,7 +1034,6 @@ depends-nominal:
 - "So35UISpringLoadedInteractionSupportingP"
 - "So18UITraitEnvironmentP"
 - "So6UIViewC"
-- "s23_BidirectionalIndexableP"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
@@ -1055,12 +1042,8 @@ depends-nominal:
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s26_ExpressibleByColorLiteralP"
 - "s33_ExpressibleByStringInterpolationP"
-- "s35_HasCustomAnyHashableRepresentationP"
-- "s10_IndexableP"
-- "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
-- "s26_RangeReplaceableIndexableP"
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
@@ -1077,7 +1060,17 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/SwiftyOnboard/SwiftyOnboard-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/SwiftyOnboard/SwiftyOnboard/SwiftyOnboard.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/SwiftyOnboard.build/unextended-module.modulemap"
-interface-hash: "f59858dc3f8ba29e95420ea3d2270746"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/SwiftyOnboard/SwiftyOnboard-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/SwiftyOnboard/SwiftyOnboard/SwiftyOnboard.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/SwiftyOnboard.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "bcc8caf86095ffea82b48dd26137b309"

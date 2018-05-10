@@ -6,35 +6,15 @@
 	<dict>
 		<key>AlertOnboardingXib.bundle/AlertChildPageViewController.nib</key>
 		<data>
-		0RWDA4XEavvUIGcTZn6F2aAUHfo=
+		ZO10X/kpPUZjKpHuT6hxvTpfDYQ=
 		</data>
 		<key>AlertOnboardingXib.bundle/Info.plist</key>
 		<data>
-		KwoQPSC0GL/sBdhMYFGbAmc+N90=
-		</data>
-		<key>AlertOnboardingXib.bundle/_CodeSignature/CodeDirectory</key>
-		<data>
-		QAJuOiA8crF92DITI0RcFNcH5Xc=
-		</data>
-		<key>AlertOnboardingXib.bundle/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>AlertOnboardingXib.bundle/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		Z6JiawRZzUO3NknWZXaaLWybiQg=
-		</data>
-		<key>AlertOnboardingXib.bundle/_CodeSignature/CodeResources</key>
-		<data>
-		Ot3Xkoe/tSae/T/x5IISMyEm3g4=
-		</data>
-		<key>AlertOnboardingXib.bundle/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		x5qm6c6dOArv7xci4dIPymPFzuc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		k7sd/UQ6AL0V00jkCImZjMOqp3Q=
+		pGt272UyiDuwci64gpn2lnkvOwY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -43,77 +23,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0RWDA4XEavvUIGcTZn6F2aAUHfo=
+			ZO10X/kpPUZjKpHuT6hxvTpfDYQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			bUT4HfH3bfNOi6/l3aksHl903dLhAflK6AhGH2QnQ3A=
+			KOny6m0/y0oR3HS6r2IKabccHhAZgVUizH2sjBXxvGc=
 			</data>
 		</dict>
 		<key>AlertOnboardingXib.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KwoQPSC0GL/sBdhMYFGbAmc+N90=
+			x5qm6c6dOArv7xci4dIPymPFzuc=
 			</data>
 			<key>hash2</key>
 			<data>
-			r8qBrT1bTP/7YUfU3Drktfxtb7njZFhYBV0Ed9ZIKn0=
-			</data>
-		</dict>
-		<key>AlertOnboardingXib.bundle/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QAJuOiA8crF92DITI0RcFNcH5Xc=
-			</data>
-			<key>hash2</key>
-			<data>
-			9GIB2W1tN4SdgDW0HzyZAW+STZFtJuBeXtQ3kdOKDc8=
-			</data>
-		</dict>
-		<key>AlertOnboardingXib.bundle/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OnX22wWFKRSOFN1+obRynMCeyXM=
-			</data>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>AlertOnboardingXib.bundle/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z6JiawRZzUO3NknWZXaaLWybiQg=
-			</data>
-			<key>hash2</key>
-			<data>
-			Hk0JdLmZd80ot3jwUBBJf7p97iaCqNy7ryZvhYxu50M=
-			</data>
-		</dict>
-		<key>AlertOnboardingXib.bundle/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ot3Xkoe/tSae/T/x5IISMyEm3g4=
-			</data>
-			<key>hash2</key>
-			<data>
-			LwDYd9MJAPKZw7fo60OkbpI1Psv/VDafXrfgJ/GXeaM=
-			</data>
-		</dict>
-		<key>AlertOnboardingXib.bundle/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			XCA5B0R8kJlpN+0uxI2C1JmIZXAdYCCP5/queZ0+wBc=
 			</data>
 		</dict>
 	</dict>

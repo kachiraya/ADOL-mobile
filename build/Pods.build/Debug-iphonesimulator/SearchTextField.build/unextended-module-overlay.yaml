@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Modules'
+    'name': '/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/SearchTextField/SearchTextField.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/SearchTextField.build/unextended-module.modulemap',
+      'external-contents': '/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/SearchTextField.build/unextended-module.modulemap',
     }]
   }]
 }

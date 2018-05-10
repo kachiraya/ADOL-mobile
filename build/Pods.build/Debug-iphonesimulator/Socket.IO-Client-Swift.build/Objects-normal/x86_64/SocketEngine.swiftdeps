@@ -48,7 +48,7 @@ depends-top-level:
 - "AssignmentPrecedence"
 - !private "Bool"
 - "BooleanLiteralType"
-- !private "CastingPrecedence"
+- "CastingPrecedence"
 - "Data"
 - !private "DefaultSocketLogger"
 - "DispatchQueue"
@@ -123,8 +123,10 @@ depends-member:
 - ["s7CVarArgP", "URLSession"]
 - ["s7CVarArgP", "URLSessionDidFinishEventsForBackgroundURLSession"]
 - !private ["s7CVarArgP", "WebSocket"]
+- ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "_connect"]
 - !private ["s7CVarArgP", "_disconnect"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "addHeaders"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "async"]
@@ -227,7 +229,6 @@ depends-member:
 - ["s7CVarArgP", "websocketDidReceiveMessage"]
 - ["s7CVarArgP", "write"]
 - ["s7CVarArgP", "ws"]
-- ["s7CVarArgP", ""]
 - !private ["So12NSURLRequestC11CachePolicyO", "reloadIgnoringLocalCacheData"]
 - ["8SocketIO12ClientOptionP", "compress"]
 - ["8SocketIO12ClientOptionP", "connectParams"]
@@ -286,6 +287,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "URLSession"]
 - ["s28CustomDebugStringConvertibleP", "URLSessionDidFinishEventsForBackgroundURLSession"]
 - !private ["s28CustomDebugStringConvertibleP", "WebSocket"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "_connect"]
 - !private ["s28CustomDebugStringConvertibleP", "_disconnect"]
 - !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
@@ -395,7 +397,6 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "websocketDidReceiveMessage"]
 - ["s28CustomDebugStringConvertibleP", "write"]
 - ["s28CustomDebugStringConvertibleP", "ws"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "absoluteString"]
 - !private ["s29CustomPlaygroundQuickLookableP", "dropFirst"]
@@ -450,6 +451,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "URLSession"]
 - ["s23CustomStringConvertibleP", "URLSessionDidFinishEventsForBackgroundURLSession"]
 - !private ["s23CustomStringConvertibleP", "WebSocket"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_connect"]
 - !private ["s23CustomStringConvertibleP", "_disconnect"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
@@ -560,7 +562,6 @@ depends-member:
 - ["s23CustomStringConvertibleP", "websocketDidReceiveMessage"]
 - ["s23CustomStringConvertibleP", "write"]
 - ["s23CustomStringConvertibleP", "ws"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["10Foundation4DataV", "endIndex"]
 - !private ["10Foundation4DataV", "init"]
 - !private ["10Foundation4DataV", "subdata"]
@@ -576,11 +577,15 @@ depends-member:
 - !private ["s9DecodableP", "index"]
 - ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "milliseconds"]
+- !private ["s9DecodableP", "path"]
+- !private ["s9DecodableP", "percentEncodedQuery"]
 - !private ["s9DecodableP", "removeAll"]
+- !private ["s9DecodableP", "scheme"]
 - !private ["s9DecodableP", "startIndex"]
 - !private ["s9DecodableP", "subdata"]
 - !private ["s9DecodableP", "subscript"]
 - !private ["s9DecodableP", "toDictionary"]
+- !private ["s9DecodableP", "url"]
 - !private ["s9DecodableP", "urlEncode"]
 - !private ["8SocketIO07DefaultA6LoggerC", "Logger"]
 - !private ["s10DictionaryV", "subscript"]
@@ -604,11 +609,15 @@ depends-member:
 - !private ["s9EncodableP", "index"]
 - ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "milliseconds"]
+- !private ["s9EncodableP", "path"]
+- !private ["s9EncodableP", "percentEncodedQuery"]
 - !private ["s9EncodableP", "removeAll"]
+- !private ["s9EncodableP", "scheme"]
 - !private ["s9EncodableP", "startIndex"]
 - !private ["s9EncodableP", "subdata"]
 - !private ["s9EncodableP", "subscript"]
 - !private ["s9EncodableP", "toDictionary"]
+- !private ["s9EncodableP", "url"]
 - !private ["s9EncodableP", "urlEncode"]
 - !private ["s9EquatableP", "Data"]
 - !private ["s9EquatableP", "DefaultSocketLogger"]
@@ -629,11 +638,13 @@ depends-member:
 - ["s9EquatableP", "URLSession"]
 - ["s9EquatableP", "URLSessionDidFinishEventsForBackgroundURLSession"]
 - !private ["s9EquatableP", "WebSocket"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_connect"]
 - !private ["s9EquatableP", "_disconnect"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "absoluteString"]
 - !private ["s9EquatableP", "addHeaders"]
+- !private ["s9EquatableP", "append"]
 - !private ["s9EquatableP", "async"]
 - !private ["s9EquatableP", "asyncAfter"]
 - !private ["s9EquatableP", "callbackQueue"]
@@ -646,7 +657,9 @@ depends-member:
 - ["s9EquatableP", "connect"]
 - ["s9EquatableP", "connectParams"]
 - ["s9EquatableP", "connected"]
+- !private ["s9EquatableP", "contains"]
 - ["s9EquatableP", "cookies"]
+- !private ["s9EquatableP", "count"]
 - !private ["s9EquatableP", "createRequestForPostWithPostWait"]
 - !private ["s9EquatableP", "createURLs"]
 - !private ["s9EquatableP", "createWebSocketAndConnect"]
@@ -708,6 +721,7 @@ depends-member:
 - ["s9EquatableP", "probing"]
 - !private ["s9EquatableP", "rawValue"]
 - !private ["s9EquatableP", "reloadIgnoringLocalCacheData"]
+- !private ["s9EquatableP", "removeAll"]
 - !private ["s9EquatableP", "requestHeaderFields"]
 - !private ["s9EquatableP", "resetEngine"]
 - !private ["s9EquatableP", "scheme"]
@@ -746,7 +760,6 @@ depends-member:
 - ["s9EquatableP", "websocketDidReceiveMessage"]
 - ["s9EquatableP", "write"]
 - ["s9EquatableP", "ws"]
-- ["s9EquatableP", ""]
 - !private ["s5ErrorP", "localizedDescription"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "contains"]
@@ -812,6 +825,7 @@ depends-member:
 - ["s8HashableP", "URLSession"]
 - ["s8HashableP", "URLSessionDidFinishEventsForBackgroundURLSession"]
 - !private ["s8HashableP", "WebSocket"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_connect"]
 - !private ["s8HashableP", "_disconnect"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
@@ -927,7 +941,6 @@ depends-member:
 - ["s8HashableP", "websocketDidReceiveMessage"]
 - ["s8HashableP", "write"]
 - ["s8HashableP", "ws"]
-- ["s8HashableP", ""]
 - !private ["Si", "init"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "dropFirst"]
@@ -963,7 +976,6 @@ depends-member:
 - !private ["So8NSCodingP", "hasPrefix"]
 - !private ["So8NSCodingP", "hasSuffix"]
 - !private ["So8NSCodingP", "index"]
-- ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "localizedDescription"]
 - !private ["So8NSCodingP", "startIndex"]
 - !private ["So8NSCodingP", "subscript"]
@@ -976,7 +988,6 @@ depends-member:
 - !private ["So9NSCopyingP", "hasPrefix"]
 - !private ["So9NSCopyingP", "hasSuffix"]
 - !private ["So9NSCopyingP", "index"]
-- ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "localizedDescription"]
 - !private ["So9NSCopyingP", "startIndex"]
 - !private ["So9NSCopyingP", "subscript"]
@@ -991,7 +1002,6 @@ depends-member:
 - !private ["So21NSItemProviderReadingP", "hasPrefix"]
 - !private ["So21NSItemProviderReadingP", "hasSuffix"]
 - !private ["So21NSItemProviderReadingP", "index"]
-- ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderReadingP", "startIndex"]
 - !private ["So21NSItemProviderReadingP", "subscript"]
 - !private ["So21NSItemProviderReadingP", "toDictionary"]
@@ -1001,7 +1011,6 @@ depends-member:
 - !private ["So21NSItemProviderWritingP", "hasPrefix"]
 - !private ["So21NSItemProviderWritingP", "hasSuffix"]
 - !private ["So21NSItemProviderWritingP", "index"]
-- ["So21NSItemProviderWritingP", "init"]
 - !private ["So21NSItemProviderWritingP", "startIndex"]
 - !private ["So21NSItemProviderWritingP", "subscript"]
 - !private ["So21NSItemProviderWritingP", "toDictionary"]
@@ -1011,7 +1020,6 @@ depends-member:
 - !private ["So16NSMutableCopyingP", "hasPrefix"]
 - !private ["So16NSMutableCopyingP", "hasSuffix"]
 - !private ["So16NSMutableCopyingP", "index"]
-- ["So16NSMutableCopyingP", "init"]
 - !private ["So16NSMutableCopyingP", "startIndex"]
 - !private ["So16NSMutableCopyingP", "subscript"]
 - !private ["So16NSMutableCopyingP", "toDictionary"]
@@ -1043,6 +1051,7 @@ depends-member:
 - ["So8NSObjectC", "URLSessionDelegate"]
 - ["So8NSObjectC", "URLSessionDidFinishEventsForBackgroundURLSession"]
 - ["So8NSObjectC", "WebSocket"]
+- ["So8NSObjectC", ""]
 - ["So8NSObjectC", "_connect"]
 - ["So8NSObjectC", "_disconnect"]
 - !private ["So8NSObjectC", "addHeaders"]
@@ -1142,7 +1151,6 @@ depends-member:
 - ["So8NSObjectC", "websocketDidReceiveMessage"]
 - ["So8NSObjectC", "write"]
 - ["So8NSObjectC", "ws"]
-- ["So8NSObjectC", ""]
 - !private ["So16NSObjectProtocolP", "Data"]
 - !private ["So16NSObjectProtocolP", "DefaultSocketLogger"]
 - ["So16NSObjectProtocolP", "DispatchQueue"]
@@ -1162,6 +1170,7 @@ depends-member:
 - ["So16NSObjectProtocolP", "URLSession"]
 - ["So16NSObjectProtocolP", "URLSessionDidFinishEventsForBackgroundURLSession"]
 - !private ["So16NSObjectProtocolP", "WebSocket"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "_connect"]
 - !private ["So16NSObjectProtocolP", "_disconnect"]
 - !private ["So16NSObjectProtocolP", "addHeaders"]
@@ -1261,13 +1270,11 @@ depends-member:
 - ["So16NSObjectProtocolP", "websocketDidReceiveMessage"]
 - ["So16NSObjectProtocolP", "write"]
 - ["So16NSObjectProtocolP", "ws"]
-- ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "dropFirst"]
 - !private ["So14NSSecureCodingP", "endIndex"]
 - !private ["So14NSSecureCodingP", "hasPrefix"]
 - !private ["So14NSSecureCodingP", "hasSuffix"]
 - !private ["So14NSSecureCodingP", "index"]
-- ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "localizedDescription"]
 - !private ["So14NSSecureCodingP", "startIndex"]
 - !private ["So14NSSecureCodingP", "subscript"]
@@ -1279,7 +1286,6 @@ depends-member:
 - !private ["So8NSStringC", "hasPrefix"]
 - !private ["So8NSStringC", "hasSuffix"]
 - !private ["So8NSStringC", "index"]
-- ["So8NSStringC", "init"]
 - !private ["So8NSStringC", "startIndex"]
 - !private ["So8NSStringC", "subscript"]
 - !private ["So8NSStringC", "toDictionary"]
@@ -1509,6 +1515,7 @@ depends-member:
 - ["8SocketIO0A14EnginePollableP", "URLSession"]
 - ["8SocketIO0A14EnginePollableP", "URLSessionDidFinishEventsForBackgroundURLSession"]
 - !private ["8SocketIO0A14EnginePollableP", "WebSocket"]
+- ["8SocketIO0A14EnginePollableP", ""]
 - !private ["8SocketIO0A14EnginePollableP", "_connect"]
 - !private ["8SocketIO0A14EnginePollableP", "_disconnect"]
 - !private ["8SocketIO0A14EnginePollableP", "addHeaders"]
@@ -1586,7 +1593,6 @@ depends-member:
 - ["8SocketIO0A14EnginePollableP", "websocketDidReceiveMessage"]
 - ["8SocketIO0A14EnginePollableP", "write"]
 - ["8SocketIO0A14EnginePollableP", "ws"]
-- ["8SocketIO0A14EnginePollableP", ""]
 - !private ["8SocketIO0A10EngineSpecP", "Data"]
 - !private ["8SocketIO0A10EngineSpecP", "DefaultSocketLogger"]
 - ["8SocketIO0A10EngineSpecP", "DispatchQueue"]
@@ -1606,6 +1612,7 @@ depends-member:
 - ["8SocketIO0A10EngineSpecP", "URLSession"]
 - ["8SocketIO0A10EngineSpecP", "URLSessionDidFinishEventsForBackgroundURLSession"]
 - !private ["8SocketIO0A10EngineSpecP", "WebSocket"]
+- ["8SocketIO0A10EngineSpecP", ""]
 - !private ["8SocketIO0A10EngineSpecP", "_connect"]
 - !private ["8SocketIO0A10EngineSpecP", "_disconnect"]
 - !private ["8SocketIO0A10EngineSpecP", "addHeaders"]
@@ -1683,7 +1690,6 @@ depends-member:
 - ["8SocketIO0A10EngineSpecP", "websocketDidReceiveMessage"]
 - ["8SocketIO0A10EngineSpecP", "write"]
 - ["8SocketIO0A10EngineSpecP", "ws"]
-- ["8SocketIO0A10EngineSpecP", ""]
 - !private ["8SocketIO0A15EngineWebsocketP", "Data"]
 - !private ["8SocketIO0A15EngineWebsocketP", "DefaultSocketLogger"]
 - ["8SocketIO0A15EngineWebsocketP", "DispatchQueue"]
@@ -1703,6 +1709,7 @@ depends-member:
 - ["8SocketIO0A15EngineWebsocketP", "URLSession"]
 - ["8SocketIO0A15EngineWebsocketP", "URLSessionDidFinishEventsForBackgroundURLSession"]
 - !private ["8SocketIO0A15EngineWebsocketP", "WebSocket"]
+- ["8SocketIO0A15EngineWebsocketP", ""]
 - !private ["8SocketIO0A15EngineWebsocketP", "_connect"]
 - !private ["8SocketIO0A15EngineWebsocketP", "_disconnect"]
 - !private ["8SocketIO0A15EngineWebsocketP", "addHeaders"]
@@ -1780,7 +1787,6 @@ depends-member:
 - ["8SocketIO0A15EngineWebsocketP", "websocketDidReceiveMessage"]
 - ["8SocketIO0A15EngineWebsocketP", "write"]
 - ["8SocketIO0A15EngineWebsocketP", "ws"]
-- ["8SocketIO0A15EngineWebsocketP", ""]
 - !private ["8SocketIO0A21IOClientConfigurationV", "deinit"]
 - ["8SocketIO0A14IOClientOptionO", "compress"]
 - ["8SocketIO0A14IOClientOptionO", "connectParams"]
@@ -1881,6 +1887,7 @@ depends-member:
 - ["So18URLSessionDelegateP", "URLSession"]
 - ["So18URLSessionDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
 - !private ["So18URLSessionDelegateP", "WebSocket"]
+- ["So18URLSessionDelegateP", ""]
 - !private ["So18URLSessionDelegateP", "_connect"]
 - !private ["So18URLSessionDelegateP", "_disconnect"]
 - !private ["So18URLSessionDelegateP", "addHeaders"]
@@ -1958,7 +1965,6 @@ depends-member:
 - ["So18URLSessionDelegateP", "websocketDidReceiveMessage"]
 - ["So18URLSessionDelegateP", "write"]
 - ["So18URLSessionDelegateP", "ws"]
-- ["So18URLSessionDelegateP", ""]
 - !private ["10Starscream9WebSocketC", "callbackQueue"]
 - !private ["10Starscream9WebSocketC", "connect"]
 - !private ["10Starscream9WebSocketC", "delegate"]
@@ -1989,6 +1995,7 @@ depends-member:
 - ["10Starscream17WebSocketDelegateP", "URLSession"]
 - ["10Starscream17WebSocketDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
 - !private ["10Starscream17WebSocketDelegateP", "WebSocket"]
+- ["10Starscream17WebSocketDelegateP", ""]
 - !private ["10Starscream17WebSocketDelegateP", "_connect"]
 - !private ["10Starscream17WebSocketDelegateP", "_disconnect"]
 - !private ["10Starscream17WebSocketDelegateP", "addHeaders"]
@@ -2066,27 +2073,11 @@ depends-member:
 - ["10Starscream17WebSocketDelegateP", "websocketDidReceiveMessage"]
 - ["10Starscream17WebSocketDelegateP", "write"]
 - ["10Starscream17WebSocketDelegateP", "ws"]
-- ["10Starscream17WebSocketDelegateP", ""]
 - !private ["s14_ArrayProtocolP", "append"]
 - !private ["s14_ArrayProtocolP", "contains"]
 - !private ["s14_ArrayProtocolP", "count"]
 - ["s14_ArrayProtocolP", "init"]
 - !private ["s14_ArrayProtocolP", "removeAll"]
-- !private ["s23_BidirectionalIndexableP", "append"]
-- !private ["s23_BidirectionalIndexableP", "contains"]
-- !private ["s23_BidirectionalIndexableP", "count"]
-- !private ["s23_BidirectionalIndexableP", "dropFirst"]
-- !private ["s23_BidirectionalIndexableP", "endIndex"]
-- !private ["s23_BidirectionalIndexableP", "hasPrefix"]
-- !private ["s23_BidirectionalIndexableP", "hasSuffix"]
-- !private ["s23_BidirectionalIndexableP", "index"]
-- ["s23_BidirectionalIndexableP", "init"]
-- !private ["s23_BidirectionalIndexableP", "removeAll"]
-- !private ["s23_BidirectionalIndexableP", "startIndex"]
-- !private ["s23_BidirectionalIndexableP", "subdata"]
-- !private ["s23_BidirectionalIndexableP", "subscript"]
-- !private ["s23_BidirectionalIndexableP", "toDictionary"]
-- !private ["s23_BidirectionalIndexableP", "urlEncode"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - !private ["s15_CVarArgAlignedP", "milliseconds"]
 - !private ["s22_CVarArgPassedAsDoubleP", "milliseconds"]
@@ -2156,41 +2147,10 @@ depends-member:
 - !private ["s35_HasCustomAnyHashableRepresentationP", "hasPrefix"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "hasSuffix"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "index"]
-- ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "startIndex"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "toDictionary"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "urlEncode"]
-- !private ["s10_IndexableP", "append"]
-- !private ["s10_IndexableP", "contains"]
-- !private ["s10_IndexableP", "count"]
-- !private ["s10_IndexableP", "dropFirst"]
-- !private ["s10_IndexableP", "endIndex"]
-- !private ["s10_IndexableP", "hasPrefix"]
-- !private ["s10_IndexableP", "hasSuffix"]
-- !private ["s10_IndexableP", "index"]
-- ["s10_IndexableP", "init"]
-- !private ["s10_IndexableP", "removeAll"]
-- !private ["s10_IndexableP", "startIndex"]
-- !private ["s10_IndexableP", "subdata"]
-- !private ["s10_IndexableP", "subscript"]
-- !private ["s10_IndexableP", "toDictionary"]
-- !private ["s10_IndexableP", "urlEncode"]
-- !private ["s14_IndexableBaseP", "append"]
-- !private ["s14_IndexableBaseP", "contains"]
-- !private ["s14_IndexableBaseP", "count"]
-- !private ["s14_IndexableBaseP", "dropFirst"]
-- !private ["s14_IndexableBaseP", "endIndex"]
-- !private ["s14_IndexableBaseP", "hasPrefix"]
-- !private ["s14_IndexableBaseP", "hasSuffix"]
-- !private ["s14_IndexableBaseP", "index"]
-- ["s14_IndexableBaseP", "init"]
-- !private ["s14_IndexableBaseP", "removeAll"]
-- !private ["s14_IndexableBaseP", "startIndex"]
-- !private ["s14_IndexableBaseP", "subdata"]
-- !private ["s14_IndexableBaseP", "subscript"]
-- !private ["s14_IndexableBaseP", "toDictionary"]
-- !private ["s14_IndexableBaseP", "urlEncode"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Data"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DefaultSocketLogger"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
@@ -2210,6 +2170,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionDidFinishEventsForBackgroundURLSession"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "WebSocket"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "_connect"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "_disconnect"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addHeaders"]
@@ -2309,19 +2270,11 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "websocketDidReceiveMessage"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "write"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ws"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation14_MutableBoxingP", "init"]
 - !private ["10Foundation14_MutableBoxingP", "path"]
 - !private ["10Foundation14_MutableBoxingP", "percentEncodedQuery"]
 - !private ["10Foundation14_MutableBoxingP", "scheme"]
 - !private ["10Foundation14_MutableBoxingP", "url"]
-- !private ["s17_MutableIndexableP", "append"]
-- !private ["s17_MutableIndexableP", "contains"]
-- !private ["s17_MutableIndexableP", "count"]
-- !private ["s17_MutableIndexableP", "endIndex"]
-- ["s17_MutableIndexableP", "init"]
-- !private ["s17_MutableIndexableP", "removeAll"]
-- !private ["s17_MutableIndexableP", "subdata"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
@@ -2344,30 +2297,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "toDictionary"]
 - !private ["s21_ObjectiveCBridgeableP", "url"]
 - !private ["s21_ObjectiveCBridgeableP", "urlEncode"]
-- !private ["s22_RandomAccessIndexableP", "append"]
-- !private ["s22_RandomAccessIndexableP", "contains"]
-- !private ["s22_RandomAccessIndexableP", "count"]
-- !private ["s22_RandomAccessIndexableP", "endIndex"]
-- ["s22_RandomAccessIndexableP", "init"]
-- !private ["s22_RandomAccessIndexableP", "removeAll"]
-- !private ["s22_RandomAccessIndexableP", "subdata"]
-- !private ["s26_RangeReplaceableIndexableP", "append"]
-- !private ["s26_RangeReplaceableIndexableP", "contains"]
-- !private ["s26_RangeReplaceableIndexableP", "count"]
-- !private ["s26_RangeReplaceableIndexableP", "dropFirst"]
-- !private ["s26_RangeReplaceableIndexableP", "endIndex"]
-- !private ["s26_RangeReplaceableIndexableP", "hasPrefix"]
-- !private ["s26_RangeReplaceableIndexableP", "hasSuffix"]
-- !private ["s26_RangeReplaceableIndexableP", "index"]
-- ["s26_RangeReplaceableIndexableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "removeAll"]
-- !private ["s26_RangeReplaceableIndexableP", "startIndex"]
-- !private ["s26_RangeReplaceableIndexableP", "subdata"]
-- !private ["s26_RangeReplaceableIndexableP", "subscript"]
-- !private ["s26_RangeReplaceableIndexableP", "toDictionary"]
-- !private ["s26_RangeReplaceableIndexableP", "urlEncode"]
-- !private ["s11_StrideableP", "init"]
-- !private ["s11_StrideableP", "milliseconds"]
 - !private ["s16_SwiftStringViewP", "dropFirst"]
 - !private ["s16_SwiftStringViewP", "endIndex"]
 - !private ["s16_SwiftStringViewP", "hasPrefix"]
@@ -2422,18 +2351,18 @@ depends-nominal:
 - "s25LosslessStringConvertibleP"
 - "s10MirrorPathP"
 - "s17MutableCollectionP"
-- "So8NSCodingP"
-- "So9NSCopyingP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
 - !private "So12NSDictionaryC"
 - !private "So7NSErrorC"
 - !private "So17NSFastEnumerationP"
-- "So21NSItemProviderReadingP"
-- "So21NSItemProviderWritingP"
-- "So16NSMutableCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
-- "So14NSSecureCodingP"
-- "So8NSStringC"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
 - !private "s7NumericP"
 - !private "So9OS_objectC"
 - !private "So14OperationQueueC"
@@ -2474,7 +2403,6 @@ depends-nominal:
 - !private "10Starscream9WebSocketC"
 - "10Starscream17WebSocketDelegateP"
 - "s14_ArrayProtocolP"
-- "s23_BidirectionalIndexableP"
 - !private "s18_BitwiseOperationsP"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
@@ -2488,21 +2416,15 @@ depends-nominal:
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s34_ExpressibleByFileReferenceLiteralP"
 - "s33_ExpressibleByStringInterpolationP"
-- "s35_HasCustomAnyHashableRepresentationP"
-- "s10_IndexableP"
-- "s14_IndexableBaseP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "10Foundation14_MutableBoxingP"
-- "s17_MutableIndexableP"
 - "s21_ObjectiveCBridgeableP"
-- "s22_RandomAccessIndexableP"
-- "s26_RangeReplaceableIndexableP"
-- !private "s11_StrideableP"
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -2515,10 +2437,20 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/Socket.IO-Client-Swift.build/unextended-module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/zlib/module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/Starscream.build/module.modulemap"
-interface-hash: "1bf59e4dbe9d32ae93848e4580703983"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/Socket.IO-Client-Swift.build/unextended-module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Starscream/zlib/module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/Starscream.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "dd3324edb67147b436598a2d9a15f2c9"

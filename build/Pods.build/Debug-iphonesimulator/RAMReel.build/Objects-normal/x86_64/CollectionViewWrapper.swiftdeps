@@ -34,6 +34,7 @@ depends-top-level:
 - !private ">"
 - !private ">="
 - !private "??"
+- "AnyObject"
 - "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
@@ -82,7 +83,6 @@ depends-member:
 - ["s23BidirectionalCollectionP", "init"]
 - !private ["s23BidirectionalCollectionP", "subscript"]
 - !private ["s19BinaryFloatingPointP", "init"]
-- !private ["s13BinaryIntegerP", "hashValue"]
 - !private ["s13BinaryIntegerP", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "animate"]
@@ -110,6 +110,8 @@ depends-member:
 - !private ["s7CVarArgP", "ScrollDirection"]
 - !private ["s7CVarArgP", "UIView"]
 - !private ["s7CVarArgP", "UIViewAnimationOptions"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "adjustScroll"]
 - !private ["s7CVarArgP", "animate"]
 - !private ["s7CVarArgP", "bounces"]
@@ -130,7 +132,6 @@ depends-member:
 - !private ["s7CVarArgP", "doubleValue"]
 - !private ["s7CVarArgP", "fabs"]
 - !private ["s7CVarArgP", "floor"]
-- !private ["s7CVarArgP", "hashValue"]
 - ["s7CVarArgP", "indexTitles"]
 - ["s7CVarArgP", "indexTitlesForCollectionView"]
 - ["s7CVarArgP", "init"]
@@ -168,7 +169,6 @@ depends-member:
 - ["s7CVarArgP", "viewForZooming"]
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
 - !private ["s7CVarArgP", "wrapper"]
-- ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "count"]
 - ["s10CollectionP", "init"]
 - !private ["s10CollectionP", "subscript"]
@@ -212,6 +212,7 @@ depends-member:
 - !private ["7RAMReel21CollectionViewWrapperC", "UIKeyboardAnimationDurationUserInfoKey"]
 - !private ["7RAMReel21CollectionViewWrapperC", "UIScrollView"]
 - !private ["7RAMReel21CollectionViewWrapperC", "UIView"]
+- ["7RAMReel21CollectionViewWrapperC", "_Default_DataType"]
 - ["7RAMReel21CollectionViewWrapperC", "adjustScroll"]
 - ["7RAMReel21CollectionViewWrapperC", "cellAttributes"]
 - ["7RAMReel21CollectionViewWrapperC", "cellId"]
@@ -232,7 +233,6 @@ depends-member:
 - ["7RAMReel21CollectionViewWrapperC", "selectedItem"]
 - ["7RAMReel21CollectionViewWrapperC", "theme"]
 - ["7RAMReel21CollectionViewWrapperC", "updateOffset"]
-- !private ["s10ComparableP", "hashValue"]
 - ["s10ComparableP", "init"]
 - !private ["7RAMReel16ConfigurableCellP", "configureCell"]
 - !private ["7RAMReel16ConfigurableCellP", "theme"]
@@ -243,6 +243,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "ScrollDirection"]
 - !private ["s28CustomDebugStringConvertibleP", "UIView"]
 - !private ["s28CustomDebugStringConvertibleP", "UIViewAnimationOptions"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "adjustScroll"]
 - !private ["s28CustomDebugStringConvertibleP", "animate"]
 - !private ["s28CustomDebugStringConvertibleP", "bounces"]
@@ -295,24 +296,19 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "scrollViewWillEndDragging"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "theme"]
-- !private ["s28CustomDebugStringConvertibleP", "up"]
 - !private ["s28CustomDebugStringConvertibleP", "updateInsets"]
 - !private ["s28CustomDebugStringConvertibleP", "userInfo"]
 - ["s28CustomDebugStringConvertibleP", "viewForZooming"]
 - ["s28CustomDebugStringConvertibleP", "viewForZoomingInScrollView"]
 - !private ["s28CustomDebugStringConvertibleP", "wrapper"]
 - !private ["s28CustomDebugStringConvertibleP", "y"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
-- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "y"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "count"]
-- !private ["s17CustomReflectableP", "hashValue"]
 - ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "subscript"]
-- !private ["s17CustomReflectableP", "up"]
 - !private ["s17CustomReflectableP", "y"]
 - !private ["s23CustomStringConvertibleP", "CGFloat"]
 - !private ["s23CustomStringConvertibleP", "CGPoint"]
@@ -321,6 +317,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "ScrollDirection"]
 - !private ["s23CustomStringConvertibleP", "UIView"]
 - !private ["s23CustomStringConvertibleP", "UIViewAnimationOptions"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "adjustScroll"]
 - !private ["s23CustomStringConvertibleP", "animate"]
@@ -342,7 +339,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "doubleValue"]
 - !private ["s23CustomStringConvertibleP", "fabs"]
 - !private ["s23CustomStringConvertibleP", "floor"]
-- !private ["s23CustomStringConvertibleP", "hashValue"]
 - ["s23CustomStringConvertibleP", "indexTitles"]
 - ["s23CustomStringConvertibleP", "indexTitlesForCollectionView"]
 - ["s23CustomStringConvertibleP", "init"]
@@ -380,21 +376,16 @@ depends-member:
 - ["s23CustomStringConvertibleP", "viewForZooming"]
 - ["s23CustomStringConvertibleP", "viewForZoomingInScrollView"]
 - !private ["s23CustomStringConvertibleP", "wrapper"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "count"]
-- !private ["s9DecodableP", "hashValue"]
 - ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "subscript"]
-- !private ["s9DecodableP", "up"]
 - !private ["s9DecodableP", "y"]
 - !private ["s10DictionaryV", "subscript"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "count"]
-- !private ["s9EncodableP", "hashValue"]
 - ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "subscript"]
-- !private ["s9EncodableP", "up"]
 - !private ["s9EncodableP", "y"]
 - !private ["s9EquatableP", "CGFloat"]
 - !private ["s9EquatableP", "CGPoint"]
@@ -405,6 +396,7 @@ depends-member:
 - ["s9EquatableP", "UIKeyboardDidChangeFrame"]
 - !private ["s9EquatableP", "UIView"]
 - !private ["s9EquatableP", "UIViewAnimationOptions"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "adjustScroll"]
 - !private ["s9EquatableP", "animate"]
@@ -417,6 +409,7 @@ depends-member:
 - !private ["s9EquatableP", "configureCell"]
 - !private ["s9EquatableP", "contentInset"]
 - !private ["s9EquatableP", "contentOffset"]
+- !private ["s9EquatableP", "count"]
 - ["s9EquatableP", "current"]
 - !private ["s9EquatableP", "curveEaseOut"]
 - !private ["s9EquatableP", "dataSource"]
@@ -461,6 +454,7 @@ depends-member:
 - ["s9EquatableP", "scrollViewWillBeginZooming"]
 - ["s9EquatableP", "scrollViewWillEndDragging"]
 - !private ["s9EquatableP", "scrolledWhere"]
+- !private ["s9EquatableP", "subscript"]
 - !private ["s9EquatableP", "theme"]
 - !private ["s9EquatableP", "top"]
 - !private ["s9EquatableP", "up"]
@@ -471,7 +465,6 @@ depends-member:
 - !private ["s9EquatableP", "wrapper"]
 - !private ["s9EquatableP", "y"]
 - !private ["s9EquatableP", "zero"]
-- ["s9EquatableP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "curveEaseOut"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
@@ -483,12 +476,9 @@ depends-member:
 - !private ["s25ExpressibleByFloatLiteralP", "doubleValue"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "doubleValue"]
-- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
-- !private ["s23ExpressibleByNilLiteralP", "up"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s17FixedWidthIntegerP", "hashValue"]
 - !private ["s17FixedWidthIntegerP", "init"]
 - !private ["s13FloatingPointP", "init"]
 - !private ["7RAMReel19FlowDataDestinationP", "CGFloat"]
@@ -507,6 +497,8 @@ depends-member:
 - !private ["7RAMReel19FlowDataDestinationP", "UIEdgeInsets"]
 - !private ["7RAMReel19FlowDataDestinationP", "UIKeyboardAnimationDurationUserInfoKey"]
 - !private ["7RAMReel19FlowDataDestinationP", "UIView"]
+- ["7RAMReel19FlowDataDestinationP", ""]
+- ["7RAMReel19FlowDataDestinationP", "_Default_DataType"]
 - !private ["7RAMReel19FlowDataDestinationP", "adjustScroll"]
 - ["7RAMReel19FlowDataDestinationP", "cellAttributes"]
 - !private ["7RAMReel19FlowDataDestinationP", "cellId"]
@@ -524,7 +516,6 @@ depends-member:
 - !private ["7RAMReel19FlowDataDestinationP", "selectedItem"]
 - !private ["7RAMReel19FlowDataDestinationP", "theme"]
 - !private ["7RAMReel19FlowDataDestinationP", "updateOffset"]
-- ["7RAMReel19FlowDataDestinationP", ""]
 - !private ["s8HashableP", "CGFloat"]
 - !private ["s8HashableP", "CGPoint"]
 - !private ["s8HashableP", "Int"]
@@ -534,6 +525,7 @@ depends-member:
 - ["s8HashableP", "UIKeyboardDidChangeFrame"]
 - !private ["s8HashableP", "UIView"]
 - !private ["s8HashableP", "UIViewAnimationOptions"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "adjustScroll"]
 - !private ["s8HashableP", "animate"]
@@ -596,14 +588,10 @@ depends-member:
 - ["s8HashableP", "viewForZooming"]
 - ["s8HashableP", "viewForZoomingInScrollView"]
 - !private ["s8HashableP", "wrapper"]
-- ["s8HashableP", ""]
 - !private ["10Foundation9IndexPathV", "init"]
-- !private ["Si", "hashValue"]
 - !private ["Si", "init"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
-- !private ["s25LosslessStringConvertibleP", "hashValue"]
 - ["s25LosslessStringConvertibleP", "init"]
-- !private ["s10MirrorPathP", "hashValue"]
 - ["s10MirrorPathP", "init"]
 - !private ["s17MutableCollectionP", "count"]
 - !private ["s17MutableCollectionP", "init"]
@@ -633,15 +621,11 @@ depends-member:
 - !private ["So8NSCodingP", "userInfo"]
 - ["So9NSCopyingP", "Name"]
 - !private ["So9NSCopyingP", "doubleValue"]
-- ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "row"]
 - !private ["So9NSCopyingP", "userInfo"]
 - !private ["So11NSIndexPathC", "row"]
-- ["So21NSItemProviderReadingP", "init"]
-- ["So21NSItemProviderWritingP", "init"]
 - ["So6NSLockC", "init"]
 - ["So9NSLockingP", "init"]
-- ["So16NSMutableCopyingP", "init"]
 - ["So14NSNotificationC", "Name"]
 - !private ["So14NSNotificationC", "userInfo"]
 - !private ["So8NSNumberC", "doubleValue"]
@@ -659,6 +643,7 @@ depends-member:
 - !private ["So8NSObjectC", "UIView"]
 - !private ["So8NSObjectC", "UIViewAnimationOptions"]
 - ["So8NSObjectC", "WrapperProtocol"]
+- ["So8NSObjectC", ""]
 - ["So8NSObjectC", "adjustScroll"]
 - !private ["So8NSObjectC", "animate"]
 - !private ["So8NSObjectC", "bounces"]
@@ -714,7 +699,6 @@ depends-member:
 - ["So8NSObjectC", "viewForZooming"]
 - ["So8NSObjectC", "viewForZoomingInScrollView"]
 - ["So8NSObjectC", "wrapper"]
-- ["So8NSObjectC", ""]
 - !private ["So16NSObjectProtocolP", "CGFloat"]
 - !private ["So16NSObjectProtocolP", "CGPoint"]
 - !private ["So16NSObjectProtocolP", "Int"]
@@ -722,6 +706,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "ScrollDirection"]
 - !private ["So16NSObjectProtocolP", "UIView"]
 - !private ["So16NSObjectProtocolP", "UIViewAnimationOptions"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "adjustScroll"]
 - !private ["So16NSObjectProtocolP", "animate"]
 - !private ["So16NSObjectProtocolP", "bounces"]
@@ -777,11 +762,8 @@ depends-member:
 - ["So16NSObjectProtocolP", "viewForZooming"]
 - ["So16NSObjectProtocolP", "viewForZoomingInScrollView"]
 - !private ["So16NSObjectProtocolP", "wrapper"]
-- ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "doubleValue"]
-- ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "row"]
-- ["So8NSStringC", "init"]
 - !private ["So7NSValueC", "doubleValue"]
 - ["So14NSNotificationC4NameV", "UIDeviceOrientationDidChange"]
 - ["So14NSNotificationC4NameV", "UIKeyboardDidChangeFrame"]
@@ -790,10 +772,8 @@ depends-member:
 - ["7RAMReel27NotificationCallbackWrapperC", "init"]
 - !private ["So18NotificationCenterC", "default"]
 - !private ["So18NotificationCenterC", "removeObserver"]
-- !private ["s7NumericP", "hashValue"]
 - !private ["s7NumericP", "init"]
 - !private ["s9OptionSetP", "curveEaseOut"]
-- !private ["Sq", "up"]
 - ["7RAMReel8ParsableP", "init"]
 - ["7RAMReel23RAMCollectionViewLayoutC", "init"]
 - !private ["7RAMReel23RAMCollectionViewLayoutC", "itemHeight"]
@@ -858,12 +838,9 @@ depends-member:
 - ["s8SequenceP", "init"]
 - !private ["s8SequenceP", "subscript"]
 - !private ["s10SetAlgebraP", "curveEaseOut"]
-- !private ["s13SignedIntegerP", "hashValue"]
 - !private ["s13SignedIntegerP", "init"]
-- !private ["s13SignedNumericP", "hashValue"]
 - !private ["s13SignedNumericP", "init"]
 - !private ["s12StaticStringV", "init"]
-- !private ["s10StrideableP", "hashValue"]
 - !private ["s10StrideableP", "init"]
 - ["SS", "init"]
 - ["s14StringProtocolP", "init"]
@@ -930,6 +907,7 @@ depends-member:
 - !private ["So20UICollectionViewCellC", "configureCell"]
 - !private ["So20UICollectionViewCellC", "isSelected"]
 - !private ["So20UICollectionViewCellC", "theme"]
+- ["So26UICollectionViewDataSourceP", ""]
 - ["So26UICollectionViewDataSourceP", "collectionView"]
 - ["So26UICollectionViewDataSourceP", "indexTitles"]
 - ["So26UICollectionViewDataSourceP", "indexTitlesForCollectionView"]
@@ -937,7 +915,6 @@ depends-member:
 - ["So26UICollectionViewDataSourceP", "numberOfSections"]
 - ["So26UICollectionViewDataSourceP", "numberOfSectionsInCollectionView"]
 - !private ["So26UICollectionViewDataSourceP", "wrapper"]
-- ["So26UICollectionViewDataSourceP", ""]
 - ["So26UICollectionViewFlowLayoutC", "init"]
 - !private ["So26UICollectionViewFlowLayoutC", "itemHeight"]
 - !private ["So26UICollectionViewFlowLayoutC", "updateInsets"]
@@ -1080,6 +1057,7 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", "ScrollDirection"]
 - !private ["So20UIScrollViewDelegateP", "UIView"]
 - !private ["So20UIScrollViewDelegateP", "UIViewAnimationOptions"]
+- ["So20UIScrollViewDelegateP", ""]
 - !private ["So20UIScrollViewDelegateP", "adjustScroll"]
 - !private ["So20UIScrollViewDelegateP", "ceil"]
 - !private ["So20UIScrollViewDelegateP", "fabs"]
@@ -1105,7 +1083,6 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "scrollViewWillEndDragging"]
 - ["So20UIScrollViewDelegateP", "viewForZooming"]
 - ["So20UIScrollViewDelegateP", "viewForZoomingInScrollView"]
-- ["So20UIScrollViewDelegateP", ""]
 - !private ["So35UISpringLoadedInteractionSupportingP", "bounces"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "cellForItem"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "collectionViewLayout"]
@@ -1168,6 +1145,8 @@ depends-member:
 - !private ["7RAMReel15WrapperProtocolP", "UIEdgeInsets"]
 - !private ["7RAMReel15WrapperProtocolP", "UIKeyboardAnimationDurationUserInfoKey"]
 - !private ["7RAMReel15WrapperProtocolP", "UIView"]
+- ["7RAMReel15WrapperProtocolP", ""]
+- ["7RAMReel15WrapperProtocolP", "_Default_DataType"]
 - !private ["7RAMReel15WrapperProtocolP", "adjustScroll"]
 - ["7RAMReel15WrapperProtocolP", "cellAttributes"]
 - !private ["7RAMReel15WrapperProtocolP", "cellId"]
@@ -1185,13 +1164,8 @@ depends-member:
 - !private ["7RAMReel15WrapperProtocolP", "selectedItem"]
 - !private ["7RAMReel15WrapperProtocolP", "theme"]
 - !private ["7RAMReel15WrapperProtocolP", "updateOffset"]
-- ["7RAMReel15WrapperProtocolP", ""]
 - !private ["s14_ArrayProtocolP", "count"]
 - !private ["s14_ArrayProtocolP", "subscript"]
-- !private ["s23_BidirectionalIndexableP", "count"]
-- ["s23_BidirectionalIndexableP", "init"]
-- !private ["s23_BidirectionalIndexableP", "subscript"]
-- !private ["s18_BitwiseOperationsP", "hashValue"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - !private ["s15_CVarArgAlignedP", "init"]
 - !private ["s22_CVarArgPassedAsDoubleP", "init"]
@@ -1214,7 +1188,6 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
@@ -1222,15 +1195,8 @@ depends-member:
 - ["s33_ExpressibleByStringInterpolationP", "init"]
 - ["s35_HasCustomAnyHashableRepresentationP", "Name"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "doubleValue"]
-- ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "row"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "userInfo"]
-- !private ["s10_IndexableP", "count"]
-- ["s10_IndexableP", "init"]
-- !private ["s10_IndexableP", "subscript"]
-- !private ["s14_IndexableBaseP", "count"]
-- ["s14_IndexableBaseP", "init"]
-- !private ["s14_IndexableBaseP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
@@ -1238,6 +1204,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "ScrollDirection"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIViewAnimationOptions"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "adjustScroll"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "bounces"]
@@ -1293,31 +1260,16 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZooming"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZoomingInScrollView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "wrapper"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["s17_MutableIndexableP", "count"]
-- !private ["s17_MutableIndexableP", "init"]
-- !private ["s17_MutableIndexableP", "subscript"]
 - ["s21_ObjectiveCBridgeableP", "UIDeviceOrientationDidChange"]
 - ["s21_ObjectiveCBridgeableP", "UIKeyboardDidChangeFrame"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
-- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 - ["s21_ObjectiveCBridgeableP", "rawValue"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "top"]
-- !private ["s21_ObjectiveCBridgeableP", "up"]
 - !private ["s21_ObjectiveCBridgeableP", "y"]
 - !private ["s21_ObjectiveCBridgeableP", "zero"]
-- !private ["s26_OptionalNilComparisonTypeV", "up"]
-- !private ["s22_RandomAccessIndexableP", "count"]
-- !private ["s22_RandomAccessIndexableP", "init"]
-- !private ["s22_RandomAccessIndexableP", "subscript"]
-- !private ["s26_RangeReplaceableIndexableP", "count"]
-- ["s26_RangeReplaceableIndexableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "subscript"]
-- !private ["s11_StrideableP", "hashValue"]
-- !private ["s11_StrideableP", "init"]
 - ["s20_SwiftNewtypeWrapperP", "UIDeviceOrientationDidChange"]
 - ["s20_SwiftNewtypeWrapperP", "UIKeyboardDidChangeFrame"]
 - ["s20_SwiftNewtypeWrapperP", "rawValue"]
@@ -1351,7 +1303,6 @@ depends-nominal:
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
-- !private "s23ExpressibleByNilLiteralP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "s17FixedWidthIntegerP"
@@ -1366,24 +1317,19 @@ depends-nominal:
 - "So8NSCodingP"
 - "So9NSCopyingP"
 - !private "So11NSIndexPathC"
-- "So21NSItemProviderReadingP"
-- "So21NSItemProviderWritingP"
 - "So6NSLockC"
 - "So9NSLockingP"
-- "So16NSMutableCopyingP"
 - "So14NSNotificationC"
 - !private "So8NSNumberC"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
-- "So14NSSecureCodingP"
-- "So8NSStringC"
+- !private "So14NSSecureCodingP"
 - !private "So7NSValueC"
 - "So14NSNotificationC4NameV"
 - "7RAMReel27NotificationCallbackWrapperC"
 - !private "So18NotificationCenterC"
 - !private "s7NumericP"
 - !private "s9OptionSetP"
-- !private "Sq"
 - "7RAMReel8ParsableP"
 - "7RAMReel23RAMCollectionViewLayoutC"
 - !private "s22RandomAccessCollectionP"
@@ -1430,7 +1376,6 @@ depends-nominal:
 - !private "SC22UIViewAnimationOptionsV"
 - "7RAMReel15WrapperProtocolP"
 - !private "s14_ArrayProtocolP"
-- "s23_BidirectionalIndexableP"
 - !private "s18_BitwiseOperationsP"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
@@ -1444,15 +1389,8 @@ depends-nominal:
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s33_ExpressibleByStringInterpolationP"
 - "s35_HasCustomAnyHashableRepresentationP"
-- "s10_IndexableP"
-- "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s17_MutableIndexableP"
 - "s21_ObjectiveCBridgeableP"
-- !private "s26_OptionalNilComparisonTypeV"
-- !private "s22_RandomAccessIndexableP"
-- "s26_RangeReplaceableIndexableP"
-- !private "s11_StrideableP"
 - "s20_SwiftNewtypeWrapperP"
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
@@ -1470,7 +1408,17 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/RAMReel/RAMReel-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/RAMReel.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/RAMReel.build/unextended-module.modulemap"
-interface-hash: "2dff45d6db364cce154ec1265e3f341f"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/RAMReel/RAMReel-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/RAMReel/RAMReel/Framework/RAMReel.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/RAMReel.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d5896b1ed86e137acb848c814a861f6a"

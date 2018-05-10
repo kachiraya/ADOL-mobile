@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target\ Support\ Files/RAMReel/RAMReel-dummy.m \
-  /Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/RAMReel.build/module.modulemap \
-  /Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target\ Support\ Files/RAMReel/RAMReel-prefix.pch
+  /Users/TUEY/Documents/ADOL-mobile/Pods/Target\ Support\ Files/RAMReel/RAMReel-dummy.m \
+  /Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/RAMReel.build/module.modulemap \
+  /Users/TUEY/Documents/ADOL-mobile/Pods/Target\ Support\ Files/RAMReel/RAMReel-prefix.pch

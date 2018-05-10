@@ -1,7 +1,6 @@
-dependencies: \
-  /Users/monradajuycharoen/Desktop/DUP/Test2/Test2/AudioStreamer.m \
-  /Users/monradajuycharoen/Desktop/DUP/Test2/Test2/AudioStreamer.h \
-  /Users/monradajuycharoen/Desktop/DUP/Test2/Test2/RTSPPlayer.h \
+dependencies: /Users/TUEY/Documents/ADOL-mobile/Test2/AudioStreamer.m \
+  /Users/TUEY/Documents/ADOL-mobile/Test2/AudioStreamer.h \
+  /Users/TUEY/Documents/ADOL-mobile/Test2/RTSPPlayer.h \
   FFMpegiOS/include/libavformat/avformat.h \
   FFMpegiOS/include/libavcodec/avcodec.h \
   FFMpegiOS/include/libavutil/samplefmt.h \
@@ -24,5 +23,8 @@ dependencies: \
   FFMpegiOS/include/libavcodec/old_codec_ids.h \
   FFMpegiOS/include/libavformat/avio.h \
   FFMpegiOS/include/libavformat/version.h \
+  FFMpegiOS/include/libavfilter/avcodec.h \
+  FFMpegiOS/include/libavfilter/avfilter.h \
+  FFMpegiOS/include/libavfilter/version.h \
   FFMpegiOS/include/libswscale/swscale.h \
   FFMpegiOS/include/libswscale/version.h

@@ -1,13 +1,13 @@
-version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
-options: "554aabf3788b9cf7bd6c4b48d5e80192"
-build_time: [1524844678, 135035000]
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "47c2f119d38b8ff38ae6c0cceedd2ed0"
+build_time: [1525950164, 451184000]
 inputs:
-  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/CollectionViewCell.swift": [1520485880, 0]
-  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/CollectionViewLayout.swift": [1520485880, 0]
-  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/CollectionViewWrapper.swift": [1520485880, 0]
-  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/DataFlow.swift": [1520485880, 0]
-  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/GradientView.swift": [1520485880, 0]
-  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/RAMReel.swift": [1521523063, 0]
-  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/RAMTextField.swift": [1520485880, 0]
-  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/TextFieldReactor.swift": [1520485880, 0]
-  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/Theme.swift": [1521531439, 0]
+  "/Users/TUEY/Documents/ADOL-mobile/Pods/RAMReel/RAMReel/Framework/CollectionViewCell.swift": [1525947806, 0]
+  "/Users/TUEY/Documents/ADOL-mobile/Pods/RAMReel/RAMReel/Framework/CollectionViewLayout.swift": [1525947806, 0]
+  "/Users/TUEY/Documents/ADOL-mobile/Pods/RAMReel/RAMReel/Framework/CollectionViewWrapper.swift": [1525947806, 0]
+  "/Users/TUEY/Documents/ADOL-mobile/Pods/RAMReel/RAMReel/Framework/DataFlow.swift": [1525947806, 0]
+  "/Users/TUEY/Documents/ADOL-mobile/Pods/RAMReel/RAMReel/Framework/GradientView.swift": [1525947806, 0]
+  "/Users/TUEY/Documents/ADOL-mobile/Pods/RAMReel/RAMReel/Framework/RAMReel.swift": [1525947806, 0]
+  "/Users/TUEY/Documents/ADOL-mobile/Pods/RAMReel/RAMReel/Framework/RAMTextField.swift": [1525947806, 0]
+  "/Users/TUEY/Documents/ADOL-mobile/Pods/RAMReel/RAMReel/Framework/TextFieldReactor.swift": [1525947806, 0]
+  "/Users/TUEY/Documents/ADOL-mobile/Pods/RAMReel/RAMReel/Framework/Theme.swift": [1525947806, 0]

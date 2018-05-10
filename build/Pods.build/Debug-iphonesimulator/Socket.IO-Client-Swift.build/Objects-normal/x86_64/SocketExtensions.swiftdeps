@@ -33,11 +33,11 @@ depends-top-level:
 - "NSDictionary"
 - !private "SSLSecurity"
 - "SocketIOClientConfiguration"
-- !private "SocketIOClientOption"
+- "SocketIOClientOption"
 - !private "SocketLogger"
 - "String"
 - !private "StringLiteralType"
-- !private "TernaryPrecedence"
+- "TernaryPrecedence"
 - !private "URLSessionDelegate"
 - !private "~="
 depends-member:
@@ -49,15 +49,14 @@ depends-member:
 - !private ["s23BidirectionalCollectionP", "addingPercentEncoding"]
 - !private ["s23BidirectionalCollectionP", "data"]
 - !private ["s23BidirectionalCollectionP", "init"]
-- !private ["s13BinaryIntegerP", "hashValue"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "JSONError"]
 - !private ["s7CVarArgP", "JSONSerialization"]
 - !private ["s7CVarArgP", "NSDictionary"]
 - !private ["s7CVarArgP", "WritingOptions"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "addingPercentEncoding"]
 - !private ["s7CVarArgP", "data"]
-- !private ["s7CVarArgP", "hashValue"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "jsonObject"]
 - !private ["s7CVarArgP", "keyValueToSocketIOClientOption"]
@@ -94,7 +93,6 @@ depends-member:
 - !private ["s10ComparableP", "JSONSerialization"]
 - !private ["s10ComparableP", "addingPercentEncoding"]
 - !private ["s10ComparableP", "data"]
-- !private ["s10ComparableP", "hashValue"]
 - !private ["s10ComparableP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "CharacterSet"]
 - !private ["s28CustomDebugStringConvertibleP", "JSONError"]
@@ -132,7 +130,6 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "addingPercentEncoding"]
 - !private ["s29CustomPlaygroundQuickLookableP", "data"]
-- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "JSONError"]
 - !private ["s17CustomReflectableP", "JSONSerialization"]
@@ -148,7 +145,6 @@ depends-member:
 - !private ["s17CustomReflectableP", "forcePolling"]
 - !private ["s17CustomReflectableP", "forceWebsockets"]
 - !private ["s17CustomReflectableP", "handleQueue"]
-- !private ["s17CustomReflectableP", "hashValue"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "keyValueToSocketIOClientOption"]
 - !private ["s17CustomReflectableP", "log"]
@@ -179,7 +175,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "forcePolling"]
 - !private ["s23CustomStringConvertibleP", "forceWebsockets"]
 - !private ["s23CustomStringConvertibleP", "handleQueue"]
-- !private ["s23CustomStringConvertibleP", "hashValue"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "inverted"]
 - !private ["s23CustomStringConvertibleP", "jsonObject"]
@@ -211,7 +206,6 @@ depends-member:
 - !private ["s9DecodableP", "forcePolling"]
 - !private ["s9DecodableP", "forceWebsockets"]
 - !private ["s9DecodableP", "handleQueue"]
-- !private ["s9DecodableP", "hashValue"]
 - !private ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "inverted"]
 - !private ["s9DecodableP", "log"]
@@ -240,7 +234,6 @@ depends-member:
 - !private ["s9EncodableP", "forcePolling"]
 - !private ["s9EncodableP", "forceWebsockets"]
 - !private ["s9EncodableP", "handleQueue"]
-- !private ["s9EncodableP", "hashValue"]
 - !private ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "inverted"]
 - !private ["s9EncodableP", "log"]
@@ -260,6 +253,7 @@ depends-member:
 - !private ["s9EquatableP", "JSONSerialization"]
 - !private ["s9EquatableP", "NSDictionary"]
 - !private ["s9EquatableP", "WritingOptions"]
+- ["s9EquatableP", ""]
 - ["s9EquatableP", "_code"]
 - ["s9EquatableP", "_domain"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
@@ -297,7 +291,7 @@ depends-member:
 - !private ["s9EquatableP", "selfSigned"]
 - !private ["s9EquatableP", "sessionDelegate"]
 - !private ["s9EquatableP", "utf16"]
-- ["s9EquatableP", ""]
+- ["s5ErrorP", ""]
 - ["s5ErrorP", "_code"]
 - ["s5ErrorP", "_domain"]
 - ["s5ErrorP", "_getEmbeddedNSError"]
@@ -305,7 +299,6 @@ depends-member:
 - ["s5ErrorP", "hashValue"]
 - !private ["s5ErrorP", "notArray"]
 - !private ["s5ErrorP", "notNSDictionary"]
-- ["s5ErrorP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "CharacterSet"]
 - !private ["s25ExpressibleByArrayLiteralP", "JSONSerialization"]
 - !private ["s25ExpressibleByArrayLiteralP", "allowFragments"]
@@ -322,7 +315,6 @@ depends-member:
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
 - !private ["s23ExpressibleByNilLiteralP", "compress"]
 - !private ["s23ExpressibleByNilLiteralP", "connectParams"]
 - !private ["s23ExpressibleByNilLiteralP", "cookies"]
@@ -352,12 +344,12 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "addingPercentEncoding"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s17FixedWidthIntegerP", "hashValue"]
 - !private ["s8HashableP", "CharacterSet"]
 - !private ["s8HashableP", "JSONError"]
 - !private ["s8HashableP", "JSONSerialization"]
 - !private ["s8HashableP", "NSDictionary"]
 - !private ["s8HashableP", "WritingOptions"]
+- ["s8HashableP", ""]
 - ["s8HashableP", "_code"]
 - ["s8HashableP", "_domain"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
@@ -374,8 +366,6 @@ depends-member:
 - !private ["s8HashableP", "notArray"]
 - !private ["s8HashableP", "notNSDictionary"]
 - !private ["s8HashableP", "utf16"]
-- ["s8HashableP", ""]
-- !private ["Si", "hashValue"]
 - ["8SocketIO9JSONErrorO", "__derived_enum_equals"]
 - ["8SocketIO9JSONErrorO", "_code"]
 - ["8SocketIO9JSONErrorO", "_domain"]
@@ -393,25 +383,21 @@ depends-member:
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "addingPercentEncoding"]
 - !private ["s25LosslessStringConvertibleP", "data"]
-- !private ["s25LosslessStringConvertibleP", "hashValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "JSONError"]
 - !private ["s10MirrorPathP", "JSONSerialization"]
 - !private ["s10MirrorPathP", "addingPercentEncoding"]
 - !private ["s10MirrorPathP", "data"]
-- !private ["s10MirrorPathP", "hashValue"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["s17MutableCollectionP", "JSONSerialization"]
 - !private ["s17MutableCollectionP", "insert"]
 - !private ["So8NSCodingP", "NSDictionary"]
 - !private ["So8NSCodingP", "addingPercentEncoding"]
 - !private ["So8NSCodingP", "data"]
-- !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "keyValueToSocketIOClientOption"]
 - !private ["So9NSCopyingP", "NSDictionary"]
 - !private ["So9NSCopyingP", "addingPercentEncoding"]
 - !private ["So9NSCopyingP", "data"]
-- !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "keyValueToSocketIOClientOption"]
 - !private ["So12NSDictionaryC", "Bool"]
 - !private ["So12NSDictionaryC", "DispatchQueue"]
@@ -420,9 +406,9 @@ depends-member:
 - !private ["So12NSDictionaryC", "NSDictionary"]
 - !private ["So12NSDictionaryC", "SSLSecurity"]
 - ["So12NSDictionaryC", "SocketIOClientConfiguration"]
-- !private ["So12NSDictionaryC", "SocketIOClientOption"]
+- ["So12NSDictionaryC", "SocketIOClientOption"]
 - !private ["So12NSDictionaryC", "SocketLogger"]
-- !private ["So12NSDictionaryC", "String"]
+- ["So12NSDictionaryC", "String"]
 - !private ["So12NSDictionaryC", "URLSessionDelegate"]
 - !private ["So12NSDictionaryC", "keyValueToSocketIOClientOption"]
 - ["So12NSDictionaryC", "toSocketConfiguration"]
@@ -430,14 +416,11 @@ depends-member:
 - !private ["So17NSFastEnumerationP", "keyValueToSocketIOClientOption"]
 - !private ["So21NSItemProviderReadingP", "addingPercentEncoding"]
 - !private ["So21NSItemProviderReadingP", "data"]
-- !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderWritingP", "addingPercentEncoding"]
 - !private ["So21NSItemProviderWritingP", "data"]
-- !private ["So21NSItemProviderWritingP", "init"]
 - !private ["So16NSMutableCopyingP", "NSDictionary"]
 - !private ["So16NSMutableCopyingP", "addingPercentEncoding"]
 - !private ["So16NSMutableCopyingP", "data"]
-- !private ["So16NSMutableCopyingP", "init"]
 - !private ["So16NSMutableCopyingP", "keyValueToSocketIOClientOption"]
 - !private ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "DispatchQueue"]
@@ -446,9 +429,9 @@ depends-member:
 - !private ["So8NSObjectC", "NSDictionary"]
 - !private ["So8NSObjectC", "SSLSecurity"]
 - ["So8NSObjectC", "SocketIOClientConfiguration"]
-- !private ["So8NSObjectC", "SocketIOClientOption"]
+- ["So8NSObjectC", "SocketIOClientOption"]
 - !private ["So8NSObjectC", "SocketLogger"]
-- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "String"]
 - !private ["So8NSObjectC", "URLSessionDelegate"]
 - !private ["So8NSObjectC", "WritingOptions"]
 - !private ["So8NSObjectC", "addingPercentEncoding"]
@@ -460,18 +443,14 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "WritingOptions"]
 - !private ["So16NSObjectProtocolP", "addingPercentEncoding"]
 - !private ["So16NSObjectProtocolP", "data"]
-- !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "jsonObject"]
 - !private ["So16NSObjectProtocolP", "keyValueToSocketIOClientOption"]
 - !private ["So14NSSecureCodingP", "NSDictionary"]
 - !private ["So14NSSecureCodingP", "addingPercentEncoding"]
 - !private ["So14NSSecureCodingP", "data"]
-- !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "keyValueToSocketIOClientOption"]
 - !private ["So8NSStringC", "addingPercentEncoding"]
 - !private ["So8NSStringC", "data"]
-- !private ["So8NSStringC", "init"]
-- !private ["s7NumericP", "hashValue"]
 - !private ["s9OptionSetP", "allowFragments"]
 - !private ["s9OptionSetP", "init"]
 - !private ["s9OptionSetP", "mutableContainers"]
@@ -524,15 +503,12 @@ depends-member:
 - !private ["s10SetAlgebraP", "init"]
 - !private ["s10SetAlgebraP", "inverted"]
 - !private ["s10SetAlgebraP", "mutableContainers"]
-- !private ["s13SignedIntegerP", "hashValue"]
-- !private ["s13SignedNumericP", "hashValue"]
 - !private ["8SocketIO0A4DataP", "JSONError"]
 - !private ["8SocketIO0A4DataP", "JSONSerialization"]
 - !private ["8SocketIO0A4DataP", "NSDictionary"]
 - !private ["8SocketIO0A4DataP", "_getBuiltinLogicValue"]
 - !private ["8SocketIO0A4DataP", "addingPercentEncoding"]
 - !private ["8SocketIO0A4DataP", "data"]
-- !private ["8SocketIO0A4DataP", "hashValue"]
 - !private ["8SocketIO0A4DataP", "init"]
 - !private ["8SocketIO0A4DataP", "keyValueToSocketIOClientOption"]
 - !private ["8SocketIO0A21IOClientConfigurationV", "deinit"]
@@ -556,7 +532,6 @@ depends-member:
 - !private ["8SocketIO0A14IOClientOptionO", "security"]
 - !private ["8SocketIO0A14IOClientOptionO", "selfSigned"]
 - !private ["8SocketIO0A14IOClientOptionO", "sessionDelegate"]
-- !private ["s10StrideableP", "hashValue"]
 - !private ["SS", "JSONError"]
 - !private ["SS", "JSONSerialization"]
 - ["SS", "String"]
@@ -583,12 +558,6 @@ depends-member:
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["So17JSONSerializationC14WritingOptionsV", "init"]
 - !private ["s14_ArrayProtocolP", "JSONSerialization"]
-- !private ["s23_BidirectionalIndexableP", "JSONError"]
-- !private ["s23_BidirectionalIndexableP", "JSONSerialization"]
-- !private ["s23_BidirectionalIndexableP", "addingPercentEncoding"]
-- !private ["s23_BidirectionalIndexableP", "data"]
-- !private ["s23_BidirectionalIndexableP", "init"]
-- !private ["s18_BitwiseOperationsP", "hashValue"]
 - !private ["s24_DestructorSafeContainerP", "JSONSerialization"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "JSONError"]
@@ -596,7 +565,6 @@ depends-member:
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "JSONError"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "JSONSerialization"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "addingPercentEncoding"]
@@ -619,28 +587,12 @@ depends-member:
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "addingPercentEncoding"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- !private ["s10_IndexableP", "JSONError"]
-- !private ["s10_IndexableP", "JSONSerialization"]
-- !private ["s10_IndexableP", "addingPercentEncoding"]
-- !private ["s10_IndexableP", "data"]
-- !private ["s10_IndexableP", "init"]
-- !private ["s10_IndexableP", "insert"]
-- !private ["s14_IndexableBaseP", "JSONError"]
-- !private ["s14_IndexableBaseP", "JSONSerialization"]
-- !private ["s14_IndexableBaseP", "addingPercentEncoding"]
-- !private ["s14_IndexableBaseP", "data"]
-- !private ["s14_IndexableBaseP", "init"]
-- !private ["s14_IndexableBaseP", "insert"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSDictionary"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "WritingOptions"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addingPercentEncoding"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "keyValueToSocketIOClientOption"]
-- !private ["s17_MutableIndexableP", "JSONSerialization"]
-- !private ["s17_MutableIndexableP", "insert"]
 - !private ["s21_ObjectiveCBridgeableP", "CharacterSet"]
 - !private ["s21_ObjectiveCBridgeableP", "JSONError"]
 - !private ["s21_ObjectiveCBridgeableP", "JSONSerialization"]
@@ -656,7 +608,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "forcePolling"]
 - !private ["s21_ObjectiveCBridgeableP", "forceWebsockets"]
 - !private ["s21_ObjectiveCBridgeableP", "handleQueue"]
-- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "inverted"]
 - !private ["s21_ObjectiveCBridgeableP", "log"]
@@ -670,13 +621,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "security"]
 - !private ["s21_ObjectiveCBridgeableP", "selfSigned"]
 - !private ["s21_ObjectiveCBridgeableP", "sessionDelegate"]
-- !private ["s22_RandomAccessIndexableP", "JSONSerialization"]
-- !private ["s26_RangeReplaceableIndexableP", "JSONError"]
-- !private ["s26_RangeReplaceableIndexableP", "JSONSerialization"]
-- !private ["s26_RangeReplaceableIndexableP", "addingPercentEncoding"]
-- !private ["s26_RangeReplaceableIndexableP", "data"]
-- !private ["s26_RangeReplaceableIndexableP", "init"]
-- !private ["s11_StrideableP", "hashValue"]
 - !private ["s16_SwiftStringViewP", "JSONError"]
 - !private ["s16_SwiftStringViewP", "JSONSerialization"]
 - !private ["s16_SwiftStringViewP", "addingPercentEncoding"]
@@ -685,7 +629,6 @@ depends-member:
 depends-nominal:
 - "Sa"
 - !private "s23BidirectionalCollectionP"
-- !private "s13BinaryIntegerP"
 - !private "Sb"
 - !private "s7CVarArgP"
 - "10Foundation12CharacterSetV"
@@ -705,13 +648,10 @@ depends-nominal:
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "s17FixedWidthIntegerP"
 - "s8HashableP"
-- !private "Si"
 - "8SocketIO9JSONErrorO"
 - !private "So17JSONSerializationC"
 - !private "s25LosslessStringConvertibleP"
@@ -728,7 +668,6 @@ depends-nominal:
 - !private "So16NSObjectProtocolP"
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
-- !private "s7NumericP"
 - !private "s9OptionSetP"
 - !private "Sq"
 - !private "s22RandomAccessCollectionP"
@@ -738,42 +677,30 @@ depends-nominal:
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "s8SequenceP"
 - !private "s10SetAlgebraP"
-- !private "s13SignedIntegerP"
-- !private "s13SignedNumericP"
 - !private "8SocketIO0A4DataP"
 - !private "8SocketIO0A21IOClientConfigurationV"
 - !private "8SocketIO0A14IOClientOptionO"
-- !private "s10StrideableP"
 - "SS"
 - !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "So17JSONSerializationC14WritingOptionsV"
 - !private "s14_ArrayProtocolP"
-- !private "s23_BidirectionalIndexableP"
-- !private "s18_BitwiseOperationsP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
-- !private "s10_IndexableP"
-- !private "s14_IndexableBaseP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s17_MutableIndexableP"
 - !private "s21_ObjectiveCBridgeableP"
-- !private "s22_RandomAccessIndexableP"
-- !private "s26_RangeReplaceableIndexableP"
-- !private "s11_StrideableP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/Starscream/Starscream.framework/Modules/Starscream.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -786,10 +713,20 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/Socket.IO-Client-Swift.build/unextended-module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/zlib/module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/Starscream.build/module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Debug-iphonesimulator/Starscream/Starscream.framework/Headers/Starscream-Swift.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/Socket.IO-Client-Swift.build/unextended-module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Starscream/zlib/module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/Starscream.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 interface-hash: "35fdfa5bb47309ebbb19863f0aa29273"

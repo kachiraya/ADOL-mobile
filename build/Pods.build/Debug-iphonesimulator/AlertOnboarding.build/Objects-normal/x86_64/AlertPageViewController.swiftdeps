@@ -177,6 +177,8 @@ depends-member:
 - !private ["s7CVarArgP", "UIPageViewControllerTransitionStyle"]
 - !private ["s7CVarArgP", "UIScreen"]
 - ["s7CVarArgP", "UIViewController"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "addChildViewController"]
 - !private ["s7CVarArgP", "addSubview"]
 - !private ["s7CVarArgP", "alertview"]
@@ -243,7 +245,6 @@ depends-member:
 - !private ["s7CVarArgP", "viewDidLayoutSubviews"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["s7CVarArgP", "viewWillAppear"]
-- ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "count"]
 - ["s10CollectionP", "init"]
 - !private ["s10CollectionP", "subscript"]
@@ -261,6 +262,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "UIPageViewControllerTransitionStyle"]
 - !private ["s28CustomDebugStringConvertibleP", "UIScreen"]
 - ["s28CustomDebugStringConvertibleP", "UIViewController"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "addChildViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "addSubview"]
 - !private ["s28CustomDebugStringConvertibleP", "alertview"]
@@ -329,7 +331,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
 - !private ["s28CustomDebugStringConvertibleP", "width"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "height"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
@@ -353,6 +354,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "UIPageViewControllerTransitionStyle"]
 - !private ["s23CustomStringConvertibleP", "UIScreen"]
 - ["s23CustomStringConvertibleP", "UIViewController"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "addChildViewController"]
 - !private ["s23CustomStringConvertibleP", "addSubview"]
@@ -420,7 +422,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "viewDidLayoutSubviews"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - !private ["s23CustomStringConvertibleP", "viewWillAppear"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "count"]
 - !private ["s9DecodableP", "height"]
@@ -446,6 +447,7 @@ depends-member:
 - !private ["s9EquatableP", "UIPageViewControllerTransitionStyle"]
 - !private ["s9EquatableP", "UIScreen"]
 - ["s9EquatableP", "UIViewController"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "addChildViewController"]
 - !private ["s9EquatableP", "addSubview"]
@@ -467,6 +469,7 @@ depends-member:
 - !private ["s9EquatableP", "configureConstraintsForPageControl"]
 - !private ["s9EquatableP", "configurePageControl"]
 - !private ["s9EquatableP", "configurePageViewController"]
+- !private ["s9EquatableP", "count"]
 - !private ["s9EquatableP", "currentPage"]
 - !private ["s9EquatableP", "currentPageIndicatorTintColor"]
 - !private ["s9EquatableP", "currentStep"]
@@ -480,7 +483,7 @@ depends-member:
 - !private ["s9EquatableP", "height"]
 - !private ["s9EquatableP", "horizontal"]
 - !private ["s9EquatableP", "image"]
-- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "instantiate"]
 - !private ["s9EquatableP", "isCompleted"]
 - !private ["s9EquatableP", "isEnabled"]
@@ -504,6 +507,7 @@ depends-member:
 - !private ["s9EquatableP", "scroll"]
 - !private ["s9EquatableP", "setTitle"]
 - !private ["s9EquatableP", "setViewControllers"]
+- !private ["s9EquatableP", "subscript"]
 - !private ["s9EquatableP", "text"]
 - !private ["s9EquatableP", "textColor"]
 - !private ["s9EquatableP", "titleGotItButton"]
@@ -516,7 +520,6 @@ depends-member:
 - !private ["s9EquatableP", "viewDidLoad"]
 - !private ["s9EquatableP", "viewWillAppear"]
 - !private ["s9EquatableP", "width"]
-- ["s9EquatableP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
@@ -537,6 +540,7 @@ depends-member:
 - !private ["s8HashableP", "UIPageViewControllerTransitionStyle"]
 - !private ["s8HashableP", "UIScreen"]
 - ["s8HashableP", "UIViewController"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "addChildViewController"]
 - !private ["s8HashableP", "addSubview"]
@@ -605,7 +609,6 @@ depends-member:
 - !private ["s8HashableP", "viewDidLayoutSubviews"]
 - !private ["s8HashableP", "viewDidLoad"]
 - !private ["s8HashableP", "viewWillAppear"]
-- ["s8HashableP", ""]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
@@ -625,6 +628,7 @@ depends-member:
 - !private ["So8NSCodingP", "UIPageViewControllerTransitionStyle"]
 - !private ["So8NSCodingP", "UIScreen"]
 - ["So8NSCodingP", "UIViewController"]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "addChildViewController"]
 - !private ["So8NSCodingP", "addSubview"]
 - !private ["So8NSCodingP", "alertview"]
@@ -686,9 +690,7 @@ depends-member:
 - !private ["So8NSCodingP", "viewDidLayoutSubviews"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - !private ["So8NSCodingP", "viewWillAppear"]
-- ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "clear"]
-- !private ["So9NSCopyingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "AlertPageViewController"]
 - !private ["So26NSExtensionRequestHandlingP", "Bundle"]
 - !private ["So26NSExtensionRequestHandlingP", "CGRect"]
@@ -702,6 +704,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "UIPageViewControllerTransitionStyle"]
 - !private ["So26NSExtensionRequestHandlingP", "UIScreen"]
 - ["So26NSExtensionRequestHandlingP", "UIViewController"]
+- ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "addChildViewController"]
 - !private ["So26NSExtensionRequestHandlingP", "alertview"]
 - !private ["So26NSExtensionRequestHandlingP", "arrayOfDescription"]
@@ -741,12 +744,10 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLayoutSubviews"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - !private ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
-- ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So21NSItemProviderReadingP", "clear"]
 - !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderWritingP", "clear"]
 - !private ["So21NSItemProviderWritingP", "init"]
-- !private ["So16NSMutableCopyingP", "init"]
 - !private ["So8NSObjectC", "AlertChildPageViewController"]
 - ["So8NSObjectC", "AlertOnboarding"]
 - !private ["So8NSObjectC", "AlertPageViewController"]
@@ -844,6 +845,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "UIPageViewControllerTransitionStyle"]
 - !private ["So16NSObjectProtocolP", "UIScreen"]
 - ["So16NSObjectProtocolP", "UIViewController"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "addChildViewController"]
 - !private ["So16NSObjectProtocolP", "addSubview"]
 - !private ["So16NSObjectProtocolP", "alertview"]
@@ -908,10 +910,8 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "viewDidLayoutSubviews"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - !private ["So16NSObjectProtocolP", "viewWillAppear"]
-- ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "clear"]
 - !private ["So14NSSecureCodingP", "init"]
-- !private ["So8NSStringC", "init"]
 - !private ["s9OptionSetP", "init"]
 - !private ["s22RandomAccessCollectionP", "count"]
 - ["s22RandomAccessCollectionP", "init"]
@@ -993,6 +993,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "UIPageViewControllerTransitionStyle"]
 - !private ["So21UIAppearanceContainerP", "UIScreen"]
 - ["So21UIAppearanceContainerP", "UIViewController"]
+- ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "addChildViewController"]
 - !private ["So21UIAppearanceContainerP", "addSubview"]
 - !private ["So21UIAppearanceContainerP", "alertview"]
@@ -1053,7 +1054,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "viewDidLayoutSubviews"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - !private ["So21UIAppearanceContainerP", "viewWillAppear"]
-- ["So21UIAppearanceContainerP", ""]
 - !private ["So8UIButtonC", "setTitle"]
 - !private ["So7UIColorC", "clear"]
 - !private ["So18UIContentContainerP", "AlertPageViewController"]
@@ -1069,6 +1069,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "UIPageViewControllerTransitionStyle"]
 - !private ["So18UIContentContainerP", "UIScreen"]
 - ["So18UIContentContainerP", "UIViewController"]
+- ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "addChildViewController"]
 - !private ["So18UIContentContainerP", "alertview"]
 - !private ["So18UIContentContainerP", "arrayOfDescription"]
@@ -1108,7 +1109,6 @@ depends-member:
 - !private ["So18UIContentContainerP", "viewDidLayoutSubviews"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - !private ["So18UIContentContainerP", "viewWillAppear"]
-- ["So18UIContentContainerP", ""]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
 - !private ["So9UIControlC", "appearance"]
@@ -1181,6 +1181,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "UIPageViewControllerTransitionStyle"]
 - !private ["So18UIFocusEnvironmentP", "UIScreen"]
 - ["So18UIFocusEnvironmentP", "UIViewController"]
+- ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "addChildViewController"]
 - !private ["So18UIFocusEnvironmentP", "addSubview"]
 - !private ["So18UIFocusEnvironmentP", "alertview"]
@@ -1241,7 +1242,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "viewDidLayoutSubviews"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - !private ["So18UIFocusEnvironmentP", "viewWillAppear"]
-- ["So18UIFocusEnvironmentP", ""]
 - !private ["So11UIFocusItemP", "addSubview"]
 - !private ["So11UIFocusItemP", "appearance"]
 - !private ["So11UIFocusItemP", "backgroundColor"]
@@ -1301,6 +1301,7 @@ depends-member:
 - !private ["So30UIPageViewControllerDataSourceP", "UIPageViewControllerTransitionStyle"]
 - !private ["So30UIPageViewControllerDataSourceP", "UIScreen"]
 - ["So30UIPageViewControllerDataSourceP", "UIViewController"]
+- ["So30UIPageViewControllerDataSourceP", ""]
 - !private ["So30UIPageViewControllerDataSourceP", "addChildViewController"]
 - !private ["So30UIPageViewControllerDataSourceP", "alertview"]
 - !private ["So30UIPageViewControllerDataSourceP", "arrayOfDescription"]
@@ -1328,7 +1329,6 @@ depends-member:
 - !private ["So30UIPageViewControllerDataSourceP", "view"]
 - !private ["So30UIPageViewControllerDataSourceP", "viewControllerAtIndex"]
 - !private ["So30UIPageViewControllerDataSourceP", "viewControllers"]
-- ["So30UIPageViewControllerDataSourceP", ""]
 - !private ["So28UIPageViewControllerDelegateP", "AlertPageViewController"]
 - !private ["So28UIPageViewControllerDelegateP", "Bundle"]
 - !private ["So28UIPageViewControllerDelegateP", "CGRect"]
@@ -1342,6 +1342,7 @@ depends-member:
 - !private ["So28UIPageViewControllerDelegateP", "UIPageViewControllerTransitionStyle"]
 - !private ["So28UIPageViewControllerDelegateP", "UIScreen"]
 - ["So28UIPageViewControllerDelegateP", "UIViewController"]
+- ["So28UIPageViewControllerDelegateP", ""]
 - !private ["So28UIPageViewControllerDelegateP", "addChildViewController"]
 - !private ["So28UIPageViewControllerDelegateP", "alertview"]
 - !private ["So28UIPageViewControllerDelegateP", "arrayOfDescription"]
@@ -1369,7 +1370,6 @@ depends-member:
 - !private ["So28UIPageViewControllerDelegateP", "view"]
 - !private ["So28UIPageViewControllerDelegateP", "viewControllerAtIndex"]
 - !private ["So28UIPageViewControllerDelegateP", "viewControllers"]
-- ["So28UIPageViewControllerDelegateP", ""]
 - !private ["SC39UIPageViewControllerNavigationDirectionO", "forward"]
 - !private ["SC41UIPageViewControllerNavigationOrientationO", "horizontal"]
 - !private ["SC35UIPageViewControllerTransitionStyleO", "scroll"]
@@ -1386,6 +1386,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "UIPageViewControllerTransitionStyle"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIScreen"]
 - ["So30UIPasteConfigurationSupportingP", "UIViewController"]
+- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "addChildViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
 - !private ["So30UIPasteConfigurationSupportingP", "alertview"]
@@ -1446,7 +1447,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLayoutSubviews"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
-- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So11UIResponderC", "AlertChildPageViewController"]
 - ["So11UIResponderC", "AlertOnboarding"]
 - !private ["So11UIResponderC", "AlertPageViewController"]
@@ -1540,6 +1540,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "UIPageViewControllerTransitionStyle"]
 - !private ["So30UIResponderStandardEditActionsP", "UIScreen"]
 - ["So30UIResponderStandardEditActionsP", "UIViewController"]
+- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "addChildViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "addSubview"]
 - !private ["So30UIResponderStandardEditActionsP", "alertview"]
@@ -1600,7 +1601,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLayoutSubviews"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
-- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So8UIScreenC", "bounds"]
 - !private ["So8UIScreenC", "main"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
@@ -1617,6 +1617,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "UIPageViewControllerTransitionStyle"]
 - !private ["So16UIStateRestoringP", "UIScreen"]
 - ["So16UIStateRestoringP", "UIViewController"]
+- ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "addChildViewController"]
 - !private ["So16UIStateRestoringP", "alertview"]
 - !private ["So16UIStateRestoringP", "arrayOfDescription"]
@@ -1656,7 +1657,6 @@ depends-member:
 - !private ["So16UIStateRestoringP", "viewDidLayoutSubviews"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - !private ["So16UIStateRestoringP", "viewWillAppear"]
-- ["So16UIStateRestoringP", ""]
 - !private ["So18UITraitEnvironmentP", "AlertPageViewController"]
 - !private ["So18UITraitEnvironmentP", "Bundle"]
 - !private ["So18UITraitEnvironmentP", "CGRect"]
@@ -1670,6 +1670,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "UIPageViewControllerTransitionStyle"]
 - !private ["So18UITraitEnvironmentP", "UIScreen"]
 - ["So18UITraitEnvironmentP", "UIViewController"]
+- ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "addChildViewController"]
 - !private ["So18UITraitEnvironmentP", "addSubview"]
 - !private ["So18UITraitEnvironmentP", "alertview"]
@@ -1731,7 +1732,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "viewDidLayoutSubviews"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - !private ["So18UITraitEnvironmentP", "viewWillAppear"]
-- ["So18UITraitEnvironmentP", ""]
 - !private ["So6UIViewC", "addSubview"]
 - !private ["So6UIViewC", "appearance"]
 - !private ["So6UIViewC", "backgroundColor"]
@@ -1775,6 +1775,7 @@ depends-member:
 - !private ["So16UIViewControllerC", "UIPageViewControllerTransitionStyle"]
 - !private ["So16UIViewControllerC", "UIScreen"]
 - ["So16UIViewControllerC", "UIViewController"]
+- ["So16UIViewControllerC", ""]
 - !private ["So16UIViewControllerC", "addChildViewController"]
 - ["So16UIViewControllerC", "alertview"]
 - ["So16UIViewControllerC", "arrayOfDescription"]
@@ -1814,13 +1815,9 @@ depends-member:
 - ["So16UIViewControllerC", "viewDidLayoutSubviews"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", "viewWillAppear"]
-- ["So16UIViewControllerC", ""]
 - !private ["s14_ArrayProtocolP", "count"]
 - ["s14_ArrayProtocolP", "init"]
 - !private ["s14_ArrayProtocolP", "subscript"]
-- !private ["s23_BidirectionalIndexableP", "count"]
-- ["s23_BidirectionalIndexableP", "init"]
-- !private ["s23_BidirectionalIndexableP", "subscript"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "appearance"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
@@ -1855,13 +1852,6 @@ depends-member:
 - !private ["s26_ExpressibleByColorLiteralP", "clear"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- !private ["s10_IndexableP", "count"]
-- ["s10_IndexableP", "init"]
-- !private ["s10_IndexableP", "subscript"]
-- !private ["s14_IndexableBaseP", "count"]
-- ["s14_IndexableBaseP", "init"]
-- !private ["s14_IndexableBaseP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "AlertPageViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
@@ -1875,6 +1865,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIPageViewControllerTransitionStyle"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addChildViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "alertview"]
@@ -1939,22 +1930,12 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLayoutSubviews"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["s17_MutableIndexableP", "count"]
-- ["s17_MutableIndexableP", "init"]
-- !private ["s17_MutableIndexableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - !private ["s21_ObjectiveCBridgeableP", "height"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "width"]
-- !private ["s22_RandomAccessIndexableP", "count"]
-- ["s22_RandomAccessIndexableP", "init"]
-- !private ["s22_RandomAccessIndexableP", "subscript"]
-- !private ["s26_RangeReplaceableIndexableP", "count"]
-- ["s26_RangeReplaceableIndexableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "subscript"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "15AlertOnboarding0A23ChildPageViewControllerC"
@@ -1991,11 +1972,9 @@ depends-nominal:
 - "So26NSExtensionRequestHandlingP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
-- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
 - !private "So14NSSecureCodingP"
-- !private "So8NSStringC"
 - !private "s9OptionSetP"
 - "s22RandomAccessCollectionP"
 - "s26RangeReplaceableCollectionP"
@@ -2043,7 +2022,6 @@ depends-nominal:
 - !private "So6UIViewC"
 - "So16UIViewControllerC"
 - "s14_ArrayProtocolP"
-- "s23_BidirectionalIndexableP"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
@@ -2054,14 +2032,8 @@ depends-nominal:
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
-- "s10_IndexableP"
-- "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- "s17_MutableIndexableP"
 - "s21_ObjectiveCBridgeableP"
-- "s22_RandomAccessIndexableP"
-- "s26_RangeReplaceableIndexableP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
@@ -2078,6 +2050,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/AlertOnboarding/AlertOnboarding-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/AlertOnboarding.build/unextended-module.modulemap"
-interface-hash: "a148c26c2e24daaa5c15c1ada20755cf"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/AlertOnboarding/AlertOnboarding-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/AlertOnboarding.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "48db2407a3ae17e3a1cad06626471d7f"

@@ -49,7 +49,7 @@ depends-top-level:
 - !private ">"
 - !private ">="
 - !private ">>"
-- !private "AnyObject"
+- "AnyObject"
 - "Array"
 - "AssignmentPrecedence"
 - !private "BlockOperation"
@@ -79,10 +79,10 @@ depends-top-level:
 - !private "CUnsignedChar"
 - "CastingPrecedence"
 - !private "Character"
-- !private "Compressor"
+- "Compressor"
 - "Data"
 - "Date"
-- !private "Decompressor"
+- "Decompressor"
 - "Dictionary"
 - "DispatchQueue"
 - !private "Error"
@@ -114,20 +114,20 @@ depends-top-level:
 - !private "StreamSocketSecurityLevel"
 - "String"
 - "StringLiteralType"
-- !private "TernaryPrecedence"
+- "TernaryPrecedence"
 - "TimeInterval"
 - "UInt16"
 - !private "UInt32"
-- !private "UInt64"
+- "UInt64"
 - "UInt8"
 - "URL"
 - !private "UnicodeScalar"
 - !private "UnicodeScalarType"
 - !private "Unmanaged"
 - "UnsafeBufferPointer"
-- !private "UnsafeMutablePointer"
+- "UnsafeMutablePointer"
 - !private "UnsafeMutableRawPointer"
-- !private "UnsafePointer"
+- "UnsafePointer"
 - !private "UnsafeRawPointer"
 - "Void"
 - "WebSocket"
@@ -203,7 +203,6 @@ depends-member:
 - !private ["s23BidirectionalCollectionP", "trimmingCharacters"]
 - !private ["s23BidirectionalCollectionP", "withUnsafeBytes"]
 - !private ["s19BinaryFloatingPointP", "milliseconds"]
-- !private ["s13BinaryIntegerP", "hashValue"]
 - !private ["s13BinaryIntegerP", "init"]
 - !private ["s13BinaryIntegerP", "max"]
 - !private ["So14BlockOperationC", "addExecutionBlock"]
@@ -285,6 +284,8 @@ depends-member:
 - !private ["s7CVarArgP", "WebsocketDidConnectNotification"]
 - !private ["s7CVarArgP", "WebsocketDidDisconnectNotification"]
 - !private ["s7CVarArgP", "WebsocketDisconnectionErrorKeyName"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "addExecutionBlock"]
 - !private ["s7CVarArgP", "addHeader"]
 - !private ["s7CVarArgP", "addOperation"]
@@ -331,7 +332,6 @@ depends-member:
 - !private ["s7CVarArgP", "generateWebSocketKey"]
 - !private ["s7CVarArgP", "hasPrefix"]
 - !private ["s7CVarArgP", "hasSpaceAvailable"]
-- !private ["s7CVarArgP", "hashValue"]
 - !private ["s7CVarArgP", "headerOriginName"]
 - !private ["s7CVarArgP", "headerSecKey"]
 - !private ["s7CVarArgP", "headerWSAcceptName"]
@@ -425,11 +425,10 @@ depends-member:
 - !private ["s7CVarArgP", "writeQueue"]
 - !private ["s7CVarArgP", "writeUint16"]
 - !private ["s7CVarArgP", "writeUint64"]
-- ["s7CVarArgP", ""]
 - !private ["s9CharacterV", "init"]
 - !private ["10Foundation12CharacterSetV", "whitespaces"]
-- !private ["SS13CharacterViewV", "count"]
 - ["10Starscream9WebSocketC9CloseCodeO", "RawValue"]
+- ["10Starscream9WebSocketC9CloseCodeO", "_Default_RawValue"]
 - ["10Starscream9WebSocketC9CloseCodeO", "deinit"]
 - ["10Starscream9WebSocketC9CloseCodeO", "encoding"]
 - ["10Starscream9WebSocketC9CloseCodeO", "goingAway"]
@@ -491,7 +490,6 @@ depends-member:
 - !private ["s10ComparableP", "data"]
 - !private ["s10ComparableP", "endIndex"]
 - !private ["s10ComparableP", "hasPrefix"]
-- !private ["s10ComparableP", "hashValue"]
 - !private ["s10ComparableP", "index"]
 - ["s10ComparableP", "init"]
 - !private ["s10ComparableP", "max"]
@@ -578,6 +576,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "WebsocketDidConnectNotification"]
 - !private ["s28CustomDebugStringConvertibleP", "WebsocketDidDisconnectNotification"]
 - !private ["s28CustomDebugStringConvertibleP", "WebsocketDisconnectionErrorKeyName"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
 - !private ["s28CustomDebugStringConvertibleP", "addExecutionBlock"]
 - !private ["s28CustomDebugStringConvertibleP", "addHeader"]
@@ -735,7 +734,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "writeQueue"]
 - !private ["s28CustomDebugStringConvertibleP", "writeUint16"]
 - !private ["s28CustomDebugStringConvertibleP", "writeUint64"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "CC_LONG"]
 - !private ["s29CustomPlaygroundQuickLookableP", "CC_SHA1"]
 - !private ["s29CustomPlaygroundQuickLookableP", "CC_SHA1_DIGEST_LENGTH"]
@@ -754,7 +752,6 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "data"]
 - !private ["s29CustomPlaygroundQuickLookableP", "endIndex"]
 - !private ["s29CustomPlaygroundQuickLookableP", "hasPrefix"]
-- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "host"]
 - !private ["s29CustomPlaygroundQuickLookableP", "index"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
@@ -792,7 +789,6 @@ depends-member:
 - !private ["s17CustomReflectableP", "endIndex"]
 - !private ["s17CustomReflectableP", "filter"]
 - !private ["s17CustomReflectableP", "hasPrefix"]
-- !private ["s17CustomReflectableP", "hashValue"]
 - !private ["s17CustomReflectableP", "index"]
 - ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "isEmpty"]
@@ -886,6 +882,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "WebsocketDidConnectNotification"]
 - !private ["s23CustomStringConvertibleP", "WebsocketDidDisconnectNotification"]
 - !private ["s23CustomStringConvertibleP", "WebsocketDisconnectionErrorKeyName"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "absoluteString"]
 - !private ["s23CustomStringConvertibleP", "addExecutionBlock"]
@@ -934,7 +931,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "generateWebSocketKey"]
 - !private ["s23CustomStringConvertibleP", "hasPrefix"]
 - !private ["s23CustomStringConvertibleP", "hasSpaceAvailable"]
-- !private ["s23CustomStringConvertibleP", "hashValue"]
 - !private ["s23CustomStringConvertibleP", "headerOriginName"]
 - !private ["s23CustomStringConvertibleP", "headerSecKey"]
 - !private ["s23CustomStringConvertibleP", "headerWSAcceptName"]
@@ -1035,9 +1031,8 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "writeQueue"]
 - !private ["s23CustomStringConvertibleP", "writeUint16"]
 - !private ["s23CustomStringConvertibleP", "writeUint64"]
-- ["s23CustomStringConvertibleP", ""]
-- !private ["10Foundation4DataV", "UInt8"]
-- !private ["10Foundation4DataV", "UnsafeBufferPointer"]
+- ["10Foundation4DataV", "UInt8"]
+- ["10Foundation4DataV", "UnsafeBufferPointer"]
 - !private ["10Foundation4DataV", "append"]
 - !private ["10Foundation4DataV", "base64EncodedString"]
 - !private ["10Foundation4DataV", "count"]
@@ -1070,7 +1065,6 @@ depends-member:
 - !private ["s9DecodableP", "endIndex"]
 - !private ["s9DecodableP", "filter"]
 - !private ["s9DecodableP", "hasPrefix"]
-- !private ["s9DecodableP", "hashValue"]
 - !private ["s9DecodableP", "host"]
 - !private ["s9DecodableP", "index"]
 - ["s9DecodableP", "init"]
@@ -1134,7 +1128,6 @@ depends-member:
 - !private ["s9EncodableP", "endIndex"]
 - !private ["s9EncodableP", "filter"]
 - !private ["s9EncodableP", "hasPrefix"]
-- !private ["s9EncodableP", "hashValue"]
 - !private ["s9EncodableP", "host"]
 - !private ["s9EncodableP", "index"]
 - ["s9EncodableP", "init"]
@@ -1235,6 +1228,8 @@ depends-member:
 - !private ["s9EquatableP", "WebsocketDidConnectNotification"]
 - !private ["s9EquatableP", "WebsocketDidDisconnectNotification"]
 - !private ["s9EquatableP", "WebsocketDisconnectionErrorKeyName"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "absoluteString"]
 - !private ["s9EquatableP", "addExecutionBlock"]
@@ -1264,6 +1259,7 @@ depends-member:
 - !private ["s9EquatableP", "connected"]
 - !private ["s9EquatableP", "connectedMutex"]
 - !private ["s9EquatableP", "connectionClose"]
+- !private ["s9EquatableP", "contains"]
 - ["s9EquatableP", "continueFrame"]
 - !private ["s9EquatableP", "count"]
 - !private ["s9EquatableP", "createHTTPRequest"]
@@ -1285,6 +1281,7 @@ depends-member:
 - !private ["s9EquatableP", "errSecSuccess"]
 - !private ["s9EquatableP", "errorOccurred"]
 - !private ["s9EquatableP", "errorWithDetail"]
+- !private ["s9EquatableP", "filter"]
 - !private ["s9EquatableP", "fragBuffer"]
 - !private ["s9EquatableP", "generateWebSocketKey"]
 - !private ["s9EquatableP", "hasBytesAvailable"]
@@ -1317,6 +1314,8 @@ depends-member:
 - !private ["s9EquatableP", "isCancelled"]
 - !private ["s9EquatableP", "isConnected"]
 - !private ["s9EquatableP", "isConnecting"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "joined"]
 - !private ["s9EquatableP", "kCFAllocatorDefault"]
 - !private ["s9EquatableP", "kCFHTTPVersion1_1"]
 - !private ["s9EquatableP", "kCFNull"]
@@ -1326,14 +1325,17 @@ depends-member:
 - !private ["s9EquatableP", "kCFStreamSSLPeerName"]
 - !private ["s9EquatableP", "kCFStreamSSLValidatesCertificateChain"]
 - !private ["s9EquatableP", "kSecRandomDefault"]
+- !private ["s9EquatableP", "last"]
 - !private ["s9EquatableP", "length"]
 - !private ["s9EquatableP", "lock"]
 - ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "map"]
 - !private ["s9EquatableP", "max"]
 - !private ["s9EquatableP", "maxConcurrentOperationCount"]
 - !private ["s9EquatableP", "milliseconds"]
 - !private ["s9EquatableP", "mutableBytes"]
 - !private ["s9EquatableP", "negotiatedSSL"]
+- ["s9EquatableP", "none"]
 - !private ["s9EquatableP", "normal"]
 - !private ["s9EquatableP", "notificationCenter"]
 - !private ["s9EquatableP", "now"]
@@ -1371,12 +1373,14 @@ depends-member:
 - !private ["s9EquatableP", "readyToWrite"]
 - !private ["s9EquatableP", "readyToWriteMutex"]
 - !private ["s9EquatableP", "remove"]
+- !private ["s9EquatableP", "removeLast"]
 - !private ["s9EquatableP", "scheme"]
 - !private ["s9EquatableP", "security"]
 - !private ["s9EquatableP", "setProperty"]
 - !private ["s9EquatableP", "sha1Base64"]
 - !private ["s9EquatableP", "sharedWorkQueue"]
 - !private ["s9EquatableP", "socketSecurityLevelKey"]
+- ["s9EquatableP", "some"]
 - ["s9EquatableP", "stream"]
 - !private ["s9EquatableP", "streamError"]
 - !private ["s9EquatableP", "subscript"]
@@ -1398,7 +1402,6 @@ depends-member:
 - !private ["s9EquatableP", "writeTimeoutError"]
 - !private ["s9EquatableP", "writeUint16"]
 - !private ["s9EquatableP", "writeUint64"]
-- ["s9EquatableP", ""]
 - !private ["s5ErrorP", "init"]
 - !private ["So6StreamC5EventV", "endEncountered"]
 - !private ["So6StreamC5EventV", "errorOccurred"]
@@ -1443,7 +1446,6 @@ depends-member:
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "trimmingCharacters"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", "milliseconds"]
-- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "max"]
 - !private ["s27ExpressibleByIntegerLiteralP", "milliseconds"]
@@ -1497,7 +1499,6 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "remove"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "sha1Base64"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "trimmingCharacters"]
-- !private ["s17FixedWidthIntegerP", "hashValue"]
 - !private ["s17FixedWidthIntegerP", "init"]
 - !private ["s17FixedWidthIntegerP", "max"]
 - !private ["s13FloatingPointP", "milliseconds"]
@@ -1583,6 +1584,8 @@ depends-member:
 - !private ["s8HashableP", "WebsocketDidConnectNotification"]
 - !private ["s8HashableP", "WebsocketDidDisconnectNotification"]
 - !private ["s8HashableP", "WebsocketDisconnectionErrorKeyName"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "absoluteString"]
 - !private ["s8HashableP", "addExecutionBlock"]
@@ -1742,15 +1745,14 @@ depends-member:
 - !private ["s8HashableP", "writeTimeoutError"]
 - !private ["s8HashableP", "writeUint16"]
 - !private ["s8HashableP", "writeUint64"]
-- ["s8HashableP", ""]
 - !private ["So11InputStreamC", "close"]
 - !private ["So11InputStreamC", "delegate"]
 - !private ["So11InputStreamC", "open"]
 - !private ["So11InputStreamC", "read"]
 - !private ["So11InputStreamC", "setProperty"]
-- !private ["Si", "hashValue"]
 - !private ["Si", "init"]
 - ["10Starscream9WebSocketC17InternalErrorCodeO", "RawValue"]
+- ["10Starscream9WebSocketC17InternalErrorCodeO", "_Default_RawValue"]
 - ["10Starscream9WebSocketC17InternalErrorCodeO", "compressionError"]
 - ["10Starscream9WebSocketC17InternalErrorCodeO", "deinit"]
 - ["10Starscream9WebSocketC17InternalErrorCodeO", "hashValue"]
@@ -1774,7 +1776,6 @@ depends-member:
 - !private ["s25LosslessStringConvertibleP", "data"]
 - !private ["s25LosslessStringConvertibleP", "endIndex"]
 - !private ["s25LosslessStringConvertibleP", "hasPrefix"]
-- !private ["s25LosslessStringConvertibleP", "hashValue"]
 - !private ["s25LosslessStringConvertibleP", "index"]
 - ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "max"]
@@ -1797,7 +1798,6 @@ depends-member:
 - !private ["s10MirrorPathP", "data"]
 - !private ["s10MirrorPathP", "endIndex"]
 - !private ["s10MirrorPathP", "hasPrefix"]
-- !private ["s10MirrorPathP", "hashValue"]
 - !private ["s10MirrorPathP", "index"]
 - ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "remove"]
@@ -1826,7 +1826,7 @@ depends-member:
 - !private ["So8NSCodingP", "endIndex"]
 - !private ["So8NSCodingP", "hasPrefix"]
 - !private ["So8NSCodingP", "index"]
-- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "length"]
 - !private ["So8NSCodingP", "mutableBytes"]
 - !private ["So8NSCodingP", "remove"]
@@ -1844,7 +1844,7 @@ depends-member:
 - !private ["So9NSCopyingP", "endIndex"]
 - !private ["So9NSCopyingP", "hasPrefix"]
 - !private ["So9NSCopyingP", "index"]
-- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "length"]
 - !private ["So9NSCopyingP", "mutableBytes"]
 - !private ["So9NSCopyingP", "remove"]
@@ -1866,7 +1866,7 @@ depends-member:
 - !private ["So21NSItemProviderReadingP", "endIndex"]
 - !private ["So21NSItemProviderReadingP", "hasPrefix"]
 - !private ["So21NSItemProviderReadingP", "index"]
-- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderReadingP", "length"]
 - !private ["So21NSItemProviderReadingP", "remove"]
 - !private ["So21NSItemProviderReadingP", "sha1Base64"]
@@ -1878,7 +1878,7 @@ depends-member:
 - !private ["So21NSItemProviderWritingP", "endIndex"]
 - !private ["So21NSItemProviderWritingP", "hasPrefix"]
 - !private ["So21NSItemProviderWritingP", "index"]
-- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
 - !private ["So21NSItemProviderWritingP", "length"]
 - !private ["So21NSItemProviderWritingP", "remove"]
 - !private ["So21NSItemProviderWritingP", "sha1Base64"]
@@ -1899,7 +1899,7 @@ depends-member:
 - !private ["So16NSMutableCopyingP", "endIndex"]
 - !private ["So16NSMutableCopyingP", "hasPrefix"]
 - !private ["So16NSMutableCopyingP", "index"]
-- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
 - !private ["So16NSMutableCopyingP", "length"]
 - !private ["So16NSMutableCopyingP", "mutableBytes"]
 - !private ["So16NSMutableCopyingP", "remove"]
@@ -1917,7 +1917,7 @@ depends-member:
 - !private ["So8NSObjectC", "Base64EncodingOptions"]
 - !private ["So8NSObjectC", "BlockOperation"]
 - ["So8NSObjectC", "Bool"]
-- !private ["So8NSObjectC", "CFHTTPMessage"]
+- ["So8NSObjectC", "CFHTTPMessage"]
 - !private ["So8NSObjectC", "CFHTTPMessageAppendBytes"]
 - !private ["So8NSObjectC", "CFHTTPMessageCopyAllHeaderFields"]
 - !private ["So8NSObjectC", "CFHTTPMessageCopySerializedMessage"]
@@ -1939,10 +1939,10 @@ depends-member:
 - !private ["So8NSObjectC", "Character"]
 - !private ["So8NSObjectC", "CloseCode"]
 - ["So8NSObjectC", "CompressionState"]
-- !private ["So8NSObjectC", "Compressor"]
+- ["So8NSObjectC", "Compressor"]
 - ["So8NSObjectC", "Data"]
 - ["So8NSObjectC", "Date"]
-- !private ["So8NSObjectC", "Decompressor"]
+- ["So8NSObjectC", "Decompressor"]
 - ["So8NSObjectC", "DispatchQueue"]
 - !private ["So8NSObjectC", "Error"]
 - ["So8NSObjectC", "ErrorDomain"]
@@ -1988,15 +1988,15 @@ depends-member:
 - ["So8NSObjectC", "TimeInterval"]
 - ["So8NSObjectC", "UInt16"]
 - !private ["So8NSObjectC", "UInt32"]
-- !private ["So8NSObjectC", "UInt64"]
+- ["So8NSObjectC", "UInt64"]
 - ["So8NSObjectC", "UInt8"]
 - ["So8NSObjectC", "URL"]
 - !private ["So8NSObjectC", "UnicodeScalar"]
 - !private ["So8NSObjectC", "Unmanaged"]
-- !private ["So8NSObjectC", "UnsafeBufferPointer"]
-- !private ["So8NSObjectC", "UnsafeMutablePointer"]
+- ["So8NSObjectC", "UnsafeBufferPointer"]
+- ["So8NSObjectC", "UnsafeMutablePointer"]
 - !private ["So8NSObjectC", "UnsafeMutableRawPointer"]
-- !private ["So8NSObjectC", "UnsafePointer"]
+- ["So8NSObjectC", "UnsafePointer"]
 - !private ["So8NSObjectC", "UnsafeRawPointer"]
 - ["So8NSObjectC", "Void"]
 - ["So8NSObjectC", "WSResponse"]
@@ -2007,6 +2007,7 @@ depends-member:
 - !private ["So8NSObjectC", "WebsocketDidConnectNotification"]
 - !private ["So8NSObjectC", "WebsocketDidDisconnectNotification"]
 - !private ["So8NSObjectC", "WebsocketDisconnectionErrorKeyName"]
+- ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "addExecutionBlock"]
 - ["So8NSObjectC", "addHeader"]
 - !private ["So8NSObjectC", "addOperation"]
@@ -2139,7 +2140,6 @@ depends-member:
 - ["So8NSObjectC", "writeQueue"]
 - ["So8NSObjectC", "writeUint16"]
 - ["So8NSObjectC", "writeUint64"]
-- ["So8NSObjectC", ""]
 - !private ["So16NSObjectProtocolP", "BUFFER_MAX"]
 - !private ["So16NSObjectProtocolP", "Base64EncodingOptions"]
 - !private ["So16NSObjectProtocolP", "BlockOperation"]
@@ -2210,6 +2210,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "WebsocketDidConnectNotification"]
 - !private ["So16NSObjectProtocolP", "WebsocketDidDisconnectNotification"]
 - !private ["So16NSObjectProtocolP", "WebsocketDisconnectionErrorKeyName"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "addExecutionBlock"]
 - !private ["So16NSObjectProtocolP", "addHeader"]
 - !private ["So16NSObjectProtocolP", "addOperation"]
@@ -2339,7 +2340,6 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "writeQueue"]
 - !private ["So16NSObjectProtocolP", "writeUint16"]
 - !private ["So16NSObjectProtocolP", "writeUint64"]
-- ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "Base64EncodingOptions"]
 - !private ["So14NSSecureCodingP", "append"]
 - !private ["So14NSSecureCodingP", "bytes"]
@@ -2350,7 +2350,7 @@ depends-member:
 - !private ["So14NSSecureCodingP", "endIndex"]
 - !private ["So14NSSecureCodingP", "hasPrefix"]
 - !private ["So14NSSecureCodingP", "index"]
-- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "length"]
 - !private ["So14NSSecureCodingP", "mutableBytes"]
 - !private ["So14NSSecureCodingP", "remove"]
@@ -2364,7 +2364,7 @@ depends-member:
 - !private ["So8NSStringC", "endIndex"]
 - !private ["So8NSStringC", "hasPrefix"]
 - !private ["So8NSStringC", "index"]
-- ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "init"]
 - !private ["So8NSStringC", "length"]
 - !private ["So8NSStringC", "remove"]
 - !private ["So8NSStringC", "sha1Base64"]
@@ -2372,7 +2372,6 @@ depends-member:
 - !private ["So14NSNotificationC4NameV", "init"]
 - ["So18NotificationCenterC", "default"]
 - !private ["So18NotificationCenterC", "post"]
-- !private ["s7NumericP", "hashValue"]
 - !private ["s7NumericP", "init"]
 - !private ["s7NumericP", "max"]
 - !private ["s7NumericP", "milliseconds"]
@@ -2380,6 +2379,7 @@ depends-member:
 - !private ["So9OS_objectC", "asyncAfter"]
 - ["So9OS_objectC", "main"]
 - ["10Starscream9WebSocketC6OpCodeO", "RawValue"]
+- ["10Starscream9WebSocketC6OpCodeO", "_Default_RawValue"]
 - ["10Starscream9WebSocketC6OpCodeO", "binaryFrame"]
 - ["10Starscream9WebSocketC6OpCodeO", "connectionClose"]
 - ["10Starscream9WebSocketC6OpCodeO", "continueFrame"]
@@ -2468,6 +2468,8 @@ depends-member:
 - !private ["s26RangeReplaceableCollectionP", "trimmingCharacters"]
 - !private ["s26RangeReplaceableCollectionP", "withUnsafeBytes"]
 - ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
 - !private ["s16RawRepresentableP", "binaryFrame"]
 - !private ["s16RawRepresentableP", "connectionClose"]
 - ["s16RawRepresentableP", "continueFrame"]
@@ -2489,7 +2491,6 @@ depends-member:
 - !private ["s16RawRepresentableP", "textFrame"]
 - !private ["s16RawRepresentableP", "utf8"]
 - !private ["s16RawRepresentableP", "writeTimeoutError"]
-- ["s16RawRepresentableP", ""]
 - !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
 - !private ["10Foundation20ReferenceConvertibleP", "append"]
 - !private ["10Foundation20ReferenceConvertibleP", "base64EncodedString"]
@@ -2541,9 +2542,7 @@ depends-member:
 - !private ["s10SetAlgebraP", "hasBytesAvailable"]
 - !private ["s10SetAlgebraP", "init"]
 - !private ["s10SetAlgebraP", "whitespaces"]
-- !private ["s13SignedIntegerP", "hashValue"]
 - !private ["s13SignedIntegerP", "init"]
-- !private ["s13SignedNumericP", "hashValue"]
 - !private ["s13SignedNumericP", "init"]
 - !private ["s13SignedNumericP", "milliseconds"]
 - !private ["s12StaticStringV", "init"]
@@ -2624,6 +2623,7 @@ depends-member:
 - !private ["So14StreamDelegateP", "WebsocketDidConnectNotification"]
 - !private ["So14StreamDelegateP", "WebsocketDidDisconnectNotification"]
 - !private ["So14StreamDelegateP", "WebsocketDisconnectionErrorKeyName"]
+- ["So14StreamDelegateP", ""]
 - !private ["So14StreamDelegateP", "addHeader"]
 - !private ["So14StreamDelegateP", "advancedDelegate"]
 - !private ["So14StreamDelegateP", "arc4random_uniform"]
@@ -2716,11 +2716,9 @@ depends-member:
 - !private ["So14StreamDelegateP", "writeQueue"]
 - !private ["So14StreamDelegateP", "writeUint16"]
 - !private ["So14StreamDelegateP", "writeUint64"]
-- ["So14StreamDelegateP", ""]
 - !private ["SC25StreamSocketSecurityLevelV", "negotiatedSSL"]
 - !private ["s10StrideableP", "advanced"]
 - !private ["s10StrideableP", "assumingMemoryBound"]
-- !private ["s10StrideableP", "hashValue"]
 - !private ["s10StrideableP", "init"]
 - !private ["s10StrideableP", "max"]
 - !private ["s10StrideableP", "milliseconds"]
@@ -2731,7 +2729,7 @@ depends-member:
 - !private ["SS", "Data"]
 - !private ["SS", "Encoding"]
 - !private ["SS", "Int"]
-- !private ["SS", "String"]
+- ["SS", "String"]
 - !private ["SS", "UInt8"]
 - !private ["SS", "capitalized"]
 - !private ["SS", "characters"]
@@ -2812,9 +2810,9 @@ depends-member:
 - !private ["10Foundation3URLV", "port"]
 - !private ["10Foundation3URLV", "scheme"]
 - !private ["s9UnmanagedV", "takeRetainedValue"]
-- !private ["SR", "Element"]
-- !private ["SR", "Int"]
-- !private ["SR", "UnsafeBufferPointer"]
+- ["SR", "Element"]
+- ["SR", "Int"]
+- ["SR", "UnsafeBufferPointer"]
 - !private ["SR", "baseAddress"]
 - !private ["SR", "count"]
 - !private ["SR", "fromOffset"]
@@ -2844,7 +2842,7 @@ depends-member:
 - ["10Starscream9WebSocketC", "BUFFER_MAX"]
 - !private ["10Starscream9WebSocketC", "BlockOperation"]
 - ["10Starscream9WebSocketC", "Bool"]
-- !private ["10Starscream9WebSocketC", "CFHTTPMessage"]
+- ["10Starscream9WebSocketC", "CFHTTPMessage"]
 - !private ["10Starscream9WebSocketC", "CFHTTPMessageAppendBytes"]
 - !private ["10Starscream9WebSocketC", "CFHTTPMessageCopyAllHeaderFields"]
 - !private ["10Starscream9WebSocketC", "CFHTTPMessageCopySerializedMessage"]
@@ -2866,10 +2864,10 @@ depends-member:
 - !private ["10Starscream9WebSocketC", "Character"]
 - ["10Starscream9WebSocketC", "CloseCode"]
 - ["10Starscream9WebSocketC", "CompressionState"]
-- !private ["10Starscream9WebSocketC", "Compressor"]
+- ["10Starscream9WebSocketC", "Compressor"]
 - ["10Starscream9WebSocketC", "Data"]
 - ["10Starscream9WebSocketC", "Date"]
-- !private ["10Starscream9WebSocketC", "Decompressor"]
+- ["10Starscream9WebSocketC", "Decompressor"]
 - ["10Starscream9WebSocketC", "DispatchQueue"]
 - !private ["10Starscream9WebSocketC", "Error"]
 - ["10Starscream9WebSocketC", "ErrorDomain"]
@@ -2912,15 +2910,15 @@ depends-member:
 - ["10Starscream9WebSocketC", "TimeInterval"]
 - ["10Starscream9WebSocketC", "UInt16"]
 - !private ["10Starscream9WebSocketC", "UInt32"]
-- !private ["10Starscream9WebSocketC", "UInt64"]
+- ["10Starscream9WebSocketC", "UInt64"]
 - ["10Starscream9WebSocketC", "UInt8"]
 - ["10Starscream9WebSocketC", "URL"]
 - !private ["10Starscream9WebSocketC", "UnicodeScalar"]
 - !private ["10Starscream9WebSocketC", "Unmanaged"]
-- !private ["10Starscream9WebSocketC", "UnsafeBufferPointer"]
-- !private ["10Starscream9WebSocketC", "UnsafeMutablePointer"]
+- ["10Starscream9WebSocketC", "UnsafeBufferPointer"]
+- ["10Starscream9WebSocketC", "UnsafeMutablePointer"]
 - !private ["10Starscream9WebSocketC", "UnsafeMutableRawPointer"]
-- !private ["10Starscream9WebSocketC", "UnsafePointer"]
+- ["10Starscream9WebSocketC", "UnsafePointer"]
 - !private ["10Starscream9WebSocketC", "UnsafeRawPointer"]
 - ["10Starscream9WebSocketC", "Void"]
 - ["10Starscream9WebSocketC", "WSResponse"]
@@ -3059,45 +3057,12 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "last"]
 - !private ["s14_ArrayProtocolP", "removeLast"]
 - !private ["s14_ArrayProtocolP", "subscript"]
-- !private ["s23_BidirectionalIndexableP", "CC_LONG"]
-- !private ["s23_BidirectionalIndexableP", "CC_SHA1"]
-- !private ["s23_BidirectionalIndexableP", "CC_SHA1_DIGEST_LENGTH"]
-- !private ["s23_BidirectionalIndexableP", "Data"]
-- !private ["s23_BidirectionalIndexableP", "Encoding"]
-- !private ["s23_BidirectionalIndexableP", "Int"]
-- !private ["s23_BidirectionalIndexableP", "String"]
-- !private ["s23_BidirectionalIndexableP", "UInt8"]
-- !private ["s23_BidirectionalIndexableP", "UnsafeBufferPointer"]
-- !private ["s23_BidirectionalIndexableP", "append"]
-- !private ["s23_BidirectionalIndexableP", "base64EncodedString"]
-- !private ["s23_BidirectionalIndexableP", "baseAddress"]
-- !private ["s23_BidirectionalIndexableP", "capitalized"]
-- !private ["s23_BidirectionalIndexableP", "characters"]
-- !private ["s23_BidirectionalIndexableP", "components"]
-- !private ["s23_BidirectionalIndexableP", "contains"]
-- !private ["s23_BidirectionalIndexableP", "count"]
-- !private ["s23_BidirectionalIndexableP", "data"]
-- !private ["s23_BidirectionalIndexableP", "endIndex"]
-- !private ["s23_BidirectionalIndexableP", "filter"]
-- !private ["s23_BidirectionalIndexableP", "fromOffset"]
-- !private ["s23_BidirectionalIndexableP", "hasPrefix"]
-- !private ["s23_BidirectionalIndexableP", "index"]
-- ["s23_BidirectionalIndexableP", "init"]
-- !private ["s23_BidirectionalIndexableP", "isEmpty"]
-- !private ["s23_BidirectionalIndexableP", "joined"]
-- !private ["s23_BidirectionalIndexableP", "last"]
-- !private ["s23_BidirectionalIndexableP", "remove"]
-- !private ["s23_BidirectionalIndexableP", "removeLast"]
-- !private ["s23_BidirectionalIndexableP", "sha1Base64"]
-- !private ["s23_BidirectionalIndexableP", "subscript"]
-- !private ["s23_BidirectionalIndexableP", "trimmingCharacters"]
-- !private ["s23_BidirectionalIndexableP", "withUnsafeBytes"]
-- !private ["s18_BitwiseOperationsP", "hashValue"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - !private ["s18_BitwiseOperationsP", "max"]
 - !private ["s15_CVarArgAlignedP", "init"]
 - !private ["s15_CVarArgAlignedP", "milliseconds"]
 - !private ["s22_CVarArgPassedAsDoubleP", "milliseconds"]
+- !private ["SS14_CharacterViewV", "count"]
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "contains"]
 - !private ["s24_DestructorSafeContainerP", "count"]
@@ -3129,7 +3094,6 @@ depends-member:
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "sha1Base64"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "trimmingCharacters"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "milliseconds"]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "milliseconds"]
@@ -3226,78 +3190,12 @@ depends-member:
 - !private ["s35_HasCustomAnyHashableRepresentationP", "endIndex"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "hasPrefix"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "index"]
-- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "length"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "mutableBytes"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "sha1Base64"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "trimmingCharacters"]
-- !private ["s10_IndexableP", "CC_LONG"]
-- !private ["s10_IndexableP", "CC_SHA1"]
-- !private ["s10_IndexableP", "CC_SHA1_DIGEST_LENGTH"]
-- !private ["s10_IndexableP", "Data"]
-- !private ["s10_IndexableP", "Encoding"]
-- !private ["s10_IndexableP", "Int"]
-- !private ["s10_IndexableP", "String"]
-- !private ["s10_IndexableP", "UInt8"]
-- !private ["s10_IndexableP", "UnsafeBufferPointer"]
-- !private ["s10_IndexableP", "append"]
-- !private ["s10_IndexableP", "base64EncodedString"]
-- !private ["s10_IndexableP", "baseAddress"]
-- !private ["s10_IndexableP", "capitalized"]
-- !private ["s10_IndexableP", "characters"]
-- !private ["s10_IndexableP", "components"]
-- !private ["s10_IndexableP", "contains"]
-- !private ["s10_IndexableP", "count"]
-- !private ["s10_IndexableP", "data"]
-- !private ["s10_IndexableP", "endIndex"]
-- !private ["s10_IndexableP", "filter"]
-- !private ["s10_IndexableP", "fromOffset"]
-- !private ["s10_IndexableP", "hasPrefix"]
-- !private ["s10_IndexableP", "index"]
-- ["s10_IndexableP", "init"]
-- !private ["s10_IndexableP", "isEmpty"]
-- !private ["s10_IndexableP", "joined"]
-- !private ["s10_IndexableP", "last"]
-- !private ["s10_IndexableP", "remove"]
-- !private ["s10_IndexableP", "removeLast"]
-- !private ["s10_IndexableP", "sha1Base64"]
-- !private ["s10_IndexableP", "subscript"]
-- !private ["s10_IndexableP", "trimmingCharacters"]
-- !private ["s10_IndexableP", "withUnsafeBytes"]
-- !private ["s14_IndexableBaseP", "CC_LONG"]
-- !private ["s14_IndexableBaseP", "CC_SHA1"]
-- !private ["s14_IndexableBaseP", "CC_SHA1_DIGEST_LENGTH"]
-- !private ["s14_IndexableBaseP", "Data"]
-- !private ["s14_IndexableBaseP", "Encoding"]
-- !private ["s14_IndexableBaseP", "Int"]
-- !private ["s14_IndexableBaseP", "String"]
-- !private ["s14_IndexableBaseP", "UInt8"]
-- !private ["s14_IndexableBaseP", "UnsafeBufferPointer"]
-- !private ["s14_IndexableBaseP", "append"]
-- !private ["s14_IndexableBaseP", "base64EncodedString"]
-- !private ["s14_IndexableBaseP", "baseAddress"]
-- !private ["s14_IndexableBaseP", "capitalized"]
-- !private ["s14_IndexableBaseP", "characters"]
-- !private ["s14_IndexableBaseP", "components"]
-- !private ["s14_IndexableBaseP", "contains"]
-- !private ["s14_IndexableBaseP", "count"]
-- !private ["s14_IndexableBaseP", "data"]
-- !private ["s14_IndexableBaseP", "endIndex"]
-- !private ["s14_IndexableBaseP", "filter"]
-- !private ["s14_IndexableBaseP", "fromOffset"]
-- !private ["s14_IndexableBaseP", "hasPrefix"]
-- !private ["s14_IndexableBaseP", "index"]
-- ["s14_IndexableBaseP", "init"]
-- !private ["s14_IndexableBaseP", "isEmpty"]
-- !private ["s14_IndexableBaseP", "joined"]
-- !private ["s14_IndexableBaseP", "last"]
-- !private ["s14_IndexableBaseP", "remove"]
-- !private ["s14_IndexableBaseP", "removeLast"]
-- !private ["s14_IndexableBaseP", "sha1Base64"]
-- !private ["s14_IndexableBaseP", "subscript"]
-- !private ["s14_IndexableBaseP", "trimmingCharacters"]
-- !private ["s14_IndexableBaseP", "withUnsafeBytes"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "BUFFER_MAX"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Base64EncodingOptions"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "BlockOperation"]
@@ -3368,6 +3266,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "WebsocketDidConnectNotification"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "WebsocketDidDisconnectNotification"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "WebsocketDisconnectionErrorKeyName"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addExecutionBlock"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addHeader"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
@@ -3497,19 +3396,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "writeQueue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "writeUint16"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "writeUint64"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["s17_MutableIndexableP", "append"]
-- !private ["s17_MutableIndexableP", "base64EncodedString"]
-- !private ["s17_MutableIndexableP", "contains"]
-- !private ["s17_MutableIndexableP", "count"]
-- !private ["s17_MutableIndexableP", "filter"]
-- ["s17_MutableIndexableP", "init"]
-- !private ["s17_MutableIndexableP", "isEmpty"]
-- !private ["s17_MutableIndexableP", "joined"]
-- !private ["s17_MutableIndexableP", "last"]
-- !private ["s17_MutableIndexableP", "removeLast"]
-- !private ["s17_MutableIndexableP", "subscript"]
-- !private ["s17_MutableIndexableP", "withUnsafeBytes"]
 - !private ["s21_ObjectiveCBridgeableP", "CC_LONG"]
 - !private ["s21_ObjectiveCBridgeableP", "CC_SHA1"]
 - !private ["s21_ObjectiveCBridgeableP", "CC_SHA1_DIGEST_LENGTH"]
@@ -3535,7 +3421,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "endIndex"]
 - !private ["s21_ObjectiveCBridgeableP", "filter"]
 - !private ["s21_ObjectiveCBridgeableP", "hasPrefix"]
-- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
 - !private ["s21_ObjectiveCBridgeableP", "host"]
 - !private ["s21_ObjectiveCBridgeableP", "index"]
 - ["s21_ObjectiveCBridgeableP", "init"]
@@ -3571,58 +3456,6 @@ depends-member:
 - !private ["s8_PointerP", "assumingMemoryBound"]
 - !private ["s8_PointerP", "init"]
 - !private ["s8_PointerP", "subscript"]
-- !private ["s22_RandomAccessIndexableP", "UnsafeBufferPointer"]
-- !private ["s22_RandomAccessIndexableP", "append"]
-- !private ["s22_RandomAccessIndexableP", "base64EncodedString"]
-- !private ["s22_RandomAccessIndexableP", "baseAddress"]
-- !private ["s22_RandomAccessIndexableP", "contains"]
-- !private ["s22_RandomAccessIndexableP", "count"]
-- !private ["s22_RandomAccessIndexableP", "filter"]
-- !private ["s22_RandomAccessIndexableP", "fromOffset"]
-- ["s22_RandomAccessIndexableP", "init"]
-- !private ["s22_RandomAccessIndexableP", "isEmpty"]
-- !private ["s22_RandomAccessIndexableP", "joined"]
-- !private ["s22_RandomAccessIndexableP", "last"]
-- !private ["s22_RandomAccessIndexableP", "removeLast"]
-- !private ["s22_RandomAccessIndexableP", "subscript"]
-- !private ["s22_RandomAccessIndexableP", "withUnsafeBytes"]
-- !private ["s26_RangeReplaceableIndexableP", "CC_LONG"]
-- !private ["s26_RangeReplaceableIndexableP", "CC_SHA1"]
-- !private ["s26_RangeReplaceableIndexableP", "CC_SHA1_DIGEST_LENGTH"]
-- !private ["s26_RangeReplaceableIndexableP", "Data"]
-- !private ["s26_RangeReplaceableIndexableP", "Encoding"]
-- !private ["s26_RangeReplaceableIndexableP", "Int"]
-- !private ["s26_RangeReplaceableIndexableP", "String"]
-- !private ["s26_RangeReplaceableIndexableP", "UInt8"]
-- !private ["s26_RangeReplaceableIndexableP", "append"]
-- !private ["s26_RangeReplaceableIndexableP", "base64EncodedString"]
-- !private ["s26_RangeReplaceableIndexableP", "capitalized"]
-- !private ["s26_RangeReplaceableIndexableP", "characters"]
-- !private ["s26_RangeReplaceableIndexableP", "components"]
-- !private ["s26_RangeReplaceableIndexableP", "contains"]
-- !private ["s26_RangeReplaceableIndexableP", "count"]
-- !private ["s26_RangeReplaceableIndexableP", "data"]
-- !private ["s26_RangeReplaceableIndexableP", "endIndex"]
-- !private ["s26_RangeReplaceableIndexableP", "filter"]
-- !private ["s26_RangeReplaceableIndexableP", "hasPrefix"]
-- !private ["s26_RangeReplaceableIndexableP", "index"]
-- ["s26_RangeReplaceableIndexableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "isEmpty"]
-- !private ["s26_RangeReplaceableIndexableP", "joined"]
-- !private ["s26_RangeReplaceableIndexableP", "last"]
-- !private ["s26_RangeReplaceableIndexableP", "remove"]
-- !private ["s26_RangeReplaceableIndexableP", "removeLast"]
-- !private ["s26_RangeReplaceableIndexableP", "sha1Base64"]
-- !private ["s26_RangeReplaceableIndexableP", "subscript"]
-- !private ["s26_RangeReplaceableIndexableP", "trimmingCharacters"]
-- !private ["s26_RangeReplaceableIndexableP", "withUnsafeBytes"]
-- !private ["s11_StrideableP", "advanced"]
-- !private ["s11_StrideableP", "assumingMemoryBound"]
-- !private ["s11_StrideableP", "hashValue"]
-- !private ["s11_StrideableP", "init"]
-- !private ["s11_StrideableP", "max"]
-- !private ["s11_StrideableP", "milliseconds"]
-- !private ["s11_StrideableP", "subscript"]
 - !private ["s14_StringElementP", "init"]
 - !private ["s14_StringElementP", "max"]
 - !private ["s20_SwiftNewtypeWrapperP", "init"]
@@ -3660,7 +3493,6 @@ depends-nominal:
 - "s7CVarArgP"
 - !private "s9CharacterV"
 - !private "10Foundation12CharacterSetV"
-- !private "SS13CharacterViewV"
 - "10Starscream9WebSocketC9CloseCodeO"
 - "s10CollectionP"
 - "s10ComparableP"
@@ -3669,7 +3501,7 @@ depends-nominal:
 - "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "10Foundation4DataV"
+- "10Foundation4DataV"
 - "10Foundation4DateV"
 - "s9DecodableP"
 - !private "10Starscream12DecompressorC"
@@ -3704,24 +3536,24 @@ depends-nominal:
 - !private "s12MemoryLayoutO"
 - "s10MirrorPathP"
 - "s17MutableCollectionP"
-- "So8NSCodingP"
-- "So9NSCopyingP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
 - !private "So6NSDataC"
 - !private "So12NSDictionaryC"
 - !private "So7NSErrorC"
 - !private "So17NSFastEnumerationP"
-- "So21NSItemProviderReadingP"
-- "So21NSItemProviderWritingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
 - "So6NSLockC"
 - "So9NSLockingP"
-- "So16NSMutableCopyingP"
+- !private "So16NSMutableCopyingP"
 - !private "So13NSMutableDataC"
 - !private "So14NSNotificationC"
 - !private "So8NSNumberC"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
-- "So14NSSecureCodingP"
-- "So8NSStringC"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
 - !private "So14NSNotificationC4NameV"
 - "So18NotificationCenterC"
 - !private "s7NumericP"
@@ -3770,10 +3602,10 @@ depends-nominal:
 - "10Starscream17WebSocketDelegateP"
 - "10Starscream21WebSocketPongDelegateP"
 - "s14_ArrayProtocolP"
-- "s23_BidirectionalIndexableP"
 - !private "s18_BitwiseOperationsP"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
+- !private "SS14_CharacterViewV"
 - "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
@@ -3785,17 +3617,11 @@ depends-nominal:
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - "s33_ExpressibleByStringInterpolationP"
-- "s35_HasCustomAnyHashableRepresentationP"
-- "s10_IndexableP"
-- "s14_IndexableBaseP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- "s17_MutableIndexableP"
 - "s21_ObjectiveCBridgeableP"
 - !private "s26_OptionalNilComparisonTypeV"
 - !private "s8_PointerP"
-- "s22_RandomAccessIndexableP"
-- "s26_RangeReplaceableIndexableP"
-- !private "s11_StrideableP"
 - !private "s14_StringElementP"
 - !private "s20_SwiftNewtypeWrapperP"
 - "s16_SwiftStringViewP"
@@ -3814,7 +3640,17 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/Starscream.build/unextended-module.modulemap"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/zlib/module.modulemap"
-interface-hash: "3546574553906da88e1ab4d2fc0c2119"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/Starscream/Starscream-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/Starscream.build/unextended-module.modulemap"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Starscream/zlib/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "ea8cfcf243080057a808ff8e670fa2d8"

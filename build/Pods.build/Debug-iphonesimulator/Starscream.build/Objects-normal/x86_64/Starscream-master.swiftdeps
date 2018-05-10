@@ -1,7 +1,7 @@
-version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
-options: "f0ad842dd66891813ff353485d681423"
-build_time: [1524844692, 180273000]
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "afcd78e10104addb9e7469fec8e0546a"
+build_time: [1525950164, 450341000]
 inputs:
-  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/Source/Compression.swift": [1507142388, 0]
-  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/Source/SSLSecurity.swift": [1507142388, 0]
-  "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Starscream/Source/WebSocket.swift": [1507142388, 0]
+  "/Users/TUEY/Documents/ADOL-mobile/Pods/Starscream/Source/Compression.swift": [1525947806, 0]
+  "/Users/TUEY/Documents/ADOL-mobile/Pods/Starscream/Source/SSLSecurity.swift": [1525947806, 0]
+  "/Users/TUEY/Documents/ADOL-mobile/Pods/Starscream/Source/WebSocket.swift": [1525947806, 0]

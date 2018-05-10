@@ -68,7 +68,7 @@ depends-top-level:
 - "Renderable"
 - "String"
 - "StringLiteralType"
-- !private "TernaryPrecedence"
+- "TernaryPrecedence"
 - "TextFieldReactor"
 - "TextFieldTarget"
 - "Theme"
@@ -111,7 +111,6 @@ depends-member:
 - ["s23BidirectionalCollectionP", "init"]
 - ["s23BidirectionalCollectionP", "parse"]
 - ["s23BidirectionalCollectionP", "render"]
-- !private ["s13BinaryIntegerP", "hashValue"]
 - !private ["s13BinaryIntegerP", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So7CALayerC", "frame"]
@@ -168,6 +167,8 @@ depends-member:
 - !private ["s7CVarArgP", "UILongPressGestureRecognizer"]
 - !private ["s7CVarArgP", "UISwipeGestureRecognizer"]
 - !private ["s7CVarArgP", "UITapGestureRecognizer"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "addConstraints"]
 - !private ["s7CVarArgP", "addGestureRecognizer"]
 - !private ["s7CVarArgP", "addObserver"]
@@ -201,7 +202,6 @@ depends-member:
 - ["s7CVarArgP", "gestureRecognizer"]
 - ["s7CVarArgP", "gestureRecognizerShouldBegin"]
 - !private ["s7CVarArgP", "gestureSelector"]
-- !private ["s7CVarArgP", "hashValue"]
 - !private ["s7CVarArgP", "hooks"]
 - ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "insertSubview"]
@@ -232,7 +232,6 @@ depends-member:
 - !private ["s7CVarArgP", "userInfo"]
 - !private ["s7CVarArgP", "visibleCells"]
 - !private ["s7CVarArgP", "withAlphaComponent"]
-- ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "append"]
 - !private ["s10CollectionP", "filter"]
 - !private ["s10CollectionP", "first"]
@@ -246,7 +245,6 @@ depends-member:
 - !private ["7RAMReel21CollectionViewWrapperC", "init"]
 - !private ["7RAMReel21CollectionViewWrapperC", "selectedItem"]
 - !private ["7RAMReel21CollectionViewWrapperC", "theme"]
-- !private ["s10ComparableP", "hashValue"]
 - ["s10ComparableP", "init"]
 - ["s10ComparableP", "parse"]
 - ["s10ComparableP", "render"]
@@ -262,6 +260,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "UILongPressGestureRecognizer"]
 - !private ["s28CustomDebugStringConvertibleP", "UISwipeGestureRecognizer"]
 - !private ["s28CustomDebugStringConvertibleP", "UITapGestureRecognizer"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "addConstraints"]
 - !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
 - !private ["s28CustomDebugStringConvertibleP", "addObserver"]
@@ -330,9 +329,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "visibleCells"]
 - !private ["s28CustomDebugStringConvertibleP", "withAlphaComponent"]
 - !private ["s28CustomDebugStringConvertibleP", "y"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
-- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "height"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "origin"]
@@ -346,7 +343,6 @@ depends-member:
 - !private ["s17CustomReflectableP", "first"]
 - !private ["s17CustomReflectableP", "flatMap"]
 - !private ["s17CustomReflectableP", "forEach"]
-- !private ["s17CustomReflectableP", "hashValue"]
 - !private ["s17CustomReflectableP", "height"]
 - ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "origin"]
@@ -365,6 +361,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "UILongPressGestureRecognizer"]
 - !private ["s23CustomStringConvertibleP", "UISwipeGestureRecognizer"]
 - !private ["s23CustomStringConvertibleP", "UITapGestureRecognizer"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "addConstraints"]
 - !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
@@ -399,7 +396,6 @@ depends-member:
 - ["s23CustomStringConvertibleP", "gestureRecognizer"]
 - ["s23CustomStringConvertibleP", "gestureRecognizerShouldBegin"]
 - !private ["s23CustomStringConvertibleP", "gestureSelector"]
-- !private ["s23CustomStringConvertibleP", "hashValue"]
 - !private ["s23CustomStringConvertibleP", "hooks"]
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "insertSubview"]
@@ -430,7 +426,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "userInfo"]
 - !private ["s23CustomStringConvertibleP", "visibleCells"]
 - !private ["s23CustomStringConvertibleP", "withAlphaComponent"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["7RAMReel8DataFlowV", "transport"]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "append"]
@@ -438,7 +433,6 @@ depends-member:
 - !private ["s9DecodableP", "first"]
 - !private ["s9DecodableP", "flatMap"]
 - !private ["s9DecodableP", "forEach"]
-- !private ["s9DecodableP", "hashValue"]
 - !private ["s9DecodableP", "height"]
 - ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "origin"]
@@ -454,7 +448,6 @@ depends-member:
 - !private ["s9EncodableP", "first"]
 - !private ["s9EncodableP", "flatMap"]
 - !private ["s9EncodableP", "forEach"]
-- !private ["s9EncodableP", "hashValue"]
 - !private ["s9EncodableP", "height"]
 - ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "origin"]
@@ -474,6 +467,7 @@ depends-member:
 - !private ["s9EquatableP", "UILongPressGestureRecognizer"]
 - !private ["s9EquatableP", "UISwipeGestureRecognizer"]
 - !private ["s9EquatableP", "UITapGestureRecognizer"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "addConstraints"]
 - !private ["s9EquatableP", "addGestureRecognizer"]
@@ -482,6 +476,7 @@ depends-member:
 - !private ["s9EquatableP", "alignAllCenterX"]
 - !private ["s9EquatableP", "alignAllCenterY"]
 - !private ["s9EquatableP", "animate"]
+- !private ["s9EquatableP", "append"]
 - !private ["s9EquatableP", "attributedPlaceholder"]
 - !private ["s9EquatableP", "autocapitalizationType"]
 - !private ["s9EquatableP", "autocorrectionType"]
@@ -505,11 +500,15 @@ depends-member:
 - !private ["s9EquatableP", "editingChanged"]
 - !private ["s9EquatableP", "editingDidEndOnExit"]
 - !private ["s9EquatableP", "equal"]
+- !private ["s9EquatableP", "filter"]
+- !private ["s9EquatableP", "first"]
 - !private ["s9EquatableP", "firstAttribute"]
+- !private ["s9EquatableP", "flatMap"]
 - !private ["s9EquatableP", "flexibleHeight"]
 - !private ["s9EquatableP", "flexibleWidth"]
 - !private ["s9EquatableP", "font"]
 - !private ["s9EquatableP", "fontName"]
+- !private ["s9EquatableP", "forEach"]
 - !private ["s9EquatableP", "foregroundColor"]
 - !private ["s9EquatableP", "frame"]
 - ["s9EquatableP", "gesture"]
@@ -544,6 +543,7 @@ depends-member:
 - !private ["s9EquatableP", "showsHorizontalScrollIndicator"]
 - !private ["s9EquatableP", "showsVerticalScrollIndicator"]
 - !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "subscript"]
 - ["s9EquatableP", "swipe"]
 - ["s9EquatableP", "tap"]
 - !private ["s9EquatableP", "text"]
@@ -557,7 +557,6 @@ depends-member:
 - !private ["s9EquatableP", "whileEditing"]
 - !private ["s9EquatableP", "withAlphaComponent"]
 - !private ["s9EquatableP", "y"]
-- ["s9EquatableP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "alignAllCenterX"]
 - !private ["s25ExpressibleByArrayLiteralP", "alignAllCenterY"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
@@ -574,7 +573,6 @@ depends-member:
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "parse"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "render"]
-- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "flatMap"]
 - ["s26ExpressibleByStringLiteralP", "init"]
@@ -583,7 +581,6 @@ depends-member:
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "parse"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "render"]
-- !private ["s17FixedWidthIntegerP", "hashValue"]
 - !private ["s17FixedWidthIntegerP", "init"]
 - !private ["7RAMReel19FlowDataDestinationP", "data"]
 - !private ["7RAMReel19FlowDataDestinationP", "init"]
@@ -629,6 +626,7 @@ depends-member:
 - !private ["s8HashableP", "UILongPressGestureRecognizer"]
 - !private ["s8HashableP", "UISwipeGestureRecognizer"]
 - !private ["s8HashableP", "UITapGestureRecognizer"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "addConstraints"]
 - !private ["s8HashableP", "addGestureRecognizer"]
@@ -702,14 +700,10 @@ depends-member:
 - !private ["s8HashableP", "visibleCells"]
 - !private ["s8HashableP", "whileEditing"]
 - !private ["s8HashableP", "withAlphaComponent"]
-- ["s8HashableP", ""]
-- !private ["Si", "hashValue"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
-- !private ["s25LosslessStringConvertibleP", "hashValue"]
 - ["s25LosslessStringConvertibleP", "init"]
 - ["s25LosslessStringConvertibleP", "parse"]
 - ["s25LosslessStringConvertibleP", "render"]
-- !private ["s10MirrorPathP", "hashValue"]
 - ["s10MirrorPathP", "init"]
 - ["s10MirrorPathP", "parse"]
 - ["s10MirrorPathP", "render"]
@@ -763,16 +757,16 @@ depends-member:
 - !private ["So9NSCopyingP", "Name"]
 - !private ["So9NSCopyingP", "clear"]
 - !private ["So9NSCopyingP", "fontName"]
-- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "lineHeight"]
 - !private ["So9NSCopyingP", "pointSize"]
 - !private ["So9NSCopyingP", "userInfo"]
 - !private ["So9NSCopyingP", "withAlphaComponent"]
 - !private ["So21NSItemProviderReadingP", "clear"]
-- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderReadingP", "withAlphaComponent"]
 - !private ["So21NSItemProviderWritingP", "clear"]
-- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
 - !private ["So21NSItemProviderWritingP", "withAlphaComponent"]
 - !private ["SC17NSLayoutAttributeO", "bottom"]
 - !private ["SC17NSLayoutAttributeO", "centerY"]
@@ -783,7 +777,7 @@ depends-member:
 - !private ["SC21NSLayoutFormatOptionsV", "alignAllCenterX"]
 - !private ["SC21NSLayoutFormatOptionsV", "alignAllCenterY"]
 - !private ["SC16NSLayoutRelationO", "equal"]
-- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
 - !private ["So14NSNotificationC", "Name"]
 - !private ["So14NSNotificationC", "userInfo"]
 - ["So8NSObjectC", "AnyObject"]
@@ -804,6 +798,7 @@ depends-member:
 - !private ["So8NSObjectC", "UISwipeGestureRecognizer"]
 - !private ["So8NSObjectC", "UITapGestureRecognizer"]
 - ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "addConstraints"]
 - !private ["So8NSObjectC", "addGestureRecognizer"]
 - !private ["So8NSObjectC", "addObserver"]
@@ -860,7 +855,6 @@ depends-member:
 - !private ["So8NSObjectC", "userInfo"]
 - !private ["So8NSObjectC", "visibleCells"]
 - !private ["So8NSObjectC", "withAlphaComponent"]
-- ["So8NSObjectC", ""]
 - ["So16NSObjectProtocolP", "DataType"]
 - ["So16NSObjectProtocolP", "GestureTarget"]
 - !private ["So16NSObjectProtocolP", "GestureType"]
@@ -871,6 +865,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "UILongPressGestureRecognizer"]
 - !private ["So16NSObjectProtocolP", "UISwipeGestureRecognizer"]
 - !private ["So16NSObjectProtocolP", "UITapGestureRecognizer"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "addConstraints"]
 - !private ["So16NSObjectProtocolP", "addGestureRecognizer"]
 - !private ["So16NSObjectProtocolP", "addObserver"]
@@ -927,13 +922,11 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "userInfo"]
 - !private ["So16NSObjectProtocolP", "visibleCells"]
 - !private ["So16NSObjectProtocolP", "withAlphaComponent"]
-- ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "clear"]
 - !private ["So14NSSecureCodingP", "frame"]
-- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "mask"]
 - !private ["So14NSSecureCodingP", "withAlphaComponent"]
-- ["So8NSStringC", "init"]
 - !private ["So14NSNotificationC4NameV", "UIKeyboardWillChangeFrame"]
 - !private ["So14NSNotificationC4NameV", "init"]
 - !private ["So14NSNotificationC4NameV", "rawValue"]
@@ -951,7 +944,6 @@ depends-member:
 - !private ["So18NotificationCenterC", "addObserver"]
 - !private ["So18NotificationCenterC", "default"]
 - !private ["So18NotificationCenterC", "removeObserver"]
-- !private ["s7NumericP", "hashValue"]
 - !private ["s7NumericP", "init"]
 - !private ["s9OptionSetP", "alignAllCenterX"]
 - !private ["s9OptionSetP", "alignAllCenterY"]
@@ -962,10 +954,10 @@ depends-member:
 - !private ["s9OptionSetP", "init"]
 - !private ["Sq", "flatMap"]
 - ["7RAMReel8ParsableP", "String"]
+- ["7RAMReel8ParsableP", ""]
 - ["7RAMReel8ParsableP", "init"]
 - ["7RAMReel8ParsableP", "parse"]
 - ["7RAMReel8ParsableP", "render"]
-- ["7RAMReel8ParsableP", ""]
 - ["7RAMReel23RAMCollectionViewLayoutC", "init"]
 - !private ["7RAMReelAAC", "AnyObject"]
 - ["7RAMReelAAC", "Bool"]
@@ -1079,10 +1071,10 @@ depends-member:
 - !private ["s16RawRepresentableP", "rawValue"]
 - !private ["s16RawRepresentableP", "whileEditing"]
 - ["7RAMReel10RenderableP", "String"]
+- ["7RAMReel10RenderableP", ""]
 - ["7RAMReel10RenderableP", "init"]
 - ["7RAMReel10RenderableP", "parse"]
 - ["7RAMReel10RenderableP", "render"]
-- ["7RAMReel10RenderableP", ""]
 - !private ["s8SequenceP", "append"]
 - !private ["s8SequenceP", "filter"]
 - !private ["s8SequenceP", "first"]
@@ -1098,10 +1090,7 @@ depends-member:
 - !private ["s10SetAlgebraP", "flexibleHeight"]
 - !private ["s10SetAlgebraP", "flexibleWidth"]
 - !private ["s10SetAlgebraP", "init"]
-- !private ["s13SignedIntegerP", "hashValue"]
-- !private ["s13SignedNumericP", "hashValue"]
 - !private ["s12StaticStringV", "init"]
-- !private ["s10StrideableP", "hashValue"]
 - !private ["s10StrideableP", "init"]
 - ["SS", "String"]
 - ["SS", "deinit"]
@@ -1439,6 +1428,7 @@ depends-member:
 - !private ["So27UIGestureRecognizerDelegateP", "UILongPressGestureRecognizer"]
 - !private ["So27UIGestureRecognizerDelegateP", "UISwipeGestureRecognizer"]
 - !private ["So27UIGestureRecognizerDelegateP", "UITapGestureRecognizer"]
+- ["So27UIGestureRecognizerDelegateP", ""]
 - ["So27UIGestureRecognizerDelegateP", "gesture"]
 - ["So27UIGestureRecognizerDelegateP", "gestureRecognizer"]
 - ["So27UIGestureRecognizerDelegateP", "gestureRecognizerShouldBegin"]
@@ -1446,7 +1436,6 @@ depends-member:
 - !private ["So27UIGestureRecognizerDelegateP", "hooks"]
 - !private ["So27UIGestureRecognizerDelegateP", "init"]
 - !private ["So27UIGestureRecognizerDelegateP", "recognizeFor"]
-- ["So27UIGestureRecognizerDelegateP", ""]
 - !private ["So10UIKeyInputP", "attributedPlaceholder"]
 - !private ["So10UIKeyInputP", "autocapitalizationType"]
 - !private ["So10UIKeyInputP", "autocorrectionType"]
@@ -1788,14 +1777,6 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "filter"]
 - !private ["s14_ArrayProtocolP", "first"]
 - !private ["s14_ArrayProtocolP", "forEach"]
-- !private ["s23_BidirectionalIndexableP", "append"]
-- !private ["s23_BidirectionalIndexableP", "filter"]
-- !private ["s23_BidirectionalIndexableP", "first"]
-- !private ["s23_BidirectionalIndexableP", "forEach"]
-- ["s23_BidirectionalIndexableP", "init"]
-- ["s23_BidirectionalIndexableP", "parse"]
-- ["s23_BidirectionalIndexableP", "render"]
-- !private ["s18_BitwiseOperationsP", "hashValue"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", "DataType"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addConstraints"]
@@ -1840,7 +1821,6 @@ depends-member:
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "parse"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "render"]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "parse"]
@@ -1857,24 +1837,7 @@ depends-member:
 - ["s33_ExpressibleByStringInterpolationP", "parse"]
 - ["s33_ExpressibleByStringInterpolationP", "render"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "Name"]
-- ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "userInfo"]
-- !private ["s10_IndexableP", "append"]
-- !private ["s10_IndexableP", "filter"]
-- !private ["s10_IndexableP", "first"]
-- !private ["s10_IndexableP", "forEach"]
-- ["s10_IndexableP", "init"]
-- ["s10_IndexableP", "parse"]
-- ["s10_IndexableP", "render"]
-- !private ["s10_IndexableP", "subscript"]
-- !private ["s14_IndexableBaseP", "append"]
-- !private ["s14_IndexableBaseP", "filter"]
-- !private ["s14_IndexableBaseP", "first"]
-- !private ["s14_IndexableBaseP", "forEach"]
-- ["s14_IndexableBaseP", "init"]
-- ["s14_IndexableBaseP", "parse"]
-- ["s14_IndexableBaseP", "render"]
-- !private ["s14_IndexableBaseP", "subscript"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "DataType"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "GestureTarget"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GestureType"]
@@ -1885,6 +1848,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UILongPressGestureRecognizer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UISwipeGestureRecognizer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UITapGestureRecognizer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addConstraints"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
@@ -1941,11 +1905,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "visibleCells"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "withAlphaComponent"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["s17_MutableIndexableP", "append"]
-- !private ["s17_MutableIndexableP", "filter"]
-- !private ["s17_MutableIndexableP", "first"]
-- !private ["s17_MutableIndexableP", "forEach"]
 - !private ["s21_ObjectiveCBridgeableP", "UIKeyboardWillChangeFrame"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
@@ -1955,7 +1914,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "font"]
 - !private ["s21_ObjectiveCBridgeableP", "forEach"]
 - !private ["s21_ObjectiveCBridgeableP", "foregroundColor"]
-- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
 - !private ["s21_ObjectiveCBridgeableP", "height"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "origin"]
@@ -1965,19 +1923,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "size"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "y"]
-- !private ["s22_RandomAccessIndexableP", "append"]
-- !private ["s22_RandomAccessIndexableP", "filter"]
-- !private ["s22_RandomAccessIndexableP", "first"]
-- !private ["s22_RandomAccessIndexableP", "forEach"]
-- !private ["s26_RangeReplaceableIndexableP", "append"]
-- !private ["s26_RangeReplaceableIndexableP", "filter"]
-- !private ["s26_RangeReplaceableIndexableP", "first"]
-- !private ["s26_RangeReplaceableIndexableP", "forEach"]
-- ["s26_RangeReplaceableIndexableP", "init"]
-- ["s26_RangeReplaceableIndexableP", "parse"]
-- ["s26_RangeReplaceableIndexableP", "render"]
-- !private ["s11_StrideableP", "hashValue"]
-- !private ["s11_StrideableP", "init"]
 - !private ["s20_SwiftNewtypeWrapperP", "UIKeyboardWillChangeFrame"]
 - !private ["s20_SwiftNewtypeWrapperP", "font"]
 - !private ["s20_SwiftNewtypeWrapperP", "foregroundColor"]
@@ -2026,26 +1971,24 @@ depends-nominal:
 - "7RAMReel13GestureTargetC0B4TypeO"
 - !private "7RAMReel12GradientViewC"
 - "s8HashableP"
-- !private "Si"
 - "s25LosslessStringConvertibleP"
 - "s10MirrorPathP"
 - !private "s17MutableCollectionP"
 - !private "So18NSAttributedStringC"
 - !private "SC21NSAttributedStringKeyV"
 - "So8NSCodingP"
-- "So9NSCopyingP"
-- "So21NSItemProviderReadingP"
-- "So21NSItemProviderWritingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
 - !private "SC17NSLayoutAttributeO"
 - !private "So18NSLayoutConstraintC"
 - !private "SC21NSLayoutFormatOptionsV"
 - !private "SC16NSLayoutRelationO"
-- "So16NSMutableCopyingP"
+- !private "So16NSMutableCopyingP"
 - !private "So14NSNotificationC"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
-- "So14NSSecureCodingP"
-- "So8NSStringC"
+- !private "So14NSSecureCodingP"
 - !private "So14NSNotificationC4NameV"
 - "7RAMReel27NotificationCallbackWrapperC"
 - !private "So18NotificationCenterC"
@@ -2062,8 +2005,6 @@ depends-nominal:
 - "7RAMReel10RenderableP"
 - "s8SequenceP"
 - !private "s10SetAlgebraP"
-- !private "s13SignedIntegerP"
-- !private "s13SignedNumericP"
 - !private "s12StaticStringV"
 - !private "s10StrideableP"
 - "SS"
@@ -2120,7 +2061,6 @@ depends-nominal:
 - !private "s15UnsignedIntegerP"
 - !private "7RAMReel15WrapperProtocolP"
 - !private "s14_ArrayProtocolP"
-- "s23_BidirectionalIndexableP"
 - !private "s18_BitwiseOperationsP"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
@@ -2132,15 +2072,9 @@ depends-nominal:
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - "s33_ExpressibleByStringInterpolationP"
-- "s35_HasCustomAnyHashableRepresentationP"
-- "s10_IndexableP"
-- "s14_IndexableBaseP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s17_MutableIndexableP"
 - "s21_ObjectiveCBridgeableP"
-- !private "s22_RandomAccessIndexableP"
-- "s26_RangeReplaceableIndexableP"
-- !private "s11_StrideableP"
 - !private "s20_SwiftNewtypeWrapperP"
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
@@ -2161,7 +2095,17 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/RAMReel/RAMReel-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/RAMReel.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/RAMReel.build/unextended-module.modulemap"
-interface-hash: "393371eec4d0fa787014f3cd944eef14"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/RAMReel/RAMReel-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/RAMReel/RAMReel/Framework/RAMReel.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/RAMReel.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "152b32f454424bc5f1cf2b08398a52d0"

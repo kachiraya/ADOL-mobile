@@ -17,13 +17,13 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "=="
 - !private "AnyClass"
-- !private "AssignmentPrecedence"
+- "AssignmentPrecedence"
 - !private "Bundle"
 - !private "CFData"
 - !private "CGDataProvider"
 - !private "CGFont"
 - !private "CTFontManagerRegisterGraphicsFont"
-- !private "CastingPrecedence"
+- "CastingPrecedence"
 - !private "Data"
 - "Error"
 - "FontLoader"
@@ -51,6 +51,7 @@ depends-member:
 - !private ["So14CGDataProviderC", "init"]
 - !private ["So6CGFontC", "init"]
 - !private ["s7CVarArgP", "Weight"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "black"]
 - !private ["s7CVarArgP", "clear"]
 - !private ["s7CVarArgP", "init"]
@@ -60,6 +61,7 @@ depends-member:
 - !private ["s10CollectionP", "init"]
 - !private ["s10CollectionP", "subscript"]
 - !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "thin"]
 - !private ["s28CustomDebugStringConvertibleP", "Weight"]
 - !private ["s28CustomDebugStringConvertibleP", "black"]
 - !private ["s28CustomDebugStringConvertibleP", "clear"]
@@ -94,14 +96,15 @@ depends-member:
 - !private ["s9EquatableP", "clear"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "path"]
+- !private ["s9EquatableP", "subscript"]
 - !private ["s9EquatableP", "systemFont"]
 - !private ["s9EquatableP", "thin"]
+- ["s5ErrorP", ""]
 - ["s5ErrorP", "_code"]
 - ["s5ErrorP", "_domain"]
 - ["s5ErrorP", "_getEmbeddedNSError"]
 - ["s5ErrorP", "_userInfo"]
 - !private ["s5ErrorP", "failedToLoadFont"]
-- ["s5ErrorP", ""]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
@@ -141,7 +144,6 @@ depends-member:
 - !private ["s17MutableCollectionP", "init"]
 - !private ["So8NSCodingP", "black"]
 - !private ["So8NSCodingP", "clear"]
-- !private ["So8NSCodingP", "init"]
 - !private ["So9NSCopyingP", "Weight"]
 - !private ["So9NSCopyingP", "black"]
 - !private ["So9NSCopyingP", "clear"]
@@ -149,11 +151,8 @@ depends-member:
 - !private ["So9NSCopyingP", "systemFont"]
 - !private ["So21NSItemProviderReadingP", "black"]
 - !private ["So21NSItemProviderReadingP", "clear"]
-- !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderWritingP", "black"]
 - !private ["So21NSItemProviderWritingP", "clear"]
-- !private ["So21NSItemProviderWritingP", "init"]
-- !private ["So16NSMutableCopyingP", "init"]
 - !private ["So8NSObjectC", "Weight"]
 - !private ["So8NSObjectC", "black"]
 - !private ["So8NSObjectC", "clear"]
@@ -168,8 +167,6 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "systemFont"]
 - !private ["So14NSSecureCodingP", "black"]
 - !private ["So14NSSecureCodingP", "clear"]
-- !private ["So14NSSecureCodingP", "init"]
-- !private ["So8NSStringC", "init"]
 - !private ["7RAMReel8ParsableP", "init"]
 - !private ["7RAMReel8RAMThemeV", "FontLoader"]
 - ["7RAMReel8RAMThemeV", "RAMTheme"]
@@ -199,6 +196,7 @@ depends-member:
 - ["7RAMReel5ThemeP", "RAMTheme"]
 - ["7RAMReel5ThemeP", "UIColor"]
 - ["7RAMReel5ThemeP", "UIFont"]
+- ["7RAMReel5ThemeP", ""]
 - !private ["7RAMReel5ThemeP", "defaultFont"]
 - ["7RAMReel5ThemeP", "font"]
 - ["7RAMReel5ThemeP", "init"]
@@ -206,7 +204,6 @@ depends-member:
 - ["7RAMReel5ThemeP", "listBackgroundColor"]
 - !private ["7RAMReel5ThemeP", "print"]
 - ["7RAMReel5ThemeP", "textColor"]
-- ["7RAMReel5ThemeP", ""]
 - !private ["So7UIColorC", "black"]
 - !private ["So7UIColorC", "clear"]
 - !private ["So6UIFontC", "Weight"]
@@ -214,7 +211,6 @@ depends-member:
 - !private ["So6UIFontC", "systemFont"]
 - !private ["10Foundation3URLV", "init"]
 - !private ["So6UIFontC6WeightV", "thin"]
-- !private ["s23_BidirectionalIndexableP", "init"]
 - !private ["14CoreFoundation9_CFObjectP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
@@ -225,26 +221,19 @@ depends-member:
 - !private ["s26_ExpressibleByColorLiteralP", "clear"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- !private ["s10_IndexableP", "init"]
-- !private ["s10_IndexableP", "subscript"]
-- !private ["s14_IndexableBaseP", "init"]
-- !private ["s14_IndexableBaseP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Weight"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
-- !private ["s17_MutableIndexableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "thin"]
-- !private ["s22_RandomAccessIndexableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "init"]
 - !private ["s20_SwiftNewtypeWrapperP", "thin"]
 - !private ["s16_SwiftStringViewP", "init"]
+- !private ["5UIKit01_A23NumericRawRepresentableP", "thin"]
 depends-nominal:
 - "7RAMReel10FontLoaderC7AnErrorO"
 - !private "s23BidirectionalCollectionP"
@@ -279,11 +268,9 @@ depends-nominal:
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
-- !private "So16NSMutableCopyingP"
 - !private "So8NSObjectC"
 - !private "So16NSObjectProtocolP"
 - !private "So14NSSecureCodingP"
-- !private "So8NSStringC"
 - !private "7RAMReel8ParsableP"
 - "7RAMReel8RAMThemeV"
 - !private "s22RandomAccessCollectionP"
@@ -301,7 +288,6 @@ depends-nominal:
 - !private "So6UIFontC"
 - !private "10Foundation3URLV"
 - !private "So6UIFontC6WeightV"
-- !private "s23_BidirectionalIndexableP"
 - !private "14CoreFoundation9_CFObjectP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
@@ -311,16 +297,11 @@ depends-nominal:
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
-- !private "s10_IndexableP"
-- !private "s14_IndexableBaseP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s17_MutableIndexableP"
 - !private "s21_ObjectiveCBridgeableP"
-- !private "s22_RandomAccessIndexableP"
-- !private "s26_RangeReplaceableIndexableP"
 - !private "s20_SwiftNewtypeWrapperP"
 - !private "s16_SwiftStringViewP"
+- !private "5UIKit01_A23NumericRawRepresentableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -336,7 +317,17 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/RAMReel/RAMReel-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/RAMReel/RAMReel/Framework/RAMReel.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/RAMReel.build/unextended-module.modulemap"
-interface-hash: "dbcbb7a39294d5d48620cb9160f76629"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/RAMReel/RAMReel-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/RAMReel/RAMReel/Framework/RAMReel.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/RAMReel.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "bbf1edc330f3ae1e97c245402c821648"

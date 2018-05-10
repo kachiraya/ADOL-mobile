@@ -1,3 +1,2 @@
-dependencies: \
-  /Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Utilities.m \
-  /Users/monradajuycharoen/Desktop/DUP/Test2/Test2/Utilities.h
+dependencies: /Users/TUEY/Documents/ADOL-mobile/Test2/Utilities.m \
+  /Users/TUEY/Documents/ADOL-mobile/Test2/Utilities.h

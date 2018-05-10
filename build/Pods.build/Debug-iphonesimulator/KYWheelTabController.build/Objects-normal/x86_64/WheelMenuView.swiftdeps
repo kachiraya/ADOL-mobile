@@ -42,7 +42,7 @@ depends-top-level:
 - "CGPoint"
 - "CGRect"
 - !private "CGSize"
-- !private "CastingPrecedence"
+- "CastingPrecedence"
 - !private "Dictionary"
 - "Int"
 - !private "M_PI"
@@ -61,9 +61,9 @@ depends-top-level:
 - !private "UIControlState"
 - "UIImage"
 - !private "UINib"
-- !private "UIPanGestureRecognizer"
+- "UIPanGestureRecognizer"
 - "UITabBarItem"
-- !private "UITapGestureRecognizer"
+- "UITapGestureRecognizer"
 - "UIView"
 - "Void"
 - "WheelMenuView"
@@ -122,6 +122,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "UINib"]
 - !private ["So15CALayerDelegateP", "UITabBarItem"]
 - !private ["So15CALayerDelegateP", "UIView"]
+- ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "addConstraints"]
 - !private ["So15CALayerDelegateP", "addSubview"]
 - !private ["So15CALayerDelegateP", "animate"]
@@ -158,7 +159,6 @@ depends-member:
 - !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So15CALayerDelegateP", "type"]
 - !private ["So15CALayerDelegateP", "updateCenterButton"]
-- ["So15CALayerDelegateP", ""]
 - !private ["So13CAMediaTimingP", "addSublayer"]
 - !private ["So13CAMediaTimingP", "cornerRadius"]
 - !private ["So13CAMediaTimingP", "fillColor"]
@@ -213,6 +213,8 @@ depends-member:
 - !private ["s7CVarArgP", "UINib"]
 - !private ["s7CVarArgP", "UITabBarItem"]
 - !private ["s7CVarArgP", "UIView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "addConstraints"]
 - !private ["s7CVarArgP", "addSublayer"]
 - !private ["s7CVarArgP", "addSubview"]
@@ -273,7 +275,6 @@ depends-member:
 - !private ["s7CVarArgP", "type"]
 - !private ["s7CVarArgP", "updateCenterButton"]
 - !private ["s7CVarArgP", "withRenderingMode"]
-- ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "count"]
 - !private ["s10CollectionP", "enumerated"]
 - !private ["s10CollectionP", "first"]
@@ -303,6 +304,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "UINib"]
 - !private ["s28CustomDebugStringConvertibleP", "UITabBarItem"]
 - !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "addConstraints"]
 - !private ["s28CustomDebugStringConvertibleP", "addSublayer"]
 - !private ["s28CustomDebugStringConvertibleP", "addSubview"]
@@ -368,7 +370,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "x"]
 - !private ["s28CustomDebugStringConvertibleP", "y"]
 - ["s28CustomDebugStringConvertibleP", "zero"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "height"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
@@ -410,6 +411,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "UINib"]
 - !private ["s23CustomStringConvertibleP", "UITabBarItem"]
 - !private ["s23CustomStringConvertibleP", "UIView"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "addConstraints"]
 - !private ["s23CustomStringConvertibleP", "addSublayer"]
@@ -471,7 +473,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "type"]
 - !private ["s23CustomStringConvertibleP", "updateCenterButton"]
 - !private ["s23CustomStringConvertibleP", "withRenderingMode"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "a"]
 - !private ["s9DecodableP", "b"]
@@ -528,6 +529,7 @@ depends-member:
 - !private ["s9EquatableP", "UINib"]
 - !private ["s9EquatableP", "UITabBarItem"]
 - !private ["s9EquatableP", "UIView"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "a"]
 - !private ["s9EquatableP", "addConstraints"]
@@ -538,7 +540,7 @@ depends-member:
 - !private ["s9EquatableP", "animationDuration"]
 - !private ["s9EquatableP", "atan2"]
 - !private ["s9EquatableP", "b"]
-- !private ["s9EquatableP", "began"]
+- ["s9EquatableP", "began"]
 - !private ["s9EquatableP", "boarderColor"]
 - !private ["s9EquatableP", "bookmarks"]
 - !private ["s9EquatableP", "bounds"]
@@ -548,22 +550,27 @@ depends-member:
 - !private ["s9EquatableP", "centerButtonRadius"]
 - !private ["s9EquatableP", "centerButtonWidth"]
 - !private ["s9EquatableP", "cgColor"]
-- !private ["s9EquatableP", "changed"]
+- ["s9EquatableP", "changed"]
 - !private ["s9EquatableP", "closeMenuView"]
 - !private ["s9EquatableP", "commonInit"]
 - !private ["s9EquatableP", "constant"]
 - !private ["s9EquatableP", "constraints"]
 - !private ["s9EquatableP", "contains"]
 - !private ["s9EquatableP", "cornerRadius"]
+- !private ["s9EquatableP", "count"]
 - !private ["s9EquatableP", "currentAngle"]
 - !private ["s9EquatableP", "customActionCallback"]
 - !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "enumerated"]
 - !private ["s9EquatableP", "fillColor"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "forEach"]
 - !private ["s9EquatableP", "height"]
 - ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "instantiate"]
 - !private ["s9EquatableP", "layer"]
 - !private ["s9EquatableP", "location"]
+- !private ["s9EquatableP", "map"]
 - !private ["s9EquatableP", "menuBackGroundColor"]
 - !private ["s9EquatableP", "menuBaseView"]
 - !private ["s9EquatableP", "menuLayers"]
@@ -583,6 +590,7 @@ depends-member:
 - !private ["s9EquatableP", "startPoint"]
 - !private ["s9EquatableP", "state"]
 - !private ["s9EquatableP", "strokeColor"]
+- !private ["s9EquatableP", "subscript"]
 - !private ["s9EquatableP", "tabBarItem"]
 - !private ["s9EquatableP", "tabBarItems"]
 - !private ["s9EquatableP", "tintColor"]
@@ -596,7 +604,6 @@ depends-member:
 - !private ["s9EquatableP", "x"]
 - !private ["s9EquatableP", "y"]
 - ["s9EquatableP", "zero"]
-- ["s9EquatableP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
 - !private ["s25ExpressibleByArrayLiteralP", "first"]
@@ -633,6 +640,7 @@ depends-member:
 - !private ["s8HashableP", "UINib"]
 - !private ["s8HashableP", "UITabBarItem"]
 - !private ["s8HashableP", "UIView"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "addConstraints"]
 - !private ["s8HashableP", "addSublayer"]
@@ -641,7 +649,7 @@ depends-member:
 - !private ["s8HashableP", "animate"]
 - !private ["s8HashableP", "animationDuration"]
 - !private ["s8HashableP", "atan2"]
-- !private ["s8HashableP", "began"]
+- ["s8HashableP", "began"]
 - !private ["s8HashableP", "boarderColor"]
 - !private ["s8HashableP", "bookmarks"]
 - !private ["s8HashableP", "bounds"]
@@ -651,7 +659,7 @@ depends-member:
 - !private ["s8HashableP", "centerButtonRadius"]
 - !private ["s8HashableP", "centerButtonWidth"]
 - !private ["s8HashableP", "cgColor"]
-- !private ["s8HashableP", "changed"]
+- ["s8HashableP", "changed"]
 - !private ["s8HashableP", "closeMenuView"]
 - !private ["s8HashableP", "commonInit"]
 - !private ["s8HashableP", "constant"]
@@ -693,7 +701,6 @@ depends-member:
 - !private ["s8HashableP", "type"]
 - !private ["s8HashableP", "updateCenterButton"]
 - !private ["s8HashableP", "withRenderingMode"]
-- ["s8HashableP", ""]
 - !private ["Si", "init"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
@@ -735,6 +742,7 @@ depends-member:
 - !private ["So8NSCodingP", "UINib"]
 - !private ["So8NSCodingP", "UITabBarItem"]
 - !private ["So8NSCodingP", "UIView"]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "addConstraints"]
 - !private ["So8NSCodingP", "addSublayer"]
 - !private ["So8NSCodingP", "addSubview"]
@@ -784,7 +792,6 @@ depends-member:
 - !private ["So8NSCodingP", "type"]
 - !private ["So8NSCodingP", "updateCenterButton"]
 - !private ["So8NSCodingP", "withRenderingMode"]
-- ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "cgColor"]
 - ["So9NSCopyingP", "init"]
 - !private ["So21NSItemProviderReadingP", "cgColor"]
@@ -796,7 +803,6 @@ depends-member:
 - !private ["So18NSLayoutConstraintC", "constant"]
 - !private ["So18NSLayoutConstraintC", "constraints"]
 - !private ["SC21NSLayoutFormatOptionsV", "init"]
-- !private ["So16NSMutableCopyingP", "init"]
 - ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "Bundle"]
 - !private ["So8NSObjectC", "CATransform3DMakeRotation"]
@@ -820,9 +826,9 @@ depends-member:
 - !private ["So8NSObjectC", "UIControlState"]
 - ["So8NSObjectC", "UIImage"]
 - !private ["So8NSObjectC", "UINib"]
-- !private ["So8NSObjectC", "UIPanGestureRecognizer"]
+- ["So8NSObjectC", "UIPanGestureRecognizer"]
 - ["So8NSObjectC", "UITabBarItem"]
-- !private ["So8NSObjectC", "UITapGestureRecognizer"]
+- ["So8NSObjectC", "UITapGestureRecognizer"]
 - ["So8NSObjectC", "UIView"]
 - ["So8NSObjectC", "Void"]
 - ["So8NSObjectC", "WheelMenuViewDelegate"]
@@ -905,6 +911,7 @@ depends-member:
 - ["So16NSObjectProtocolP", "UITabBarItem"]
 - !private ["So16NSObjectProtocolP", "UIView"]
 - ["So16NSObjectProtocolP", "WheelMenuView"]
+- ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "addConstraints"]
 - !private ["So16NSObjectProtocolP", "addSublayer"]
 - !private ["So16NSObjectProtocolP", "addSubview"]
@@ -958,9 +965,8 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So16NSObjectProtocolP", "type"]
 - !private ["So16NSObjectProtocolP", "updateCenterButton"]
-- ["So16NSObjectProtocolP", "wheelMenuView"]
+- !private ["So16NSObjectProtocolP", "wheelMenuView"]
 - !private ["So16NSObjectProtocolP", "withRenderingMode"]
-- ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "addSublayer"]
 - !private ["So14NSSecureCodingP", "cgColor"]
 - !private ["So14NSSecureCodingP", "cornerRadius"]
@@ -976,7 +982,6 @@ depends-member:
 - !private ["So14NSSecureCodingP", "tabBarItem"]
 - !private ["So14NSSecureCodingP", "tintColor"]
 - !private ["So14NSSecureCodingP", "withRenderingMode"]
-- !private ["So8NSStringC", "init"]
 - !private ["s7NumericP", "init"]
 - !private ["s9OptionSetP", "init"]
 - !private ["s22RandomAccessCollectionP", "count"]
@@ -994,9 +999,9 @@ depends-member:
 - !private ["s26RangeReplaceableCollectionP", "map"]
 - !private ["s26RangeReplaceableCollectionP", "subscript"]
 - !private ["s16RawRepresentableP", "alwaysTemplate"]
-- !private ["s16RawRepresentableP", "began"]
+- ["s16RawRepresentableP", "began"]
 - !private ["s16RawRepresentableP", "bookmarks"]
-- !private ["s16RawRepresentableP", "changed"]
+- ["s16RawRepresentableP", "changed"]
 - !private ["s16RawRepresentableP", "init"]
 - !private ["s8SequenceP", "count"]
 - !private ["s8SequenceP", "enumerated"]
@@ -1036,6 +1041,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "UINib"]
 - !private ["So29UIAccessibilityIdentificationP", "UITabBarItem"]
 - !private ["So29UIAccessibilityIdentificationP", "UIView"]
+- ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "addConstraints"]
 - !private ["So29UIAccessibilityIdentificationP", "addSubview"]
 - !private ["So29UIAccessibilityIdentificationP", "animate"]
@@ -1073,7 +1079,6 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "type"]
 - !private ["So29UIAccessibilityIdentificationP", "updateCenterButton"]
 - !private ["So29UIAccessibilityIdentificationP", "withRenderingMode"]
-- ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So12UIAppearanceP", "Bundle"]
 - !private ["So12UIAppearanceP", "CATransform3DMakeRotation"]
 - !private ["So12UIAppearanceP", "CATransform3DTranslate"]
@@ -1095,6 +1100,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "UINib"]
 - !private ["So12UIAppearanceP", "UITabBarItem"]
 - !private ["So12UIAppearanceP", "UIView"]
+- ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "addConstraints"]
 - !private ["So12UIAppearanceP", "addSubview"]
 - !private ["So12UIAppearanceP", "animate"]
@@ -1131,7 +1137,6 @@ depends-member:
 - !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So12UIAppearanceP", "type"]
 - !private ["So12UIAppearanceP", "updateCenterButton"]
-- ["So12UIAppearanceP", ""]
 - !private ["So21UIAppearanceContainerP", "Bundle"]
 - !private ["So21UIAppearanceContainerP", "CATransform3DMakeRotation"]
 - !private ["So21UIAppearanceContainerP", "CATransform3DTranslate"]
@@ -1153,6 +1158,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "UINib"]
 - !private ["So21UIAppearanceContainerP", "UITabBarItem"]
 - !private ["So21UIAppearanceContainerP", "UIView"]
+- ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "addConstraints"]
 - !private ["So21UIAppearanceContainerP", "addSubview"]
 - !private ["So21UIAppearanceContainerP", "animate"]
@@ -1189,7 +1195,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So21UIAppearanceContainerP", "type"]
 - !private ["So21UIAppearanceContainerP", "updateCenterButton"]
-- ["So21UIAppearanceContainerP", ""]
 - !private ["So9UIBarItemC", "init"]
 - !private ["So8UIButtonC", "layer"]
 - !private ["So8UIButtonC", "setImage"]
@@ -1219,6 +1224,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "UINib"]
 - !private ["So17UICoordinateSpaceP", "UITabBarItem"]
 - !private ["So17UICoordinateSpaceP", "UIView"]
+- ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "addConstraints"]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
 - !private ["So17UICoordinateSpaceP", "animate"]
@@ -1255,7 +1261,6 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So17UICoordinateSpaceP", "type"]
 - !private ["So17UICoordinateSpaceP", "updateCenterButton"]
-- ["So17UICoordinateSpaceP", ""]
 - !private ["So13UIDynamicItemP", "Bundle"]
 - !private ["So13UIDynamicItemP", "CATransform3DMakeRotation"]
 - !private ["So13UIDynamicItemP", "CATransform3DTranslate"]
@@ -1277,6 +1282,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "UINib"]
 - !private ["So13UIDynamicItemP", "UITabBarItem"]
 - !private ["So13UIDynamicItemP", "UIView"]
+- ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "addConstraints"]
 - !private ["So13UIDynamicItemP", "addSubview"]
 - !private ["So13UIDynamicItemP", "animate"]
@@ -1313,7 +1319,6 @@ depends-member:
 - !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So13UIDynamicItemP", "type"]
 - !private ["So13UIDynamicItemP", "updateCenterButton"]
-- ["So13UIDynamicItemP", ""]
 - !private ["So18UIFocusEnvironmentP", "Bundle"]
 - !private ["So18UIFocusEnvironmentP", "CATransform3DMakeRotation"]
 - !private ["So18UIFocusEnvironmentP", "CATransform3DTranslate"]
@@ -1335,6 +1340,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "UINib"]
 - !private ["So18UIFocusEnvironmentP", "UITabBarItem"]
 - !private ["So18UIFocusEnvironmentP", "UIView"]
+- ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "addConstraints"]
 - !private ["So18UIFocusEnvironmentP", "addSubview"]
 - !private ["So18UIFocusEnvironmentP", "animate"]
@@ -1371,7 +1377,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So18UIFocusEnvironmentP", "type"]
 - !private ["So18UIFocusEnvironmentP", "updateCenterButton"]
-- ["So18UIFocusEnvironmentP", ""]
 - !private ["So11UIFocusItemP", "Bundle"]
 - !private ["So11UIFocusItemP", "CATransform3DMakeRotation"]
 - !private ["So11UIFocusItemP", "CATransform3DTranslate"]
@@ -1393,6 +1398,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "UINib"]
 - !private ["So11UIFocusItemP", "UITabBarItem"]
 - !private ["So11UIFocusItemP", "UIView"]
+- ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "addConstraints"]
 - !private ["So11UIFocusItemP", "addSubview"]
 - !private ["So11UIFocusItemP", "animate"]
@@ -1429,11 +1435,10 @@ depends-member:
 - !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So11UIFocusItemP", "type"]
 - !private ["So11UIFocusItemP", "updateCenterButton"]
-- ["So11UIFocusItemP", ""]
 - !private ["So19UIGestureRecognizerC", "location"]
 - !private ["So19UIGestureRecognizerC", "state"]
-- !private ["SC24UIGestureRecognizerStateO", "began"]
-- !private ["SC24UIGestureRecognizerStateO", "changed"]
+- ["SC24UIGestureRecognizerStateO", "began"]
+- ["SC24UIGestureRecognizerStateO", "changed"]
 - !private ["So7UIImageC", "init"]
 - !private ["So7UIImageC", "withRenderingMode"]
 - !private ["SC20UIImageRenderingModeO", "alwaysTemplate"]
@@ -1464,6 +1469,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "UINib"]
 - !private ["So30UIPasteConfigurationSupportingP", "UITabBarItem"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "addConstraints"]
 - !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
 - !private ["So30UIPasteConfigurationSupportingP", "animate"]
@@ -1500,7 +1506,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So30UIPasteConfigurationSupportingP", "type"]
 - !private ["So30UIPasteConfigurationSupportingP", "updateCenterButton"]
-- ["So30UIPasteConfigurationSupportingP", ""]
 - ["So11UIResponderC", "Bool"]
 - !private ["So11UIResponderC", "Bundle"]
 - !private ["So11UIResponderC", "CATransform3DMakeRotation"]
@@ -1524,9 +1529,9 @@ depends-member:
 - !private ["So11UIResponderC", "UIControlState"]
 - ["So11UIResponderC", "UIImage"]
 - !private ["So11UIResponderC", "UINib"]
-- !private ["So11UIResponderC", "UIPanGestureRecognizer"]
+- ["So11UIResponderC", "UIPanGestureRecognizer"]
 - ["So11UIResponderC", "UITabBarItem"]
-- !private ["So11UIResponderC", "UITapGestureRecognizer"]
+- ["So11UIResponderC", "UITapGestureRecognizer"]
 - ["So11UIResponderC", "UIView"]
 - ["So11UIResponderC", "Void"]
 - ["So11UIResponderC", "WheelMenuViewDelegate"]
@@ -1590,6 +1595,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "UINib"]
 - !private ["So30UIResponderStandardEditActionsP", "UITabBarItem"]
 - !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "addConstraints"]
 - !private ["So30UIResponderStandardEditActionsP", "addSubview"]
 - !private ["So30UIResponderStandardEditActionsP", "animate"]
@@ -1626,7 +1632,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So30UIResponderStandardEditActionsP", "type"]
 - !private ["So30UIResponderStandardEditActionsP", "updateCenterButton"]
-- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So35UISpringLoadedInteractionSupportingP", "init"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "layer"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "setImage"]
@@ -1654,6 +1659,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "UINib"]
 - !private ["So18UITraitEnvironmentP", "UITabBarItem"]
 - !private ["So18UITraitEnvironmentP", "UIView"]
+- ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "addConstraints"]
 - !private ["So18UITraitEnvironmentP", "addSubview"]
 - !private ["So18UITraitEnvironmentP", "animate"]
@@ -1690,7 +1696,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So18UITraitEnvironmentP", "type"]
 - !private ["So18UITraitEnvironmentP", "updateCenterButton"]
-- ["So18UITraitEnvironmentP", ""]
 - ["So6UIViewC", "Bool"]
 - !private ["So6UIViewC", "Bundle"]
 - !private ["So6UIViewC", "CATransform3DMakeRotation"]
@@ -1714,12 +1719,13 @@ depends-member:
 - !private ["So6UIViewC", "UIControlState"]
 - ["So6UIViewC", "UIImage"]
 - !private ["So6UIViewC", "UINib"]
-- !private ["So6UIViewC", "UIPanGestureRecognizer"]
+- ["So6UIViewC", "UIPanGestureRecognizer"]
 - ["So6UIViewC", "UITabBarItem"]
-- !private ["So6UIViewC", "UITapGestureRecognizer"]
+- ["So6UIViewC", "UITapGestureRecognizer"]
 - ["So6UIViewC", "UIView"]
 - ["So6UIViewC", "Void"]
 - ["So6UIViewC", "WheelMenuViewDelegate"]
+- ["So6UIViewC", ""]
 - !private ["So6UIViewC", "addConstraints"]
 - !private ["So6UIViewC", "addSubview"]
 - !private ["So6UIViewC", "animate"]
@@ -1759,7 +1765,6 @@ depends-member:
 - !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So6UIViewC", "type"]
 - ["So6UIViewC", "updateCenterButton"]
-- ["So6UIViewC", ""]
 - ["20KYWheelTabController13WheelMenuViewC", "Bool"]
 - !private ["20KYWheelTabController13WheelMenuViewC", "Bundle"]
 - !private ["20KYWheelTabController13WheelMenuViewC", "CATransform3DMakeRotation"]
@@ -1783,9 +1788,9 @@ depends-member:
 - !private ["20KYWheelTabController13WheelMenuViewC", "UIControlState"]
 - ["20KYWheelTabController13WheelMenuViewC", "UIImage"]
 - !private ["20KYWheelTabController13WheelMenuViewC", "UINib"]
-- !private ["20KYWheelTabController13WheelMenuViewC", "UIPanGestureRecognizer"]
+- ["20KYWheelTabController13WheelMenuViewC", "UIPanGestureRecognizer"]
 - ["20KYWheelTabController13WheelMenuViewC", "UITabBarItem"]
-- !private ["20KYWheelTabController13WheelMenuViewC", "UITapGestureRecognizer"]
+- ["20KYWheelTabController13WheelMenuViewC", "UITapGestureRecognizer"]
 - ["20KYWheelTabController13WheelMenuViewC", "UIView"]
 - ["20KYWheelTabController13WheelMenuViewC", "Void"]
 - ["20KYWheelTabController13WheelMenuViewC", "WheelMenuViewDelegate"]
@@ -1833,13 +1838,6 @@ depends-member:
 - ["s14_ArrayProtocolP", "init"]
 - !private ["s14_ArrayProtocolP", "map"]
 - !private ["s14_ArrayProtocolP", "subscript"]
-- !private ["s23_BidirectionalIndexableP", "count"]
-- !private ["s23_BidirectionalIndexableP", "enumerated"]
-- !private ["s23_BidirectionalIndexableP", "first"]
-- !private ["s23_BidirectionalIndexableP", "forEach"]
-- ["s23_BidirectionalIndexableP", "init"]
-- !private ["s23_BidirectionalIndexableP", "map"]
-- !private ["s23_BidirectionalIndexableP", "subscript"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - !private ["14CoreFoundation9_CFObjectP", "contains"]
 - !private ["s15_CVarArgAlignedP", "init"]
@@ -1865,6 +1863,7 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UINib"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UITabBarItem"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addConstraints"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animate"]
@@ -1901,7 +1900,6 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "type"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "updateCenterButton"]
-- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "enumerated"]
 - !private ["s24_DestructorSafeContainerP", "first"]
@@ -1921,21 +1919,6 @@ depends-member:
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - !private ["s26_ExpressibleByImageLiteralP", "withRenderingMode"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- !private ["s10_IndexableP", "count"]
-- !private ["s10_IndexableP", "enumerated"]
-- !private ["s10_IndexableP", "first"]
-- !private ["s10_IndexableP", "forEach"]
-- ["s10_IndexableP", "init"]
-- !private ["s10_IndexableP", "map"]
-- !private ["s10_IndexableP", "subscript"]
-- !private ["s14_IndexableBaseP", "count"]
-- !private ["s14_IndexableBaseP", "enumerated"]
-- !private ["s14_IndexableBaseP", "first"]
-- !private ["s14_IndexableBaseP", "forEach"]
-- ["s14_IndexableBaseP", "init"]
-- !private ["s14_IndexableBaseP", "map"]
-- !private ["s14_IndexableBaseP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CATransform3DMakeRotation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CATransform3DTranslate"]
@@ -1957,6 +1940,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UINib"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UITabBarItem"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addConstraints"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addSublayer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
@@ -2011,14 +1995,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "updateCenterButton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "withRenderingMode"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["s17_MutableIndexableP", "count"]
-- !private ["s17_MutableIndexableP", "enumerated"]
-- !private ["s17_MutableIndexableP", "first"]
-- !private ["s17_MutableIndexableP", "forEach"]
-- ["s17_MutableIndexableP", "init"]
-- !private ["s17_MutableIndexableP", "map"]
-- !private ["s17_MutableIndexableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "a"]
 - !private ["s21_ObjectiveCBridgeableP", "b"]
@@ -2035,21 +2011,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "x"]
 - !private ["s21_ObjectiveCBridgeableP", "y"]
 - ["s21_ObjectiveCBridgeableP", "zero"]
-- !private ["s22_RandomAccessIndexableP", "count"]
-- !private ["s22_RandomAccessIndexableP", "enumerated"]
-- !private ["s22_RandomAccessIndexableP", "first"]
-- !private ["s22_RandomAccessIndexableP", "forEach"]
-- ["s22_RandomAccessIndexableP", "init"]
-- !private ["s22_RandomAccessIndexableP", "map"]
-- !private ["s22_RandomAccessIndexableP", "subscript"]
-- !private ["s26_RangeReplaceableIndexableP", "count"]
-- !private ["s26_RangeReplaceableIndexableP", "enumerated"]
-- !private ["s26_RangeReplaceableIndexableP", "first"]
-- !private ["s26_RangeReplaceableIndexableP", "forEach"]
-- ["s26_RangeReplaceableIndexableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "map"]
-- !private ["s26_RangeReplaceableIndexableP", "subscript"]
-- !private ["s11_StrideableP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "Sa"
@@ -2101,16 +2062,14 @@ depends-nominal:
 - "So21NSItemProviderWritingP"
 - !private "So18NSLayoutConstraintC"
 - !private "SC21NSLayoutFormatOptionsV"
-- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
 - "So14NSSecureCodingP"
-- !private "So8NSStringC"
 - !private "s7NumericP"
 - !private "s9OptionSetP"
 - "s22RandomAccessCollectionP"
 - "s26RangeReplaceableCollectionP"
-- !private "s16RawRepresentableP"
+- "s16RawRepresentableP"
 - "s8SequenceP"
 - !private "s10SetAlgebraP"
 - !private "s13SignedIntegerP"
@@ -2134,7 +2093,7 @@ depends-nominal:
 - "So18UIFocusEnvironmentP"
 - "So11UIFocusItemP"
 - !private "So19UIGestureRecognizerC"
-- !private "SC24UIGestureRecognizerStateO"
+- "SC24UIGestureRecognizerStateO"
 - !private "So7UIImageC"
 - !private "SC20UIImageRenderingModeO"
 - !private "So39UIItemProviderPresentationSizeProvidingP"
@@ -2152,7 +2111,6 @@ depends-nominal:
 - "20KYWheelTabController13WheelMenuViewC"
 - "20KYWheelTabController21WheelMenuViewDelegateP"
 - "s14_ArrayProtocolP"
-- "s23_BidirectionalIndexableP"
 - !private "s18_BitwiseOperationsP"
 - !private "14CoreFoundation9_CFObjectP"
 - !private "s15_CVarArgAlignedP"
@@ -2169,15 +2127,8 @@ depends-nominal:
 - "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
-- "s10_IndexableP"
-- "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- "s17_MutableIndexableP"
 - "s21_ObjectiveCBridgeableP"
-- "s22_RandomAccessIndexableP"
-- "s26_RangeReplaceableIndexableP"
-- !private "s11_StrideableP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
@@ -2194,6 +2145,16 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/Pods/Target Support Files/KYWheelTabController/KYWheelTabController-umbrella.h"
-- "/Users/monradajuycharoen/Desktop/DUP/Test2/build/Pods.build/Debug-iphonesimulator/KYWheelTabController.build/unextended-module.modulemap"
-interface-hash: "8746362725af57eef3924f6ed31c0e76"
+- "/Users/TUEY/Documents/ADOL-mobile/Pods/Target Support Files/KYWheelTabController/KYWheelTabController-umbrella.h"
+- "/Users/TUEY/Documents/ADOL-mobile/build/Pods.build/Debug-iphonesimulator/KYWheelTabController.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "e0c18e8be1b4dfa71a5f47340c0f9c99"
