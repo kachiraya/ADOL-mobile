@@ -68,7 +68,7 @@ class DataManagement {
             
             
             
-            print("tral")
+            print("trial")
         }
         
         
